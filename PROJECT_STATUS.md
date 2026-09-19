@@ -1,7 +1,7 @@
 # Project Status
 
 ## Current phase
-**Phase 2 — Knowledge, learning and production foundation**
+**Phase 2 — Full website experience + parallel knowledge corpus**
 
 ## Completed
 - Independent public GitHub repository and governance.
@@ -11,6 +11,7 @@
 - Catalog/dossier foundations with responsive product UI.
 - SEO/robots/sitemap foundations.
 - Catalog search and filter foundation.
+- Full responsive navigation, homepage, learning flows, feedback UX and quality-center UX foundation.
 - Plant quality auditing and publication gate.
 - Learning hub and MCQ/flashcard quality contracts.
 - Academic content-quality rules.
