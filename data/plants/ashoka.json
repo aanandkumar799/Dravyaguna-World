@@ -90,5 +90,16 @@
       "verification": "reviewed"
     }
   ],
-  "images": []
+  "images": [
+    {
+      "id": "img-ashoka-flower-01",
+      "part": "flower",
+      "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Ashok%20(Hindi-%20%E0%A4%85%E0%A4%B6%E0%A5%8B%E0%A4%95)%20(6781535350).jpg",
+      "alt": "Saraca asoca flowers",
+      "sourceId": "src-ashoka-kew",
+      "license": "CC BY-SA 3.0",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Ashok%20(Hindi-%20%E0%A4%85%E0%A4%B6%E0%A5%8B%E0%A4%95)%20(6781535350).jpg",
+      "verification": "reviewed"
+    }
+  ]
 }
