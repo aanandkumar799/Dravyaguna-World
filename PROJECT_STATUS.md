@@ -28,6 +28,7 @@
 - Production deployment and public release validation.
 
 ## Latest phase work
+- Began canonical-data governance hardening: explicit migration rule for individual plant records and stronger duplicate/identity/slug validation.
 - Plant dossier expanded with structured identity, taxonomy, identification, Rasapanchaka, useful parts, therapeutic study, provenance and related-plant navigation.
 - Dedicated multi-plant comparison study route added (up to four plants).
 - Catalog now links directly to comparison mode.
