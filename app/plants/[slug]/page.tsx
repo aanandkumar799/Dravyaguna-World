@@ -87,6 +87,20 @@ export default async function PlantPage({ params }: { params: Promise<{ slug: st
       </section>
 
       <section>
+        <h2>Evidence coverage</h2>
+        <div className="stats">
+          <div><strong>{evidence.coverage.withEvidence}/{evidence.coverage.total}</strong><span>claim categories covered</span></div>
+          <div><strong>{evidence.coverage.reviewed}</strong><span>reviewed evidence items</span></div>
+          <div><strong>{evidence.coverage.verified}</strong><span>verified evidence items</span></div>
+        </div>
+        {evidence.coverage.missing.length ? <p className="notice">Pending evidence categories: {evidence.coverage.missing.join(", ")}. The dossier remains in review until supporting evidence is added and checked.</p> : <p className="success">All tracked claim categories have at least one evidence mapping. This does not by itself make the plant verified.</p>}
+        {Object.entries(evidence.claims).map(([target, claims]) => <article className="feature-card" key={target}>
+          <h3>{target}</h3>
+          <ul>{claims?.map((claim) => <li key={claim.id}><strong>{claim.verification}</strong> — {claim.claim}{claim.locator ? <span> · {claim.locator}</span> : null}{claim.url ? <> · <a href={claim.url} target="_blank" rel="noreferrer">source</a></> : null}</li>)}</ul>
+        </article>)}
+      </section>
+
+      <section>
         <h2>References & provenance</h2>
         {sources.length ? <ul>{sources.map((source) => <li key={source.id}>{source.url ? <a href={source.url} target="_blank" rel="noreferrer">{source.title}</a> : source.title} — {source.type}, {source.verification}{source.locator ? ` · ${source.locator}` : ""}</li>)}</ul> : <p>No reviewed references are attached.</p>}
       </section>
