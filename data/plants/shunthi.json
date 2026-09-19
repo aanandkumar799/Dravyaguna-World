@@ -1,0 +1,89 @@
+{
+  "id": "plant-shunthi",
+  "slug": "shunthi",
+  "identity": {
+    "botanicalName": "Zingiber officinale Roscoe",
+    "acceptedNameStatus": "review"
+  },
+  "names": {
+    "sanskrit": [
+      "Shunthi",
+      "Nagara",
+      "Vishwa",
+      "Shrungavera"
+    ],
+    "common": [
+      "Dry ginger"
+    ],
+    "regional": [],
+    "synonyms": []
+  },
+  "taxonomy": {
+    "family": "Zingiberaceae",
+    "genus": "Zingiber",
+    "species": "Zingiber officinale"
+  },
+  "status": "review",
+  "parts": [
+    "rhizome",
+    "leaf",
+    "flower",
+    "seed"
+  ],
+  "study": {
+    "habit": "Perennial rhizomatous herb.",
+    "morphology": "Aromatic branched rhizome; erect leafy pseudostems; narrow lanceolate leaves; separate flowering spikes.",
+    "habitat": "Warm humid tropical and subtropical cultivation environments.",
+    "distribution": "Cultivated widely in tropical regions.",
+    "identificationFeatures": [
+      "Aromatic branched rhizome",
+      "Leaf-sheath pseudostem",
+      "Lanceolate leaves"
+    ],
+    "usefulParts": [
+      "Dried rhizome"
+    ],
+    "rasa": [
+      "Katu"
+    ],
+    "guna": [
+      "Laghu",
+      "Snigdha"
+    ],
+    "virya": "Ushna",
+    "vipaka": "Madhura",
+    "karma": [
+      "Deepana",
+      "Pachana",
+      "Amapachana"
+    ],
+    "therapeuticUses": [
+      "Traditional digestive use",
+      "Traditional appetite and nausea support use",
+      "Traditional respiratory use"
+    ],
+    "formulations": [
+      "Trikatu",
+      "Shunthi Paka"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src-shunthi-kew",
+      "title": "Zingiber officinale — Plants of the World Online",
+      "type": "taxonomic",
+      "year": 2026,
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A798372-1/",
+      "verification": "reviewed"
+    },
+    {
+      "id": "src-shunthi-carak",
+      "title": "Shunthi — Charak Samhita herb database",
+      "type": "classical",
+      "year": 2026,
+      "url": "https://www.carakasamhitaonline.com/index.php?title=Shunthi",
+      "verification": "reviewed"
+    }
+  ],
+  "images": []
+}
