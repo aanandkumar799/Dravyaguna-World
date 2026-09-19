@@ -1,0 +1,17 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Plant claim evidence",
+  "type":"object",
+  "required":["id","claim","kind","sourceId","verification"],
+  "properties":{
+    "id":{"type":"string","minLength":1},
+    "claim":{"type":"string","minLength":1},
+    "kind":{"enum":["classical","modern","taxonomic","pharmacopoeial","image","other"]},
+    "sourceId":{"type":"string","minLength":1},
+    "locator":{"type":"string"},
+    "url":{"type":"string","format":"uri"},
+    "verification":{"enum":["unverified","reviewed","verified"]},
+    "notes":{"type":"string"}
+  },
+  "additionalProperties":false
+}
