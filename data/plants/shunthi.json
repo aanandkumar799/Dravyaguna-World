@@ -83,6 +83,13 @@
       "year": 2026,
       "url": "https://www.carakasamhitaonline.com/index.php?title=Shunthi",
       "verification": "reviewed"
+    },
+    {
+      "id": "src-image-img-shunthi-rhizome-01",
+      "title": "Image source — Zingiber officinale rhizome",
+      "type": "image",
+      "url": "https://commons.wikimedia.org/wiki/File:Ginger_Root_(Zingiber_officinale).jpg",
+      "verification": "reviewed"
     }
   ],
   "images": [
@@ -91,7 +98,7 @@
       "part": "rhizome",
       "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Ginger_Root_%28Zingiber_officinale%29.jpg",
       "alt": "Zingiber officinale rhizome",
-      "sourceId": "src-shunthi-kew",
+      "sourceId": "src-image-img-shunthi-rhizome-01",
       "license": "CC0 1.0",
       "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Ginger_Root_(Zingiber_officinale).jpg",
       "verification": "reviewed",
