@@ -10,6 +10,9 @@ describe("learning content quality", () => {
     expect(result.questions).toEqual([]);
     expect(result.flashcards).toEqual([]);
     expect(result.viva).toEqual([]);
+    expect(learningQuestionBank.every((q) => q.options.length >= 3)).toBe(true);
+    expect(learningQuestionBank.some((q) => q.answerIndex !== 0)).toBe(true);
+    expect(learningQuestionBank.every((q) => q.options[q.answerIndex] !== undefined)).toBe(true);
   });
 
   it("keeps every learning item linked to a canonical plant", () => {
