@@ -89,5 +89,28 @@
       "verification": "reviewed"
     }
   ],
-  "images": []
+  "images": [
+    {
+      "id": "img-guduchi-stem-01",
+      "part": "stem",
+      "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Tinospora_cordifolia_stem.jpg",
+      "alt": "Tinospora cordifolia stem",
+      "sourceId": "src-guduchi-kew",
+      "license": "CC BY-SA 4.0",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Tinospora_cordifolia_stem.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "verification": "reviewed"
+    },
+    {
+      "id": "img-guduchi-leaf-01",
+      "part": "leaf",
+      "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Tinospora_cordifolia_leaves.jpg",
+      "alt": "Tinospora cordifolia leaves",
+      "sourceId": "src-guduchi-kew",
+      "license": "CC BY-SA 3.0",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Tinospora_cordifolia_leaves.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "verification": "reviewed"
+    }
+  ]
 }
