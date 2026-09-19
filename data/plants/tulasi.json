@@ -1,0 +1,81 @@
+{
+  "id": "plant-tulasi",
+  "slug": "tulasi",
+  "identity": {
+    "botanicalName": "Ocimum tenuiflorum L.",
+    "acceptedNameStatus": "review"
+  },
+  "names": {
+    "sanskrit": [
+      "Tulasi",
+      "Surasa"
+    ],
+    "common": [
+      "Holy basil",
+      "Tulsi"
+    ],
+    "regional": [],
+    "synonyms": [
+      "Ocimum sanctum L."
+    ]
+  },
+  "taxonomy": {
+    "family": "Lamiaceae",
+    "genus": "Ocimum",
+    "species": "Ocimum tenuiflorum"
+  },
+  "status": "review",
+  "parts": [
+    "whole-plant",
+    "leaf",
+    "flower",
+    "seed"
+  ],
+  "study": {
+    "habit": "Short-lived perennial aromatic herb or subshrub; stems round-quadrangular and hairy.",
+    "morphology": "Opposite aromatic leaves; terminal racemose inflorescences; small flowers and brown nutlets.",
+    "habitat": "Seasonally dry tropical and subtropical environments; widely cultivated.",
+    "distribution": "Native across tropical and subtropical Asia to the western Pacific; widely cultivated and introduced elsewhere.",
+    "identificationFeatures": [
+      "Aromatic foliage",
+      "Opposite serrated leaves",
+      "Terminal flowering spikes"
+    ],
+    "usefulParts": [
+      "Leaf",
+      "Whole plant"
+    ],
+    "karma": [
+      "Deepana",
+      "Pachana",
+      "Kaphahara"
+    ],
+    "therapeuticUses": [
+      "Traditional use in respiratory complaints",
+      "Traditional use in digestive complaints",
+      "Traditional use in febrile conditions"
+    ],
+    "formulations": [
+      "Tulasyadi preparations"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src-tulasi-kew",
+      "title": "Ocimum tenuiflorum — Plants of the World Online",
+      "type": "taxonomic",
+      "year": 2026,
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A453130-1",
+      "verification": "reviewed"
+    },
+    {
+      "id": "src-tulasi-carak",
+      "title": "Surasa — Charak Samhita herb database",
+      "type": "classical",
+      "year": 2026,
+      "url": "https://carakasamhitaonline.com/index.php?title=Surasa",
+      "verification": "reviewed"
+    }
+  ],
+  "images": []
+}
