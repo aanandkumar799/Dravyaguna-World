@@ -1,10 +1,1 @@
-import type { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "Dravyaguna World",
-  description: "A plant-first learning and reference platform for BAMS Dravyaguna study."
-};
-
-export default function RootLayout({children}:{children:React.ReactNode}) {
-  return <html lang="en"><body>{children}</body></html>;
-}
+import type {Metadata} from "next";import "./globals.css";export const metadata:Metadata={title:{default:"Dravyaguna World",template:"%s | Dravyaguna World"},description:"Plant-focused Dravyaguna learning and reference platform for BAMS students."};export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en"><body>{children}</body></html>}
