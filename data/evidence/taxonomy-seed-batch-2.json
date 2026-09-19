@@ -1,0 +1,7 @@
+[
+  {"plantSlug":"amalaki","target":"taxonomy","sourceId":"kew-powo-phyllanthus-emblica","verification":"reviewed","locator":"POWO taxon record","notes":"Accepted species; Phyllanthaceae."},
+  {"plantSlug":"haritaki","target":"taxonomy","sourceId":"kew-powo-terminalia-chebula","verification":"reviewed","locator":"POWO taxon record","notes":"Accepted species; Combretaceae."},
+  {"plantSlug":"nimba","target":"taxonomy","sourceId":"kew-powo-azadirachta-indica","verification":"reviewed","locator":"POWO taxon record","notes":"Accepted species; Meliaceae."},
+  {"plantSlug":"shatavari","target":"taxonomy","sourceId":"kew-powo-asparagus-racemosus","verification":"reviewed","locator":"POWO taxon record","notes":"Accepted species; Asparagaceae."},
+  {"plantSlug":"arjuna","target":"taxonomy","sourceId":"kew-powo-terminalia-arjuna","verification":"reviewed","locator":"POWO taxon record","notes":"Accepted species; Combretaceae."}
+]
