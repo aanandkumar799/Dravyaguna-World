@@ -50,7 +50,6 @@ export async function POST(request: Request) {
     body: JSON.stringify({
       title: `Feedback: ${type}`,
       body: issueBody,
-      labels: ["feedback"],
     }),
     cache: "no-store",
   });
