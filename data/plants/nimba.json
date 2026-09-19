@@ -95,6 +95,13 @@
       "type": "modern",
       "url": "https://ijapr.in/index.php/ijapr/article/view/2485",
       "verification": "reviewed"
+    },
+    {
+      "id": "src-image-img-nimba-leaf-01",
+      "title": "Image source — Azadirachta indica leaf",
+      "type": "image",
+      "url": "https://commons.wikimedia.org/wiki/File:Leaf%20of%20neem.jpg",
+      "verification": "reviewed"
     }
   ],
   "images": [
@@ -103,7 +110,7 @@
       "part": "leaf",
       "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Leaf%20of%20neem.jpg",
       "alt": "Azadirachta indica leaf",
-      "sourceId": "src-nimba-kew",
+      "sourceId": "src-image-img-nimba-leaf-01",
       "license": "CC BY-SA 4.0",
       "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Leaf%20of%20neem.jpg",
       "verification": "reviewed"
