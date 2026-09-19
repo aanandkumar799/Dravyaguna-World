@@ -31,7 +31,7 @@ export default function PlantsPage() {
       <Link href="/">← Home</Link>
       <h1>Plant Catalog</h1>
       <p>Explore plant records by botanical, Sanskrit, common and taxonomy terms.</p>
-      <div className="filters">
+      <div className="filters" role="search">
         <input aria-label="Search plants" value={q} onChange={(e) => setQ(e.target.value)} placeholder="Search botanical, Sanskrit, common name..." />
         <select aria-label="Filter by family" value={family} onChange={(e) => setFamily(e.target.value)}><option value="">All families</option>{families.map((item) => <option key={item} value={item}>{item}</option>)}</select>
         <select aria-label="Filter by plant part" value={part} onChange={(e) => setPart(e.target.value)}><option value="">All plant parts</option>{parts.map((item) => <option key={item} value={item}>{plantPartLabel(item)}</option>)}</select>
