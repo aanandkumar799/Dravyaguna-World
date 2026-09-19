@@ -74,6 +74,13 @@
       "year": 2026,
       "url": "https://carakasamhitaonline.com/index.php?title=Withania_somnifera",
       "verification": "reviewed"
+    },
+    {
+      "id": "src-image-img-ashwagandha-fruit-01",
+      "title": "Image source — Withania somnifera fruit",
+      "type": "image",
+      "url": "https://commons.wikimedia.org/wiki/File:Withania_somnifera_fruit.jpg",
+      "verification": "reviewed"
     }
   ],
   "images": [
@@ -82,7 +89,7 @@
       "part": "fruit",
       "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Withania_somnifera_fruit.jpg",
       "alt": "Withania somnifera fruit",
-      "sourceId": "src-ashwagandha-kew",
+      "sourceId": "src-image-img-ashwagandha-fruit-01",
       "license": "CC BY-SA 4.0",
       "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Withania_somnifera_fruit.jpg",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
