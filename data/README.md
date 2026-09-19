@@ -1,5 +1,13 @@
 # Plant Data
 
-Canonical plant records will live here or in the eventual selected data layer.
+Plant records are canonical academic data, not UI content.
 
-Do not add unverified academic claims as if they were established facts. Use the schema and source standards defined in the root project documents.
+Validation requirements:
+- Stable ID and slug
+- Botanical identity
+- Explicit verification status
+- Structured names/taxonomy
+- Source provenance for significant academic claims
+- Explicit image plant-part and verification metadata
+
+Records should enter the verified catalog only after appropriate review. Never bulk-import unverified web content as fact.
