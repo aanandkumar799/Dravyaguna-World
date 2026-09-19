@@ -1,0 +1,89 @@
+{
+  "id": "plant-maricha",
+  "slug": "maricha",
+  "identity": {
+    "botanicalName": "Piper nigrum L.",
+    "acceptedNameStatus": "review"
+  },
+  "names": {
+    "sanskrit": [
+      "Maricha"
+    ],
+    "common": [
+      "Black pepper"
+    ],
+    "regional": [],
+    "synonyms": []
+  },
+  "taxonomy": {
+    "family": "Piperaceae",
+    "genus": "Piper",
+    "species": "Piper nigrum"
+  },
+  "status": "review",
+  "parts": [
+    "root",
+    "stem",
+    "leaf",
+    "flower",
+    "fruit",
+    "seed"
+  ],
+  "study": {
+    "habit": "Climbing shrub.",
+    "morphology": "Perennial woody vine with alternate leaves; flowers in spikes; berries produced in dense fruit spikes.",
+    "habitat": "Humid tropical forests and cultivated plantations.",
+    "distribution": "Native to Sri Lanka; extensively cultivated and introduced across tropical regions including India.",
+    "identificationFeatures": [
+      "Woody climbing habit",
+      "Alternate glossy leaves",
+      "Dense spikes of pepper berries"
+    ],
+    "usefulParts": [
+      "Fruit"
+    ],
+    "rasa": [
+      "Katu"
+    ],
+    "guna": [
+      "Laghu",
+      "Tikshna",
+      "Ruksha"
+    ],
+    "virya": "Ushna",
+    "vipaka": "Katu",
+    "karma": [
+      "Deepana",
+      "Pachana",
+      "Kaphahara"
+    ],
+    "therapeuticUses": [
+      "Traditional digestive use",
+      "Traditional respiratory use",
+      "Traditional use in low appetite"
+    ],
+    "formulations": [
+      "Trikatu",
+      "Marichadi preparations"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src-maricha-kew",
+      "title": "Piper nigrum — Plants of the World Online",
+      "type": "taxonomic",
+      "year": 2026,
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A682369-1",
+      "verification": "reviewed"
+    },
+    {
+      "id": "src-maricha-carak",
+      "title": "Maricha — Charak Samhita herb database",
+      "type": "classical",
+      "year": 2026,
+      "url": "https://www.carakasamhitaonline.com/index.php?title=Maricha",
+      "verification": "reviewed"
+    }
+  ],
+  "images": []
+}
