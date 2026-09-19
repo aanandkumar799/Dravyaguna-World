@@ -1,1 +1,5 @@
-import Link from "next/link";export default function Viva(){return <main className="shell"><Link href="/learn">← Learn</Link><h1>Viva Mode</h1><p>Plant identification and Dravyaguna viva practice will be generated from reviewed records.</p></main>}
+"use client";
+import { useState } from "react";
+import Link from "next/link";
+import { plantCatalog } from "../../../lib/plant/catalog";
+export default function Viva(){const [i,setI]=useState(0);const p=plantCatalog[i%plantCatalog.length];return <main className="shell page"><Link href="/learn">← Learn</Link><header className="page-heading"><span className="eyebrow">ORAL PRACTICE</span><h1>Viva Mode</h1><p>Identify the plant from the displayed clues, then reveal the record.</p></header><article className="quiz-card"><span className="muted">Prompt {i+1}</span><h2>Identify this plant from its record clues.</h2><ul><li>Botanical family: {p.taxonomy.family ?? "pending"}</li><li>Useful parts: {p.study?.usefulParts?.join(", ") ?? "pending"}</li><li>Habit: {p.study?.habit ?? "pending review"}</li></ul><details><summary>Reveal answer</summary><h3>{p.names.sanskrit?.[0]} — {p.identity.botanicalName}</h3><p>{p.study?.identificationFeatures?.join(" · ") ?? "Identification features pending review."}</p></details><button onClick={()=>setI(i+1)}>Next prompt →</button></article></main>}
