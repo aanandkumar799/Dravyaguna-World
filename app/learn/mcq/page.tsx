@@ -6,6 +6,7 @@ import { learningQuestionBank } from "../../../lib/learning/question-bank";
 import { emptyProgress, getModeStats, recordAttempt, PROGRESS_STORAGE_KEY } from "../../../lib/learning/progress";
 import type { LearningProgress } from "../../../lib/learning/types";
 import { plantCatalog } from "../../../lib/plant/catalog";
+import { logPlantActivity } from "../../../lib/activity-client";
 
 export default function MCQ() {
   const [index, setIndex] = useState(0);
@@ -21,6 +22,7 @@ export default function MCQ() {
   const choose = (answer: number) => {
     if (selected !== null) return;
     setSelected(answer);
+    logPlantActivity(q.plantId, "mcq");
     save(recordAttempt(progress, { mode: "mcq", itemId: q.id, plantId: q.plantId, outcome: answer === q.answerIndex ? "correct" : "incorrect" }));
   };
   const next = () => { setSelected(null); setIndex((index + 1) % questions.length); };
