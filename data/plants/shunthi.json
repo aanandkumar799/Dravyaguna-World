@@ -89,12 +89,13 @@
     {
       "id": "img-shunthi-rhizome-01",
       "part": "rhizome",
-      "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Zingiber%20officinale%20(root)",
+      "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Ginger_Root_%28Zingiber_officinale%29.jpg",
       "alt": "Zingiber officinale rhizome",
       "sourceId": "src-shunthi-kew",
-      "license": "CC BY-SA 4.0",
-      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Zingiber%20officinale%20(root)",
-      "verification": "reviewed"
+      "license": "CC0 1.0",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Ginger_Root_(Zingiber_officinale).jpg",
+      "verification": "reviewed",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
     }
   ]
 }
