@@ -1,6 +1,7 @@
 import type { LearningAttempt, LearningMode, LearningProgress } from "./types";
 
 export const PROGRESS_STORAGE_KEY = "dravyaguna-world-learning-progress-v1";
+export const MAX_STORED_ATTEMPTS = 2000;
 
 export function emptyProgress(): LearningProgress {
   return { version: 1, attempts: [] };
@@ -16,7 +17,7 @@ export function recordAttempt(
     id: `${input.mode}-${input.itemId}-${now.getTime()}`,
     occurredAt: now.toISOString(),
   };
-  return { ...progress, attempts: [...progress.attempts, attempt] };
+  return { ...progress, attempts: [...progress.attempts, attempt].slice(-MAX_STORED_ATTEMPTS) };
 }
 
 export function getModeStats(progress: LearningProgress, mode: LearningMode) {
