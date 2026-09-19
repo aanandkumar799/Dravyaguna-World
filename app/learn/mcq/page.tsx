@@ -8,7 +8,6 @@ import {
   emptyProgress,
   getModeStats,
   recordAttempt,
-  PROGRESS_STORAGE_KEY,
   readProgress,
   saveProgress,
 } from "../../../lib/learning/progress";
