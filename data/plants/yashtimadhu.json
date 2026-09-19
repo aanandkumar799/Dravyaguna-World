@@ -84,6 +84,13 @@
       "year": 2026,
       "url": "https://powo.science.kew.org/taxon/496941-1",
       "verification": "reviewed"
+    },
+    {
+      "id": "src-image-img-yashtimadhu-whole-plant-01",
+      "title": "Image source — Glycyrrhiza glabra plant",
+      "type": "image",
+      "url": "https://commons.wikimedia.org/wiki/File:Aleppolicorice.jpg",
+      "verification": "reviewed"
     }
   ],
   "images": [
@@ -92,7 +99,7 @@
       "part": "whole-plant",
       "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Aleppolicorice.jpg",
       "alt": "Glycyrrhiza glabra plant",
-      "sourceId": "src-yashtimadhu-kew",
+      "sourceId": "src-image-img-yashtimadhu-whole-plant-01",
       "license": "CC BY-SA 4.0",
       "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Aleppolicorice.jpg",
       "verification": "reviewed"
