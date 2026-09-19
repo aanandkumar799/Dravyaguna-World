@@ -1,115 +1,18 @@
 import Link from "next/link";
-import { notFound } from "next/navigation";
-import { getPlantBySlug, plantCatalog } from "../../../lib/plant/catalog";
-import { plantPartLabel } from "../../../lib/plant/parts";
+import {notFound} from "next/navigation";
+import {getPlantBySlug,plantCatalog} from "../../../lib/plant/catalog";
+import {plantPartLabel} from "../../../lib/plant/parts";
+import type {ClaimEvidence} from "../../../lib/plant/evidence";
 import PlantGallery from "./PlantGallery";
 import PlantStudyProgress from "./PlantStudyProgress";
 import BookmarkButton from "../BookmarkButton";
 import PlantNotes from "./PlantNotes";
 import PlantActivityTracker from "./PlantActivityTracker";
-import { getPlantEvidence } from "../../../lib/plant/evidence-catalog";
-
-export default async function PlantPage({ params }: { params: Promise<{ slug: string }> }) {
-  const { slug } = await params;
-  const plant = getPlantBySlug(slug);
-  if (!plant) notFound();
-
-  const { identity, names, taxonomy, study, sources, images } = plant;
-  const evidence = getPlantEvidence(plant.slug);
-  const related = plantCatalog
-    .filter((p) => p.id !== plant.id && p.taxonomy.family && p.taxonomy.family === taxonomy.family)
-    .slice(0, 4);
-
-  return (
-    <main className="shell page">
-      <PlantActivityTracker plantId={plant.id} />
-      <nav className="breadcrumbs" aria-label="Breadcrumb">
-        <Link href="/plants">← Plant Catalog</Link>
-        <span aria-hidden="true">/</span>
-        <span>{identity.botanicalName}</span>
-      </nav>
-
-      <header className="page-heading">
-        <span className="eyebrow">PLANT DOSSIER · {plant.status.toUpperCase()}</span>
-        <h1><i>{identity.botanicalName}</i></h1>
-        {identity.authority && <p>{identity.authority}</p>}
-        <div className="actions">
-          <Link className="button secondary" href={"/plants/compare?plants=" + plant.slug}>Compare plant</Link>
-          <Link className="button secondary" href={"/learn/mcq?plant=" + plant.slug}>MCQ</Link>
-          <Link className="button secondary" href={"/learn/flashcards?plant=" + plant.slug}>Flashcards</Link>
-          <Link className="button secondary" href={"/learn/viva?plant=" + plant.slug}>Viva</Link>
-          <BookmarkButton plantId={plant.id} />
-        </div>
-      </header>
-
-      <section className="grid" aria-label="Plant identity summary">
-        <article className="feature-card"><span className="eyebrow">IDENTITY</span><h2>Names</h2><p><strong>Sanskrit:</strong> {names.sanskrit?.join(" · ") || "Pending review"}</p><p><strong>Common:</strong> {names.common?.join(" · ") || "Pending review"}</p>{names.synonyms?.length ? <p><strong>Synonyms:</strong> {names.synonyms.join(" · ")}</p> : null}</article>
-        <article className="feature-card"><span className="eyebrow">TAXONOMY</span><h2>{taxonomy.family || "Family pending"}</h2><p>Genus: {taxonomy.genus || "Pending"}</p><p>Species: {taxonomy.species || "Pending"}</p><p>Record state: <strong>{plant.status}</strong></p></article>
-      </section>
-
-      <section>
-        <h2>Identification</h2>
-        <div className="grid">
-          <article><h3>Habit & morphology</h3><p>{study?.habit || "Pending academic review."}</p><p>{study?.morphology || "Morphology pending academic review."}</p></article>
-          <article><h3>Habitat & distribution</h3><p>{study?.habitat || "Pending review."}</p><p>{study?.distribution || "Pending review."}</p></article>
-        </div>
-        <h3>Distinguishing features</h3>
-        {study?.identificationFeatures?.length ? <ul>{study.identificationFeatures.map((item) => <li key={item}>{item}</li>)}</ul> : <p>Pending academic review.</p>}
-      </section>
-
-      <section>
-        <h2>Dravyaguna profile</h2>
-        <div className="grid">
-          <article><h3>Rasapanchaka</h3><dl><dt>Rasa</dt><dd>{study?.rasa?.join(" · ") || "Pending reviewed source"}</dd><dt>Guna</dt><dd>{study?.guna?.join(" · ") || "Pending reviewed source"}</dd><dt>Virya</dt><dd>{study?.virya || "Pending reviewed source"}</dd><dt>Vipaka</dt><dd>{study?.vipaka || "Pending reviewed source"}</dd></dl></article>
-          <article><h3>Actions & useful parts</h3><p><strong>Karma:</strong> {study?.karma?.join(" · ") || "Pending reviewed source"}</p><p><strong>Dosha:</strong> {study?.dosha?.join(" · ") || "Pending reviewed source"}</p><p><strong>Useful parts:</strong> {study?.usefulParts?.join(" · ") || "Pending review"}</p></article>
-        </div>
-      </section>
-
-      <section>
-        <h2>Therapeutic study</h2>
-        <div className="grid">
-          <article><h3>Traditional uses</h3>{study?.therapeuticUses?.length ? <ul>{study.therapeuticUses.map((item) => <li key={item}>{item}</li>)}</ul> : <p>Pending source review.</p>}</article>
-          <article><h3>Formulations</h3>{study?.formulations?.length ? <ul>{study.formulations.map((item) => <li key={item}>{item}</li>)}</ul> : <p>Pending source review.</p>}</article>
-        </div>
-      </section>
-
-      <PlantStudyProgress plantId={plant.id} />
-      <PlantNotes plantId={plant.id} />
-
-      <section>
-        <h2>Plant parts</h2>
-        {plant.parts?.length ? <div className="chip-list">{plant.parts.map((part) => <span className="chip" key={part}>{plantPartLabel(part)}</span>)}</div> : <p>Plant-part data pending verification.</p>}
-      </section>
-
-      <section>
-        <h2>Image gallery</h2>
-        <PlantGallery images={images} />
-      </section>
-
-      <section>
-        <h2>Evidence coverage</h2>
-        <div className="stats">
-          <div><strong>{evidence.coverage.withEvidence}/{evidence.coverage.total}</strong><span>claim categories covered</span></div>
-          <div><strong>{evidence.coverage.reviewed}</strong><span>reviewed evidence items</span></div>
-          <div><strong>{evidence.coverage.verified}</strong><span>verified evidence items</span></div>
-        </div>
-        {evidence.coverage.missing.length ? <p className="notice">Pending evidence categories: {evidence.coverage.missing.join(", ")}. The dossier remains in review until supporting evidence is added and checked.</p> : <p className="success">All tracked claim categories have at least one evidence mapping. This does not by itself make the plant verified.</p>}
-        {Object.entries(evidence.claims).map(([target, claims]) => <article className="feature-card" key={target}>
-          <h3>{target}</h3>
-          <ul>{claims?.map((claim) => <li key={claim.id}><strong>{claim.verification}</strong> — {claim.claim}{claim.locator ? <span> · {claim.locator}</span> : null}{claim.url ? <> · <a href={claim.url} target="_blank" rel="noreferrer">source</a></> : null}</li>)}</ul>
-        </article>)}
-      </section>
-
-      <section>
-        <h2>References & provenance</h2>
-        {sources.length ? <ul>{sources.map((source) => <li key={source.id}>{source.url ? <a href={source.url} target="_blank" rel="noreferrer">{source.title}</a> : source.title} — {source.type}, {source.verification}{source.locator ? ` · ${source.locator}` : ""}</li>)}</ul> : <p>No reviewed references are attached.</p>}
-      </section>
-
-      {related.length ? <section><h2>Related plants</h2><div className="grid">{related.map((p) => <article className="feature-card" key={p.id}><h3><i>{p.identity.botanicalName}</i></h3><p>{p.names.sanskrit?.join(" · ")}</p><Link href={"/plants/" + p.slug}>Open dossier →</Link></article>)}</div></section> : null}
-    </main>
-  );
+import {getPlantEvidence} from "../../../lib/plant/evidence-catalog";
+export default async function PlantPage({params}:{params:Promise<{slug:string}>}){
+ const {slug}=await params; const plant=getPlantBySlug(slug); if(!plant)notFound();
+ const {identity,names,taxonomy,study,sources,images}=plant; const evidence=getPlantEvidence(plant.slug);
+ const related=plantCatalog.filter((p)=>p.id!==plant.id&&p.taxonomy.family&&p.taxonomy.family===taxonomy.family).slice(0,4);
+ return <main className="shell page"><PlantActivityTracker plantId={plant.id}/><nav className="breadcrumbs" aria-label="Breadcrumb"><Link href="/plants">← Plant Catalog</Link><span aria-hidden="true">/</span><span>{identity.botanicalName}</span></nav><header className="page-heading"><span className="eyebrow">PLANT DOSSIER · {plant.status.toUpperCase()}</span><h1><i>{identity.botanicalName}</i></h1>{identity.authority&&<p>{identity.authority}</p>}<div className="actions"><Link className="button secondary" href={"/plants/compare?plants="+plant.slug}>Compare plant</Link><Link className="button secondary" href={"/learn/mcq?plant="+plant.slug}>MCQ</Link><Link className="button secondary" href={"/learn/flashcards?plant="+plant.slug}>Flashcards</Link><Link className="button secondary" href={"/learn/viva?plant="+plant.slug}>Viva</Link><BookmarkButton plantId={plant.id}/></div></header><section className="grid" aria-label="Plant identity summary"><article className="feature-card"><span className="eyebrow">IDENTITY</span><h2>Names</h2><p><strong>Sanskrit:</strong> {names.sanskrit?.join(" · ")||"Pending review"}</p><p><strong>Common:</strong> {names.common?.join(" · ")||"Pending review"}</p>{names.synonyms?.length?<p><strong>Synonyms:</strong> {names.synonyms.join(" · ")}</p>:null}</article><article className="feature-card"><span className="eyebrow">TAXONOMY</span><h2>{taxonomy.family||"Family pending"}</h2><p>Genus: {taxonomy.genus||"Pending"}</p><p>Species: {taxonomy.species||"Pending"}</p><p>Record state: <strong>{plant.status}</strong></p></article></section><section><h2>Identification</h2><div className="grid"><article><h3>Habit & morphology</h3><p>{study?.habit||"Pending academic review."}</p><p>{study?.morphology||"Morphology pending academic review."}</p></article><article><h3>Habitat & distribution</h3><p>{study?.habitat||"Pending review."}</p><p>{study?.distribution||"Pending review."}</p></article></div><h3>Distinguishing features</h3>{study?.identificationFeatures?.length?<ul>{study.identificationFeatures.map((item)=><li key={item}>{item}</li>)}</ul>:<p>Pending academic review.</p>}</section><section><h2>Dravyaguna profile</h2><div className="grid"><article><h3>Rasapanchaka</h3><dl><dt>Rasa</dt><dd>{study?.rasa?.join(" · ")||"Pending reviewed source"}</dd><dt>Guna</dt><dd>{study?.guna?.join(" · ")||"Pending reviewed source"}</dd><dt>Virya</dt><dd>{study?.virya||"Pending reviewed source"}</dd><dt>Vipaka</dt><dd>{study?.vipaka||"Pending reviewed source"}</dd></dl></article><article><h3>Actions & useful parts</h3><p><strong>Karma:</strong> {study?.karma?.join(" · ")||"Pending reviewed source"}</p><p><strong>Dosha:</strong> {study?.dosha?.join(" · ")||"Pending reviewed source"}</p><p><strong>Useful parts:</strong> {study?.usefulParts?.join(" · ")||"Pending review"}</p></article></div></section><section><h2>Therapeutic study</h2><div className="grid"><article><h3>Traditional uses</h3>{study?.therapeuticUses?.length?<ul>{study.therapeuticUses.map((item)=><li key={item}>{item}</li>)}</ul>:<p>Pending source review.</p>}</article><article><h3>Formulations</h3>{study?.formulations?.length?<ul>{study.formulations.map((item)=><li key={item}>{item}</li>)}</ul>:<p>Pending source review.</p>}</article></div></section><PlantStudyProgress plantId={plant.id}/><PlantNotes plantId={plant.id}/><section><h2>Plant parts</h2>{plant.parts?.length?<div className="chip-list">{plant.parts.map((part)=><span className="chip" key={part}>{plantPartLabel(part)}</span>)}</div>:<p>Plant-part data pending verification.</p>}</section><section><h2>Image gallery</h2><PlantGallery images={images}/></section><section><h2>Evidence coverage</h2><div className="stats"><div><strong>{evidence.coverage.withEvidence}/{evidence.coverage.total}</strong><span>claim categories covered</span></div><div><strong>{evidence.coverage.reviewed}</strong><span>reviewed evidence items</span></div><div><strong>{evidence.coverage.verified}</strong><span>verified evidence items</span></div></div>{evidence.coverage.missing.length?<p className="notice">Pending evidence categories: {evidence.coverage.missing.join(", ")}. The dossier remains in review until supporting evidence is added and checked.</p>:<p className="success">All tracked claim categories have at least one evidence mapping. This does not by itself make the plant verified.</p>}{Object.entries(evidence.claims).map(([target,claims])=><article className="feature-card" key={target}><h3>{target}</h3><ul>{(claims as ClaimEvidence[]|undefined)?.map((claim)=><li key={claim.id}><strong>{claim.verification}</strong> — {claim.claim}{claim.locator?<span> · {claim.locator}</span>:null}{claim.url?<> · <a href={claim.url} target="_blank" rel="noreferrer">source</a></>:null}</li>)}</ul></article>)}</section><section><h2>References & provenance</h2>{sources.length?<ul>{sources.map((source)=><li key={source.id}>{source.url?<a href={source.url} target="_blank" rel="noreferrer">{source.title}</a>:source.title} — {source.type}, {source.verification}{source.locator?` · ${source.locator}`:""}</li>)}</ul>:<p>No reviewed references are attached.</p>}</section>{related.length?<section><h2>Related plants</h2><div className="grid">{related.map((p)=><article className="feature-card" key={p.id}><h3><i>{p.identity.botanicalName}</i></h3><p>{p.names.sanskrit?.join(" · ")}</p><Link href={"/plants/"+p.slug}>Open dossier →</Link></article>)}</div></section>:null}</main>;
 }
-
-export function generateStaticParams() {
-  return plantCatalog.map((plant) => ({ slug: plant.slug }));
-}
+export function generateStaticParams(){return plantCatalog.map((plant)=>({slug:plant.slug}));}
