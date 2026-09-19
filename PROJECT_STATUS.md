@@ -10,10 +10,10 @@ Phase 0 — Foundation and architecture
 - Initial architecture, data, content, image, testing, security and deployment contracts documented.
 
 ## In progress
-- Architecture/stack selection
-- Application scaffold
-- CI quality gates
-- Core data schema
+- Validated data ingestion/validation tooling
+- Search/catalog UI
+- Canonical plant dossier UI
+- Image metadata pipeline
 
 ## Next
 1. Architecture review and stack selection
