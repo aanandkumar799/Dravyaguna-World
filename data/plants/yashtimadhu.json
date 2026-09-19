@@ -1,0 +1,90 @@
+{
+  "id": "plant-yashtimadhu",
+  "slug": "yashtimadhu",
+  "identity": {
+    "botanicalName": "Glycyrrhiza glabra L.",
+    "acceptedNameStatus": "review"
+  },
+  "names": {
+    "sanskrit": [
+      "Yashtimadhu",
+      "Madhuka",
+      "Klitaka"
+    ],
+    "common": [
+      "Licorice",
+      "Liquorice"
+    ],
+    "regional": [],
+    "synonyms": []
+  },
+  "taxonomy": {
+    "family": "Fabaceae",
+    "genus": "Glycyrrhiza",
+    "species": "Glycyrrhiza glabra"
+  },
+  "status": "review",
+  "parts": [
+    "root",
+    "stem",
+    "leaf",
+    "flower",
+    "seed"
+  ],
+  "study": {
+    "habit": "Perennial non-climbing herb or subshrub with underground rhizomes.",
+    "morphology": "Erect hairy stems; pinnate leaves with 9–17 leaflets; pale blue-violet flowers; reddish-brown pods.",
+    "habitat": "Temperate and semi-arid regions; cultivated on suitable moist soils.",
+    "distribution": "Native from the Mediterranean through western and central Asia to Pakistan.",
+    "identificationFeatures": [
+      "Pinnate leaves with many leaflets",
+      "Violet pea-like flowers",
+      "Sweet rhizomatous roots"
+    ],
+    "usefulParts": [
+      "Root"
+    ],
+    "rasa": [
+      "Madhura"
+    ],
+    "guna": [
+      "Guru",
+      "Snigdha"
+    ],
+    "virya": "Sheeta",
+    "vipaka": "Madhura",
+    "karma": [
+      "Kantya",
+      "Vranaropana",
+      "Rasayana"
+    ],
+    "therapeuticUses": [
+      "Traditional throat-soothing use",
+      "Traditional gastric mucosal support use",
+      "Traditional demulcent use"
+    ],
+    "formulations": [
+      "Yashtimadhu Churna",
+      "Yashtimadhvadi Taila"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src-yashtimadhu-carak",
+      "title": "Yashtimadhu — Charak Samhita herb database",
+      "type": "classical",
+      "year": 2026,
+      "url": "https://www.carakasamhitaonline.com/index.php?title=Yashtimadhu",
+      "verification": "reviewed"
+    },
+    {
+      "id": "src-yashtimadhu-kew",
+      "title": "Glycyrrhiza glabra — Plants of the World Online",
+      "type": "taxonomic",
+      "year": 2026,
+      "url": "https://powo.science.kew.org/taxon/496941-1",
+      "verification": "reviewed"
+    }
+  ],
+  "images": []
+}
