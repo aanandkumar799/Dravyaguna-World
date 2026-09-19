@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getPlantBySlug, plantCatalog } from "../../../lib/plant/catalog";
 import { plantPartLabel } from "../../../lib/plant/parts";
+import PlantGallery from "./PlantGallery";
 
 export default async function PlantPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
@@ -69,7 +70,7 @@ export default async function PlantPage({ params }: { params: Promise<{ slug: st
 
       <section>
         <h2>Image gallery</h2>
-        {images.length ? <div className="grid">{images.map((image) => <article key={image.id}><strong>{plantPartLabel(image.part)}</strong>{image.url ? <img src={image.url} alt={image.alt} loading="lazy" style={{ width: "100%", height: "auto", borderRadius: 12 }} /> : <div className="media-placeholder" role="img" aria-label={image.alt}>Image asset pending delivery</div>}<p>{image.alt}</p><small>Verification: {image.verification}{image.license ? ` · License: ${image.license}` : ""}</small></article>)}</div> : <div className="notice"><strong>Gallery pending.</strong> No verified image assets are published for this record yet.</div>}
+        <PlantGallery images={images} />
       </section>
 
       <section>
