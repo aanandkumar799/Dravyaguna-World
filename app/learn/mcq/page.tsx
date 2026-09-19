@@ -9,6 +9,8 @@ import {
   getModeStats,
   recordAttempt,
   PROGRESS_STORAGE_KEY,
+  readProgress,
+  saveProgress,
 } from "../../../lib/learning/progress";
 import type { LearningProgress } from "../../../lib/learning/types";
 import { plantCatalog } from "../../../lib/plant/catalog";
@@ -35,19 +37,12 @@ function MCQContent() {
   const q = questions.length > 0 ? questions[index % questions.length] : undefined;
 
   useEffect(() => {
-    const raw = window.localStorage.getItem(PROGRESS_STORAGE_KEY);
-    if (raw) {
-      try {
-        setProgress(JSON.parse(raw));
-      } catch {
-        // Ignore malformed local progress and keep the empty state.
-      }
-    }
+    setProgress(readProgress());
   }, []);
 
   const save = (next: LearningProgress) => {
     setProgress(next);
-    window.localStorage.setItem(PROGRESS_STORAGE_KEY, JSON.stringify(next));
+    saveProgress(next);
   };
 
   const choose = (answer: number) => {
