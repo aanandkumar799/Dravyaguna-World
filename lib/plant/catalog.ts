@@ -25,6 +25,7 @@ export const plantCatalog: Plant[] = [
       formulations: ["Shatavari Kalpa","Shatavari Ghrita"]
     },
     sources: [
+      { id: "src-shatavari-kew", title: "Asparagus racemosus — Plants of the World Online", type: "taxonomic", year: 2026, url: "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A531271-1", verification: "reviewed" },
       { id: "src-shatavari-carak", title: "Shatavari — Charak Samhita herb database", type: "classical", year: 2026, url: "https://www.carakasamhitaonline.com/index.php?title=Talk%3AShatavari", verification: "reviewed" }
     ],
     images: []
@@ -161,6 +162,7 @@ export const plantCatalog: Plant[] = [
       formulations: ["Trikatu","Pippalyasava"]
     },
     sources: [
+      { id: "src-pippali-kew", title: "Piper longum — Plants of the World Online", type: "taxonomic", year: 2026, url: "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A682031-1", verification: "reviewed" },
       { id: "src-pippali-carak", title: "Pippali — Charak Samhita herb database", type: "classical", year: 2026, url: "https://carakasamhitaonline.com/index.php?title=Pippali", verification: "reviewed" }
     ],
     images: []
@@ -189,6 +191,7 @@ export const plantCatalog: Plant[] = [
       formulations: ["Trikatu","Shunthi Paka"]
     },
     sources: [
+      { id: "src-shunthi-kew", title: "Zingiber officinale — Plants of the World Online", type: "taxonomic", year: 2026, url: "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A798372-1/", verification: "reviewed" },
       { id: "src-shunthi-carak", title: "Shunthi — Charak Samhita herb database", type: "classical", year: 2026, url: "https://www.carakasamhitaonline.com/index.php?title=Shunthi", verification: "reviewed" }
     ],
     images: []
@@ -217,6 +220,7 @@ export const plantCatalog: Plant[] = [
       formulations: ["Trikatu","Marichadi preparations"]
     },
     sources: [
+      { id: "src-maricha-kew", title: "Piper nigrum — Plants of the World Online", type: "taxonomic", year: 2026, url: "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A682369-1", verification: "reviewed" },
       { id: "src-maricha-carak", title: "Maricha — Charak Samhita herb database", type: "classical", year: 2026, url: "https://www.carakasamhitaonline.com/index.php?title=Maricha", verification: "reviewed" }
     ],
     images: []
@@ -242,6 +246,7 @@ export const plantCatalog: Plant[] = [
       formulations: ["Tulasyadi preparations"]
     },
     sources: [
+      { id: "src-tulasi-kew", title: "Ocimum tenuiflorum — Plants of the World Online", type: "taxonomic", year: 2026, url: "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A453130-1", verification: "reviewed" },
       { id: "src-tulasi-carak", title: "Surasa — Charak Samhita herb database", type: "classical", year: 2026, url: "https://carakasamhitaonline.com/index.php?title=Surasa", verification: "reviewed" }
     ],
     images: []
@@ -266,6 +271,7 @@ export const plantCatalog: Plant[] = [
       formulations: ["Ashwagandha Churna","Ashwagandharishta"]
     },
     sources: [
+      { id: "src-ashwagandha-kew", title: "Withania somnifera — Plants of the World Online", type: "taxonomic", year: 2026, url: "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A821709-1", verification: "reviewed" },
       { id: "src-ashwagandha-carak", title: "Ashwagandha — Charak Samhita herb database", type: "classical", year: 2026, url: "https://carakasamhitaonline.com/index.php?title=Withania_somnifera", verification: "reviewed" }
     ],
     images: []
@@ -354,6 +360,7 @@ export const plantCatalog: Plant[] = [
       formulations: ["Triphala","Abhayarishta"]
     },
     sources: [
+      { id: "src-haritaki-kew", title: "Terminalia chebula — Plants of the World Online", type: "taxonomic", year: 2026, url: "https://powo.science.kew.org/taxon/171037-1", verification: "reviewed" },
       { id: "src-haritaki-review", title: "A Classical Review on Different Varieties of Fruit — Terminalia Chebula", type: "classical", url: "https://jaims.in/jaims/article/download/4977/8924/16439", verification: "reviewed" },
       { id: "src-haritaki-history", title: "Terminalia Chebula in Ayurveda and Tibetan Medical Literature", type: "modern", url: "https://www.wisdomlib.org/history/compilation/kailash-journal-of-himalayan-studies/d/doc1602060.html", verification: "reviewed" }
     ],
@@ -383,6 +390,7 @@ export const plantCatalog: Plant[] = [
       formulations: ["Nimbadi Taila","Panchatikta Ghrita"]
     },
     sources: [
+      { id: "src-nimba-kew", title: "Azadirachta indica — Plants of the World Online", type: "taxonomic", year: 2026, url: "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A1213180-2", verification: "reviewed" },
       { id: "src-nimba-carak", title: "Nimba — Charak Samhita herb database", type: "classical", year: 2026, url: "https://carakasamhitaonline.com/index.php?title=Nimba", verification: "reviewed" },
       { id: "src-nimba-review", title: "Nimb (Azadirachta Indica): Validation of Classical Pharmacological Properties Through Reverse Pharmacology", type: "modern", url: "https://ijapr.in/index.php/ijapr/article/view/2485", verification: "reviewed" }
     ],
