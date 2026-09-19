@@ -11,6 +11,7 @@ export default function PlantNotes({ plantId }: { plantId: string }) {
     const next=saveNote(readNotes(),plantId,text);
     window.localStorage.setItem(NOTES_STORAGE_KEY,JSON.stringify(next));
     setText(next.find(n=>n.plantId===plantId)?.text || "");
+    logPlantActivity(plantId, "noted");
     setSaved(true);
     window.setTimeout(()=>setSaved(false),1800);
   }
