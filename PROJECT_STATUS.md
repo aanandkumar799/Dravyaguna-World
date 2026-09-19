@@ -1,41 +1,30 @@
-# Project Status — Dravyaguna World
+# Project Status
 
 ## Current phase
-Phase 0 — Foundation and architecture
+**Phase 1 — Product foundation and data architecture**
 
 ## Completed
-- Plant catalog route and initial catalog experience.
-- Canonical plant dossier route foundation.
-- Plant record validation utilities and tests.
-
-- Independent repository established.
-- Project scope and world-class plant-first requirements documented.
-- Agent operating rules documented.
-- Initial architecture, data, content, image, testing, security and deployment contracts documented.
+- Independent Dravyaguna-World repository established.
+- Governance, architecture, academic, image, testing, security and deployment contracts.
+- Next.js/TypeScript application scaffold.
+- CI workflow foundation.
+- Canonical plant schema and typed model.
+- Search normalization and scoring foundation.
+- Plant catalog and dossier routes.
+- Plant validation utilities and tests.
+- Responsive product landing page.
+- Initial SEO robots/sitemap foundation.
 
 ## In progress
-- Validated data ingestion/validation tooling
-- Search/catalog UI
-- Canonical plant dossier UI
-- Image metadata pipeline
+- Real validated plant dataset ingestion.
+- Production search/catalog UX.
+- Complete plant dossier and media pipeline.
+- Learning/MCQ system.
+- Admin/content QA workflows.
+- Production deployment hardening.
 
-## Next
-1. Architecture review and stack selection
-2. Scaffold application
-3. Add schema validation and CI
-4. Establish canonical plant data model
-5. Build catalog/search
-6. Build plant dossier
-7. Build verified image gallery
-8. Add learning features
-9. Add admin/data-quality tooling
-10. Full QA/security/performance audit
+## Quality gate
+A feature is not considered complete until implementation, automated tests, academic/content validation where applicable, accessibility/performance checks and production-build checks have evidence.
 
-## Blockers
-None currently.
-
-## Important boundary
-This project is independent from DravyaGuna-97. No changes from that repository are being applied here.
-
-## Status policy
-Progress is tracked by completed acceptance-tested tasks, not invented percentage estimates.
+## Boundary
+This project is independent of DravyaGuna-97 and must not modify that project unless explicitly authorized.
