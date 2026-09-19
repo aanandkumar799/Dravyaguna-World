@@ -30,7 +30,9 @@ export default async function PlantPage({ params }: { params: Promise<{ slug: st
         {identity.authority && <p>{identity.authority}</p>}
         <div className="actions">
           <Link className="button secondary" href={"/plants/compare?plants=" + plant.slug}>Compare plant</Link>
-          <Link className="button secondary" href="/learn">Study this plant</Link>
+          <Link className="button secondary" href={"/learn/mcq?plant=" + plant.slug}>MCQ</Link>
+          <Link className="button secondary" href={"/learn/flashcards?plant=" + plant.slug}>Flashcards</Link>
+          <Link className="button secondary" href={"/learn/viva?plant=" + plant.slug}>Viva</Link>
           <BookmarkButton plantId={plant.id} />
         </div>
       </header>
