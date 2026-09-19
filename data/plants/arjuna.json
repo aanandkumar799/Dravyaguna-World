@@ -1,0 +1,81 @@
+{
+  "id": "plant-arjuna",
+  "slug": "arjuna",
+  "identity": {
+    "botanicalName": "Terminalia arjuna (Roxb. ex DC.) Wight & Arn.",
+    "acceptedNameStatus": "review"
+  },
+  "names": {
+    "sanskrit": [
+      "Arjuna",
+      "Dhava",
+      "Kakubha",
+      "Nadisarja"
+    ],
+    "common": [
+      "Arjuna"
+    ],
+    "regional": [],
+    "synonyms": []
+  },
+  "taxonomy": {
+    "family": "Combretaceae",
+    "genus": "Terminalia",
+    "species": "Terminalia arjuna"
+  },
+  "status": "review",
+  "parts": [
+    "bark",
+    "leaf",
+    "flower",
+    "fruit",
+    "seed"
+  ],
+  "study": {
+    "habit": "Large deciduous tree.",
+    "morphology": "Straight trunk with characteristic pale bark; oblong leaves; terminal spikes; ovoid fruits with wings.",
+    "habitat": "Riverbanks, riparian forests and moist tropical woodland.",
+    "distribution": "Native to the Indian subcontinent.",
+    "identificationFeatures": [
+      "Pale layered bark",
+      "Oblong leaves",
+      "Winged fruit"
+    ],
+    "usefulParts": [
+      "Bark"
+    ],
+    "karma": [
+      "Hridya",
+      "Balya",
+      "Kashaya"
+    ],
+    "therapeuticUses": [
+      "Traditional cardiac-support use",
+      "Traditional use in bleeding disorders",
+      "Traditional tissue-support use"
+    ],
+    "formulations": [
+      "Arjunarishta",
+      "Arjuna Ksheerapaka"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src-arjuna-carak",
+      "title": "Arjuna — Charak Samhita herb database",
+      "type": "classical",
+      "year": 2026,
+      "url": "https://carakasamhitaonline.com/index.php?title=Arjuna",
+      "verification": "reviewed"
+    },
+    {
+      "id": "src-arjuna-kew",
+      "title": "Terminalia arjuna — Plants of the World Online",
+      "type": "taxonomic",
+      "year": 2026,
+      "url": "https://powo.science.kew.org/taxon/170962-1",
+      "verification": "reviewed"
+    }
+  ],
+  "images": []
+}
