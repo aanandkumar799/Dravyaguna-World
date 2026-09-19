@@ -1,0 +1,1 @@
+export default function Loading(){return <main style={{padding:32,fontFamily:"system-ui"}}>Loading plant record…</main>;}
