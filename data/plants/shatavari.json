@@ -1,0 +1,94 @@
+{
+  "id": "plant-shatavari",
+  "slug": "shatavari",
+  "identity": {
+    "botanicalName": "Asparagus racemosus Willd.",
+    "acceptedNameStatus": "review"
+  },
+  "names": {
+    "sanskrit": [
+      "Shatavari",
+      "Atirasa",
+      "Shatavirya"
+    ],
+    "common": [
+      "Wild asparagus"
+    ],
+    "regional": [],
+    "synonyms": [
+      "Protasparagus racemosus (Willd.) Oberm."
+    ]
+  },
+  "taxonomy": {
+    "family": "Asparagaceae",
+    "genus": "Asparagus",
+    "species": "Asparagus racemosus"
+  },
+  "status": "review",
+  "parts": [
+    "root",
+    "stem",
+    "leaf",
+    "flower",
+    "fruit",
+    "seed"
+  ],
+  "study": {
+    "habit": "Perennial climber or scrambling shrub with spiny stems.",
+    "morphology": "Numerous tuberous or fusiform roots; slender stems with cladodes in fascicles; small white flowers; red berries.",
+    "habitat": "Forest margins, scrub, woodland and seasonally dry tropical habitats.",
+    "distribution": "Widespread from tropical Africa through India and Asia to northern Australia.",
+    "identificationFeatures": [
+      "Clusters of fleshy roots",
+      "Spiny climbing stems",
+      "Fine cladodes in fascicles"
+    ],
+    "usefulParts": [
+      "Root"
+    ],
+    "rasa": [
+      "Madhura",
+      "Tikta"
+    ],
+    "guna": [
+      "Guru",
+      "Snigdha"
+    ],
+    "virya": "Sheeta",
+    "vipaka": "Madhura",
+    "karma": [
+      "Balya",
+      "Brimhana",
+      "Stanyajanana",
+      "Rasayana"
+    ],
+    "therapeuticUses": [
+      "Traditional female reproductive health use",
+      "Traditional galactagogue use",
+      "Traditional nourishing use"
+    ],
+    "formulations": [
+      "Shatavari Kalpa",
+      "Shatavari Ghrita"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src-shatavari-kew",
+      "title": "Asparagus racemosus — Plants of the World Online",
+      "type": "taxonomic",
+      "year": 2026,
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A531271-1",
+      "verification": "reviewed"
+    },
+    {
+      "id": "src-shatavari-carak",
+      "title": "Shatavari — Charak Samhita herb database",
+      "type": "classical",
+      "year": 2026,
+      "url": "https://www.carakasamhitaonline.com/index.php?title=Talk%3AShatavari",
+      "verification": "reviewed"
+    }
+  ],
+  "images": []
+}
