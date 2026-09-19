@@ -34,6 +34,13 @@ export default async function PlantPage({ params }: { params: Promise<{ slug: st
       </section>
 
       <section>
+        <h2>Therapeutic study</h2>
+        <div className="grid">
+          <article><h3>Traditional uses</h3><ul>{plant.study?.therapeuticUses?.map((item) => <li key={item}>{item}</li>) ?? <li>Pending source review.</li>}</ul></article>
+          <article><h3>Formulations</h3><ul>{plant.study?.formulations?.map((item) => <li key={item}>{item}</li>) ?? <li>Pending source review.</li>}</ul></article>
+        </div>
+      </section>
+      <section>
         <h2>Dravyaguna profile</h2>
         <p>Rasa: {study?.rasa?.join(" · ") || "Pending reviewed source"}</p>
         <p>Guna: {study?.guna?.join(" · ") || "Pending reviewed source"}</p>
