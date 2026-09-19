@@ -14,11 +14,6 @@ import amalaki from "../../data/plants/amalaki.json";
 import haritaki from "../../data/plants/haritaki.json";
 import nimba from "../../data/plants/nimba.json";
 
-export const plantCatalog: Plant[] = [
-  shatavari, brahmi, arjuna, ashoka, yashtimadhu, pippali, shunthi,
-  maricha, tulasi, ashwagandha, guduchi, amalaki, haritaki, nimba
-];
-
-export function getPlantBySlug(slug: string) {
-  return plantCatalog.find((plant) => plant.slug === slug);
-}
+const rawPlantRecords = [shatavari,brahmi,arjuna,ashoka,yashtimadhu,pippali,shunthi,maricha,tulasi,ashwagandha,guduchi,amalaki,haritaki,nimba];
+export const plantCatalog: Plant[] = rawPlantRecords as Plant[];
+export function getPlantBySlug(slug: string) { return plantCatalog.find((plant) => plant.slug === slug); }
