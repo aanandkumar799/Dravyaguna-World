@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { notFound } from "next/navigation";
 
 export const metadata: Metadata = { robots: { index: false, follow: false } };
 import {buildQualityReport} from "../../lib/plant/quality-report";
 import {getPlantEvidence} from "../../lib/plant/evidence-catalog";
 export default function AdminPage(){
+ if (process.env.NODE_ENV === "production") notFound();
  const report=buildQualityReport(); const clean=report.totals.plantErrors+report.totals.learningErrors===0;
  const evidence=report.plants.map(({plant})=>getPlantEvidence(plant.slug).coverage);
  const evidenceItems=evidence.reduce((n,item)=>n+item.reviewed+item.verified+item.unverified,0);
