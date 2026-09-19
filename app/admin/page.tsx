@@ -1,16 +1,20 @@
 import Link from "next/link";
 import { buildQualityReport } from "../../lib/plant/quality-report";
+import { getPlantEvidence } from "../../lib/plant/evidence-catalog";
 
 export default function AdminPage() {
   const report = buildQualityReport();
   const clean = report.totals.plantErrors + report.totals.learningErrors === 0;
+  const evidence = report.plants.map(({ plant }) => getPlantEvidence(plant.slug).coverage);
+  const evidenceItems = evidence.reduce((n, item) => n + item.reviewed + item.verified + item.unverified, 0);
+  const evidenceCategories = evidence.reduce((n, item) => n + item.withEvidence, 0);
   return <main className="shell page">
     <div className="page-heading">
       <span className="eyebrow">QUALITY CONTROL</span>
       <h1>Data quality dashboard</h1>
       <p>Internal review view for identifying incomplete or structurally invalid plant and learning records. It does not promote content to verified status.</p>
     </div>
-    <section className="stats"><div><strong>Evidence model</strong><span>claim-level provenance ready</span></div>
+    <section className="stats"><div><strong>{evidenceCategories}/{evidence.length * 7}</strong><span>evidence categories mapped</span></div>\n      <div><strong>{evidenceItems}</strong><span>evidence items</span></div>
       <div><strong>{report.plants.length}</strong><span>plant records</span></div>
       <div><strong>{report.totals.plantErrors}</strong><span>plant errors</span></div>
       <div><strong>{report.totals.plantWarnings}</strong><span>plant warnings</span></div>
