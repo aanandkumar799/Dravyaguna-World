@@ -4,6 +4,10 @@
 Phase 0 — Foundation and architecture
 
 ## Completed
+- Plant catalog route and initial catalog experience.
+- Canonical plant dossier route foundation.
+- Plant record validation utilities and tests.
+
 - Independent repository established.
 - Project scope and world-class plant-first requirements documented.
 - Agent operating rules documented.
