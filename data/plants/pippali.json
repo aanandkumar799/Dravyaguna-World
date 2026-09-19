@@ -84,6 +84,13 @@
       "year": 2026,
       "url": "https://carakasamhitaonline.com/index.php?title=Pippali",
       "verification": "reviewed"
+    },
+    {
+      "id": "src-image-img-pippali-fruit-01",
+      "title": "Image source — Piper longum dried fruit",
+      "type": "image",
+      "url": "https://commons.wikimedia.org/wiki/File:Piper%20longum.jpg",
+      "verification": "reviewed"
     }
   ],
   "images": [
@@ -92,7 +99,7 @@
       "part": "fruit",
       "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Piper%20longum.jpg",
       "alt": "Piper longum dried fruit",
-      "sourceId": "src-pippali-kew",
+      "sourceId": "src-image-img-pippali-fruit-01",
       "license": "CC BY-SA 3.0 / GFDL",
       "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Piper%20longum.jpg",
       "verification": "reviewed"
