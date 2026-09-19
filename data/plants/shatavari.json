@@ -90,5 +90,16 @@
       "verification": "reviewed"
     }
   ],
-  "images": []
+  "images": [
+    {
+      "id": "img-shatavari-flower-01",
+      "part": "flower",
+      "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Asparagus%20racemosus%20-%20Satawari%20flowers%20-%20at%20Peravoor%202018%20(1).jpg",
+      "alt": "Asparagus racemosus flower",
+      "sourceId": "src-shatavari-kew",
+      "license": "CC BY-SA 4.0",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Asparagus%20racemosus%20-%20Satawari%20flowers%20-%20at%20Peravoor%202018%20(1).jpg",
+      "verification": "reviewed"
+    }
+  ]
 }
