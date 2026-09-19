@@ -1,1 +1,1 @@
-export default function Loading(){return <main style={{padding:32,fontFamily:"system-ui"}}>Loading plant record…</main>;}
+export default function Loading(){return <main className="shell page" aria-live="polite"><span className="eyebrow">PLANT RECORD</span><h1>Loading plant dossier…</h1><p>Preparing identity, study fields and source information.</p></main>;}
