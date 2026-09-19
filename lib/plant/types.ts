@@ -1,5 +1,5 @@
 import type { z } from "zod";
-import { plantSchema, plantSourceSchema, plantImageSchema, plantPartSchema } from "./schema";
+import type { plantSchema, plantSourceSchema, plantImageSchema, plantPartSchema } from "./schema";
 
 export type PlantStatus = z.infer<typeof plantSchema>["status"];
 export type PlantPart = z.infer<typeof plantPartSchema>;
