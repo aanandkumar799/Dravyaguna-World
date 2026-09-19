@@ -87,6 +87,20 @@
       "type": "modern",
       "url": "https://www.bibliomed.org/mnsfulltext/82/82-1433920976.pdf",
       "verification": "reviewed"
+    },
+    {
+      "id": "src-image-img-guduchi-stem-01",
+      "title": "Image source — Tinospora cordifolia stem",
+      "type": "image",
+      "url": "https://commons.wikimedia.org/wiki/File:Tinospora_cordifolia_stem.jpg",
+      "verification": "reviewed"
+    },
+    {
+      "id": "src-image-img-guduchi-leaf-01",
+      "title": "Image source — Tinospora cordifolia leaves",
+      "type": "image",
+      "url": "https://commons.wikimedia.org/wiki/File:Tinospora_cordifolia_leaves.jpg",
+      "verification": "reviewed"
     }
   ],
   "images": [
@@ -95,7 +109,7 @@
       "part": "stem",
       "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Tinospora_cordifolia_stem.jpg",
       "alt": "Tinospora cordifolia stem",
-      "sourceId": "src-guduchi-kew",
+      "sourceId": "src-image-img-guduchi-stem-01",
       "license": "CC BY-SA 4.0",
       "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Tinospora_cordifolia_stem.jpg",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
@@ -106,7 +120,7 @@
       "part": "leaf",
       "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Tinospora_cordifolia_leaves.jpg",
       "alt": "Tinospora cordifolia leaves",
-      "sourceId": "src-guduchi-kew",
+      "sourceId": "src-image-img-guduchi-leaf-01",
       "license": "CC BY-SA 3.0",
       "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Tinospora_cordifolia_leaves.jpg",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
