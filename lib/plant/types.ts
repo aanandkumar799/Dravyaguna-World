@@ -2,7 +2,7 @@ export type PlantStatus = "draft"|"review"|"verified"|"deprecated";
 export type PlantPart = "whole-plant"|"root"|"stem"|"bark"|"leaf"|"flower"|"fruit"|"seed"|"rhizome"|"bulb"|"tuber"|"latex"|"resin"|"other";
 export interface PlantNameSet { sanskrit?:string[]; common?:string[]; regional?:string[]; synonyms?:string[] }
 export interface PlantSource { id:string; title:string; type:"classical"|"modern"|"taxonomic"|"image"|"other"; author?:string; year?:number; locator?:string; url?:string; verification:"unverified"|"reviewed"|"verified" }
-export interface PlantImage { id:string; part:string; url?:string; alt:string; sourceId?:string; license?:string; verification:"unverified"|"reviewed"|"verified"|"rejected" }
+export interface PlantImage { id:string; part:PlantPart; url?:string; alt:string; sourceId?:string; license?:string; verification:"unverified"|"reviewed"|"verified"|"rejected" }
 export interface Plant {
  id:string; slug:string;
  identity:{botanicalName:string; authority?:string; acceptedNameStatus?:string};
