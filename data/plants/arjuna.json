@@ -75,6 +75,13 @@
       "year": 2026,
       "url": "https://powo.science.kew.org/taxon/170962-1",
       "verification": "reviewed"
+    },
+    {
+      "id": "src-image-img-arjuna-bark-01",
+      "title": "Image source — Terminalia arjuna bark",
+      "type": "image",
+      "url": "https://commons.wikimedia.org/wiki/File:Bark%20of%20Terminalia%20arjuna.jpg",
+      "verification": "reviewed"
     }
   ],
   "images": [
@@ -83,7 +90,7 @@
       "part": "bark",
       "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Bark%20of%20Terminalia%20arjuna.jpg",
       "alt": "Terminalia arjuna bark",
-      "sourceId": "src-arjuna-kew",
+      "sourceId": "src-image-img-arjuna-bark-01",
       "license": "CC BY-SA 4.0",
       "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Bark%20of%20Terminalia%20arjuna.jpg",
       "verification": "reviewed"
