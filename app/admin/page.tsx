@@ -1,36 +1,10 @@
 import Link from "next/link";
-import { buildQualityReport } from "../../lib/plant/quality-report";
-import { getPlantEvidence } from "../../lib/plant/evidence-catalog";
-
-export default function AdminPage() {
-  const report = buildQualityReport();
-  const clean = report.totals.plantErrors + report.totals.learningErrors === 0;
-  const evidence = report.plants.map(({ plant }) => getPlantEvidence(plant.slug).coverage);
-  const evidenceItems = evidence.reduce((n, item) => n + item.reviewed + item.verified + item.unverified, 0);
-  const evidenceCategories = evidence.reduce((n, item) => n + item.withEvidence, 0);
-  return <main className="shell page">
-    <div className="page-heading">
-      <span className="eyebrow">QUALITY CONTROL</span>
-      <h1>Data quality dashboard</h1>
-      <p>Internal review view for identifying incomplete or structurally invalid plant and learning records. It does not promote content to verified status.</p>
-    </div>
-    <section className="stats"><div><strong>{evidenceCategories}/{evidence.length * 7}</strong><span>evidence categories mapped</span></div>\n      <div><strong>{evidenceItems}</strong><span>evidence items</span></div>
-      <div><strong>{report.plants.length}</strong><span>plant records</span></div>
-      <div><strong>{report.totals.plantErrors}</strong><span>plant errors</span></div>
-      <div><strong>{report.totals.plantWarnings}</strong><span>plant warnings</span></div>
-      <div><strong>{report.totals.learningErrors}</strong><span>learning errors</span></div>
-      <div><strong>{report.totals.learningWarnings}</strong><span>learning warnings</span></div>
-    </section>
-    <div className={clean ? "success" : "notice"}><strong>{clean ? "No structural errors detected." : "Review required."}</strong><p>Warnings can still indicate missing academic or provenance detail.</p></div>
-    <section className="search-results">
-      {report.plants.map(({plant,errors,warnings})=><article className="search-result" key={plant.id}>
-        <h2>{plant.names.sanskrit?.[0] ?? plant.slug}</h2>
-        <p>{plant.identity.botanicalName} · {plant.status}</p>
-        {errors.length ? <div><strong>Errors</strong><ul>{errors.map((x,i)=><li key={i}>{x}</li>)}</ul></div> : null}
-        {warnings.length ? <div><strong>Warnings</strong><ul>{warnings.map((x,i)=><li key={i}>{x}</li>)}</ul></div> : null}
-        {!errors.length && !warnings.length ? <p className="muted">No quality issues reported by the current automated audit.</p> : null}
-        <Link href={"/plants/"+plant.slug} className="button secondary">Open dossier →</Link>
-      </article>)}
-    </section>
-  </main>;
+import {buildQualityReport} from "../../lib/plant/quality-report";
+import {getPlantEvidence} from "../../lib/plant/evidence-catalog";
+export default function AdminPage(){
+ const report=buildQualityReport(); const clean=report.totals.plantErrors+report.totals.learningErrors===0;
+ const evidence=report.plants.map(({plant})=>getPlantEvidence(plant.slug).coverage);
+ const evidenceItems=evidence.reduce((n,item)=>n+item.reviewed+item.verified+item.unverified,0);
+ const evidenceCategories=evidence.reduce((n,item)=>n+item.withEvidence,0);
+ return <main className="shell page"><div className="page-heading"><span className="eyebrow">QUALITY CONTROL</span><h1>Data quality dashboard</h1><p>Internal review view for identifying incomplete or structurally invalid plant and learning records. It does not promote content to verified status.</p></div><section className="stats"><div><strong>{evidenceCategories}/{evidence.length*7}</strong><span>evidence categories mapped</span></div><div><strong>{evidenceItems}</strong><span>evidence items</span></div><div><strong>{report.plants.length}</strong><span>plant records</span></div><div><strong>{report.totals.plantErrors}</strong><span>plant errors</span></div><div><strong>{report.totals.plantWarnings}</strong><span>plant warnings</span></div><div><strong>{report.totals.learningErrors}</strong><span>learning errors</span></div><div><strong>{report.totals.learningWarnings}</strong><span>learning warnings</span></div></section><div className={clean?"success":"notice"}><strong>{clean?"No structural errors detected.":"Review required."}</strong><p>Warnings can still indicate missing academic or provenance detail.</p></div><section className="search-results">{report.plants.map(({plant,errors,warnings})=><article className="search-result" key={plant.id}><h2>{plant.names.sanskrit?.[0]??plant.slug}</h2><p>{plant.identity.botanicalName} · {plant.status}</p>{errors.length?<div><strong>Errors</strong><ul>{errors.map((x,i)=><li key={i}>{x.message}</li>)}</ul></div>:null}{warnings.length?<div><strong>Warnings</strong><ul>{warnings.map((x,i)=><li key={i}>{x.message}</li>)}</ul></div>:null}{!errors.length&&!warnings.length?<p className="muted">No quality issues reported by the current automated audit.</p>:null}<Link href={"/plants/"+plant.slug} className="button secondary">Open dossier →</Link></article>)}</section></main>;
 }
