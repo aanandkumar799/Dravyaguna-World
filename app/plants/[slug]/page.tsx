@@ -6,6 +6,7 @@ import PlantGallery from "./PlantGallery";
 import PlantStudyProgress from "./PlantStudyProgress";
 import BookmarkButton from "../BookmarkButton";
 import PlantNotes from "./PlantNotes";
+import PlantActivityTracker from "./PlantActivityTracker";
 
 export default async function PlantPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
@@ -19,6 +20,7 @@ export default async function PlantPage({ params }: { params: Promise<{ slug: st
 
   return (
     <main className="shell page">
+      <PlantActivityTracker plantId={plant.id} />
       <nav className="breadcrumbs" aria-label="Breadcrumb">
         <Link href="/plants">← Plant Catalog</Link>
         <span aria-hidden="true">/</span>
