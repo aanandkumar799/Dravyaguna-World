@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { getPlantBySlug, plantCatalog } from "../../../lib/plant/catalog";
 import { plantPartLabel } from "../../../lib/plant/parts";
 import PlantGallery from "./PlantGallery";
+import PlantStudyProgress from "./PlantStudyProgress";
 
 export default async function PlantPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
@@ -62,6 +63,8 @@ export default async function PlantPage({ params }: { params: Promise<{ slug: st
           <article><h3>Formulations</h3>{study?.formulations?.length ? <ul>{study.formulations.map((item) => <li key={item}>{item}</li>)}</ul> : <p>Pending source review.</p>}</article>
         </div>
       </section>
+
+      <PlantStudyProgress plantId={plant.id} />
 
       <section>
         <h2>Plant parts</h2>
