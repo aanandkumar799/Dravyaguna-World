@@ -1,0 +1,93 @@
+{
+  "id": "plant-guduchi",
+  "slug": "guduchi",
+  "identity": {
+    "botanicalName": "Tinospora cordifolia (Willd.) Hook.f. & Thomson",
+    "acceptedNameStatus": "review"
+  },
+  "names": {
+    "sanskrit": [
+      "Guduchi",
+      "Amrita"
+    ],
+    "common": [
+      "Guduchi",
+      "Giloy"
+    ],
+    "regional": [],
+    "synonyms": []
+  },
+  "taxonomy": {
+    "family": "Menispermaceae",
+    "genus": "Tinospora",
+    "species": "Tinospora cordifolia"
+  },
+  "status": "review",
+  "parts": [
+    "stem",
+    "leaf",
+    "root"
+  ],
+  "study": {
+    "habit": "Large perennial climbing liana.",
+    "morphology": "Succulent climbing stems with heart-shaped leaves and characteristic aerial roots; small flowers and drupaceous fruits.",
+    "habitat": "Tropical forests and woodland; commonly grown on trees and supports.",
+    "distribution": "Native to the Indian subcontinent and Indo-China.",
+    "identificationFeatures": [
+      "Climbing succulent stem",
+      "Heart-shaped leaves",
+      "Aerial roots"
+    ],
+    "usefulParts": [
+      "Stem"
+    ],
+    "rasa": [
+      "Tikta",
+      "Kashaya"
+    ],
+    "guna": [
+      "Guru"
+    ],
+    "virya": "Ushna",
+    "vipaka": "Madhura",
+    "karma": [
+      "Rasayana",
+      "Deepana",
+      "Jvaraghna"
+    ],
+    "therapeuticUses": [
+      "Traditional use in fever",
+      "Traditional use in digestive and metabolic disorders",
+      "Traditional rasayana use"
+    ],
+    "formulations": [
+      "Guduchi Ghana",
+      "Guduchyadi preparations"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src-guduchi-review",
+      "title": "Tinospora cordifolia (Guduchi) — validation of Ayurvedic pharmacology",
+      "type": "modern",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2924974/",
+      "verification": "reviewed"
+    },
+    {
+      "id": "src-guduchi-kew",
+      "title": "Tinospora cordifolia — Plants of the World Online",
+      "type": "taxonomic",
+      "year": 2026,
+      "url": "https://powo.science.kew.org/taxon/907828-1",
+      "verification": "reviewed"
+    },
+    {
+      "id": "src-guduchi-jres",
+      "title": "Therapeutic vistas of Tinospora cordifolia (Guduchi)",
+      "type": "modern",
+      "url": "https://www.bibliomed.org/mnsfulltext/82/82-1433920976.pdf",
+      "verification": "reviewed"
+    }
+  ],
+  "images": []
+}
