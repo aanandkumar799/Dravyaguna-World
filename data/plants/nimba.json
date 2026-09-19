@@ -97,5 +97,16 @@
       "verification": "reviewed"
     }
   ],
-  "images": []
+  "images": [
+    {
+      "id": "img-nimba-leaf-01",
+      "part": "leaf",
+      "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Leaf%20of%20neem.jpg",
+      "alt": "Azadirachta indica leaf",
+      "sourceId": "src-nimba-kew",
+      "license": "CC BY-SA 4.0",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Leaf%20of%20neem.jpg",
+      "verification": "reviewed"
+    }
+  ]
 }
