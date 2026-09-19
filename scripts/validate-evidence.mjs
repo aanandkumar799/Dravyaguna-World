@@ -5,7 +5,7 @@ const root = path.resolve(".");
 const evidenceDir = path.join(root, "data/evidence");
 const plantsDir = path.join(root, "data/plants");
 const files = fs.existsSync(evidenceDir)
-  ? fs.readdirSync(evidenceDir).filter((file) => file.endsWith(".json") && file !== "source-registry.json")
+  ? fs.readdirSync(evidenceDir).filter((file) => file.endsWith(".json") && file !== "source-registry.json" && file !== "plant-evidence.json")
   : [];
 
 const allowedTargets = new Set([
