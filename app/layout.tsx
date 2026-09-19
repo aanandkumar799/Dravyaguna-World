@@ -5,11 +5,17 @@ import ServiceWorkerRegistration from "./ServiceWorkerRegistration";
 import OfflineStatus from "./OfflineStatus";
 import GlobalSearchTrigger from "./GlobalSearchTrigger";
 
+const productionUrl = process.env.NEXT_PUBLIC_SITE_URL
+  ? process.env.NEXT_PUBLIC_SITE_URL
+  : process.env.NEXT_PUBLIC_VERCEL_PROJECT_PRODUCTION_URL
+    ? "https://" + process.env.NEXT_PUBLIC_VERCEL_PROJECT_PRODUCTION_URL
+    : "http://localhost:3000";
+
 export const metadata: Metadata = {
   title: { default: "Dravyaguna World", template: "%s | Dravyaguna World" },
   description: "Plant-focused Dravyaguna learning and reference platform for BAMS students.",
   manifest: "/manifest.webmanifest",
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000"),
+  metadataBase: new URL(productionUrl),
 };
 
 const nav = [["Plants","/plants"],["Saved","/bookmarks"],["Revision","/revision"],["Notes","/notes"],["History","/history"],["Learn","/learn"],["About","/about"],["Feedback","/feedback"]] as const;
