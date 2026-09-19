@@ -85,5 +85,16 @@
       "verification": "reviewed"
     }
   ],
-  "images": []
+  "images": [
+    {
+      "id": "img-maricha-fruit-01",
+      "part": "fruit",
+      "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Piper%20nigrum%20fruits.jpg",
+      "alt": "Piper nigrum fruit",
+      "sourceId": "src-maricha-kew",
+      "license": "CC BY-SA 3.0",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Piper%20nigrum%20fruits.jpg",
+      "verification": "reviewed"
+    }
+  ]
 }
