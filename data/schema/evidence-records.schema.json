@@ -1,0 +1,19 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "type":"array",
+  "items":{
+    "type":"object",
+    "required":["plantSlug","target","sourceId","verification"],
+    "additionalProperties":false,
+    "properties":{
+      "plantSlug":{"type":"string","pattern":"^[a-z0-9-]+$"},
+      "target":{"enum":["identity","taxonomy","morphology","dravyaguna","usefulParts","therapeuticUses","formulations"]},
+      "sourceId":{"type":"string","minLength":1},
+      "claim":{"type":"string"},
+      "kind":{"enum":["classical","modern","taxonomic","pharmacopoeial","image","other"]},
+      "locator":{"type":"string"},
+      "verification":{"enum":["unverified","reviewed","verified"]},
+      "notes":{"type":"string"}
+    }
+  }
+}
