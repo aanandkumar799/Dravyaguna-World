@@ -26,7 +26,7 @@ export const plantCatalog: Plant[] = [
     slug: "brahmi",
     identity: { botanicalName: "Bacopa monnieri (L.) Wettst.", acceptedNameStatus: "review" },
     names: { sanskrit: ["Brahmi", "Saraswati", "Medhya"], common: ["Brahmi", "Water hyssop"], regional: [], synonyms: ["Bacopa monniera", "Herpestis monnieria"] },
-    taxonomy: { family: "Scrophulariaceae", genus: "Bacopa", species: "Bacopa monnieri" },
+    taxonomy: { family: "Plantaginaceae", genus: "Bacopa", species: "Bacopa monnieri" },
     status: "review",
     parts: ["whole-plant", "root", "stem", "leaf", "flower", "seed"],
     study: {
@@ -37,14 +37,14 @@ export const plantCatalog: Plant[] = [
       identificationFeatures: ["Creeping succulent habit", "Small oblong leaves", "Five-petalled pale flowers"]
     },
     sources: [
-      { id: "src-brahmi-carak", title: "Brahmi — Charak Samhita herb database", type: "classical", year: 2026, url: "https://carakasamhitaonline.com/index.php?title=Brahmi", verification: "reviewed" }
+      { id: "src-brahmi-carak", title: "Brahmi — Charak Samhita herb database", type: "classical", year: 2026, url: "https://carakasamhitaonline.com/index.php?title=Brahmi", verification: "reviewed" },\n      { id: "src-brahmi-kew", title: "Bacopa monnieri — Plants of the World Online", type: "taxonomic", year: 2026, url: "https://powo.science.kew.org/taxon/1072674-2", verification: "reviewed" }
     ],
     images: []
   },
   {
     id: "plant-arjuna",
     slug: "arjuna",
-    identity: { botanicalName: "Terminalia arjuna", acceptedNameStatus: "review" },
+    identity: { botanicalName: "Terminalia arjuna (Roxb. ex DC.) Wight & Arn.", acceptedNameStatus: "review" },
     names: { sanskrit: ["Arjuna", "Dhava", "Kakubha", "Nadisarja"], common: ["Arjuna"], regional: [], synonyms: [] },
     taxonomy: { family: "Combretaceae", genus: "Terminalia", species: "Terminalia arjuna" },
     status: "review",
@@ -56,14 +56,14 @@ export const plantCatalog: Plant[] = [
       identificationFeatures: ["Whitish bark", "Large spreading tree", "River-bank association"]
     },
     sources: [
-      { id: "src-arjuna-carak", title: "Arjuna — Charak Samhita herb database", type: "classical", year: 2026, url: "https://carakasamhitaonline.com/index.php?title=Arjuna", verification: "reviewed" }
+      { id: "src-arjuna-carak", title: "Arjuna — Charak Samhita herb database", type: "classical", year: 2026, url: "https://carakasamhitaonline.com/index.php?title=Arjuna", verification: "reviewed" },\n      { id: "src-arjuna-kew", title: "Terminalia arjuna — Plants of the World Online", type: "taxonomic", year: 2026, url: "https://powo.science.kew.org/taxon/170962-1", verification: "reviewed" }
     ],
     images: []
   },
   {
     id: "plant-ashoka",
     slug: "ashoka",
-    identity: { botanicalName: "Saraca indica Linn.", acceptedNameStatus: "review" },
+    identity: { botanicalName: "Saraca asoca (Roxb.) W.J.de Wilde", acceptedNameStatus: "review" },
     names: { sanskrit: ["Ashoka", "Madhupushpa", "Raktapallavaka", "Hemapushpa"], common: ["Ashoka", "Asok tree"], regional: [], synonyms: ["Jonesia asoca Roxb.", "Jonesia confusa Hassk."] },
     taxonomy: { family: "Fabaceae", genus: "Saraca", species: "Saraca indica" },
     status: "review",
@@ -76,7 +76,7 @@ export const plantCatalog: Plant[] = [
       vipaka: "Katu"
     },
     sources: [
-      { id: "src-ashoka-carak", title: "Ashoka — Charak Samhita herb database", type: "classical", year: 2026, url: "https://www.carakasamhitaonline.com/index.php?title=Ashoka", verification: "reviewed" }
+      { id: "src-ashoka-carak", title: "Ashoka — Charak Samhita herb database", type: "classical", year: 2026, url: "https://www.carakasamhitaonline.com/index.php?title=Ashoka", verification: "reviewed" },\n      { id: "src-ashoka-kew", title: "Saraca asoca — Plants of the World Online", type: "taxonomic", year: 2026, url: "https://powo.science.kew.org/taxon/517883-1", verification: "reviewed" }
     ],
     images: []
   },
@@ -96,7 +96,7 @@ export const plantCatalog: Plant[] = [
       vipaka: "Madhura"
     },
     sources: [
-      { id: "src-yashtimadhu-carak", title: "Yashtimadhu — Charak Samhita herb database", type: "classical", year: 2026, url: "https://www.carakasamhitaonline.com/index.php?title=Yashtimadhu", verification: "reviewed" }
+      { id: "src-yashtimadhu-carak", title: "Yashtimadhu — Charak Samhita herb database", type: "classical", year: 2026, url: "https://www.carakasamhitaonline.com/index.php?title=Yashtimadhu", verification: "reviewed" },\n      { id: "src-yashtimadhu-kew", title: "Glycyrrhiza glabra — Plants of the World Online", type: "taxonomic", year: 2026, url: "https://powo.science.kew.org/taxon/496941-1", verification: "reviewed" }
     ],
     images: []
   },
@@ -205,7 +205,7 @@ export const plantCatalog: Plant[] = [
   {
     id: "plant-guduchi",
     slug: "guduchi",
-    identity: { botanicalName: "Tinospora cordifolia (Willd.) Miers", acceptedNameStatus: "review" },
+    identity: { botanicalName: "Tinospora cordifolia (Willd.) Hook.f. & Thomson", acceptedNameStatus: "review" },
     names: { sanskrit: ["Guduchi", "Amrita"], common: ["Guduchi", "Giloy"], regional: [], synonyms: [] },
     taxonomy: { family: "Menispermaceae", genus: "Tinospora", species: "Tinospora cordifolia" },
     status: "review",
@@ -219,7 +219,7 @@ export const plantCatalog: Plant[] = [
       vipaka: "Madhura"
     },
     sources: [
-      { id: "src-guduchi-review", title: "Tinospora cordifolia (Guduchi) — validation of Ayurvedic pharmacology", type: "modern", author: "S. S. S. et al.", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC2924974/", verification: "reviewed" },
+      { id: "src-guduchi-review", title: "Tinospora cordifolia (Guduchi) — validation of Ayurvedic pharmacology", type: "modern", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC2924974/", verification: "reviewed" },\n      { id: "src-guduchi-kew", title: "Tinospora cordifolia — Plants of the World Online", type: "taxonomic", year: 2026, url: "https://powo.science.kew.org/taxon/907828-1", verification: "reviewed" },
       { id: "src-guduchi-jres", title: "Therapeutic vistas of Tinospora cordifolia (Guduchi)", type: "modern", url: "https://www.bibliomed.org/mnsfulltext/82/82-1433920976.pdf", verification: "reviewed" }
     ],
     images: []
@@ -240,7 +240,7 @@ export const plantCatalog: Plant[] = [
       usefulParts: ["Fruit"]
     },
     sources: [
-      { id: "src-amalaki-review", title: "Phytochemistry and ethnomedicinal qualities of metabolites from Phyllanthus emblica L.: A review", type: "modern", url: "https://www.sciencedirect.com/org/science/article/pii/S0327954523001421", verification: "reviewed" },
+      { id: "src-amalaki-review", title: "Phytochemistry and ethnomedicinal qualities of metabolites from Phyllanthus emblica L.: A review", type: "modern", url: "https://www.sciencedirect.com/org/science/article/pii/S0327954523001421", verification: "reviewed" },\n      { id: "src-amalaki-kew", title: "Phyllanthus emblica — Plants of the World Online", type: "taxonomic", year: 2026, url: "https://powo.science.kew.org/taxon/353838-1", verification: "reviewed" },
       { id: "src-amalaki-classical-review", title: "A Critical Review of Amalaki in Classical Texts", type: "classical", url: "https://ijapr.in/index.php/ijapr/article/view/2412", verification: "reviewed" }
     ],
     images: []
