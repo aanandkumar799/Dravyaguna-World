@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { plantCatalog } from "../../lib/plant/catalog";
 import { readBookmarks } from "../../lib/bookmarks";
-import { getPlantStats, getModeStats, emptyProgress, PROGRESS_STORAGE_KEY } from "../../lib/learning/progress";
+import { getPlantStats, getModeStats, emptyProgress, readProgress } from "../../lib/learning/progress";
 import { ACTIVITY_STORAGE_KEY, readActivity, type PlantActivity } from "../../lib/activity";
 import type { LearningProgress } from "../../lib/learning/types";
 
@@ -12,7 +12,7 @@ const labels: Record<PlantActivity["type"],string>={viewed:"Viewed",mcq:"MCQ",fl
 
 export default function RevisionDashboard(){
  const [progress,setProgress]=useState<LearningProgress>(emptyProgress()),[savedIds,setSavedIds]=useState<string[]>([]),[activity,setActivity]=useState<PlantActivity[]>([]);
- useEffect(()=>{const sync=()=>{const raw=window.localStorage.getItem(PROGRESS_STORAGE_KEY);if(raw){try{setProgress(JSON.parse(raw));}catch{}}setSavedIds(readBookmarks());setActivity(readActivity())};sync();window.addEventListener("storage",sync);window.addEventListener("dravyaguna-bookmarks-changed",sync);window.addEventListener("dravyaguna-activity-changed",sync);return()=>{window.removeEventListener("storage",sync);window.removeEventListener("dravyaguna-bookmarks-changed",sync);window.removeEventListener("dravyaguna-activity-changed",sync)}},[]);
+ useEffect(()=>{const sync=()=>{setProgress(readProgress());setSavedIds(readBookmarks());setActivity(readActivity())};sync();window.addEventListener("storage",sync);window.addEventListener("dravyaguna-bookmarks-changed",sync);window.addEventListener("dravyaguna-activity-changed",sync);return()=>{window.removeEventListener("storage",sync);window.removeEventListener("dravyaguna-bookmarks-changed",sync);window.removeEventListener("dravyaguna-activity-changed",sync)}},[]);
  const saved=useMemo(()=>savedIds.map(id=>plantCatalog.find(p=>p.id===id)).filter(Boolean),[savedIds]);
  const mcq=getModeStats(progress,"mcq"),flash=getModeStats(progress,"flashcard"),viva=getModeStats(progress,"viva");
  const activeSaved=saved.map(plant=>({plant:plant!,stats:getPlantStats(progress,plant!.id)})),untouched=activeSaved.filter(x=>x.stats.attempts===0);
