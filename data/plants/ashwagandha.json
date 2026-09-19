@@ -76,5 +76,17 @@
       "verification": "reviewed"
     }
   ],
-  "images": []
+  "images": [
+    {
+      "id": "img-ashwagandha-fruit-01",
+      "part": "fruit",
+      "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Withania_somnifera_fruit.jpg",
+      "alt": "Withania somnifera fruit",
+      "sourceId": "src-ashwagandha-kew",
+      "license": "CC BY-SA 4.0",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Withania_somnifera_fruit.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "verification": "reviewed"
+    }
+  ]
 }
