@@ -1,5 +1,5 @@
 const CACHE_NAME = "dravyaguna-world-shell-v1";
-const APP_SHELL = ["/","/plants","/learn","/about"];
+const APP_SHELL = ["/","/plants","/learn","/about","/bookmarks","/revision","/notes","/history"];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.addAll(APP_SHELL)));
