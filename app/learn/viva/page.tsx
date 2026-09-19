@@ -8,7 +8,6 @@ import { useSearchParams } from "next/navigation";
 import {
   emptyProgress,
   getModeStats,
-  PROGRESS_STORAGE_KEY,
   readProgress,
   saveProgress,
   recordAttempt,
