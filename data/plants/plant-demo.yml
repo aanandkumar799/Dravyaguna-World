@@ -1,0 +1,19 @@
+id: plant-demo
+slug: demo-plant
+identity:
+  botanicalName: Example plant
+  acceptedNameStatus: unverified
+names:
+  sanskrit: []
+  common: []
+  regional: []
+  synonyms: []
+taxonomy:
+  family: ""
+status: draft
+parts: []
+study:
+  identificationFeatures: []
+  usefulParts: []
+sources: []
+images: []
