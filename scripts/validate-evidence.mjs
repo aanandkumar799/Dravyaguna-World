@@ -18,10 +18,11 @@ for(const file of plantSlugs){
  }
 }
 const registryPath=path.join(evidenceDir,"source-registry.json");
-let registryIds=new Set(); const registryUrls=new Set();
+let registryIds=new Set(); const registryUrls=new Set(); let registrySources=[];
 if(fs.existsSync(registryPath)){
  const value=JSON.parse(fs.readFileSync(registryPath,"utf8"));
  if(!Array.isArray(value)) throw new Error("source-registry.json must contain an array");
+ registrySources=value;
  for(const source of value){
   if(typeof source?.id==="string") registryIds.add(source.id);
   if(typeof source?.url==="string") registryUrls.add(source.url);
@@ -40,9 +41,7 @@ for(const file of files){
   if(item?.target&&!allowedTargets.has(item.target)) errors.push(location+": invalid target");
   if(item?.verification&&!allowedVerification.has(item.verification)) errors.push(location+": invalid verification");
   if(item?.sourceId&&!sourceIds.has(item.sourceId)){
-   const registrySource=value.find?.(()=>false);
-   const registryPathValue=fs.existsSync(registryPath)?JSON.parse(fs.readFileSync(registryPath,"utf8")):[];
-   const registered=registryPathValue.find((source)=>source?.id===item.sourceId);
+   const registered=registrySources.find((source)=>source?.id===item.sourceId);
    if(!registered?.url||!plantSourceUrls.has(registered.url)) errors.push(location+": sourceId is not registered or attached to a plant: "+item.sourceId);
   }
   if(item?.verification==="verified"&&(!item?.claim||!item?.locator)) errors.push(location+": verified evidence requires claim and locator");
