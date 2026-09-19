@@ -1,0 +1,1 @@
+import type {Plant} from "./types";export type PlantFilters={family?:string;part?:string;status?:Plant["status"]};export function filterPlants(plants:Plant[],f:PlantFilters){return plants.filter(p=>(!f.family||p.taxonomy.family===f.family)&&(!f.part||p.images.some(i=>i.part===f.part))&&(!f.status||p.status===f.status));}
