@@ -30,7 +30,7 @@ export default function PlantsPage() {
     <main className="shell">
       <Link href="/">← Home</Link>
       <h1>Plant Catalog</h1>
-      <p>Explore plant records by botanical, Sanskrit, common and taxonomy terms.</p>
+      <p>Explore plant records by botanical, Sanskrit, common and taxonomy terms.</p><div className="actions"><Link className="button secondary" href="/plants/compare">Compare plants →</Link></div>
       <div className="filters" role="search">
         <input aria-label="Search plants" value={q} onChange={(e) => setQ(e.target.value)} placeholder="Search botanical, Sanskrit, common name..." />
         <select aria-label="Filter by family" value={family} onChange={(e) => setFamily(e.target.value)}><option value="">All families</option>{families.map((item) => <option key={item} value={item}>{item}</option>)}</select>
