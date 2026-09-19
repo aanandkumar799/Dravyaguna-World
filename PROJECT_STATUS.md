@@ -16,7 +16,7 @@
 - Academic content-quality rules.
 
 ## In progress
-- Large validated plant knowledge corpus.
+- Large validated plant knowledge corpus (6 review-state seed records currently loaded: Tulasi, Ashwagandha, Guduchi, Amalaki, Haritaki and Nimba).
 - Botanical/taxonomic and classical-source review workflow.
 - Verified image/media corpus.
 - Complete interactive dossier and gallery.
