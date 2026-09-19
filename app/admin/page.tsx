@@ -1,3 +1,32 @@
 import Link from "next/link";
-const checks=[["Data validation","Schema, IDs, slugs, source relationships and publication states."],["Image audit","Identity, plant part, attribution, license and verification."],["Academic review","Classical vs modern evidence, taxonomy and Sanskrit terminology."],["Issue queue","Feedback routing for content, media and interface defects."]];
-export default function Admin(){return <main className="shell page"><Link href="/">← Home</Link><header className="page-heading"><span className="eyebrow">QUALITY CENTER</span><h1>Content Quality Center</h1><p>Internal tooling foundation. Authentication and server-side actions are required before this becomes a production admin console.</p></header><div className="grid">{checks.map(([h,p])=><article key={h}><h2>{h}</h2><p>{p}</p><span className="status review">Foundation</span></article>)}</div></main>}
+import { buildQualityReport } from "../../lib/plant/quality-report";
+
+export default function AdminPage() {
+  const report = buildQualityReport();
+  const clean = report.totals.plantErrors + report.totals.learningErrors === 0;
+  return <main className="shell page">
+    <div className="page-heading">
+      <span className="eyebrow">QUALITY CONTROL</span>
+      <h1>Data quality dashboard</h1>
+      <p>Internal review view for identifying incomplete or structurally invalid plant and learning records. It does not promote content to verified status.</p>
+    </div>
+    <section className="stats">
+      <div><strong>{report.plants.length}</strong><span>plant records</span></div>
+      <div><strong>{report.totals.plantErrors}</strong><span>plant errors</span></div>
+      <div><strong>{report.totals.plantWarnings}</strong><span>plant warnings</span></div>
+      <div><strong>{report.totals.learningErrors}</strong><span>learning errors</span></div>
+      <div><strong>{report.totals.learningWarnings}</strong><span>learning warnings</span></div>
+    </section>
+    <div className={clean ? "success" : "notice"}><strong>{clean ? "No structural errors detected." : "Review required."}</strong><p>Warnings can still indicate missing academic or provenance detail.</p></div>
+    <section className="search-results">
+      {report.plants.map(({plant,errors,warnings})=><article className="search-result" key={plant.id}>
+        <h2>{plant.names.sanskrit?.[0] ?? plant.slug}</h2>
+        <p>{plant.identity.botanicalName} · {plant.status}</p>
+        {errors.length ? <div><strong>Errors</strong><ul>{errors.map((x,i)=><li key={i}>{x}</li>)}</ul></div> : null}
+        {warnings.length ? <div><strong>Warnings</strong><ul>{warnings.map((x,i)=><li key={i}>{x}</li>)}</ul></div> : null}
+        {!errors.length && !warnings.length ? <p className="muted">No quality issues reported by the current automated audit.</p> : null}
+        <Link href={"/plants/"+plant.slug} className="button secondary">Open dossier →</Link>
+      </article>)}
+    </section>
+  </main>;
+}
