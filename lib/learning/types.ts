@@ -1,0 +1,1 @@
+export type LearningQuestion={id:string;plantId:string;question:string;options:string[];answerIndex:number;explanation:string;sourceIds:string[];status:"draft"|"review"|"verified"};export type Flashcard={id:string;plantId:string;front:string;back:string;sourceIds:string[];status:"draft"|"review"|"verified"};
