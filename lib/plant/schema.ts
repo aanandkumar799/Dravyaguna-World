@@ -60,7 +60,10 @@ export const plantSchema = z.object({
     virya: z.string().optional(),
     vipaka: z.string().optional(),
     karma: z.array(z.string()).optional(),
-    dosha: z.array(z.string()).optional()
+    dosha: z.array(z.string()).optional(),
+    therapeuticUses: z.array(z.string()).optional(),
+    formulations: z.array(z.string()).optional(),
+    contraindications: z.array(z.string()).optional()
   }).strict().optional(),
   sources: z.array(plantSourceSchema).default([]),
   images: z.array(plantImageSchema).default([])
