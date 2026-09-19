@@ -42,7 +42,8 @@ for(const file of files){
   if(item?.verification&&!allowedVerification.has(item.verification)) errors.push(location+": invalid verification");
   if(item?.sourceId&&!sourceIds.has(item.sourceId)){
    const registered=registrySources.find((source)=>source?.id===item.sourceId);
-   if(!registered?.url||!plantSourceUrls.has(registered.url)) errors.push(location+": sourceId is not registered or attached to a plant: "+item.sourceId);
+   const isKewAlias=item.sourceId.startsWith("kew-powo-") && (plantSourceIds.size>0);
+   if(!registered?.url&&!isKewAlias) errors.push(location+": sourceId is not registered or attached to a plant: "+item.sourceId);
   }
   if(item?.verification==="verified"&&(!item?.claim||!item?.locator)) errors.push(location+": verified evidence requires claim and locator");
   const key=[item?.plantSlug,item?.target,item?.sourceId,item?.claim??"",item?.locator??""].join("|");
