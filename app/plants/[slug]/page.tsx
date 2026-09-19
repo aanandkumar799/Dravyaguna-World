@@ -4,6 +4,7 @@ import { getPlantBySlug, plantCatalog } from "../../../lib/plant/catalog";
 import { plantPartLabel } from "../../../lib/plant/parts";
 import PlantGallery from "./PlantGallery";
 import PlantStudyProgress from "./PlantStudyProgress";
+import BookmarkButton from "../BookmarkButton";
 
 export default async function PlantPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
@@ -30,6 +31,7 @@ export default async function PlantPage({ params }: { params: Promise<{ slug: st
         <div className="actions">
           <Link className="button secondary" href={"/plants/compare?plants=" + plant.slug}>Compare plant</Link>
           <Link className="button secondary" href="/learn">Study this plant</Link>
+          <BookmarkButton plantId={plant.id} />
         </div>
       </header>
 
