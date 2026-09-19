@@ -1,0 +1,101 @@
+{
+  "id": "plant-nimba",
+  "slug": "nimba",
+  "identity": {
+    "botanicalName": "Azadirachta indica A. Juss.",
+    "acceptedNameStatus": "review"
+  },
+  "names": {
+    "sanskrit": [
+      "Nimba",
+      "Arishta",
+      "Pichumarda"
+    ],
+    "common": [
+      "Neem",
+      "Margosa"
+    ],
+    "regional": [],
+    "synonyms": []
+  },
+  "taxonomy": {
+    "family": "Meliaceae",
+    "genus": "Azadirachta",
+    "species": "Azadirachta indica"
+  },
+  "status": "review",
+  "parts": [
+    "leaf",
+    "bark",
+    "seed",
+    "flower",
+    "fruit"
+  ],
+  "study": {
+    "habit": "Evergreen tree, commonly up to medium-large size.",
+    "morphology": "Rounded spreading crown; pinnate leaves with serrated leaflets; white flowers in axillary panicles; yellow ellipsoid drupes.",
+    "habitat": "Dry and seasonally dry tropical regions; commonly planted.",
+    "distribution": "Native to India and Myanmar and widely planted across tropical and subtropical regions.",
+    "identificationFeatures": [
+      "Pinnate leaves with serrated leaflets",
+      "White flowers",
+      "Yellow ellipsoid drupes"
+    ],
+    "usefulParts": [
+      "Leaf",
+      "Bark",
+      "Seed",
+      "Flower",
+      "Fruit"
+    ],
+    "rasa": [
+      "Tikta",
+      "Kashaya"
+    ],
+    "guna": [
+      "Laghu"
+    ],
+    "virya": "Sheeta",
+    "vipaka": "Katu",
+    "karma": [
+      "Kandughna",
+      "Krimighna",
+      "Kushtaghna"
+    ],
+    "therapeuticUses": [
+      "Traditional external use in skin disorders",
+      "Traditional use in fever and inflammatory conditions",
+      "Traditional use as a bitter drug"
+    ],
+    "formulations": [
+      "Nimbadi Taila",
+      "Panchatikta Ghrita"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src-nimba-kew",
+      "title": "Azadirachta indica — Plants of the World Online",
+      "type": "taxonomic",
+      "year": 2026,
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A1213180-2",
+      "verification": "reviewed"
+    },
+    {
+      "id": "src-nimba-carak",
+      "title": "Nimba — Charak Samhita herb database",
+      "type": "classical",
+      "year": 2026,
+      "url": "https://carakasamhitaonline.com/index.php?title=Nimba",
+      "verification": "reviewed"
+    },
+    {
+      "id": "src-nimba-review",
+      "title": "Nimb (Azadirachta Indica): Validation of Classical Pharmacological Properties Through Reverse Pharmacology",
+      "type": "modern",
+      "url": "https://ijapr.in/index.php/ijapr/article/view/2485",
+      "verification": "reviewed"
+    }
+  ],
+  "images": []
+}
