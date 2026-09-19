@@ -1,0 +1,5 @@
+[
+  {"plantSlug":"tulasi","target":"taxonomy","sourceId":"kew-powo-ocimum-tenuiflorum","verification":"reviewed","locator":"POWO taxon record","notes":"Accepted species; Lamiaceae."},
+  {"plantSlug":"ashwagandha","target":"taxonomy","sourceId":"kew-powo-withania-somnifera","verification":"reviewed","locator":"POWO taxon record","notes":"Accepted species; Solanaceae."},
+  {"plantSlug":"guduchi","target":"taxonomy","sourceId":"kew-powo-tinospora-cordifolia","verification":"reviewed","locator":"POWO taxon record","notes":"Accepted species; Menispermaceae."}
+]
