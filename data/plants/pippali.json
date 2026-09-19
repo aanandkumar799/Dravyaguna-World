@@ -1,0 +1,90 @@
+{
+  "id": "plant-pippali",
+  "slug": "pippali",
+  "identity": {
+    "botanicalName": "Piper longum L.",
+    "acceptedNameStatus": "review"
+  },
+  "names": {
+    "sanskrit": [
+      "Pippali",
+      "Shaundi"
+    ],
+    "common": [
+      "Long pepper"
+    ],
+    "regional": [],
+    "synonyms": []
+  },
+  "taxonomy": {
+    "family": "Piperaceae",
+    "genus": "Piper",
+    "species": "Piper longum"
+  },
+  "status": "review",
+  "parts": [
+    "root",
+    "stem",
+    "leaf",
+    "fruit",
+    "seed"
+  ],
+  "study": {
+    "habit": "Climbing perennial or subshrub.",
+    "morphology": "Slender jointed stems; cordate leaves; distinctive elongated spikes bearing small fruits.",
+    "habitat": "Warm humid tropical forests and cultivated areas.",
+    "distribution": "Native from the eastern Himalaya through Indo-China; cultivated elsewhere including India.",
+    "identificationFeatures": [
+      "Jointed climbing stem",
+      "Cordate leaves",
+      "Elongated fruit spikes"
+    ],
+    "usefulParts": [
+      "Fruit",
+      "Root"
+    ],
+    "rasa": [
+      "Katu"
+    ],
+    "guna": [
+      "Laghu",
+      "Snigdha",
+      "Tikshna"
+    ],
+    "virya": "Ushna",
+    "vipaka": "Madhura",
+    "karma": [
+      "Deepana",
+      "Pachana",
+      "Rasayana"
+    ],
+    "therapeuticUses": [
+      "Traditional digestive and appetite use",
+      "Traditional respiratory use",
+      "Traditional role in compound formulations"
+    ],
+    "formulations": [
+      "Trikatu",
+      "Pippalyasava"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src-pippali-kew",
+      "title": "Piper longum — Plants of the World Online",
+      "type": "taxonomic",
+      "year": 2026,
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A682031-1",
+      "verification": "reviewed"
+    },
+    {
+      "id": "src-pippali-carak",
+      "title": "Pippali — Charak Samhita herb database",
+      "type": "classical",
+      "year": 2026,
+      "url": "https://carakasamhitaonline.com/index.php?title=Pippali",
+      "verification": "reviewed"
+    }
+  ],
+  "images": []
+}
