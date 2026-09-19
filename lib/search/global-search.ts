@@ -22,7 +22,7 @@ function scoreText(text: string, query: string) {
   return q.split(" ").every((token) => value.includes(token)) ? 45 : 0;
 }
 
-function plantLearningHref(kind: "mcq" | "flashcard" | "viva", plantId: string) {
+function plantLearningHref(kind: "mcq" | "flashcards" | "viva", plantId: string) {
   const plant = plantCatalog.find((item) => item.id === plantId);
   return plant ? `/learn/${kind}?plant=${encodeURIComponent(plant.slug)}` : `/learn/${kind}`;
 }
