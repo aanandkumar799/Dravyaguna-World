@@ -1,1 +1,5 @@
-import Link from "next/link";export default function Flashcards(){return <main className="shell"><Link href="/learn">← Learn</Link><h1>Flashcards</h1><p>Flashcards will cover reviewed plant identity, parts, properties, uses and distinguishing features.</p></main>}
+"use client";
+import { useState } from "react";
+import Link from "next/link";
+import { plantCatalog } from "../../../lib/plant/catalog";
+export default function Flashcards(){const [i,setI]=useState(0);const [flip,setFlip]=useState(false);const p=plantCatalog[i%plantCatalog.length];return <main className="shell page"><Link href="/learn">← Learn</Link><header className="page-heading"><span className="eyebrow">RAPID REVISION</span><h1>Flashcards</h1><p>Use the card to revise one plant at a time.</p></header><button className="flashcard" onClick={()=>setFlip(!flip)} aria-label="Flip flashcard">{!flip?<><span className="muted">PLANT</span><strong>{p.names.sanskrit?.[0] ?? p.slug}</strong><small>Tap to reveal</small></>:<><span className="muted">BOTANICAL NAME</span><strong>{p.identity.botanicalName}</strong><small>Family: {p.taxonomy.family ?? "pending"}</small><small>Useful parts: {p.study?.usefulParts?.join(", ") ?? "pending"}</small></>}</button><button onClick={()=>{setI(i+1);setFlip(false)}}>Next card →</button></main>}
