@@ -10,10 +10,11 @@ const allowedVerification=new Set(["unverified","reviewed","verified"]);
 const plantSlugs=new Set((fs.existsSync(plantsDir)?fs.readdirSync(plantsDir):[]).filter((file)=>file.endsWith(".json")&&file!=="plant-demo.json").map((file)=>file.replace(/\.json$/,"")));
 const plantSourceIds=new Set();
 const plantSourceUrls=new Set();
+const plantKewSourceIds=new Set();
 for(const file of plantSlugs){
  const value=JSON.parse(fs.readFileSync(path.join(plantsDir,file+".json"),"utf8"));
  for(const source of value.sources??[]){
-  if(typeof source?.id==="string") plantSourceIds.add(source.id);
+  if(typeof source?.id==="string") { plantSourceIds.add(source.id); if(source.type==="taxonomic" && source.url?.includes("powo.science.kew.org")) plantKewSourceIds.add("kew-powo-"+file); }
   if(typeof source?.url==="string") plantSourceUrls.add(source.url);
  }
 }
@@ -42,7 +43,7 @@ for(const file of files){
   if(item?.verification&&!allowedVerification.has(item.verification)) errors.push(location+": invalid verification");
   if(item?.sourceId&&!sourceIds.has(item.sourceId)){
    const registered=registrySources.find((source)=>source?.id===item.sourceId);
-   const isKewAlias=item.sourceId.startsWith("kew-powo-") && (plantSourceIds.size>0);
+   const isKewAlias=plantKewSourceIds.has(item.sourceId);
    if(!registered?.url&&!isKewAlias) errors.push(location+": sourceId is not registered or attached to a plant: "+item.sourceId);
   }
   if(item?.verification==="verified"&&(!item?.claim||!item?.locator)) errors.push(location+": verified evidence requires claim and locator");
