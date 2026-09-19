@@ -2,6 +2,169 @@ import type { Plant } from "./types";
 
 export const plantCatalog: Plant[] = [
   {
+    id: "plant-shatavari",
+    slug: "shatavari",
+    identity: { botanicalName: "Asparagus racemosus Willd.", acceptedNameStatus: "review" },
+    names: { sanskrit: ["Shatavari", "Atirasa", "Shatavirya"], common: ["Wild asparagus"], regional: [], synonyms: ["Protasparagus racemosus (Willd.) Oberm."] },
+    taxonomy: { family: "Asparagaceae", genus: "Asparagus", species: "Asparagus racemosus" },
+    status: "review",
+    parts: ["root", "stem", "leaf", "flower", "fruit", "seed"],
+    study: {
+      usefulParts: ["Root"],
+      rasa: ["Madhura", "Tikta"],
+      guna: ["Guru", "Snigdha"],
+      virya: "Sheeta",
+      vipaka: "Madhura"
+    },
+    sources: [
+      { id: "src-shatavari-carak", title: "Shatavari — Charak Samhita herb database", type: "classical", year: 2026, url: "https://www.carakasamhitaonline.com/index.php?title=Talk%3AShatavari", verification: "reviewed" }
+    ],
+    images: []
+  },
+  {
+    id: "plant-brahmi",
+    slug: "brahmi",
+    identity: { botanicalName: "Bacopa monnieri (L.) Wettst.", acceptedNameStatus: "review" },
+    names: { sanskrit: ["Brahmi", "Saraswati", "Medhya"], common: ["Brahmi", "Water hyssop"], regional: [], synonyms: ["Bacopa monniera", "Herpestis monnieria"] },
+    taxonomy: { family: "Scrophulariaceae", genus: "Bacopa", species: "Bacopa monnieri" },
+    status: "review",
+    parts: ["whole-plant", "root", "stem", "leaf", "flower", "seed"],
+    study: {
+      habit: "Perennial creeping succulent herb.",
+      morphology: "Small oblong sessile leaves and white-to-pale-blue flowers with five petals.",
+      habitat: "Wetlands, marshes and warm damp regions.",
+      usefulParts: ["Whole plant"],
+      identificationFeatures: ["Creeping succulent habit", "Small oblong leaves", "Five-petalled pale flowers"]
+    },
+    sources: [
+      { id: "src-brahmi-carak", title: "Brahmi — Charak Samhita herb database", type: "classical", year: 2026, url: "https://carakasamhitaonline.com/index.php?title=Brahmi", verification: "reviewed" }
+    ],
+    images: []
+  },
+  {
+    id: "plant-arjuna",
+    slug: "arjuna",
+    identity: { botanicalName: "Terminalia arjuna", acceptedNameStatus: "review" },
+    names: { sanskrit: ["Arjuna", "Dhava", "Kakubha", "Nadisarja"], common: ["Arjuna"], regional: [], synonyms: [] },
+    taxonomy: { family: "Combretaceae", genus: "Terminalia", species: "Terminalia arjuna" },
+    status: "review",
+    parts: ["bark", "leaf", "flower", "fruit", "seed"],
+    study: {
+      morphology: "Large tree characterized classically by pale/white bark and broad spreading growth.",
+      habitat: "Commonly associated with river banks.",
+      usefulParts: ["Bark"],
+      identificationFeatures: ["Whitish bark", "Large spreading tree", "River-bank association"]
+    },
+    sources: [
+      { id: "src-arjuna-carak", title: "Arjuna — Charak Samhita herb database", type: "classical", year: 2026, url: "https://carakasamhitaonline.com/index.php?title=Arjuna", verification: "reviewed" }
+    ],
+    images: []
+  },
+  {
+    id: "plant-ashoka",
+    slug: "ashoka",
+    identity: { botanicalName: "Saraca indica Linn.", acceptedNameStatus: "review" },
+    names: { sanskrit: ["Ashoka", "Madhupushpa", "Raktapallavaka", "Hemapushpa"], common: ["Ashoka", "Asok tree"], regional: [], synonyms: ["Jonesia asoca Roxb.", "Jonesia confusa Hassk."] },
+    taxonomy: { family: "Fabaceae", genus: "Saraca", species: "Saraca indica" },
+    status: "review",
+    parts: ["bark", "leaf", "flower", "seed"],
+    study: {
+      usefulParts: ["Bark", "Flower"],
+      rasa: ["Tikta", "Kashaya"],
+      guna: ["Laghu", "Ruksha"],
+      virya: "Sheeta",
+      vipaka: "Katu"
+    },
+    sources: [
+      { id: "src-ashoka-carak", title: "Ashoka — Charak Samhita herb database", type: "classical", year: 2026, url: "https://www.carakasamhitaonline.com/index.php?title=Ashoka", verification: "reviewed" }
+    ],
+    images: []
+  },
+  {
+    id: "plant-yashtimadhu",
+    slug: "yashtimadhu",
+    identity: { botanicalName: "Glycyrrhiza glabra L.", acceptedNameStatus: "review" },
+    names: { sanskrit: ["Yashtimadhu", "Madhuka", "Klitaka"], common: ["Licorice", "Liquorice"], regional: [], synonyms: [] },
+    taxonomy: { family: "Fabaceae", genus: "Glycyrrhiza", species: "Glycyrrhiza glabra" },
+    status: "review",
+    parts: ["root", "stem", "leaf", "flower", "seed"],
+    study: {
+      usefulParts: ["Root"],
+      rasa: ["Madhura"],
+      guna: ["Guru", "Snigdha"],
+      virya: "Sheeta",
+      vipaka: "Madhura"
+    },
+    sources: [
+      { id: "src-yashtimadhu-carak", title: "Yashtimadhu — Charak Samhita herb database", type: "classical", year: 2026, url: "https://www.carakasamhitaonline.com/index.php?title=Yashtimadhu", verification: "reviewed" }
+    ],
+    images: []
+  },
+  {
+    id: "plant-pippali",
+    slug: "pippali",
+    identity: { botanicalName: "Piper longum L.", acceptedNameStatus: "review" },
+    names: { sanskrit: ["Pippali", "Shaundi"], common: ["Long pepper"], regional: [], synonyms: [] },
+    taxonomy: { family: "Piperaceae", genus: "Piper", species: "Piper longum" },
+    status: "review",
+    parts: ["root", "stem", "leaf", "fruit", "seed"],
+    study: {
+      habit: "Slender aromatic perennial climber.",
+      morphology: "Creeping jointed stems that can root at nodes, with woody roots and characteristic fruit spikes.",
+      usefulParts: ["Fruit", "Root"],
+      identificationFeatures: ["Perennial climber", "Jointed creeping stems", "Characteristic fruit spikes"],
+      rasa: ["Katu"],
+      guna: ["Laghu", "Snigdha", "Tikshna"],
+      virya: "Ushna",
+      vipaka: "Madhura"
+    },
+    sources: [
+      { id: "src-pippali-carak", title: "Pippali — Charak Samhita herb database", type: "classical", year: 2026, url: "https://carakasamhitaonline.com/index.php?title=Pippali", verification: "reviewed" }
+    ],
+    images: []
+  },
+  {
+    id: "plant-shunthi",
+    slug: "shunthi",
+    identity: { botanicalName: "Zingiber officinale Roscoe", acceptedNameStatus: "review" },
+    names: { sanskrit: ["Shunthi", "Nagara", "Vishwa", "Shrungavera"], common: ["Dry ginger"], regional: [], synonyms: [] },
+    taxonomy: { family: "Zingiberaceae", genus: "Zingiber", species: "Zingiber officinale" },
+    status: "review",
+    parts: ["rhizome", "leaf", "flower", "seed"],
+    study: {
+      usefulParts: ["Dried rhizome"],
+      rasa: ["Katu"],
+      guna: ["Laghu", "Snigdha"],
+      virya: "Ushna",
+      vipaka: "Madhura"
+    },
+    sources: [
+      { id: "src-shunthi-carak", title: "Shunthi — Charak Samhita herb database", type: "classical", year: 2026, url: "https://www.carakasamhitaonline.com/index.php?title=Shunthi", verification: "reviewed" }
+    ],
+    images: []
+  },
+  {
+    id: "plant-maricha",
+    slug: "maricha",
+    identity: { botanicalName: "Piper nigrum L.", acceptedNameStatus: "review" },
+    names: { sanskrit: ["Maricha"], common: ["Black pepper"], regional: [], synonyms: [] },
+    taxonomy: { family: "Piperaceae", genus: "Piper", species: "Piper nigrum" },
+    status: "review",
+    parts: ["root", "stem", "leaf", "flower", "fruit", "seed"],
+    study: {
+      usefulParts: ["Fruit"],
+      rasa: ["Katu"],
+      guna: ["Laghu", "Tikshna", "Ruksha"],
+      virya: "Ushna",
+      vipaka: "Katu"
+    },
+    sources: [
+      { id: "src-maricha-carak", title: "Maricha — Charak Samhita herb database", type: "classical", year: 2026, url: "https://www.carakasamhitaonline.com/index.php?title=Maricha", verification: "reviewed" }
+    ],
+    images: []
+  },
+
+  {
     id: "plant-tulasi",
     slug: "tulasi",
     identity: { botanicalName: "Ocimum tenuiflorum L.", acceptedNameStatus: "review" },
