@@ -1,0 +1,322 @@
+[
+  {
+    "plantSlug": "tulasi",
+    "target": "taxonomy",
+    "sourceId": "kew-powo-ocimum-tenuiflorum",
+    "verification": "reviewed",
+    "locator": "POWO taxon record",
+    "notes": "Accepted species; Lamiaceae."
+  },
+  {
+    "plantSlug": "ashwagandha",
+    "target": "taxonomy",
+    "sourceId": "kew-powo-withania-somnifera",
+    "verification": "reviewed",
+    "locator": "POWO taxon record",
+    "notes": "Accepted species; Solanaceae."
+  },
+  {
+    "plantSlug": "guduchi",
+    "target": "taxonomy",
+    "sourceId": "kew-powo-tinospora-cordifolia",
+    "verification": "reviewed",
+    "locator": "POWO taxon record",
+    "notes": "Accepted species; Menispermaceae."
+  },
+  {
+    "plantSlug": "amalaki",
+    "target": "taxonomy",
+    "sourceId": "kew-powo-phyllanthus-emblica",
+    "verification": "reviewed",
+    "locator": "POWO taxon record",
+    "notes": "Accepted species; Phyllanthaceae."
+  },
+  {
+    "plantSlug": "haritaki",
+    "target": "taxonomy",
+    "sourceId": "kew-powo-terminalia-chebula",
+    "verification": "reviewed",
+    "locator": "POWO taxon record",
+    "notes": "Accepted species; Combretaceae."
+  },
+  {
+    "plantSlug": "nimba",
+    "target": "taxonomy",
+    "sourceId": "kew-powo-azadirachta-indica",
+    "verification": "reviewed",
+    "locator": "POWO taxon record",
+    "notes": "Accepted species; Meliaceae."
+  },
+  {
+    "plantSlug": "shatavari",
+    "target": "taxonomy",
+    "sourceId": "kew-powo-asparagus-racemosus",
+    "verification": "reviewed",
+    "locator": "POWO taxon record",
+    "notes": "Accepted species; Asparagaceae."
+  },
+  {
+    "plantSlug": "arjuna",
+    "target": "taxonomy",
+    "sourceId": "kew-powo-terminalia-arjuna",
+    "verification": "reviewed",
+    "locator": "POWO taxon record",
+    "notes": "Accepted species; Combretaceae."
+  },
+  {
+    "plantSlug": "brahmi",
+    "target": "taxonomy",
+    "sourceId": "kew-powo-bacopa-monnieri",
+    "verification": "reviewed",
+    "locator": "POWO taxon record",
+    "notes": "Accepted species; Plantaginaceae."
+  },
+  {
+    "plantSlug": "ashoka",
+    "target": "taxonomy",
+    "sourceId": "kew-powo-saraca-asoca",
+    "verification": "reviewed",
+    "locator": "POWO taxon record",
+    "notes": "Accepted species; Fabaceae."
+  },
+  {
+    "plantSlug": "yashtimadhu",
+    "target": "taxonomy",
+    "sourceId": "kew-powo-glycyrrhiza-glabra",
+    "verification": "reviewed",
+    "locator": "POWO taxon record",
+    "notes": "Accepted species; Fabaceae."
+  },
+  {
+    "plantSlug": "pippali",
+    "target": "taxonomy",
+    "sourceId": "kew-powo-piper-longum",
+    "verification": "reviewed",
+    "locator": "POWO taxon record",
+    "notes": "Accepted species; Piperaceae."
+  },
+  {
+    "plantSlug": "shunthi",
+    "target": "taxonomy",
+    "sourceId": "kew-powo-zingiber-officinale",
+    "verification": "reviewed",
+    "locator": "POWO taxon record",
+    "notes": "Accepted species; Zingiberaceae."
+  },
+  {
+    "plantSlug": "maricha",
+    "target": "taxonomy",
+    "sourceId": "kew-powo-piper-nigrum",
+    "verification": "reviewed",
+    "locator": "POWO taxon record",
+    "notes": "Accepted species; Piperaceae."
+  },
+  {
+    "plantSlug": "tulasi",
+    "target": "usefulParts",
+    "sourceId": "echarak-medicinal-plants-list",
+    "verification": "reviewed",
+    "locator": "List of Medicinal Plants: Ocimum sanctum — Leaf; Tulsi Panchang — Whole Plant",
+    "notes": "Current e-Charak medicinal-plant listing uses Ocimum sanctum for Tulsi and separately lists Tulsi Panchang as whole plant. Do not silently equate this with the current accepted botanical name without identity review."
+  },
+  {
+    "plantSlug": "ashwagandha",
+    "target": "usefulParts",
+    "sourceId": "echarak-medicinal-plants-list",
+    "verification": "reviewed",
+    "locator": "List of Medicinal Plants: Withania somnifera — Root",
+    "notes": "Official Ministry of Ayush e-Charak listing identifies root as the listed part."
+  },
+  {
+    "plantSlug": "guduchi",
+    "target": "usefulParts",
+    "sourceId": "echarak-medicinal-plants-list",
+    "verification": "reviewed",
+    "locator": "List of Medicinal Plants: Tinospora cordifolia — Stem",
+    "notes": "Official Ministry of Ayush e-Charak listing identifies stem as the listed part."
+  },
+  {
+    "plantSlug": "amalaki",
+    "target": "usefulParts",
+    "sourceId": "echarak-medicinal-plants-list",
+    "verification": "reviewed",
+    "locator": "List of Medicinal Plants: Emblica officinalis — Fruit",
+    "notes": "Official listing uses Emblica officinalis and identifies fruit; botanical-name normalization should remain separately documented."
+  },
+  {
+    "plantSlug": "haritaki",
+    "target": "usefulParts",
+    "sourceId": "echarak-medicinal-plants-list",
+    "verification": "reviewed",
+    "locator": "List of Medicinal Plants: Terminalia chebula — Fruit",
+    "notes": "Official Ministry of Ayush e-Charak listing identifies fruit."
+  },
+  {
+    "plantSlug": "nimba",
+    "target": "usefulParts",
+    "sourceId": "echarak-medicinal-plants-list",
+    "verification": "reviewed",
+    "locator": "List of Medicinal Plants: Azadirachta indica — Seed and Leaf",
+    "notes": "Official listing contains both seed (Nimboli) and leaf (Neem); preserve part-specific records."
+  },
+  {
+    "plantSlug": "shatavari",
+    "target": "usefulParts",
+    "sourceId": "echarak-medicinal-plants-list",
+    "verification": "reviewed",
+    "locator": "List of Medicinal Plants: Asparagus racemosus — Root",
+    "notes": "Official listing identifies root for listed regional entries."
+  },
+  {
+    "plantSlug": "brahmi",
+    "target": "usefulParts",
+    "sourceId": "echarak-medicinal-plants-list",
+    "verification": "reviewed",
+    "locator": "List of Medicinal Plants: Bacopa monnieri — Whole Plant",
+    "notes": "Official Ministry of Ayush e-Charak listing identifies whole plant."
+  },
+  {
+    "plantSlug": "arjuna",
+    "target": "usefulParts",
+    "sourceId": "echarak-medicinal-plants-list",
+    "verification": "reviewed",
+    "locator": "List of Medicinal Plants: Terminalia arjuna — Bark",
+    "notes": "Official Ministry of Ayush e-Charak listing identifies bark."
+  },
+  {
+    "plantSlug": "ashoka",
+    "target": "usefulParts",
+    "sourceId": "echarak-medicinal-plants-list",
+    "verification": "reviewed",
+    "locator": "List of Medicinal Plants: Saraca asoca — Bark",
+    "notes": "Official Ministry of Ayush e-Charak listing identifies bark."
+  },
+  {
+    "plantSlug": "yashtimadhu",
+    "target": "usefulParts",
+    "sourceId": "echarak-medicinal-plants-list",
+    "verification": "reviewed",
+    "locator": "List of Medicinal Plants: Glycyrrhiza glabra — Root",
+    "notes": "Official Ministry of Ayush e-Charak listing identifies root."
+  },
+  {
+    "plantSlug": "pippali",
+    "target": "usefulParts",
+    "sourceId": "echarak-medicinal-plants-list",
+    "verification": "reviewed",
+    "locator": "List of Medicinal Plants: Piper longum — Fruit",
+    "notes": "Official listing identifies fruit, including regional/imported entries."
+  },
+  {
+    "plantSlug": "shunthi",
+    "target": "usefulParts",
+    "sourceId": "ayurvedic-pharmacopoeia-source-framework",
+    "verification": "reviewed",
+    "locator": "Evidence target requires API/official monograph lookup before verification",
+    "notes": "No useful-part claim promoted from a secondary source in this pass."
+  },
+  {
+    "plantSlug": "maricha",
+    "target": "usefulParts",
+    "sourceId": "ayurvedic-pharmacopoeia-source-framework",
+    "verification": "reviewed",
+    "locator": "Evidence target requires API/official monograph lookup before verification",
+    "notes": "No useful-part claim promoted from a secondary source in this pass."
+  },
+  {
+    "plantSlug": "ashwagandha",
+    "target": "usefulParts",
+    "sourceId": "api-2026-part1-vol11",
+    "claim": "Aśvagandhā Mūla is an official API monograph drug substance",
+    "kind": "pharmacopoeial",
+    "locator": "API Part-I Vol.-XI (2026), monograph list",
+    "verification": "reviewed"
+  },
+  {
+    "plantSlug": "amalaki",
+    "target": "usefulParts",
+    "sourceId": "api-2026-part1-vol11",
+    "claim": "Āmalakī Ārdra Phala is an official API monograph drug substance",
+    "kind": "pharmacopoeial",
+    "locator": "API Part-I Vol.-XI (2026), monograph list",
+    "verification": "reviewed"
+  },
+  {
+    "plantSlug": "shunthi",
+    "target": "usefulParts",
+    "sourceId": "api-2026-part1-vol11",
+    "claim": "Ārdraka Prakanda is an official API monograph drug substance",
+    "kind": "pharmacopoeial",
+    "locator": "API Part-I Vol.-XI (2026), monograph list",
+    "verification": "reviewed"
+  },
+  {
+    "plantSlug": "brahmi",
+    "target": "usefulParts",
+    "sourceId": "api-2026-part1-vol11",
+    "claim": "Brāhmī Pañcāṅga is an official API monograph drug substance",
+    "kind": "pharmacopoeial",
+    "locator": "API Part-I Vol.-XI (2026), monograph list",
+    "verification": "reviewed"
+  },
+  {
+    "plantSlug": "tulasi",
+    "target": "dravyaguna",
+    "sourceId": "src-tulasi-carak",
+    "claim": "Rasa: katu, tikta",
+    "kind": "classical",
+    "locator": "Surasa herb database — Ayurvedic pharmacological properties",
+    "verification": "reviewed",
+    "notes": "Secondary digital herb database reports these properties; exact primary-text verse/edition locator still required before verification."
+  },
+  {
+    "plantSlug": "tulasi",
+    "target": "dravyaguna",
+    "sourceId": "src-tulasi-carak",
+    "claim": "Guna: laghu, ruksha",
+    "kind": "classical",
+    "locator": "Surasa herb database — Ayurvedic pharmacological properties",
+    "verification": "reviewed",
+    "notes": "Exact primary-text verse/edition locator still required before verification."
+  },
+  {
+    "plantSlug": "tulasi",
+    "target": "dravyaguna",
+    "sourceId": "src-tulasi-carak",
+    "claim": "Virya: ushna",
+    "kind": "classical",
+    "locator": "Surasa herb database — Ayurvedic pharmacological properties",
+    "verification": "reviewed",
+    "notes": "Exact primary-text verse/edition locator still required before verification."
+  },
+  {
+    "plantSlug": "tulasi",
+    "target": "dravyaguna",
+    "sourceId": "src-tulasi-carak",
+    "claim": "Vipaka: katu",
+    "kind": "classical",
+    "locator": "Surasa herb database — Ayurvedic pharmacological properties",
+    "verification": "reviewed",
+    "notes": "Exact primary-text verse/edition locator still required before verification."
+  },
+  {
+    "plantSlug": "tulasi",
+    "target": "dravyaguna",
+    "sourceId": "src-tulasi-carak",
+    "claim": "Karma: kapha-vata pacifying; krimighna is reported as prabhava",
+    "kind": "classical",
+    "locator": "Surasa herb database — Ayurvedic pharmacological properties",
+    "verification": "reviewed",
+    "notes": "Preserved as a reported secondary-source claim; not promoted to verified."
+  },
+  {
+    "plantSlug": "tulasi",
+    "target": "therapeuticUses",
+    "sourceId": "src-tulasi-carak",
+    "claim": "Traditional indications reported include aruchi, shwasa, kasa, krumiroga, kushtha, pratishyaya and parshwashoola",
+    "kind": "classical",
+    "locator": "Surasa herb database — Therapeutic uses",
+    "verification": "reviewed",
+    "notes": "Exact primary-text citations should be added before verification."
+  }
+]
