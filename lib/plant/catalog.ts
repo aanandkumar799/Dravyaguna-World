@@ -23,7 +23,6 @@ export const plantCatalog: Plant[] = [
       karma: ["Balya","Brimhana","Stanyajanana","Rasayana"],
       therapeuticUses: ["Traditional female reproductive health use","Traditional galactagogue use","Traditional nourishing use"],
       formulations: ["Shatavari Kalpa","Shatavari Ghrita"]
-    }
     },
     sources: [
       { id: "src-shatavari-carak", title: "Shatavari — Charak Samhita herb database", type: "classical", year: 2026, url: "https://www.carakasamhitaonline.com/index.php?title=Talk%3AShatavari", verification: "reviewed" }
@@ -48,7 +47,6 @@ export const plantCatalog: Plant[] = [
       karma: ["Medhya","Rasayana"],
       therapeuticUses: ["Traditional medhya use","Traditional memory and cognitive support use"],
       formulations: ["Brahmi Ghrita","Brahmi Rasayana"]
-    }
     },
     sources: [
       { id: "src-brahmi-carak", title: "Brahmi — Charak Samhita herb database", type: "classical", year: 2026, url: "https://carakasamhitaonline.com/index.php?title=Brahmi", verification: "reviewed" },
@@ -74,7 +72,6 @@ export const plantCatalog: Plant[] = [
       karma: ["Hridya","Balya","Kashaya"],
       therapeuticUses: ["Traditional cardiac-support use","Traditional use in bleeding disorders","Traditional tissue-support use"],
       formulations: ["Arjunarishta","Arjuna Ksheerapaka"]
-    }
     },
     sources: [
       { id: "src-arjuna-carak", title: "Arjuna — Charak Samhita herb database", type: "classical", year: 2026, url: "https://carakasamhitaonline.com/index.php?title=Arjuna", verification: "reviewed" },
@@ -87,7 +84,7 @@ export const plantCatalog: Plant[] = [
     slug: "ashoka",
     identity: { botanicalName: "Saraca asoca (Roxb.) W.J.de Wilde", acceptedNameStatus: "review" },
     names: { sanskrit: ["Ashoka", "Madhupushpa", "Raktapallavaka", "Hemapushpa"], common: ["Ashoka", "Asok tree"], regional: [], synonyms: ["Jonesia asoca Roxb.", "Jonesia confusa Hassk."] },
-    taxonomy: { family: "Fabaceae", genus: "Saraca", species: "Saraca indica" },
+    taxonomy: { family: "Fabaceae", genus: "Saraca", species: "Saraca asoca" },
     status: "review",
     parts: ["bark", "leaf", "flower", "seed"],
     study: {
@@ -104,7 +101,6 @@ export const plantCatalog: Plant[] = [
       karma: ["Garbhashaya-balya","Raktasthambhana"],
       therapeuticUses: ["Traditional gynecological use","Traditional use in excessive uterine bleeding","Traditional use in painful menstruation"],
       formulations: ["Ashokarishta","Ashoka Ghrita"]
-    }
     },
     sources: [
       { id: "src-ashoka-carak", title: "Ashoka — Charak Samhita herb database", type: "classical", year: 2026, url: "https://www.carakasamhitaonline.com/index.php?title=Ashoka", verification: "reviewed" },
@@ -134,7 +130,6 @@ export const plantCatalog: Plant[] = [
       karma: ["Kantya","Vranaropana","Rasayana"],
       therapeuticUses: ["Traditional throat-soothing use","Traditional gastric mucosal support use","Traditional demulcent use"],
       formulations: ["Yashtimadhu Churna","Yashtimadhvadi Taila"]
-    }
     },
     sources: [
       { id: "src-yashtimadhu-carak", title: "Yashtimadhu — Charak Samhita herb database", type: "classical", year: 2026, url: "https://www.carakasamhitaonline.com/index.php?title=Yashtimadhu", verification: "reviewed" },
@@ -164,7 +159,6 @@ export const plantCatalog: Plant[] = [
       karma: ["Deepana","Pachana","Rasayana"],
       therapeuticUses: ["Traditional digestive and appetite use","Traditional respiratory use","Traditional role in compound formulations"],
       formulations: ["Trikatu","Pippalyasava"]
-    }
     },
     sources: [
       { id: "src-pippali-carak", title: "Pippali — Charak Samhita herb database", type: "classical", year: 2026, url: "https://carakasamhitaonline.com/index.php?title=Pippali", verification: "reviewed" }
@@ -193,7 +187,6 @@ export const plantCatalog: Plant[] = [
       karma: ["Deepana","Pachana","Amapachana"],
       therapeuticUses: ["Traditional digestive use","Traditional appetite and nausea support use","Traditional respiratory use"],
       formulations: ["Trikatu","Shunthi Paka"]
-    }
     },
     sources: [
       { id: "src-shunthi-carak", title: "Shunthi — Charak Samhita herb database", type: "classical", year: 2026, url: "https://www.carakasamhitaonline.com/index.php?title=Shunthi", verification: "reviewed" }
@@ -222,7 +215,6 @@ export const plantCatalog: Plant[] = [
       karma: ["Deepana","Pachana","Kaphahara"],
       therapeuticUses: ["Traditional digestive use","Traditional respiratory use","Traditional use in low appetite"],
       formulations: ["Trikatu","Marichadi preparations"]
-    }
     },
     sources: [
       { id: "src-maricha-carak", title: "Maricha — Charak Samhita herb database", type: "classical", year: 2026, url: "https://www.carakasamhitaonline.com/index.php?title=Maricha", verification: "reviewed" }
@@ -248,7 +240,6 @@ export const plantCatalog: Plant[] = [
       karma: ["Deepana","Pachana","Kaphahara"],
       therapeuticUses: ["Traditional use in respiratory complaints","Traditional use in digestive complaints","Traditional use in febrile conditions"],
       formulations: ["Tulasyadi preparations"]
-    }
     },
     sources: [
       { id: "src-tulasi-carak", title: "Surasa — Charak Samhita herb database", type: "classical", year: 2026, url: "https://carakasamhitaonline.com/index.php?title=Surasa", verification: "reviewed" }
@@ -273,7 +264,6 @@ export const plantCatalog: Plant[] = [
       karma: ["Balya","Brimhana","Rasayana"],
       therapeuticUses: ["Traditional tonic and restorative use","Traditional use in weakness and convalescence","Traditional use in reproductive health"],
       formulations: ["Ashwagandha Churna","Ashwagandharishta"]
-    }
     },
     sources: [
       { id: "src-ashwagandha-carak", title: "Ashwagandha — Charak Samhita herb database", type: "classical", year: 2026, url: "https://carakasamhitaonline.com/index.php?title=Withania_somnifera", verification: "reviewed" }
@@ -302,7 +292,6 @@ export const plantCatalog: Plant[] = [
       karma: ["Rasayana","Deepana","Jvaraghna"],
       therapeuticUses: ["Traditional use in fever","Traditional use in digestive and metabolic disorders","Traditional rasayana use"],
       formulations: ["Guduchi Ghana","Guduchyadi preparations"]
-    }
     },
     sources: [
       { id: "src-guduchi-review", title: "Tinospora cordifolia (Guduchi) — validation of Ayurvedic pharmacology", type: "modern", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC2924974/", verification: "reviewed" },
@@ -333,7 +322,6 @@ export const plantCatalog: Plant[] = [
       karma: ["Rasayana","Tridoshahara","Vrishya"],
       therapeuticUses: ["Traditional rasayana use","Traditional digestive use","Traditional nourishing use"],
       formulations: ["Triphala","Chyavanaprasha"]
-    }
     },
     sources: [
       { id: "src-amalaki-review", title: "Phytochemistry and ethnomedicinal qualities of metabolites from Phyllanthus emblica L.: A review", type: "modern", url: "https://www.sciencedirect.com/org/science/article/pii/S0327954523001421", verification: "reviewed" },
@@ -364,7 +352,6 @@ export const plantCatalog: Plant[] = [
       karma: ["Anulomana","Rechana","Rasayana"],
       therapeuticUses: ["Traditional bowel-regulating use","Traditional digestive use","Traditional rasayana use"],
       formulations: ["Triphala","Abhayarishta"]
-    }
     },
     sources: [
       { id: "src-haritaki-review", title: "A Classical Review on Different Varieties of Fruit — Terminalia Chebula", type: "classical", url: "https://jaims.in/jaims/article/download/4977/8924/16439", verification: "reviewed" },
@@ -394,7 +381,6 @@ export const plantCatalog: Plant[] = [
       karma: ["Kandughna","Krimighna","Kushtaghna"],
       therapeuticUses: ["Traditional external use in skin disorders","Traditional use in fever and inflammatory conditions","Traditional use as a bitter drug"],
       formulations: ["Nimbadi Taila","Panchatikta Ghrita"]
-    }
     },
     sources: [
       { id: "src-nimba-carak", title: "Nimba — Charak Samhita herb database", type: "classical", year: 2026, url: "https://carakasamhitaonline.com/index.php?title=Nimba", verification: "reviewed" },
