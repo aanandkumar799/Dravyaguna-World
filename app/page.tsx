@@ -18,7 +18,7 @@ export default function Home() {
       <div className="actions"><Link className="button" href="/plants">Explore plants</Link><Link className="button secondary" href="/learn">Start learning</Link></div>
       <div className="stats"><div><strong>{plantCatalog.length}</strong><span>seed plant records</span></div><div><strong>{reviewCount}</strong><span>currently in review</span></div><div><strong>Plant-only</strong><span>focused scope</span></div></div>
     </section>
-    <section className="section"><div className="section-heading"><span className="eyebrow">CORE EXPERIENCE</span><h2>Everything organized around the plant.</h2></div><div className="grid">{features.map(([title,text,href])=><article className="feature-card" key={title}><span className="card-number">0{features.indexOf([title,text,href])+1}</span><h3>{title}</h3><p>{text}</p><Link href={href}>Explore →</Link></article>)}</div></section>
+    <section className="section"><div className="section-heading"><span className="eyebrow">CORE EXPERIENCE</span><h2>Everything organized around the plant.</h2></div><div className="grid">{features.map(([title,text,href], i)=><article className="feature-card" key={title}><span className="card-number">0{i+1}</span><h3>{title}</h3><p>{text}</p><Link href={href}>Explore →</Link></article>)}</div></section>
     <section className="split-card"><div><span className="eyebrow">ACADEMIC FIRST</span><h2>Evidence is part of the record.</h2><p>Classical sources, modern evidence, taxonomy and image provenance are kept distinguishable. Records can remain in review rather than being presented as verified facts.</p></div><Link className="button" href="/about">How quality works</Link></section>
   </main>;
 }
