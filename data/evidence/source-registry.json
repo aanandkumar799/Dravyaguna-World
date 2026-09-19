@@ -1,0 +1,121 @@
+[
+  {
+    "id": "kew-powo-tulasi",
+    "title": "Ocimum tenuiflorum — Plants of the World Online",
+    "type": "taxonomic",
+    "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A453130-1",
+    "verification": "reviewed"
+  },
+  {
+    "id": "kew-powo-ashwagandha",
+    "title": "Withania somnifera — Plants of the World Online",
+    "type": "taxonomic",
+    "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A821709-1",
+    "verification": "reviewed"
+  },
+  {
+    "id": "kew-powo-guduchi",
+    "title": "Tinospora cordifolia — Plants of the World Online",
+    "type": "taxonomic",
+    "url": "https://powo.science.kew.org/taxon/907828-1",
+    "verification": "reviewed"
+  },
+  {
+    "id": "kew-powo-amalaki",
+    "title": "Phyllanthus emblica — Plants of the World Online",
+    "type": "taxonomic",
+    "url": "https://powo.science.kew.org/taxon/353838-1",
+    "verification": "reviewed"
+  },
+  {
+    "id": "kew-powo-haritaki",
+    "title": "Terminalia chebula — Plants of the World Online",
+    "type": "taxonomic",
+    "url": "https://powo.science.kew.org/taxon/171037-1",
+    "verification": "reviewed"
+  },
+  {
+    "id": "kew-powo-nimba",
+    "title": "Azadirachta indica — Plants of the World Online",
+    "type": "taxonomic",
+    "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A1213180-2",
+    "verification": "reviewed"
+  },
+  {
+    "id": "kew-powo-shatavari",
+    "title": "Asparagus racemosus — Plants of the World Online",
+    "type": "taxonomic",
+    "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A531271-1",
+    "verification": "reviewed"
+  },
+  {
+    "id": "kew-powo-brahmi",
+    "title": "Bacopa monnieri — Plants of the World Online",
+    "type": "taxonomic",
+    "url": "https://powo.science.kew.org/taxon/1072674-2",
+    "verification": "reviewed"
+  },
+  {
+    "id": "kew-powo-arjuna",
+    "title": "Terminalia arjuna — Plants of the World Online",
+    "type": "taxonomic",
+    "url": "https://powo.science.kew.org/taxon/170962-1",
+    "verification": "reviewed"
+  },
+  {
+    "id": "kew-powo-ashoka",
+    "title": "Saraca asoca — Plants of the World Online",
+    "type": "taxonomic",
+    "url": "https://powo.science.kew.org/taxon/517883-1",
+    "verification": "reviewed"
+  },
+  {
+    "id": "kew-powo-yashtimadhu",
+    "title": "Glycyrrhiza glabra — Plants of the World Online",
+    "type": "taxonomic",
+    "url": "https://powo.science.kew.org/taxon/496941-1",
+    "verification": "reviewed"
+  },
+  {
+    "id": "kew-powo-pippali",
+    "title": "Piper longum — Plants of the World Online",
+    "type": "taxonomic",
+    "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A682031-1",
+    "verification": "reviewed"
+  },
+  {
+    "id": "kew-powo-shunthi",
+    "title": "Zingiber officinale — Plants of the World Online",
+    "type": "taxonomic",
+    "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A798372-1/",
+    "verification": "reviewed"
+  },
+  {
+    "id": "kew-powo-maricha",
+    "title": "Piper nigrum — Plants of the World Online",
+    "type": "taxonomic",
+    "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A682369-1",
+    "verification": "reviewed"
+  },
+  {
+    "id": "echarak-medicinal-plants-list",
+    "title": "e-Charak — List of Medicinal Plants",
+    "type": "official",
+    "url": "https://echarak.ayush.gov.in/knowledge_resources",
+    "verification": "reviewed"
+  },
+  {
+    "id": "api-2026-part1-vol11",
+    "title": "Ayurvedic Pharmacopoeia of India Part I, Volume XI — Draft Monographs (2026)",
+    "type": "pharmacopoeial",
+    "url": "https://pcimh.gov.in/WriteReadData/RTF1984/Ayurvedic.pdf",
+    "verification": "reviewed"
+  },
+  {
+    "id": "ayurvedic-pharmacopoeia-source-framework",
+    "title": "Ayurvedic Pharmacopoeia of India — official source framework",
+    "type": "pharmacopoeial",
+    "url": "https://pcimh.gov.in/",
+    "verification": "reviewed"
+  }
+]
