@@ -10,7 +10,7 @@ export interface Plant {
  taxonomy:{kingdom?:string;family?:string;genus?:string;species?:string};
  status:PlantStatus;
  parts?:PlantPart[];
- study?:{habit?:string;morphology?:string;habitat?:string;distribution?:string;identificationFeatures?:string[];usefulParts?:string[];rasa?:string[];guna?:string[];virya?:string;vipaka?:string;karma?:string[];dosha?:string[]};
+ study?:{habit?:string;morphology?:string;habitat?:string;distribution?:string;identificationFeatures?:string[];usefulParts?:string[];rasa?:string[];guna?:string[];virya?:string;vipaka?:string;karma?:string[];dosha?:string[];therapeuticUses?:string[];formulations?:string[];contraindications?:string[]};
  sources:PlantSource[];
  images:PlantImage[];
 }
