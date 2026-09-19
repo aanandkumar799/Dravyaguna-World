@@ -75,6 +75,13 @@
       "year": 2026,
       "url": "https://carakasamhitaonline.com/index.php?title=Surasa",
       "verification": "reviewed"
+    },
+    {
+      "id": "src-image-img-tulasi-flower-01",
+      "title": "Image source — Ocimum tenuiflorum flower close-up",
+      "type": "image",
+      "url": "https://commons.wikimedia.org/wiki/File:Ocimum_tenuiflorum_flower.jpg",
+      "verification": "reviewed"
     }
   ],
   "images": [
@@ -83,7 +90,7 @@
       "part": "flower",
       "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Ocimum_tenuiflorum_flower.jpg",
       "alt": "Ocimum tenuiflorum flower close-up",
-      "sourceId": "src-tulasi-kew",
+      "sourceId": "src-image-img-tulasi-flower-01",
       "license": "CC BY-SA 2.0",
       "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Ocimum_tenuiflorum_flower.jpg",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
