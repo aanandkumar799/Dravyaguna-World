@@ -88,6 +88,13 @@
       "year": 2026,
       "url": "https://powo.science.kew.org/taxon/517883-1",
       "verification": "reviewed"
+    },
+    {
+      "id": "src-image-img-ashoka-flower-01",
+      "title": "Image source — Saraca asoca flowers",
+      "type": "image",
+      "url": "https://commons.wikimedia.org/wiki/File:Ashok%20(Hindi-%20%E0%A4%85%E0%A4%B6%E0%A5%8B%E0%A4%95)%20(6781535350).jpg",
+      "verification": "reviewed"
     }
   ],
   "images": [
@@ -96,7 +103,7 @@
       "part": "flower",
       "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Ashok%20(Hindi-%20%E0%A4%85%E0%A4%B6%E0%A5%8B%E0%A4%95)%20(6781535350).jpg",
       "alt": "Saraca asoca flowers",
-      "sourceId": "src-ashoka-kew",
+      "sourceId": "src-image-img-ashoka-flower-01",
       "license": "CC BY-SA 3.0",
       "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Ashok%20(Hindi-%20%E0%A4%85%E0%A4%B6%E0%A5%8B%E0%A4%95)%20(6781535350).jpg",
       "verification": "reviewed"
