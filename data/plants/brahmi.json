@@ -77,6 +77,13 @@
       "year": 2026,
       "url": "https://powo.science.kew.org/taxon/1072674-2",
       "verification": "reviewed"
+    },
+    {
+      "id": "src-image-img-brahmi-whole-plant-01",
+      "title": "Image source — Bacopa monnieri whole plant",
+      "type": "image",
+      "url": "https://commons.wikimedia.org/wiki/File:Bacopa%20monnieri%20(2003).jpg",
+      "verification": "reviewed"
     }
   ],
   "images": [
@@ -85,7 +92,7 @@
       "part": "whole-plant",
       "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Bacopa%20monnieri%20(2003).jpg",
       "alt": "Bacopa monnieri whole plant",
-      "sourceId": "src-brahmi-kew",
+      "sourceId": "src-image-img-brahmi-whole-plant-01",
       "license": "CC BY-SA 2.0",
       "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Bacopa%20monnieri%20(2003).jpg",
       "verification": "reviewed"
