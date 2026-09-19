@@ -1,7 +1,7 @@
 # Project Status
 
 ## Current phase
-**Phase 2 — Full website experience + parallel knowledge corpus**
+**Phase 2 — Full website experience + parallel knowledge corpus (active build)**
 
 ## Completed
 - Independent public GitHub repository and governance.
@@ -20,12 +20,17 @@
 - Expanding validated plant knowledge corpus (14 review-state seed records currently loaded: Tulasi, Ashwagandha, Guduchi, Amalaki, Haritaki, Nimba, Shatavari, Brahmi, Arjuna, Ashoka, Yashtimadhu, Pippali, Shunthi and Maricha).
 - Botanical/taxonomic and classical-source review workflow.
 - Verified image/media corpus.
-- Complete interactive dossier and gallery.
+- Expanded interactive dossier, related-plant navigation and comparison study tool.
 - Reviewed learning/question bank.
 - Accounts, bookmarks, notes and progress.
 - Admin/CMS backend and feedback persistence.
 - PWA/mobile, accessibility, performance and security hardening.
 - Production deployment and public release validation.
+
+## Latest phase work
+- Plant dossier expanded with structured identity, taxonomy, identification, Rasapanchaka, useful parts, therapeutic study, provenance and related-plant navigation.
+- Dedicated multi-plant comparison study route added (up to four plants).
+- Catalog now links directly to comparison mode.
 
 ## Deployment
 - GitHub repository: public.
