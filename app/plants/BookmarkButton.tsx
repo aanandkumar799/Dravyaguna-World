@@ -14,6 +14,8 @@ export default function BookmarkButton({ plantId }: { plantId: string }) {
     const next = toggleBookmark(readBookmarks(), plantId);
     window.localStorage.setItem(BOOKMARKS_STORAGE_KEY, JSON.stringify(next));
     setSaved(next.includes(plantId));
+    setSaved(next.includes(plantId));
+    logPlantActivity(plantId, "bookmarked");
     window.dispatchEvent(new CustomEvent("dravyaguna-bookmarks-changed"));
   }
 
