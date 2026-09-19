@@ -49,13 +49,24 @@ export default async function PlantPage({ params }: { params: Promise<{ slug: st
       </section>
 
       <section>
-        <h2>Images</h2>
-        {images.length ? <div className="grid">{images.map((image) => <article key={image.id}><strong>{plantPartLabel(image.part as never)}</strong><p>{image.alt}</p><small>{image.verification}</small></article>)}</div> : <p>No verified gallery assets are published yet.</p>}
+        <h2>Image gallery</h2>
+        {images.length ? (
+          <div className="grid">
+            {images.map((image) => (
+              <article key={image.id}>
+                <strong>{plantPartLabel(image.part)}</strong>
+                {image.url ? <img src={image.url} alt={image.alt} loading="lazy" style={{ width: "100%", height: "auto", borderRadius: 12 }} /> : null}
+                <p>{image.alt}</p>
+                <small>Verification: {image.verification}{image.license ? ` · License: ${image.license}` : ""}</small>
+              </article>
+            ))}
+          </div>
+        ) : <p>No verified gallery assets are published yet.</p>}
       </section>
 
       <section>
         <h2>References</h2>
-        {sources.length ? <ul>{sources.map((source) => <li key={source.id}>{source.title} — {source.verification}</li>)}</ul> : <p>No reviewed references are attached to this draft record.</p>}
+        {sources.length ? <ul>{sources.map((source) => <li key={source.id}>{source.url ? <a href={source.url} target="_blank" rel="noreferrer">{source.title}</a> : source.title} — {source.verification}</li>)}</ul> : <p>No reviewed references are attached to this draft record.</p>}
       </section>
     </main>
   );
