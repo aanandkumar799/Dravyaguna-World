@@ -19,6 +19,7 @@ jobs:
       - run: pnpm typecheck
       - run: pnpm test
       - run: pnpm data:validate
+      - run: pnpm evidence:validate
       - run: pnpm lint
       - run: pnpm format:check
       - run: pnpm build
