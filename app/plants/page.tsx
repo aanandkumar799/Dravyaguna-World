@@ -7,6 +7,7 @@ import { filterPlants } from "../../lib/plant/filters";
 import { plantPartLabel } from "../../lib/plant/parts";
 import type { PlantPart } from "../../lib/plant/types";
 import { searchPlants } from "../../lib/search/plant-search";
+import BookmarkButton from "./BookmarkButton";
 
 const parts: PlantPart[] = ["whole-plant","root","stem","bark","leaf","flower","fruit","seed","rhizome","bulb","tuber","latex","resin","other"];
 
@@ -37,7 +38,7 @@ export default function PlantsPage() {
         <select aria-label="Filter by plant part" value={part} onChange={(e) => setPart(e.target.value)}><option value="">All plant parts</option>{parts.map((item) => <option key={item} value={item}>{plantPartLabel(item)}</option>)}</select>
         <select aria-label="Filter by status" value={status} onChange={(e) => setStatus(e.target.value)}><option value="">All statuses</option><option value="verified">Verified</option><option value="review">In review</option><option value="draft">Draft</option></select>
       </div>
-      {results.length ? <section className="grid">{results.map((p) => <article key={p.id}><span className="eyebrow">{p.status}</span><h2>{p.identity.botanicalName}</h2><p>{p.names.sanskrit?.join(" · ") || "Sanskrit names pending review"}</p><p>{p.taxonomy.family || "Family pending"}</p><Link href={"/plants/" + p.slug}>Open plant →</Link></article>)}</section> : <p>No matching record found.</p>}
+      {results.length ? <section className="grid">{results.map((p) => <article key={p.id}><span className="eyebrow">{p.status}</span><h2>{p.identity.botanicalName}</h2><p>{p.names.sanskrit?.join(" · ") || "Sanskrit names pending review"}</p><p>{p.taxonomy.family || "Family pending"}</p><div className="actions"><Link className="button secondary" href={"/plants/" + p.slug}>Open plant →</Link><BookmarkButton plantId={p.id} /></div></article>)}</section> : <p>No matching record found.</p>}
     </main>
   );
 }
