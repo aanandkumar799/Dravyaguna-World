@@ -1,0 +1,99 @@
+{
+  "id": "plant-haritaki",
+  "slug": "haritaki",
+  "identity": {
+    "botanicalName": "Terminalia chebula Retz.",
+    "acceptedNameStatus": "review"
+  },
+  "names": {
+    "sanskrit": [
+      "Haritaki",
+      "Abhaya",
+      "Pathya"
+    ],
+    "common": [
+      "Chebulic myrobalan",
+      "Harad"
+    ],
+    "regional": [],
+    "synonyms": []
+  },
+  "taxonomy": {
+    "family": "Combretaceae",
+    "genus": "Terminalia",
+    "species": "Terminalia chebula"
+  },
+  "status": "review",
+  "parts": [
+    "fruit",
+    "seed",
+    "bark",
+    "leaf"
+  ],
+  "study": {
+    "habit": "Medium to large deciduous tree.",
+    "morphology": "Elliptic leaves; terminal spikes or racemes of small flowers; ovoid to ellipsoid fruit with longitudinal ridges.",
+    "habitat": "Tropical and subtropical forests and woodland.",
+    "distribution": "Native from the Indian subcontinent through Indo-China to southern China.",
+    "identificationFeatures": [
+      "Elliptic leaves",
+      "Terminal flower spikes",
+      "Ribbed ovoid fruits"
+    ],
+    "usefulParts": [
+      "Fruit"
+    ],
+    "rasa": [
+      "Madhura",
+      "Amla",
+      "Katu",
+      "Tikta",
+      "Kashaya"
+    ],
+    "guna": [
+      "Laghu",
+      "Ruksha"
+    ],
+    "virya": "Ushna",
+    "vipaka": "Madhura",
+    "karma": [
+      "Anulomana",
+      "Rechana",
+      "Rasayana"
+    ],
+    "therapeuticUses": [
+      "Traditional bowel-regulating use",
+      "Traditional digestive use",
+      "Traditional rasayana use"
+    ],
+    "formulations": [
+      "Triphala",
+      "Abhayarishta"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src-haritaki-kew",
+      "title": "Terminalia chebula — Plants of the World Online",
+      "type": "taxonomic",
+      "year": 2026,
+      "url": "https://powo.science.kew.org/taxon/171037-1",
+      "verification": "reviewed"
+    },
+    {
+      "id": "src-haritaki-review",
+      "title": "A Classical Review on Different Varieties of Fruit — Terminalia Chebula",
+      "type": "classical",
+      "url": "https://jaims.in/jaims/article/download/4977/8924/16439",
+      "verification": "reviewed"
+    },
+    {
+      "id": "src-haritaki-history",
+      "title": "Terminalia Chebula in Ayurveda and Tibetan Medical Literature",
+      "type": "modern",
+      "url": "https://www.wisdomlib.org/history/compilation/kailash-journal-of-himalayan-studies/d/doc1602060.html",
+      "verification": "reviewed"
+    }
+  ],
+  "images": []
+}
