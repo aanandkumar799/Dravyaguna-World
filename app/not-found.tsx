@@ -1,1 +1,2 @@
-import Link from "next/link";export default function NotFound(){return <main className="shell"><h1>Plant not found</h1><p>The requested record does not exist in the current validated catalog.</p><Link href="/plants">Return to catalog →</Link></main>}
+import Link from "next/link";
+export default function NotFound(){return <main className="shell page"><span className="eyebrow">404</span><h1>Plant not found</h1><p>The requested record does not exist in the current catalog.</p><Link className="button" href="/plants">Return to plant catalog</Link></main>}
