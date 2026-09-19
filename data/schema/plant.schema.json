@@ -13,7 +13,7 @@
       "properties":{
         "botanicalName":{"type":"string","minLength":2},
         "authority":{"type":"string"},
-        "acceptedNameStatus":{"enum":["accepted","synonym","unverified"]}
+        "acceptedNameStatus":{"enum":["accepted","synonym","review","unverified"]}
       }
     },
     "names":{
@@ -56,7 +56,7 @@
     },
     "images":{
       "type":"array","items":{"type":"object","additionalProperties":false,"required":["id","part","alt","verification"],
-      "properties":{"id":{"type":"string"},"part":{"type":"string"},"url":{"type":"string"},"alt":{"type":"string","minLength":5},"sourceId":{"type":"string"},"license":{"type":"string"},"verification":{"enum":["unverified","reviewed","verified","rejected"]}}}
+      "properties":{"id":{"type":"string"},"part":{"type":"string","enum":["whole-plant","root","stem","bark","leaf","flower","fruit","seed","rhizome","bulb","tuber","latex","resin","other"]},"url":{"type":"string"},"alt":{"type":"string","minLength":5},"sourceId":{"type":"string"},"license":{"type":"string"},"verification":{"enum":["unverified","reviewed","verified","rejected"]}}}
     }
   }
 }
