@@ -10,7 +10,7 @@ export default function AdminPage() {
       <h1>Data quality dashboard</h1>
       <p>Internal review view for identifying incomplete or structurally invalid plant and learning records. It does not promote content to verified status.</p>
     </div>
-    <section className="stats">
+    <section className="stats"><div><strong>Evidence model</strong><span>claim-level provenance ready</span></div>
       <div><strong>{report.plants.length}</strong><span>plant records</span></div>
       <div><strong>{report.totals.plantErrors}</strong><span>plant errors</span></div>
       <div><strong>{report.totals.plantWarnings}</strong><span>plant warnings</span></div>
