@@ -1,0 +1,1 @@
+import type {Plant} from "./types";import {auditPlant} from "./quality";export function canPublishPlant(p:Plant){if(p.status!=="verified")return{ok:false,reason:"Plant is not verified"};const issues=auditPlant(p);const errors=issues.filter(i=>i.severity==="error");return errors.length?{ok:false,reason:errors.map(e=>e.message).join("; ")}:{ok:true};}
