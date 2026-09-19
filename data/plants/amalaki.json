@@ -96,5 +96,28 @@
       "verification": "reviewed"
     }
   ],
-  "images": []
+  "images": [
+    {
+      "id": "img-amalaki-leaf-01",
+      "part": "leaf",
+      "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Phyllanthus_emblica_leaves.jpg",
+      "alt": "Phyllanthus emblica leaves",
+      "sourceId": "src-amalaki-kew",
+      "license": "CC BY-SA 3.0",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Phyllanthus_emblica_leaves.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "verification": "reviewed"
+    },
+    {
+      "id": "img-amalaki-fruit-01",
+      "part": "fruit",
+      "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Fruits_of_Phyllanthus_emblica.jpg",
+      "alt": "Phyllanthus emblica fruits",
+      "sourceId": "src-amalaki-kew",
+      "license": "CC BY-SA 3.0",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Fruits_of_Phyllanthus_emblica.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "verification": "reviewed"
+    }
+  ]
 }
