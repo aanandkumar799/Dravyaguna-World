@@ -5,6 +5,7 @@ import { plantPartLabel } from "../../../lib/plant/parts";
 import PlantGallery from "./PlantGallery";
 import PlantStudyProgress from "./PlantStudyProgress";
 import BookmarkButton from "../BookmarkButton";
+import PlantNotes from "./PlantNotes";
 
 export default async function PlantPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
@@ -69,6 +70,7 @@ export default async function PlantPage({ params }: { params: Promise<{ slug: st
       </section>
 
       <PlantStudyProgress plantId={plant.id} />
+      <PlantNotes plantId={plant.id} />
 
       <section>
         <h2>Plant parts</h2>
