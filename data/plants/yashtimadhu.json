@@ -86,5 +86,16 @@
       "verification": "reviewed"
     }
   ],
-  "images": []
+  "images": [
+    {
+      "id": "img-yashtimadhu-whole-plant-01",
+      "part": "whole-plant",
+      "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Aleppolicorice.jpg",
+      "alt": "Glycyrrhiza glabra plant",
+      "sourceId": "src-yashtimadhu-kew",
+      "license": "CC BY-SA 4.0",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Aleppolicorice.jpg",
+      "verification": "reviewed"
+    }
+  ]
 }
