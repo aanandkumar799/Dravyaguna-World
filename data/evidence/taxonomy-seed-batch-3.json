@@ -1,0 +1,8 @@
+[
+  {"plantSlug":"brahmi","target":"taxonomy","sourceId":"kew-powo-bacopa-monnieri","verification":"reviewed","locator":"POWO taxon record","notes":"Accepted species; Plantaginaceae."},
+  {"plantSlug":"ashoka","target":"taxonomy","sourceId":"kew-powo-saraca-asoca","verification":"reviewed","locator":"POWO taxon record","notes":"Accepted species; Fabaceae."},
+  {"plantSlug":"yashtimadhu","target":"taxonomy","sourceId":"kew-powo-glycyrrhiza-glabra","verification":"reviewed","locator":"POWO taxon record","notes":"Accepted species; Fabaceae."},
+  {"plantSlug":"pippali","target":"taxonomy","sourceId":"kew-powo-piper-longum","verification":"reviewed","locator":"POWO taxon record","notes":"Accepted species; Piperaceae."},
+  {"plantSlug":"shunthi","target":"taxonomy","sourceId":"kew-powo-zingiber-officinale","verification":"reviewed","locator":"POWO taxon record","notes":"Accepted species; Zingiberaceae."},
+  {"plantSlug":"maricha","target":"taxonomy","sourceId":"kew-powo-piper-nigrum","verification":"reviewed","locator":"POWO taxon record","notes":"Accepted species; Piperaceae."}
+]
