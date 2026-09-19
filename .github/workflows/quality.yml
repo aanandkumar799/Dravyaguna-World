@@ -1,19 +1,18 @@
 name: Quality
+
 on:
   push:
     branches: ["main"]
   pull_request:
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   quality:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Install pnpm
         run: npm install --global pnpm@10.0.0
@@ -21,19 +20,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 24
-
-      - name: Bootstrap lockfile when missing
-        if: hashFiles('pnpm-lock.yaml') == ''
-        run: pnpm install --lockfile-only
-
-      - name: Commit generated lockfile
-        if: github.event_name == 'push' && hashFiles('pnpm-lock.yaml') != '' && hashFiles('pnpm-lock.yaml') == hashFiles('pnpm-lock.yaml')
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add pnpm-lock.yaml
-          git diff --cached --quiet || git commit -m "chore: add pnpm lockfile"
-          git push
+          cache: pnpm
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
