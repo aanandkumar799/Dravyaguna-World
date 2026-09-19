@@ -1,0 +1,6 @@
+[
+  {"plantSlug":"ashwagandha","target":"usefulParts","sourceId":"api-2026-part1-vol11","claim":"Aśvagandhā Mūla is an official API monograph drug substance","kind":"pharmacopoeial","locator":"API Part-I Vol.-XI (2026), monograph list","verification":"reviewed"},
+  {"plantSlug":"amalaki","target":"usefulParts","sourceId":"api-2026-part1-vol11","claim":"Āmalakī Ārdra Phala is an official API monograph drug substance","kind":"pharmacopoeial","locator":"API Part-I Vol.-XI (2026), monograph list","verification":"reviewed"},
+  {"plantSlug":"shunthi","target":"usefulParts","sourceId":"api-2026-part1-vol11","claim":"Ārdraka Prakanda is an official API monograph drug substance","kind":"pharmacopoeial","locator":"API Part-I Vol.-XI (2026), monograph list","verification":"reviewed"},
+  {"plantSlug":"brahmi","target":"usefulParts","sourceId":"api-2026-part1-vol11","claim":"Brāhmī Pañcāṅga is an official API monograph drug substance","kind":"pharmacopoeial","locator":"API Part-I Vol.-XI (2026), monograph list","verification":"reviewed"}
+]
