@@ -1,0 +1,1 @@
+import type {MetadataRoute} from "next";export default function sitemap():MetadataRoute.Sitemap{return[{url:"https://dravyaguna-world.example/",lastModified:new Date()},{url:"https://dravyaguna-world.example/plants",lastModified:new Date()},{url:"https://dravyaguna-world.example/plants/demo-plant",lastModified:new Date()}]}
