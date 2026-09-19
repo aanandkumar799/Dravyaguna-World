@@ -86,5 +86,16 @@
       "verification": "reviewed"
     }
   ],
-  "images": []
+  "images": [
+    {
+      "id": "img-pippali-fruit-01",
+      "part": "fruit",
+      "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Piper%20longum.jpg",
+      "alt": "Piper longum dried fruit",
+      "sourceId": "src-pippali-kew",
+      "license": "CC BY-SA 3.0 / GFDL",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Piper%20longum.jpg",
+      "verification": "reviewed"
+    }
+  ]
 }
