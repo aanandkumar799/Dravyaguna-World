@@ -77,5 +77,16 @@
       "verification": "reviewed"
     }
   ],
-  "images": []
+  "images": [
+    {
+      "id": "img-arjuna-bark-01",
+      "part": "bark",
+      "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Bark%20of%20Terminalia%20arjuna.jpg",
+      "alt": "Terminalia arjuna bark",
+      "sourceId": "src-arjuna-kew",
+      "license": "CC BY-SA 4.0",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Bark%20of%20Terminalia%20arjuna.jpg",
+      "verification": "reviewed"
+    }
+  ]
 }
