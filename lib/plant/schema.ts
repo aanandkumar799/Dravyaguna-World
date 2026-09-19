@@ -70,3 +70,11 @@ export const plantSchema = z.object({
 }).strict();
 
 export type ValidatedPlant = z.infer<typeof plantSchema>;
+
+export function parsePlant(input: unknown): ValidatedPlant {
+  return plantSchema.parse(input);
+}
+
+export function safeParsePlant(input: unknown) {
+  return plantSchema.safeParse(input);
+}
