@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getPlantBySlug } from "../../../lib/plant/catalog";
+import { getPlantBySlug, plantCatalog } from "../../../lib/plant/catalog";
 import { plantPartLabel } from "../../../lib/plant/parts";
 
 export default async function PlantPage({ params }: { params: Promise<{ slug: string }> }) {
@@ -9,72 +9,79 @@ export default async function PlantPage({ params }: { params: Promise<{ slug: st
   if (!plant) notFound();
 
   const { identity, names, taxonomy, study, sources, images } = plant;
+  const related = plantCatalog
+    .filter((p) => p.id !== plant.id && p.taxonomy.family && p.taxonomy.family === taxonomy.family)
+    .slice(0, 4);
 
   return (
-    <main className="shell">
-      <Link href="/plants">← Plant Catalog</Link>
-      <header className="hero">
-        <span className="eyebrow">PLANT RECORD · {plant.status.toUpperCase()}</span>
-        <h1>{identity.botanicalName}</h1>
-        {identity.authority && <p><i>{identity.botanicalName}</i> {identity.authority}</p>}
-        <p>Academic verification status: <strong>{plant.status}</strong></p>
+    <main className="shell page">
+      <nav className="breadcrumbs" aria-label="Breadcrumb">
+        <Link href="/plants">← Plant Catalog</Link>
+        <span aria-hidden="true">/</span>
+        <span>{identity.botanicalName}</span>
+      </nav>
+
+      <header className="page-heading">
+        <span className="eyebrow">PLANT DOSSIER · {plant.status.toUpperCase()}</span>
+        <h1><i>{identity.botanicalName}</i></h1>
+        {identity.authority && <p>{identity.authority}</p>}
+        <div className="actions">
+          <Link className="button secondary" href={"/plants/compare?plants=" + plant.slug}>Compare plant</Link>
+          <Link className="button secondary" href="/learn">Study this plant</Link>
+        </div>
       </header>
 
-      <section className="grid">
-        <article><h2>Names</h2><p>{names.sanskrit?.length ? names.sanskrit.join(" · ") : "Sanskrit names pending review."}</p><p>{names.common?.length ? names.common.join(" · ") : "Common names pending review."}</p></article>
-        <article><h2>Taxonomy</h2><p>Family: {taxonomy.family || "Pending review"}</p><p>Genus: {taxonomy.genus || "Pending review"}</p><p>Species: {taxonomy.species || "Pending review"}</p></article>
+      <section className="grid" aria-label="Plant identity summary">
+        <article className="feature-card"><span className="eyebrow">IDENTITY</span><h2>Names</h2><p><strong>Sanskrit:</strong> {names.sanskrit?.join(" · ") || "Pending review"}</p><p><strong>Common:</strong> {names.common?.join(" · ") || "Pending review"}</p>{names.synonyms?.length ? <p><strong>Synonyms:</strong> {names.synonyms.join(" · ")}</p> : null}</article>
+        <article className="feature-card"><span className="eyebrow">TAXONOMY</span><h2>{taxonomy.family || "Family pending"}</h2><p>Genus: {taxonomy.genus || "Pending"}</p><p>Species: {taxonomy.species || "Pending"}</p><p>Record state: <strong>{plant.status}</strong></p></article>
       </section>
 
       <section>
         <h2>Identification</h2>
-        <p>{study?.morphology || "Morphology will appear after academic review."}</p>
-        {study?.identificationFeatures?.length ? <ul>{study.identificationFeatures.map((item) => <li key={item}>{item}</li>)}</ul> : <p>Distinguishing features pending review.</p>}
-        <p>Habitat: {study?.habitat || "Pending review"}</p>
-        <p>Distribution: {study?.distribution || "Pending review"}</p>
+        <div className="grid">
+          <article><h3>Habit & morphology</h3><p>{study?.habit || "Pending academic review."}</p><p>{study?.morphology || "Morphology pending academic review."}</p></article>
+          <article><h3>Habitat & distribution</h3><p>{study?.habitat || "Pending review."}</p><p>{study?.distribution || "Pending review."}</p></article>
+        </div>
+        <h3>Distinguishing features</h3>
+        {study?.identificationFeatures?.length ? <ul>{study.identificationFeatures.map((item) => <li key={item}>{item}</li>)}</ul> : <p>Pending academic review.</p>}
+      </section>
+
+      <section>
+        <h2>Dravyaguna profile</h2>
+        <div className="grid">
+          <article><h3>Rasapanchaka</h3><dl><dt>Rasa</dt><dd>{study?.rasa?.join(" · ") || "Pending reviewed source"}</dd><dt>Guna</dt><dd>{study?.guna?.join(" · ") || "Pending reviewed source"}</dd><dt>Virya</dt><dd>{study?.virya || "Pending reviewed source"}</dd><dt>Vipaka</dt><dd>{study?.vipaka || "Pending reviewed source"}</dd></dl></article>
+          <article><h3>Actions & useful parts</h3><p><strong>Karma:</strong> {study?.karma?.join(" · ") || "Pending reviewed source"}</p><p><strong>Dosha:</strong> {study?.dosha?.join(" · ") || "Pending reviewed source"}</p><p><strong>Useful parts:</strong> {study?.usefulParts?.join(" · ") || "Pending review"}</p></article>
+        </div>
       </section>
 
       <section>
         <h2>Therapeutic study</h2>
         <div className="grid">
-          <article><h3>Traditional uses</h3><ul>{plant.study?.therapeuticUses?.map((item) => <li key={item}>{item}</li>) ?? <li>Pending source review.</li>}</ul></article>
-          <article><h3>Formulations</h3><ul>{plant.study?.formulations?.map((item) => <li key={item}>{item}</li>) ?? <li>Pending source review.</li>}</ul></article>
+          <article><h3>Traditional uses</h3>{study?.therapeuticUses?.length ? <ul>{study.therapeuticUses.map((item) => <li key={item}>{item}</li>)}</ul> : <p>Pending source review.</p>}</article>
+          <article><h3>Formulations</h3>{study?.formulations?.length ? <ul>{study.formulations.map((item) => <li key={item}>{item}</li>)}</ul> : <p>Pending source review.</p>}</article>
         </div>
-      </section>
-      <section>
-        <h2>Dravyaguna profile</h2>
-        <p>Rasa: {study?.rasa?.join(" · ") || "Pending reviewed source"}</p>
-        <p>Guna: {study?.guna?.join(" · ") || "Pending reviewed source"}</p>
-        <p>Virya: {study?.virya || "Pending reviewed source"}</p>
-        <p>Vipaka: {study?.vipaka || "Pending reviewed source"}</p>
-        <p>Karma: {study?.karma?.join(" · ") || "Pending reviewed source"}</p>
-        <p>Dosha: {study?.dosha?.join(" · ") || "Pending reviewed source"}</p>
       </section>
 
       <section>
         <h2>Plant parts</h2>
-        {plant.parts?.length ? <ul>{plant.parts.map((part) => <li key={part}>{plantPartLabel(part)}</li>)}</ul> : <p>Plant-part data pending verification.</p>}
+        {plant.parts?.length ? <div className="chip-list">{plant.parts.map((part) => <span className="chip" key={part}>{plantPartLabel(part)}</span>)}</div> : <p>Plant-part data pending verification.</p>}
       </section>
 
       <section>
         <h2>Image gallery</h2>
-        {images.length ? (
-          <div className="grid">
-            {images.map((image) => (
-              <article key={image.id}>
-                <strong>{plantPartLabel(image.part)}</strong>
-                {image.url ? <img src={image.url} alt={image.alt} loading="lazy" style={{ width: "100%", height: "auto", borderRadius: 12 }} /> : null}
-                <p>{image.alt}</p>
-                <small>Verification: {image.verification}{image.license ? ` · License: ${image.license}` : ""}</small>
-              </article>
-            ))}
-          </div>
-        ) : <p>No verified gallery assets are published yet.</p>}
+        {images.length ? <div className="grid">{images.map((image) => <article key={image.id}><strong>{plantPartLabel(image.part)}</strong>{image.url ? <img src={image.url} alt={image.alt} loading="lazy" style={{ width: "100%", height: "auto", borderRadius: 12 }} /> : <div className="media-placeholder" role="img" aria-label={image.alt}>Image asset pending delivery</div>}<p>{image.alt}</p><small>Verification: {image.verification}{image.license ? ` · License: ${image.license}` : ""}</small></article>)}</div> : <div className="notice"><strong>Gallery pending.</strong> No verified image assets are published for this record yet.</div>}
       </section>
 
       <section>
-        <h2>References</h2>
-        {sources.length ? <ul>{sources.map((source) => <li key={source.id}>{source.url ? <a href={source.url} target="_blank" rel="noreferrer">{source.title}</a> : source.title} — {source.verification}</li>)}</ul> : <p>No reviewed references are attached to this draft record.</p>}
+        <h2>References & provenance</h2>
+        {sources.length ? <ul>{sources.map((source) => <li key={source.id}>{source.url ? <a href={source.url} target="_blank" rel="noreferrer">{source.title}</a> : source.title} — {source.type}, {source.verification}{source.locator ? ` · ${source.locator}` : ""}</li>)}</ul> : <p>No reviewed references are attached.</p>}
       </section>
+
+      {related.length ? <section><h2>Related plants</h2><div className="grid">{related.map((p) => <article className="feature-card" key={p.id}><h3><i>{p.identity.botanicalName}</i></h3><p>{p.names.sanskrit?.join(" · ")}</p><Link href={"/plants/" + p.slug}>Open dossier →</Link></article>)}</div></section> : null}
     </main>
   );
+}
+
+export function generateStaticParams() {
+  return plantCatalog.map((plant) => ({ slug: plant.slug }));
 }
