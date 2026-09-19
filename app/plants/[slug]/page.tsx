@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import {notFound} from "next/navigation";
 import {getPlantBySlug,plantCatalog} from "../../../lib/plant/catalog";
@@ -9,6 +10,24 @@ import BookmarkButton from "../BookmarkButton";
 import PlantNotes from "./PlantNotes";
 import PlantActivityTracker from "./PlantActivityTracker";
 import {getPlantEvidence} from "../../../lib/plant/evidence-catalog";
+
+export async function generateMetadata({params}:{params:Promise<{slug:string}>}): Promise<Metadata> {
+ const {slug}=await params;
+ const plant=getPlantBySlug(slug);
+ if(!plant) return { title: "Plant not found" };
+ const common=plant.names.common?.[0];
+ const description = common
+   ? `Dravyaguna World dossier for ${plant.identity.botanicalName} (${common}), including identity, taxonomy, morphology, Dravyaguna profile, evidence and references.`
+   : `Dravyaguna World dossier for ${plant.identity.botanicalName}, including identity, taxonomy, morphology, Dravyaguna profile, evidence and references.`;
+ return {
+   title: plant.identity.botanicalName,
+   description,
+   alternates: { canonical: `/plants/${plant.slug}` },
+   openGraph: { title: `${plant.identity.botanicalName} | Dravyaguna World`, description, type: "article", url: `/plants/${plant.slug}` },
+   twitter: { card: "summary", title: `${plant.identity.botanicalName} | Dravyaguna World`, description },
+ };
+}
+
 export default async function PlantPage({params}:{params:Promise<{slug:string}>}){
  const {slug}=await params; const plant=getPlantBySlug(slug); if(!plant)notFound();
  const {identity,names,taxonomy,study,sources,images}=plant; const evidence=getPlantEvidence(plant.slug);
