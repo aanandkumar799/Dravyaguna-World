@@ -1,0 +1,83 @@
+{
+  "id": "plant-brahmi",
+  "slug": "brahmi",
+  "identity": {
+    "botanicalName": "Bacopa monnieri (L.) Wettst.",
+    "acceptedNameStatus": "review"
+  },
+  "names": {
+    "sanskrit": [
+      "Brahmi",
+      "Saraswati",
+      "Medhya"
+    ],
+    "common": [
+      "Brahmi",
+      "Water hyssop"
+    ],
+    "regional": [],
+    "synonyms": [
+      "Bacopa monniera",
+      "Herpestis monnieria"
+    ]
+  },
+  "taxonomy": {
+    "family": "Plantaginaceae",
+    "genus": "Bacopa",
+    "species": "Bacopa monnieri"
+  },
+  "status": "review",
+  "parts": [
+    "whole-plant",
+    "root",
+    "stem",
+    "leaf",
+    "flower",
+    "seed"
+  ],
+  "study": {
+    "habit": "Perennial creeping succulent herb.",
+    "morphology": "Small oblong sessile leaves; pale flowers; creeping stems often rooting at nodes.",
+    "habitat": "Wetlands, marshes, damp soils and aquatic margins.",
+    "distribution": "Tropical and subtropical regions; widely distributed and cultivated.",
+    "identificationFeatures": [
+      "Creeping succulent habit",
+      "Small leaves",
+      "Pale five-lobed flowers"
+    ],
+    "usefulParts": [
+      "Whole plant"
+    ],
+    "karma": [
+      "Medhya",
+      "Rasayana"
+    ],
+    "therapeuticUses": [
+      "Traditional medhya use",
+      "Traditional memory and cognitive support use"
+    ],
+    "formulations": [
+      "Brahmi Ghrita",
+      "Brahmi Rasayana"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src-brahmi-carak",
+      "title": "Brahmi — Charak Samhita herb database",
+      "type": "classical",
+      "year": 2026,
+      "url": "https://carakasamhitaonline.com/index.php?title=Brahmi",
+      "verification": "reviewed"
+    },
+    {
+      "id": "src-brahmi-kew",
+      "title": "Bacopa monnieri — Plants of the World Online",
+      "type": "taxonomic",
+      "year": 2026,
+      "url": "https://powo.science.kew.org/taxon/1072674-2",
+      "verification": "reviewed"
+    }
+  ],
+  "images": []
+}
