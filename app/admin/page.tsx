@@ -1,4 +1,7 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = { robots: { index: false, follow: false } };
 import {buildQualityReport} from "../../lib/plant/quality-report";
 import {getPlantEvidence} from "../../lib/plant/evidence-catalog";
 export default function AdminPage(){
