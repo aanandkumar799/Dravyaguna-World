@@ -81,6 +81,51 @@ export const plantCatalog: Plant[] = [
       { id: "src-amalaki-classical-review", title: "A Critical Review of Amalaki in Classical Texts", type: "classical", url: "https://ijapr.in/index.php/ijapr/article/view/2412", verification: "reviewed" }
     ],
     images: []
+  },
+  {
+    id: "plant-haritaki",
+    slug: "haritaki",
+    identity: { botanicalName: "Terminalia chebula Retz.", acceptedNameStatus: "review" },
+    names: { sanskrit: ["Haritaki", "Abhaya", "Pathya"], common: ["Chebulic myrobalan", "Harad"], regional: [], synonyms: [] },
+    taxonomy: { family: "Combretaceae", genus: "Terminalia", species: "Terminalia chebula" },
+    status: "review",
+    parts: ["fruit", "seed", "bark", "leaf"],
+    study: {
+      usefulParts: ["Fruit"],
+      rasa: ["Madhura", "Amla", "Katu", "Tikta", "Kashaya"],
+      guna: ["Laghu", "Ruksha"],
+      virya: "Ushna",
+      vipaka: "Madhura"
+    },
+    sources: [
+      { id: "src-haritaki-review", title: "A Classical Review on Different Varieties of Fruit — Terminalia Chebula", type: "classical", url: "https://jaims.in/jaims/article/download/4977/8924/16439", verification: "reviewed" },
+      { id: "src-haritaki-history", title: "Terminalia Chebula in Ayurveda and Tibetan Medical Literature", type: "modern", url: "https://www.wisdomlib.org/history/compilation/kailash-journal-of-himalayan-studies/d/doc1602060.html", verification: "reviewed" }
+    ],
+    images: []
+  },
+  {
+    id: "plant-nimba",
+    slug: "nimba",
+    identity: { botanicalName: "Azadirachta indica A. Juss.", acceptedNameStatus: "review" },
+    names: { sanskrit: ["Nimba", "Arishta", "Pichumarda"], common: ["Neem", "Margosa"], regional: [], synonyms: [] },
+    taxonomy: { family: "Meliaceae", genus: "Azadirachta", species: "Azadirachta indica" },
+    status: "review",
+    parts: ["leaf", "bark", "seed", "flower", "fruit"],
+    study: {
+      habit: "Evergreen tree.",
+      morphology: "Medium-to-large tree with pinnate leaves, white flowers in panicles and olive-like drupes.",
+      habitat: "Tropical and subtropical regions.",
+      usefulParts: ["Leaf", "Bark", "Seed", "Flower", "Fruit"],
+      rasa: ["Tikta", "Kashaya"],
+      guna: ["Laghu"],
+      virya: "Sheeta",
+      vipaka: "Katu"
+    },
+    sources: [
+      { id: "src-nimba-carak", title: "Nimba — Charak Samhita herb database", type: "classical", year: 2026, url: "https://carakasamhitaonline.com/index.php?title=Nimba", verification: "reviewed" },
+      { id: "src-nimba-review", title: "Nimb (Azadirachta Indica): Validation of Classical Pharmacological Properties Through Reverse Pharmacology", type: "modern", url: "https://ijapr.in/index.php/ijapr/article/view/2485", verification: "reviewed" }
+    ],
+    images: []
   }
 ];
 
