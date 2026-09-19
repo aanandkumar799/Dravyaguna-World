@@ -30,3 +30,19 @@ export type VivaPrompt = {
   sourceIds: string[];
   status: LearningStatus;
 };
+
+export type LearningMode = "mcq" | "flashcard" | "viva";
+
+export type LearningAttempt = {
+  id: string;
+  mode: LearningMode;
+  itemId: string;
+  plantId: string;
+  outcome: "correct" | "incorrect" | "revealed" | "skipped";
+  occurredAt: string;
+};
+
+export type LearningProgress = {
+  version: 1;
+  attempts: LearningAttempt[];
+};
