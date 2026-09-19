@@ -93,6 +93,13 @@
       "type": "modern",
       "url": "https://www.wisdomlib.org/history/compilation/kailash-journal-of-himalayan-studies/d/doc1602060.html",
       "verification": "reviewed"
+    },
+    {
+      "id": "src-image-img-haritaki-fruit-01",
+      "title": "Image source — Terminalia chebula fruit",
+      "type": "image",
+      "url": "https://commons.wikimedia.org/wiki/File:Haritaki%20(Terminalia%20chebula)%20fruits%2001.jpg",
+      "verification": "reviewed"
     }
   ],
   "images": [
@@ -101,7 +108,7 @@
       "part": "fruit",
       "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Haritaki%20(Terminalia%20chebula)%20fruits%2001.jpg",
       "alt": "Terminalia chebula fruit",
-      "sourceId": "src-haritaki-kew",
+      "sourceId": "src-image-img-haritaki-fruit-01",
       "license": "CC BY-SA 3.0",
       "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Haritaki%20(Terminalia%20chebula)%20fruits%2001.jpg",
       "verification": "reviewed"
