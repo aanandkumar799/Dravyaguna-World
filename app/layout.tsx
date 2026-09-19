@@ -4,7 +4,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: { default: "Dravyaguna World", template: "%s | Dravyaguna World" },
-  description: "Plant-focused Dravyaguna learning and reference platform for BAMS students.",\n  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000"),
+  description: "Plant-focused Dravyaguna learning and reference platform for BAMS students.",\n  manifest: "/manifest.webmanifest",\n  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000"),
 };
 
 const nav = [["Plants","/plants"],["Saved","/bookmarks"],["Revision","/revision"],["Notes","/notes"],["History","/history"],["Learn","/learn"],["About","/about"],["Feedback","/feedback"]] as const;
