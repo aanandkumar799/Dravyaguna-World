@@ -1,0 +1,1 @@
+import Link from "next/link";export default function Viva(){return <main className="shell"><Link href="/learn">← Learn</Link><h1>Viva Mode</h1><p>Plant identification and Dravyaguna viva practice will be generated from reviewed records.</p></main>}
