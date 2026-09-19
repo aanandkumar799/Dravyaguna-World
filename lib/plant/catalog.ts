@@ -1,3 +1,4 @@
+import { parsePlant } from "./schema";
 import type { Plant } from "./types";
 import shatavari from "../../data/plants/shatavari.json";
 import brahmi from "../../data/plants/brahmi.json";
@@ -14,6 +15,6 @@ import amalaki from "../../data/plants/amalaki.json";
 import haritaki from "../../data/plants/haritaki.json";
 import nimba from "../../data/plants/nimba.json";
 
-const rawPlantRecords = [shatavari,brahmi,arjuna,ashoka,yashtimadhu,pippali,shunthi,maricha,tulasi,ashwagandha,guduchi,amalaki,haritaki,nimba];
-export const plantCatalog: Plant[] = rawPlantRecords as Plant[];
+const rawPlantRecords = [shatavari, brahmi, arjuna, ashoka, yashtimadhu, pippali, shunthi, maricha, tulasi, ashwagandha, guduchi, amalaki, haritaki, nimba];
+export const plantCatalog: Plant[] = rawPlantRecords.map((record) => parsePlant(record));
 export function getPlantBySlug(slug: string) { return plantCatalog.find((plant) => plant.slug === slug); }
