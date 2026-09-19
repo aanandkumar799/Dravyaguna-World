@@ -1,0 +1,80 @@
+{
+  "id": "plant-ashwagandha",
+  "slug": "ashwagandha",
+  "identity": {
+    "botanicalName": "Withania somnifera (L.) Dunal",
+    "acceptedNameStatus": "review"
+  },
+  "names": {
+    "sanskrit": [
+      "Ashwagandha",
+      "Ashvagandha"
+    ],
+    "common": [
+      "Indian ginseng",
+      "Winter cherry"
+    ],
+    "regional": [],
+    "synonyms": []
+  },
+  "taxonomy": {
+    "family": "Solanaceae",
+    "genus": "Withania",
+    "species": "Withania somnifera"
+  },
+  "status": "review",
+  "parts": [
+    "root",
+    "leaf",
+    "flower",
+    "fruit",
+    "seed"
+  ],
+  "study": {
+    "habit": "Perennial shrub or subshrub.",
+    "morphology": "Tomentose stems; ovate to oblong leaves; small axillary greenish flowers; red berry enclosed by enlarged calyx.",
+    "habitat": "Subtropical dry and seasonally dry regions.",
+    "distribution": "Native range extends from southern Europe through Asia to China and parts of Africa; cultivated widely.",
+    "identificationFeatures": [
+      "Tomentose grey-green stems",
+      "Ovate leaves",
+      "Red berry enclosed by enlarged calyx"
+    ],
+    "usefulParts": [
+      "Root"
+    ],
+    "karma": [
+      "Balya",
+      "Brimhana",
+      "Rasayana"
+    ],
+    "therapeuticUses": [
+      "Traditional tonic and restorative use",
+      "Traditional use in weakness and convalescence",
+      "Traditional use in reproductive health"
+    ],
+    "formulations": [
+      "Ashwagandha Churna",
+      "Ashwagandharishta"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src-ashwagandha-kew",
+      "title": "Withania somnifera — Plants of the World Online",
+      "type": "taxonomic",
+      "year": 2026,
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A821709-1",
+      "verification": "reviewed"
+    },
+    {
+      "id": "src-ashwagandha-carak",
+      "title": "Ashwagandha — Charak Samhita herb database",
+      "type": "classical",
+      "year": 2026,
+      "url": "https://carakasamhitaonline.com/index.php?title=Withania_somnifera",
+      "verification": "reviewed"
+    }
+  ],
+  "images": []
+}
