@@ -22,6 +22,11 @@ function scoreText(text: string, query: string) {
   return q.split(" ").every((token) => value.includes(token)) ? 45 : 0;
 }
 
+function plantLearningHref(kind: "mcq" | "flashcard" | "viva", plantId: string) {
+  const plant = plantCatalog.find((item) => item.id === plantId);
+  return plant ? `/learn/${kind}?plant=${encodeURIComponent(plant.slug)}` : `/learn/${kind}`;
+}
+
 export function globalSearch(query: string): SearchResult[] {
   const q = normalize(query);
   if (!q) return [];
@@ -51,9 +56,9 @@ export function globalSearch(query: string): SearchResult[] {
   });
 
   const learning = [
-    ...learningQuestionBank.map((item) => ({ kind: "mcq" as const, title: item.question, subtitle: "MCQ practice", href: "/learn/mcq?plant=" + item.plantId.replace(/^plant-/, ""), plantId: item.plantId })),
-    ...flashcardBank.map((item) => ({ kind: "flashcard" as const, title: item.front, subtitle: "Flashcard", href: "/learn/flashcards?plant=" + item.plantId.replace(/^plant-/, ""), plantId: item.plantId })),
-    ...vivaBank.map((item) => ({ kind: "viva" as const, title: item.prompt, subtitle: "Viva practice", href: "/learn/viva?plant=" + item.plantId.replace(/^plant-/, ""), plantId: item.plantId })),
+    ...learningQuestionBank.map((item) => ({ kind: "mcq" as const, title: item.question, subtitle: "MCQ practice", href: plantLearningHref("mcq", item.plantId), plantId: item.plantId })),
+    ...flashcardBank.map((item) => ({ kind: "flashcard" as const, title: item.front, subtitle: "Flashcard", href: plantLearningHref("flashcards", item.plantId), plantId: item.plantId })),
+    ...vivaBank.map((item) => ({ kind: "viva" as const, title: item.prompt, subtitle: "Viva practice", href: plantLearningHref("viva", item.plantId), plantId: item.plantId })),
   ].map((item) => {
     const plant = plantCatalog.find((p) => p.id === item.plantId);
     const context = [
