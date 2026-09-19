@@ -1,35 +1,34 @@
 # Project Status
 
 ## Current phase
-**Phase 1 — Product foundation → Phase 2 — Knowledge and learning systems**
+**Phase 2 — Knowledge and learning systems**
 
 ## Completed
-- Independent repository and project governance.
+- Independent repository and governance.
 - Architecture, academic, image, testing, security and deployment contracts.
-- Next.js/TypeScript foundation and CI foundation.
-- Canonical plant schema and typed model.
-- Search normalization/scoring.
-- Plant catalog/dossier foundations.
-- Plant validation and quality-audit utilities.
-- Responsive landing/product UI.
-- SEO metadata, robots and sitemap foundations.
-- Catalog filtering foundation.
-- Learning hub with MCQ, viva and flashcard surfaces.
-- Feedback and content-quality-center surfaces.
-- Learning data contracts and publication standards.
+- Next.js/TypeScript and CI foundation.
+- Canonical plant schema, typed model and search foundation.
+- Catalog/dossier foundations and responsive product UI.
+- SEO/robots/sitemap foundations.
+- Catalog filtering and plant quality auditing.
+- Learning hub and learning data contracts.
+- Plant publication gate.
+- MCQ/flashcard quality gates and automated tests.
+- Content quality center foundation.
 
 ## In progress
-- Large validated plant dataset.
-- Search/catalog production UX.
-- Complete dossier and image pipeline.
-- Reviewed MCQ/viva/flashcard content.
-- User accounts, bookmarks, notes and progress.
-- Admin/CMS workflows.
-- Automated QA, accessibility and performance.
-- PWA/mobile and deployment hardening.
+- Large validated plant knowledge corpus.
+- Botanical/taxonomic and classical-source review workflow.
+- Verified image/media corpus.
+- Complete interactive dossier.
+- Production learning engine and reviewed question bank.
+- Accounts, bookmarks, notes and progress.
+- Admin/CMS backend and feedback persistence.
+- PWA/mobile, accessibility, performance and security hardening.
+- Production deployment and final audit.
 
 ## Definition of done
-A system is complete only after implementation, automated tests, production build, accessibility/performance checks, security review and—where academic data is involved—appropriate content/botanical review.
+No feature or academic dataset is marked complete without implementation evidence, automated checks, production build evidence, appropriate accessibility/performance/security review, and specialist academic/botanical review where applicable.
 
 ## Boundary
 Dravyaguna-World is independent from DravyaGuna-97. Do not modify DravyaGuna-97 unless explicitly authorized.
