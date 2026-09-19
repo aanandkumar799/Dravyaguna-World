@@ -5,23 +5,17 @@ import { flashcardBank } from "../learning/flashcard-bank";
 import { vivaBank } from "../learning/viva-bank";
 import { auditLearningCollection } from "../learning/quality";
 
-export type QualitySeverity = "error" | "warning";
-export type QualityIssue = { severity: QualitySeverity; message: string };
-
 export function buildQualityReport() {
-  const plants = plantCatalog.map((plant) => {
-    const audit = auditPlant(plant);
-    return { plant, errors: audit.errors, warnings: audit.warnings };
+  const plants=plantCatalog.map((plant)=>{
+    const issues=auditPlant(plant);
+    return {plant,errors:issues.filter((i)=>i.severity==="error"),warnings:issues.filter((i)=>i.severity==="warning")};
   });
-  const learning = auditLearningCollection([...learningQuestionBank, ...flashcardBank, ...vivaBank]);
-  return {
-    plants,
-    learning,
-    totals: {
-      plantErrors: plants.reduce((n, p) => n + p.errors.length, 0),
-      plantWarnings: plants.reduce((n, p) => n + p.warnings.length, 0),
-      learningErrors: learning.errors.length,
-      learningWarnings: learning.warnings.length,
-    },
-  };
+  const learning=auditLearningCollection(learningQuestionBank,flashcardBank,vivaBank);
+  const learningErrors=[...learning.questions,...learning.flashcards,...learning.viva];
+  return {plants,learning,totals:{
+    plantErrors:plants.reduce((n,p)=>n+p.errors.length,0),
+    plantWarnings:plants.reduce((n,p)=>n+p.warnings.length,0),
+    learningErrors:learningErrors.length,
+    learningWarnings:0
+  }};
 }
