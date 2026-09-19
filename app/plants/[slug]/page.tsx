@@ -7,6 +7,7 @@ import PlantStudyProgress from "./PlantStudyProgress";
 import BookmarkButton from "../BookmarkButton";
 import PlantNotes from "./PlantNotes";
 import PlantActivityTracker from "./PlantActivityTracker";
+import { getPlantEvidence } from "../../../lib/plant/evidence-catalog";
 
 export default async function PlantPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
@@ -14,6 +15,7 @@ export default async function PlantPage({ params }: { params: Promise<{ slug: st
   if (!plant) notFound();
 
   const { identity, names, taxonomy, study, sources, images } = plant;
+  const evidence = getPlantEvidence(plant.slug);
   const related = plantCatalog
     .filter((p) => p.id !== plant.id && p.taxonomy.family && p.taxonomy.family === taxonomy.family)
     .slice(0, 4);
