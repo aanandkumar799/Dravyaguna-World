@@ -13,7 +13,7 @@ export const plantSourceSchema = z.object({
   year: z.number().int().optional(),
   locator: z.string().optional(),
   url: z.string().url().optional(),
-  verification: z.enum(["unverified","reviewed","verified"]).optional()
+  verification: z.enum(["unverified","reviewed","verified"]).default("unverified")
 }).strict();
 
 export const plantImageSchema = z.object({
@@ -23,7 +23,13 @@ export const plantImageSchema = z.object({
   alt: z.string().min(5),
   sourceId: z.string().optional(),
   license: z.string().optional(),
-  verification: z.enum(["unverified","reviewed","verified","rejected"])
+  verification: z.enum(["unverified","reviewed","verified","rejected"]).default("unverified"),
+  caption: z.string().optional(),
+  photographer: z.string().optional(),
+  capturedAt: z.string().optional(),
+  sourcePageUrl: z.string().url().optional(),
+  licenseUrl: z.string().url().optional(),
+  usageNotes: z.string().optional()
 }).strict();
 
 export const plantSchema = z.object({
@@ -32,7 +38,7 @@ export const plantSchema = z.object({
   identity: z.object({
     botanicalName: z.string().min(2),
     authority: z.string().optional(),
-    acceptedNameStatus: z.enum(["accepted","synonym","review","unverified"]).optional()
+    acceptedNameStatus: z.enum(["accepted","synonym","review","unverified"]).default("unverified")
   }).strict(),
   names: z.object({
     sanskrit: z.array(z.string()).default([]),
