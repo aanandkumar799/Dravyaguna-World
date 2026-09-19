@@ -1,6 +1,146 @@
 [
   {
     "plantSlug": "tulasi",
+    "target": "identity",
+    "sourceId": "kew-powo-tulasi",
+    "claim": "Kew POWO lists Ocimum tenuiflorum as an accepted species.",
+    "kind": "taxonomic",
+    "locator": "POWO taxon record",
+    "verification": "reviewed",
+    "notes": "Taxonomic identity evidence is reviewed; Ayurvedic synonym equivalence and drug-identity mapping require separate classical/pharmacopoeial review where applicable."
+  },
+  {
+    "plantSlug": "ashwagandha",
+    "target": "identity",
+    "sourceId": "kew-powo-ashwagandha",
+    "claim": "Kew POWO lists Withania somnifera as an accepted species.",
+    "kind": "taxonomic",
+    "locator": "POWO taxon record",
+    "verification": "reviewed",
+    "notes": "Taxonomic identity evidence is reviewed; Ayurvedic synonym equivalence and drug-identity mapping require separate classical/pharmacopoeial review where applicable."
+  },
+  {
+    "plantSlug": "guduchi",
+    "target": "identity",
+    "sourceId": "kew-powo-guduchi",
+    "claim": "Kew POWO lists Tinospora cordifolia as an accepted species.",
+    "kind": "taxonomic",
+    "locator": "POWO taxon record",
+    "verification": "reviewed",
+    "notes": "Taxonomic identity evidence is reviewed; Ayurvedic synonym equivalence and drug-identity mapping require separate classical/pharmacopoeial review where applicable."
+  },
+  {
+    "plantSlug": "amalaki",
+    "target": "identity",
+    "sourceId": "kew-powo-amalaki",
+    "claim": "Kew POWO lists Phyllanthus emblica as an accepted species.",
+    "kind": "taxonomic",
+    "locator": "POWO taxon record",
+    "verification": "reviewed",
+    "notes": "Taxonomic identity evidence is reviewed; Ayurvedic synonym equivalence and drug-identity mapping require separate classical/pharmacopoeial review where applicable."
+  },
+  {
+    "plantSlug": "haritaki",
+    "target": "identity",
+    "sourceId": "kew-powo-haritaki",
+    "claim": "Kew POWO lists Terminalia chebula as an accepted species.",
+    "kind": "taxonomic",
+    "locator": "POWO taxon record",
+    "verification": "reviewed",
+    "notes": "Taxonomic identity evidence is reviewed; Ayurvedic synonym equivalence and drug-identity mapping require separate classical/pharmacopoeial review where applicable."
+  },
+  {
+    "plantSlug": "nimba",
+    "target": "identity",
+    "sourceId": "kew-powo-nimba",
+    "claim": "Kew POWO lists Azadirachta indica as an accepted species.",
+    "kind": "taxonomic",
+    "locator": "POWO taxon record",
+    "verification": "reviewed",
+    "notes": "Taxonomic identity evidence is reviewed; Ayurvedic synonym equivalence and drug-identity mapping require separate classical/pharmacopoeial review where applicable."
+  },
+  {
+    "plantSlug": "shatavari",
+    "target": "identity",
+    "sourceId": "kew-powo-shatavari",
+    "claim": "Kew POWO lists Asparagus racemosus as an accepted species.",
+    "kind": "taxonomic",
+    "locator": "POWO taxon record",
+    "verification": "reviewed",
+    "notes": "Taxonomic identity evidence is reviewed; Ayurvedic synonym equivalence and drug-identity mapping require separate classical/pharmacopoeial review where applicable."
+  },
+  {
+    "plantSlug": "brahmi",
+    "target": "identity",
+    "sourceId": "kew-powo-brahmi",
+    "claim": "Kew POWO lists Bacopa monnieri as an accepted species.",
+    "kind": "taxonomic",
+    "locator": "POWO taxon record",
+    "verification": "reviewed",
+    "notes": "Taxonomic identity evidence is reviewed; Ayurvedic synonym equivalence and drug-identity mapping require separate classical/pharmacopoeial review where applicable."
+  },
+  {
+    "plantSlug": "arjuna",
+    "target": "identity",
+    "sourceId": "kew-powo-arjuna",
+    "claim": "Kew POWO lists Terminalia arjuna as an accepted species.",
+    "kind": "taxonomic",
+    "locator": "POWO taxon record",
+    "verification": "reviewed",
+    "notes": "Taxonomic identity evidence is reviewed; Ayurvedic synonym equivalence and drug-identity mapping require separate classical/pharmacopoeial review where applicable."
+  },
+  {
+    "plantSlug": "ashoka",
+    "target": "identity",
+    "sourceId": "kew-powo-ashoka",
+    "claim": "Kew POWO lists Saraca asoca as an accepted species.",
+    "kind": "taxonomic",
+    "locator": "POWO taxon record",
+    "verification": "reviewed",
+    "notes": "Taxonomic identity evidence is reviewed; Ayurvedic synonym equivalence and drug-identity mapping require separate classical/pharmacopoeial review where applicable."
+  },
+  {
+    "plantSlug": "yashtimadhu",
+    "target": "identity",
+    "sourceId": "kew-powo-yashtimadhu",
+    "claim": "Kew POWO lists Glycyrrhiza glabra as an accepted species.",
+    "kind": "taxonomic",
+    "locator": "POWO taxon record",
+    "verification": "reviewed",
+    "notes": "Taxonomic identity evidence is reviewed; Ayurvedic synonym equivalence and drug-identity mapping require separate classical/pharmacopoeial review where applicable."
+  },
+  {
+    "plantSlug": "pippali",
+    "target": "identity",
+    "sourceId": "kew-powo-pippali",
+    "claim": "Kew POWO lists Piper longum as an accepted species.",
+    "kind": "taxonomic",
+    "locator": "POWO taxon record",
+    "verification": "reviewed",
+    "notes": "Taxonomic identity evidence is reviewed; Ayurvedic synonym equivalence and drug-identity mapping require separate classical/pharmacopoeial review where applicable."
+  },
+  {
+    "plantSlug": "shunthi",
+    "target": "identity",
+    "sourceId": "kew-powo-shunthi",
+    "claim": "Kew POWO lists Zingiber officinale as an accepted species.",
+    "kind": "taxonomic",
+    "locator": "POWO taxon record",
+    "verification": "reviewed",
+    "notes": "Taxonomic identity evidence is reviewed; Ayurvedic synonym equivalence and drug-identity mapping require separate classical/pharmacopoeial review where applicable."
+  },
+  {
+    "plantSlug": "maricha",
+    "target": "identity",
+    "sourceId": "kew-powo-maricha",
+    "claim": "Kew POWO lists Piper nigrum as an accepted species.",
+    "kind": "taxonomic",
+    "locator": "POWO taxon record",
+    "verification": "reviewed",
+    "notes": "Taxonomic identity evidence is reviewed; Ayurvedic synonym equivalence and drug-identity mapping require separate classical/pharmacopoeial review where applicable."
+  },
+  {
+    "plantSlug": "tulasi",
     "target": "taxonomy",
     "sourceId": "kew-powo-ocimum-tenuiflorum",
     "verification": "reviewed",
