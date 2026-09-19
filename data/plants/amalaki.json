@@ -1,0 +1,100 @@
+{
+  "id": "plant-amalaki",
+  "slug": "amalaki",
+  "identity": {
+    "botanicalName": "Phyllanthus emblica L.",
+    "acceptedNameStatus": "review"
+  },
+  "names": {
+    "sanskrit": [
+      "Amalaki",
+      "Dhatri"
+    ],
+    "common": [
+      "Indian gooseberry",
+      "Amla"
+    ],
+    "regional": [],
+    "synonyms": [
+      "Emblica officinalis Gaertn."
+    ]
+  },
+  "taxonomy": {
+    "family": "Phyllanthaceae",
+    "genus": "Phyllanthus",
+    "species": "Phyllanthus emblica"
+  },
+  "status": "review",
+  "parts": [
+    "fruit",
+    "seed",
+    "bark",
+    "leaf"
+  ],
+  "study": {
+    "habit": "Small to medium-sized deciduous tree.",
+    "morphology": "Feathery appearance from numerous small linear leaves; greenish flowers; nearly spherical ribbed fruits.",
+    "habitat": "Tropical and subtropical forests, woodland and cultivated areas.",
+    "distribution": "Native across tropical and subtropical Asia including India.",
+    "identificationFeatures": [
+      "Small closely set leaves",
+      "Greenish flowers",
+      "Ribbed globose fruit"
+    ],
+    "usefulParts": [
+      "Fruit"
+    ],
+    "rasa": [
+      "Madhura",
+      "Amla",
+      "Tikta",
+      "Kashaya",
+      "Katu"
+    ],
+    "guna": [
+      "Laghu",
+      "Ruksha"
+    ],
+    "virya": "Sheeta",
+    "vipaka": "Madhura",
+    "karma": [
+      "Rasayana",
+      "Tridoshahara",
+      "Vrishya"
+    ],
+    "therapeuticUses": [
+      "Traditional rasayana use",
+      "Traditional digestive use",
+      "Traditional nourishing use"
+    ],
+    "formulations": [
+      "Triphala",
+      "Chyavanaprasha"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src-amalaki-review",
+      "title": "Phytochemistry and ethnomedicinal qualities of metabolites from Phyllanthus emblica L.: A review",
+      "type": "modern",
+      "url": "https://www.sciencedirect.com/org/science/article/pii/S0327954523001421",
+      "verification": "reviewed"
+    },
+    {
+      "id": "src-amalaki-kew",
+      "title": "Phyllanthus emblica — Plants of the World Online",
+      "type": "taxonomic",
+      "year": 2026,
+      "url": "https://powo.science.kew.org/taxon/353838-1",
+      "verification": "reviewed"
+    },
+    {
+      "id": "src-amalaki-classical-review",
+      "title": "A Critical Review of Amalaki in Classical Texts",
+      "type": "classical",
+      "url": "https://ijapr.in/index.php/ijapr/article/view/2412",
+      "verification": "reviewed"
+    }
+  ],
+  "images": []
+}
