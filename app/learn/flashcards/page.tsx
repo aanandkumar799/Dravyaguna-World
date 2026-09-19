@@ -1,0 +1,1 @@
+import Link from "next/link";export default function Flashcards(){return <main className="shell"><Link href="/learn">← Learn</Link><h1>Flashcards</h1><p>Flashcards will cover reviewed plant identity, parts, properties, uses and distinguishing features.</p></main>}
