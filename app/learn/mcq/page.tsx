@@ -1,6 +1,18 @@
 "use client";
-import { useMemo, useState } from "react";
+import { useState } from "react";
 import Link from "next/link";
-import { plantCatalog } from "../../../lib/plant/catalog";
-const questions=plantCatalog.slice(0,8).map((p,i)=>({id:p.id,q:`Which botanical name is associated with ${p.names.sanskrit?.[0] ?? p.slug}?`,options:[p.identity.botanicalName,"Ocimum tenuiflorum L.","Terminalia arjuna","Piper nigrum L."],answer:0,source:p.sources[0]?.title}));
-export default function MCQ(){const [index,setIndex]=useState(0);const [selected,setSelected]=useState<number|null>(null);const q=questions[index];const next=()=>{setSelected(null);setIndex((index+1)%questions.length)};return <main className="shell page"><Link href="/learn">← Learn</Link><header className="page-heading"><span className="eyebrow">PRACTICE MODE</span><h1>Plant MCQ Practice</h1><p>Interactive seed questions. They are learning scaffolds, not yet the verified production question bank.</p></header><article className="quiz-card"><span className="muted">Question {index+1} of {questions.length}</span><h2>{q.q}</h2><div className="options">{q.options.map((o,i)=><button className={selected===i ? (i===q.answer?"correct":"wrong") : ""} disabled={selected!==null} onClick={()=>setSelected(i)} key={o}>{o}</button>)}</div>{selected!==null&&<div className="result"><strong>{selected===q.answer?"Correct":"Review this answer"}</strong><p>Source: {q.source ?? "Source pending review."}</p><button onClick={next}>Next question →</button></div>}</article></main>}
+import { learningQuestionBank } from "../../../lib/learning/question-bank";
+
+export default function MCQ() {
+  const [index, setIndex] = useState(0);
+  const [selected, setSelected] = useState<number | null>(null);
+  const q = learningQuestionBank[index];
+  const next = () => { setSelected(null); setIndex((index + 1) % learningQuestionBank.length); };
+  return <main className="shell page"><Link href="/learn">← Learn</Link>
+    <header className="page-heading"><span className="eyebrow">PRACTICE MODE</span><h1>Plant MCQ Practice</h1><p>Questions are linked to plant records and source provenance. Review-state questions are not presented as academically verified.</p></header>
+    <article className="quiz-card"><span className="muted">Question {index + 1} of {learningQuestionBank.length}</span><h2>{q.question}</h2>
+      <div className="options">{q.options.map((o,i)=><button className={selected===i ? (i===q.answerIndex ? "correct" : "wrong") : ""} disabled={selected!==null} onClick={()=>setSelected(i)} key={o}>{o}</button>)}</div>
+      {selected!==null && <div className="result"><strong>{selected===q.answerIndex ? "Correct" : "Review this answer"}</strong><p>{q.explanation}</p><p>Source: {q.sourceIds.join(", ")}</p><button onClick={next}>Next question →</button></div>}
+    </article>
+  </main>;
+}
