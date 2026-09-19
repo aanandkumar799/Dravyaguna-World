@@ -9,6 +9,8 @@ import {
   emptyProgress,
   getModeStats,
   PROGRESS_STORAGE_KEY,
+  readProgress,
+  saveProgress,
   recordAttempt,
 } from "../../../lib/learning/progress";
 import type { LearningProgress } from "../../../lib/learning/types";
@@ -38,14 +40,7 @@ function FlashcardsContent() {
     : undefined;
 
   useEffect(() => {
-    const raw = window.localStorage.getItem(PROGRESS_STORAGE_KEY);
-    if (raw) {
-      try {
-        setProgress(JSON.parse(raw));
-      } catch {
-        // Ignore malformed local progress and keep the empty state.
-      }
-    }
+    setProgress(readProgress());
   }, []);
 
   const next = () => {
@@ -59,7 +54,7 @@ function FlashcardsContent() {
       outcome: flip ? "revealed" : "skipped",
     });
     setProgress(updated);
-    window.localStorage.setItem(PROGRESS_STORAGE_KEY, JSON.stringify(updated));
+    saveProgress(updated);
     setI((current) => current + 1);
     setFlip(false);
   };
