@@ -8,7 +8,6 @@ import { plantCatalog } from "../../../lib/plant/catalog";
 import {
   emptyProgress,
   getModeStats,
-  PROGRESS_STORAGE_KEY,
   readProgress,
   saveProgress,
   recordAttempt,
