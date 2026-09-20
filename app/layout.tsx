@@ -47,7 +47,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </header>
         <ServiceWorkerRegistration />
         <OfflineStatus />
-        <main id="main-content" tabIndex={-1}>{children}</main>
+        <div id="main-content" tabIndex={-1}>{children}</div>
         <footer className="site-footer">
           <div className="nav-shell">
             <strong>Dravyaguna World</strong>
