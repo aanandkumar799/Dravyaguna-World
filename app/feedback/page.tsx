@@ -6,10 +6,13 @@ import Link from "next/link";
 export default function Feedback() {
   const [sent, setSent] = useState(false);
   const [error, setError] = useState("");
+  const [submitting, setSubmitting] = useState(false);
 
   async function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
+    if (submitting) return;
     setError("");
+    setSubmitting(true);
     const form = new FormData(event.currentTarget);
     const response = await fetch("/api/feedback", {
       method: "POST",
@@ -25,10 +28,12 @@ export default function Feedback() {
     if (!response.ok) {
       const payload = await response.json().catch(() => ({}));
       setError(payload.error || "The report could not be submitted.");
+      setSubmitting(false);
       return;
     }
 
     setSent(true);
+    setSubmitting(false);
     event.currentTarget.reset();
   }
 
@@ -49,9 +54,9 @@ export default function Feedback() {
         </div>
       ) : (
         <form onSubmit={submit}>
-          <label>
+          <label htmlFor="feedback-type">
             Issue type
-            <select name="type" defaultValue="academic">
+            <select id="feedback-type" name="type" defaultValue="academic">
               <option value="academic">Academic/content</option>
               <option value="identity">Plant identity</option>
               <option value="taxonomy">Taxonomy</option>
@@ -60,20 +65,22 @@ export default function Feedback() {
               <option value="ui">Interface</option>
             </select>
           </label>
-          <label>
+          <label htmlFor="feedback-details">
             Details
-            <textarea name="details" required minLength={10} maxLength={2000} rows={7} placeholder="Describe the issue and source if known." />
+            <textarea id="feedback-details" name="details" required minLength={10} maxLength={2000} rows={7} placeholder="Describe the issue and source if known." />
           </label>
-          <label>
+          <label htmlFor="feedback-email">
             Email (optional)
-            <input name="email" type="email" maxLength={254} placeholder="For follow-up only" />
+            <input id="feedback-email" name="email" type="email" maxLength={254} placeholder="For follow-up only" />
           </label>
           <label className="sr-only" aria-hidden="true">
             Website
             <input name="website" tabIndex={-1} autoComplete="off" />
           </label>
-          {error ? <p className="notice" role="alert">{error}</p> : null}
-          <button type="submit">Submit report</button>
+          {error ? <p className="notice" role="alert" aria-live="polite">{error}</p> : null}
+          <button type="submit" disabled={submitting} aria-busy={submitting}>
+            {submitting ? "Submitting…" : "Submit report"}
+          </button>
         </form>
       )}
     </main>
