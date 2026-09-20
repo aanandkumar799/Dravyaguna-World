@@ -11,4 +11,8 @@ describe("plant filters", () => {
   it("filters by family", () => expect(filterPlants(plants,{family:"Lamiaceae"}).map(p=>p.id)).toEqual(["a"]));
   it("filters by plant part", () => expect(filterPlants(plants,{part:"root"}).map(p=>p.id)).toEqual(["b"]));
   it("filters by publication status", () => expect(filterPlants(plants,{status:"verified"}).map(p=>p.id)).toEqual(["a"]));
+  it("does not crash or match when plant parts are missing", () => {
+    const withoutParts = { ...plants[0], id: "c", parts: undefined };
+    expect(filterPlants([withoutParts], { part: "leaf" })).toEqual([]);
+  });
 });
