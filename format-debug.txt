@@ -1,7 +1,0 @@
-
-> dravyaguna-world@0.1.0 format:check /home/runner/work/Dravyaguna-World/Dravyaguna-World
-> node scripts/format-check.mjs
-
-Checking formatting...
-All matched files use Prettier code style!
-status=0
