@@ -12,7 +12,7 @@ describe("plant filters", () => {
   it("filters by plant part", () => expect(filterPlants(plants,{part:"root"}).map(p=>p.id)).toEqual(["b"]));
   it("filters by publication status", () => expect(filterPlants(plants,{status:"verified"}).map(p=>p.id)).toEqual(["a"]));
   it("does not crash or match when plant parts are missing", () => {
-    const withoutParts = { ...plants[0], id: "c", parts: undefined };
+    const withoutParts = { ...plants[0], id: "c", parts: undefined } as unknown as Plant;
     expect(filterPlants([withoutParts], { part: "leaf" })).toEqual([]);
   });
 });
