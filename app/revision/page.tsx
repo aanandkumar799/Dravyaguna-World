@@ -5,7 +5,7 @@ import { useEffect, useMemo, useState } from "react";
 import { plantCatalog } from "../../lib/plant/catalog";
 import { readBookmarks } from "../../lib/bookmarks";
 import { getPlantStats, getModeStats, emptyProgress, readProgress } from "../../lib/learning/progress";
-import { ACTIVITY_STORAGE_KEY, readActivity, type PlantActivity } from "../../lib/activity";
+import { readActivity, type PlantActivity } from "../../lib/activity";
 import type { LearningProgress } from "../../lib/learning/types";
 
 const labels: Record<PlantActivity["type"],string>={viewed:"Viewed",mcq:"MCQ",flashcard:"Flashcard",viva:"Viva",bookmarked:"Saved",noted:"Note updated"};
