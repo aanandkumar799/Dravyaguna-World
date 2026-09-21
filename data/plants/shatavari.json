@@ -68,6 +68,13 @@
       "type": "classical",
       "locator": "Bhavaprakasha Nighantu, Guduchyadi Varga, Shatavari passage; exact verse numbering should be taken from the selected edition before displaying a number.",
       "verification": "reviewed"
+    },
+    {
+      "id": "kew-powo-shatavari",
+      "title": "Asparagus racemosus Willd. — Plants of the World Online",
+      "type": "taxonomic",
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A531271-1",
+      "verification": "reviewed"
     }
   ],
   "images": [],
