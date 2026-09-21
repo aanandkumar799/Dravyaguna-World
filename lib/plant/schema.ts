@@ -72,7 +72,8 @@ export const plantSchema = z.object({
     contraindications: z.array(z.string()).optional()
   }).strict().optional(),
   sources: z.array(plantSourceSchema).default([]),
-  images: z.array(plantImageSchema).default([])
+  images: z.array(plantImageSchema).default([]),
+  legacy: z.record(z.string(), z.unknown()).optional()
 }).strict();
 
 export type ValidatedPlant = z.infer<typeof plantSchema>;
