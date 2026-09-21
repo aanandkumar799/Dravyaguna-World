@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
+import Link from "next/link";
 
 export default function Error({
   error,
@@ -25,9 +26,9 @@ export default function Error({
         <button className="button" type="button" onClick={() => reset()}>
           Try again
         </button>
-        <a className="button button-secondary" href="/plants">
+        <Link className="button button-secondary" href="/plants">
           Plant catalog
-        </a>
+        </Link>
       </div>
     </main>
   );
