@@ -26,8 +26,9 @@ jobs:
           set +e
           pnpm typecheck > typecheck-debug.txt 2>&1
           pnpm test > test-debug.txt 2>&1
+          pnpm lint > lint-debug.txt 2>&1
           status=$?
-          echo "status=$status" >> test-debug.txt
+          echo "status=$status" >> lint-debug.txt
           exit 0
       - name: Commit diagnostic
         env:
@@ -35,6 +36,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add typecheck-debug.txt test-debug.txt
+          git add typecheck-debug.txt test-debug.txt lint-debug.txt
           git commit -m "chore: capture typecheck diagnostics" || true
           git push
