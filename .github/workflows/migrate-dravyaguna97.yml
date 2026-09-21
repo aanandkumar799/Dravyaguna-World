@@ -14,6 +14,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with: {node-version: 24}
+      - run: npm install --global pnpm@10.0.0
       - run: pnpm install --frozen-lockfile
       - run: pnpm exec prettier --write scripts/migrate-dravyaguna97.mjs
       - run: node scripts/migrate-dravyaguna97.mjs
