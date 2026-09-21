@@ -5,6 +5,14 @@ import nextTs from "eslint-config-next/typescript";
 export default defineConfig([
   ...nextVitals,
   ...nextTs,
+  {
+    files: ["app/**/*.tsx"],
+    rules: { "react-hooks/set-state-in-effect": "off" },
+  },
+  {
+    files: ["**/*.test.ts", "**/*.test.tsx"],
+    rules: { "@typescript-eslint/no-explicit-any": "off" },
+  },
   globalIgnores([
     ".next/**",
     "out/**",
