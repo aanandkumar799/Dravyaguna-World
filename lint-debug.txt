@@ -3,20 +3,183 @@
 > eslint .
 
 
-Oops! Something went wrong! :(
+/home/runner/work/Dravyaguna-World/Dravyaguna-World/app/GlobalSearchTrigger.tsx
+  8:104  warning  Do not use `window.location.href` to navigate to internal Next.js pages. Use `redirect()` in the render phase, or `useRouter().push()` in Client Components' event handlers instead. See: https://nextjs.org/docs/messages/no-location-assign-relative-destination  @next/next/no-location-assign-relative-destination
 
-ESLint: 9.35.0
+/home/runner/work/Dravyaguna-World/Dravyaguna-World/app/error.tsx
+  28:9  error  Do not use an `<a>` element to navigate to `/plants/`. Use `<Link />` from `next/link` instead. See: https://nextjs.org/docs/messages/no-html-link-for-pages  @next/next/no-html-link-for-pages
 
-ESLint couldn't find an eslint.config.(js|mjs|cjs) file.
+/home/runner/work/Dravyaguna-World/Dravyaguna-World/app/global-error.tsx
+  11:11  error  Do not use an `<a>` element to navigate to `/plants/`. Use `<Link />` from `next/link` instead. See: https://nextjs.org/docs/messages/no-html-link-for-pages  @next/next/no-html-link-for-pages
 
-From ESLint v9.0.0, the default configuration file is now eslint.config.js.
-If you are using a .eslintrc.* file, please follow the migration guide
-to update your configuration file to the new format:
+/home/runner/work/Dravyaguna-World/Dravyaguna-World/app/learn/flashcards/page.tsx
+  42:5  error  Error: Calling setState synchronously within an effect can trigger cascading renders
 
-https://eslint.org/docs/latest/use/configure/migration-guide
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
 
-If you still have problems after following the migration guide, please stop by
-https://eslint.org/chat/help to chat with the team.
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
 
- ELIFECYCLE  Command failed with exit code 2.
-status=2
+/home/runner/work/Dravyaguna-World/Dravyaguna-World/app/learn/flashcards/page.tsx:42:5
+  40 |
+  41 |   useEffect(() => {
+> 42 |     setProgress(readProgress());
+     |     ^^^^^^^^^^^ Avoid calling setState() directly within an effect
+  43 |   }, []);
+  44 |
+  45 |   const next = () => {  react-hooks/set-state-in-effect
+
+/home/runner/work/Dravyaguna-World/Dravyaguna-World/app/learn/mcq/page.tsx
+  39:5  error  Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+/home/runner/work/Dravyaguna-World/Dravyaguna-World/app/learn/mcq/page.tsx:39:5
+  37 |
+  38 |   useEffect(() => {
+> 39 |     setProgress(readProgress());
+     |     ^^^^^^^^^^^ Avoid calling setState() directly within an effect
+  40 |   }, []);
+  41 |
+  42 |   const save = (next: LearningProgress) => {  react-hooks/set-state-in-effect
+
+/home/runner/work/Dravyaguna-World/Dravyaguna-World/app/learn/page.tsx
+  11:90  error  Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+/home/runner/work/Dravyaguna-World/Dravyaguna-World/app/learn/page.tsx:11:90
+   9 | export default function Learn(){
+  10 |   const [progress,setProgress]=useState<LearningProgress>(emptyProgress());
+> 11 |   useEffect(()=>{const raw=window.localStorage.getItem(PROGRESS_STORAGE_KEY);if(raw){try{setProgress(JSON.parse(raw));}catch{}}},[]);
+     |                                                                                          ^^^^^^^^^^^ Avoid calling setState() directly within an effect
+  12 |   const mcq=getModeStats(progress,"mcq");
+  13 |   const flashcards=getModeStats(progress,"flashcard");
+  14 |   const viva=getModeStats(progress,"viva");  react-hooks/set-state-in-effect
+
+/home/runner/work/Dravyaguna-World/Dravyaguna-World/app/learn/viva/page.tsx
+  42:5  error  Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+/home/runner/work/Dravyaguna-World/Dravyaguna-World/app/learn/viva/page.tsx:42:5
+  40 |
+  41 |   useEffect(() => {
+> 42 |     setProgress(readProgress());
+     |     ^^^^^^^^^^^ Avoid calling setState() directly within an effect
+  43 |   }, []);
+  44 |
+  45 |   const next = () => {  react-hooks/set-state-in-effect
+
+/home/runner/work/Dravyaguna-World/Dravyaguna-World/app/plants/BookmarkButton.tsx
+  7:17  error  Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+/home/runner/work/Dravyaguna-World/Dravyaguna-World/app/plants/BookmarkButton.tsx:7:17
+   5 | export default function BookmarkButton({plantId}:{plantId:string}){
+   6 |  const [saved,setSaved]=useState(false);
+>  7 |  useEffect(()=>{setSaved(isBookmarked(readBookmarks(),plantId));},[plantId]);
+     |                 ^^^^^^^^ Avoid calling setState() directly within an effect
+   8 |  function handleClick(){const next=toggleBookmark(readBookmarks(),plantId);window.localStorage.setItem(BOOKMARKS_STORAGE_KEY,JSON.stringify(next));setSaved(next.includes(plantId));logPlantActivity(plantId,"bookmarked");window.dispatchEvent(new CustomEvent("dravyaguna-bookmarks-changed"));}
+   9 |  return <button className="button secondary" type="button" onClick={handleClick} aria-pressed={saved}>{saved?"★ Saved":"☆ Save plant"}</button>;
+  10 | }  react-hooks/set-state-in-effect
+
+/home/runner/work/Dravyaguna-World/Dravyaguna-World/app/plants/[slug]/PlantGallery.tsx
+  9:611  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+/home/runner/work/Dravyaguna-World/Dravyaguna-World/app/plants/[slug]/PlantNotes.tsx
+  7:17  error  Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+/home/runner/work/Dravyaguna-World/Dravyaguna-World/app/plants/[slug]/PlantNotes.tsx:7:17
+   5 | export default function PlantNotes({plantId}:{plantId:string}){
+   6 |  const [text,setText]=useState(""); const [saved,setSaved]=useState(false);
+>  7 |  useEffect(()=>{setText(readNotes().find((n)=>n.plantId===plantId)?.text||"");},[plantId]);
+     |                 ^^^^^^^ Avoid calling setState() directly within an effect
+   8 |  function persist(){const next=saveNote(readNotes(),plantId,text);window.localStorage.setItem(NOTES_STORAGE_KEY,JSON.stringify(next));setText(next.find((n)=>n.plantId===plantId)?.text||"");logPlantActivity(plantId,"noted");setSaved(true);window.setTimeout(()=>setSaved(false),1800);}
+   9 |  return <section className="notice" aria-label="Personal plant notes"><h2>My notes</h2><p>Keep your own revision notes for this plant. Notes are stored locally on this device.</p><textarea value={text} onChange={(e)=>setText(e.target.value)} rows={6} placeholder="Add key points, mnemonics, exam notes, or questions for revision..." aria-label="Plant notes"/><div className="actions"><button type="button" onClick={persist}>{saved?"Saved":"Save notes"}</button>{text&&<button type="button" className="button secondary" onClick={()=>{setText("");const next=saveNote(readNotes(),plantId,"");window.localStorage.setItem(NOTES_STORAGE_KEY,JSON.stringify(next));}}>Clear</button>}</div></section>;
+  10 | }  react-hooks/set-state-in-effect
+
+/home/runner/work/Dravyaguna-World/Dravyaguna-World/app/plants/[slug]/PlantStudyProgress.tsx
+  8:90  error  Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+/home/runner/work/Dravyaguna-World/Dravyaguna-World/app/plants/[slug]/PlantStudyProgress.tsx:8:90
+   6 | export default function PlantStudyProgress({ plantId }: { plantId: string }) {
+   7 |   const [progress,setProgress]=useState<LearningProgress>(emptyProgress());
+>  8 |   useEffect(()=>{const raw=window.localStorage.getItem(PROGRESS_STORAGE_KEY);if(raw){try{setProgress(JSON.parse(raw));}catch{}}},[]);
+     |                                                                                          ^^^^^^^^^^^ Avoid calling setState() directly within an effect
+   9 |   const plant=getPlantStats(progress,plantId);
+  10 |   const modes=(["mcq","flashcard","viva"] as const).map(mode=>[mode,getModeStats(progress,mode)] as const);
+  11 |   return <section className="notice" aria-label="Study progress"><h2>Your study progress</h2><p>{plant.attempts} learning interactions recorded for this plant · {plant.correct} correct MCQ answers.</p><div className="chip-list">{modes.map(([mode,stats])=><span className="chip" key={mode}>{mode.toUpperCase()}: {stats.attempts}</span>)}</div></section>;  react-hooks/set-state-in-effect
+
+/home/runner/work/Dravyaguna-World/Dravyaguna-World/app/plants/compare/page.tsx
+  16:19  error  Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+/home/runner/work/Dravyaguna-World/Dravyaguna-World/app/plants/compare/page.tsx:16:19
+  14 |   const requested=value.split(",").map((item)=>item.trim()).filter(Boolean);
+  15 |   const valid=requested.filter((slug)=>plantCatalog.some((plant)=>plant.slug===slug)).slice(0,4);
+> 16 |   if(valid.length)setSelected(valid);
+     |                   ^^^^^^^^^^^ Avoid calling setState() directly within an effect
+  17 |  },[]);
+  18 |
+  19 |  const plants=useMemo<Plant[]>(()=>selected.map((slug)=>plantCatalog.find((p)=>p.slug===slug)).filter((plant):plant is Plant=>Boolean(plant)),[selected]);  react-hooks/set-state-in-effect
+
+/home/runner/work/Dravyaguna-World/Dravyaguna-World/app/revision/page.tsx
+  8:10  warning  'ACTIVITY_STORAGE_KEY' is defined but never used  @typescript-eslint/no-unused-vars
+
+/home/runner/work/Dravyaguna-World/Dravyaguna-World/lib/plant/validate.test.ts
+  3:101  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  3:316  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/runner/work/Dravyaguna-World/Dravyaguna-World/lib/search/plant-search.test.ts
+  12:69  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  13:68  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  15:35  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  16:35  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  19:35  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  22:36  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  22:92  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/home/runner/work/Dravyaguna-World/Dravyaguna-World/tests/quality.test.ts
+  1:260  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  1:429  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+✖ 24 problems (21 errors, 3 warnings)
+
+ ELIFECYCLE  Command failed with exit code 1.
+status=1
