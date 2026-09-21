@@ -77,6 +77,13 @@
       "type": "image",
       "url": "https://github.com/aanandkumar799/Dravyaguna-97/blob/main/images/plants/haritaki.jpg",
       "verification": "reviewed"
+    },
+    {
+      "id": "kew-powo-haritaki",
+      "title": "Terminalia chebula Retz. — Plants of the World Online",
+      "type": "taxonomic",
+      "url": "https://powo.science.kew.org/taxon/171037-1",
+      "verification": "reviewed"
     }
   ],
   "images": [
