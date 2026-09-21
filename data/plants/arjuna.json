@@ -80,6 +80,13 @@
       "type": "image",
       "url": "https://github.com/aanandkumar799/Dravyaguna-97/blob/main/images/plants/arjuna.png",
       "verification": "reviewed"
+    },
+    {
+      "id": "kew-powo-arjuna",
+      "title": "Terminalia arjuna (Roxb. ex DC.) Wight & Arn. — Plants of the World Online",
+      "type": "taxonomic",
+      "url": "https://powo.science.kew.org/taxon/170962-1",
+      "verification": "reviewed"
     }
   ],
   "images": [
