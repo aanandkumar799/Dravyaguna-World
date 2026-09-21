@@ -44,9 +44,3 @@ No feature or academic dataset is marked complete without implementation evidenc
 
 ## Boundary
 Dravyaguna-World is independent from DravyaGuna-97. Do not modify DravyaGuna-97 unless explicitly authorized.
-
-## Plant dataset migration — 2026-09-21
-- DravyaGuna 97 plant records are now represented in Dravyaguna World using the World runtime schema.
-- Complete source records are retained under each plant record's `legacy` field.
-- 111 canonical plant JSON records are present in `data/plants/` (97 syllabus records plus the 14 supplementary records already included by DravyaGuna 97).
-- The plant catalog imports the complete dataset; existing search, filters, evidence and learning features continue to use the normalized fields.
