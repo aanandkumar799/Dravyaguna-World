@@ -2,8 +2,4 @@
 > dravyaguna-world@0.1.0 typecheck /home/runner/work/Dravyaguna-World/Dravyaguna-World
 > tsc --noEmit
 
-lib/plant/filters.test.ts(16,26): error TS2322: Type '{ id: string; parts: undefined; slug: string; identity: { botanicalName: string; acceptedNameStatus: "unverified" | "accepted" | "synonym" | "review"; authority?: string | undefined; }; ... 5 more ...; study?: { ...; } | undefined; }' is not assignable to type '{ id: string; slug: string; identity: { botanicalName: string; acceptedNameStatus: "unverified" | "accepted" | "synonym" | "review"; authority?: string | undefined; }; names: { sanskrit: string[]; common: string[]; regional: string[]; synonyms: string[]; }; ... 5 more ...; study?: { ...; } | undefined; }'.
-  Types of property 'parts' are incompatible.
-    Type 'undefined' is not assignable to type '("other" | "whole-plant" | "root" | "stem" | "bark" | "leaf" | "flower" | "fruit" | "seed" | "rhizome" | "bulb" | "tuber" | "latex" | "resin")[]'.
- ELIFECYCLE  Command failed with exit code 2.
-status=2
+status=0
