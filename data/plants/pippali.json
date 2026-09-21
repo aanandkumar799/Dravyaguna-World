@@ -79,6 +79,13 @@
       "type": "classical",
       "locator": "Bhavaprakasha Nighantu, Haritakyadi Varga, Pippali passage (often numbered 50–51 in searchable recensions; other editions differ).",
       "verification": "reviewed"
+    },
+    {
+      "id": "kew-powo-pippali",
+      "title": "Piper longum L. — Plants of the World Online",
+      "type": "taxonomic",
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A682031-1",
+      "verification": "reviewed"
     }
   ],
   "images": [],
