@@ -85,6 +85,13 @@
       "type": "image",
       "url": "https://github.com/aanandkumar799/Dravyaguna-97/blob/main/images/plants/ashwagandha.jpg",
       "verification": "reviewed"
+    },
+    {
+      "id": "kew-powo-ashwagandha",
+      "title": "Withania somnifera (L.) Dunal — Plants of the World Online",
+      "type": "taxonomic",
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A821709-1",
+      "verification": "reviewed"
     }
   ],
   "images": [
