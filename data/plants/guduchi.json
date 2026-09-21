@@ -64,6 +64,13 @@
       "type": "classical",
       "locator": "Bhavaprakasha Nighantu, Guduchyadi Varga, verses 8–9 in the searchable recension; edition numbering may vary.",
       "verification": "reviewed"
+    },
+    {
+      "id": "kew-powo-guduchi",
+      "title": "Tinospora cordifolia (Willd.) Hook.f. & Thomson — Plants of the World Online",
+      "type": "taxonomic",
+      "url": "https://powo.science.kew.org/taxon/907828-1",
+      "verification": "reviewed"
     }
   ],
   "images": [],
