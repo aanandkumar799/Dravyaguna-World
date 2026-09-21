@@ -1,4 +1,0 @@
-
-> dravyaguna-world@0.1.0 typecheck /home/runner/work/Dravyaguna-World/Dravyaguna-World
-> tsc --noEmit
-
