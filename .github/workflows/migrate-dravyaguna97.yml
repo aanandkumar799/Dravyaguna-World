@@ -1,0 +1,25 @@
+name: Migrate Dravyaguna 97 plant data
+on:
+  push:
+    paths:
+      - "scripts/migrate-dravyaguna97.mjs"
+      - ".github/workflows/migrate-dravyaguna97.yml"
+permissions:
+  contents: write
+jobs:
+  migrate:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: {node-version: 24}
+      - run: node scripts/migrate-dravyaguna97.mjs
+      - name: Commit migrated dataset
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/plants lib/plant/catalog.ts
+          git diff --cached --quiet && exit 0
+          git commit -m "feat: migrate complete DravyaGuna 97 plant dataset"
+          git push
