@@ -88,6 +88,13 @@
       "type": "image",
       "url": "https://github.com/aanandkumar799/Dravyaguna-97/blob/main/images/plants/ashoka.jpg",
       "verification": "reviewed"
+    },
+    {
+      "id": "kew-powo-ashoka",
+      "title": "Saraca asoca (Roxb.) Willd. — Plants of the World Online",
+      "type": "taxonomic",
+      "url": "https://powo.science.kew.org/taxon/517883-1",
+      "verification": "reviewed"
     }
   ],
   "images": [
