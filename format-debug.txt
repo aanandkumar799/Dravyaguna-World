@@ -1,121 +1,43 @@
 
 > dravyaguna-world@0.1.0 format:check /home/runner/work/Dravyaguna-World/Dravyaguna-World
-> prettier --check .
+> node scripts/format-check.mjs
 
-Checking formatting...
-[[33mwarn[39m] .prettierrc.json
-[[33mwarn[39m] AGENTS.md
-[[33mwarn[39m] app/about/page.tsx
-[[33mwarn[39m] app/admin/page.tsx
-[[33mwarn[39m] app/api/feedback/route.ts
-[[33mwarn[39m] app/bookmarks/page.tsx
-[[33mwarn[39m] app/feedback/page.tsx
-[[33mwarn[39m] app/global-error.tsx
-[[33mwarn[39m] app/globals.css
-[[33mwarn[39m] app/GlobalSearchTrigger.tsx
-[[33mwarn[39m] app/history/page.tsx
-[[33mwarn[39m] app/layout.tsx
-[[33mwarn[39m] app/learn/flashcards/page.tsx
-[[33mwarn[39m] app/learn/mcq/page.tsx
-[[33mwarn[39m] app/learn/page.tsx
-[[33mwarn[39m] app/learn/viva/page.tsx
-[[33mwarn[39m] app/not-found.tsx
-[[33mwarn[39m] app/notes/page.tsx
-[[33mwarn[39m] app/OfflineStatus.tsx
-[[33mwarn[39m] app/page.tsx
-[[33mwarn[39m] app/plants/[slug]/loading.tsx
-[[33mwarn[39m] app/plants/[slug]/page.tsx
-[[33mwarn[39m] app/plants/[slug]/PlantActivityTracker.tsx
-[[33mwarn[39m] app/plants/[slug]/PlantGallery.tsx
-[[33mwarn[39m] app/plants/[slug]/PlantNotes.tsx
-[[33mwarn[39m] app/plants/[slug]/PlantStudyProgress.tsx
-[[33mwarn[39m] app/plants/BookmarkButton.tsx
-[[33mwarn[39m] app/plants/compare/page.tsx
-[[33mwarn[39m] app/plants/page.tsx
-[[33mwarn[39m] app/revision/page.tsx
-[[33mwarn[39m] app/search/SearchContent.tsx
-[[33mwarn[39m] app/sitemap.ts
-[[33mwarn[39m] ARCHITECTURE.md
-[[33mwarn[39m] CHANGELOG.md
-[[33mwarn[39m] CONTENT_STANDARDS.md
-[[33mwarn[39m] data/EVIDENCE_MAPPING.md
-[[33mwarn[39m] data/evidence/pharmacopoeial-batch-2026.json
-[[33mwarn[39m] data/evidence/README.md
-[[33mwarn[39m] data/evidence/taxonomy-seed-batch-2.json
-[[33mwarn[39m] data/evidence/taxonomy-seed-batch-3.json
-[[33mwarn[39m] data/evidence/taxonomy-seed.json
-[[33mwarn[39m] data/evidence/tulasi-dravyaguna.json
-[[33mwarn[39m] data/evidence/useful-parts-batch-1.json
-[[33mwarn[39m] data/learning/README.md
-[[33mwarn[39m] data/plants/amalaki.json
-[[33mwarn[39m] data/plants/arjuna.json
-[[33mwarn[39m] data/plants/ashoka.json
-[[33mwarn[39m] data/plants/ashwagandha.json
-[[33mwarn[39m] data/plants/brahmi.json
-[[33mwarn[39m] data/plants/guduchi.json
-[[33mwarn[39m] data/plants/haritaki.json
-[[33mwarn[39m] data/plants/maricha.json
-[[33mwarn[39m] data/plants/nimba.json
-[[33mwarn[39m] data/plants/pippali.json
-[[33mwarn[39m] data/plants/README.md
-[[33mwarn[39m] data/plants/shatavari.json
-[[33mwarn[39m] data/plants/shunthi.json
-[[33mwarn[39m] data/plants/tulasi.json
-[[33mwarn[39m] data/plants/yashtimadhu.json
-[[33mwarn[39m] data/README.md
-[[33mwarn[39m] data/schema/claim-evidence.schema.json
-[[33mwarn[39m] data/schema/evidence-records.schema.json
-[[33mwarn[39m] data/schema/plant.schema.json
-[[33mwarn[39m] DATABASE.md
-[[33mwarn[39m] DEPLOYMENT.md
-[[33mwarn[39m] eslint.config.mjs
-[[33mwarn[39m] IMAGE_STANDARDS.md
-[[33mwarn[39m] lib/activity-client.ts
-[[33mwarn[39m] lib/activity.ts
-[[33mwarn[39m] lib/bookmarks.ts
-[[33mwarn[39m] lib/learning/flashcard-bank.ts
-[[33mwarn[39m] lib/learning/progress.ts
-[[33mwarn[39m] lib/learning/quality.test.ts
-[[33mwarn[39m] lib/learning/quality.ts
-[[33mwarn[39m] lib/learning/question-bank.ts
-[[33mwarn[39m] lib/learning/types.ts
-[[33mwarn[39m] lib/learning/viva-bank.ts
-[[33mwarn[39m] lib/notes.ts
-[[33mwarn[39m] lib/plant/catalog.ts
-[[33mwarn[39m] lib/plant/evidence-catalog.ts
-[[33mwarn[39m] lib/plant/evidence-matrix.ts
-[[33mwarn[39m] lib/plant/evidence.ts
-[[33mwarn[39m] lib/plant/filters.test.ts
-[[33mwarn[39m] lib/plant/filters.ts
-[[33mwarn[39m] lib/plant/parts.ts
-[[33mwarn[39m] lib/plant/publication.ts
-[[33mwarn[39m] lib/plant/quality-report.ts
-[[33mwarn[39m] lib/plant/quality.ts
-[[33mwarn[39m] lib/plant/schema.test.ts
-[[33mwarn[39m] lib/plant/schema.ts
-[[33mwarn[39m] lib/plant/types.ts
-[[33mwarn[39m] lib/plant/validate.test.ts
-[[33mwarn[39m] lib/plant/validate.ts
-[[33mwarn[39m] lib/production-hardening.test.ts
-[[33mwarn[39m] lib/search/global-search.test.ts
-[[33mwarn[39m] lib/search/global-search.ts
-[[33mwarn[39m] lib/search/normalize.ts
-[[33mwarn[39m] lib/search/plant-search.test.ts
-[[33mwarn[39m] lib/search/plant-search.ts
-[[33mwarn[39m] MASTER_REQUIREMENTS.md
-[[33mwarn[39m] next.config.ts
-[[33mwarn[39m] pnpm-lock.yaml
-[[33mwarn[39m] PROJECT_STATUS.md
-[[33mwarn[39m] public/manifest.webmanifest
-[[33mwarn[39m] public/sw.js
-[[33mwarn[39m] README.md
-[[33mwarn[39m] scripts/validate-data.mjs
-[[33mwarn[39m] scripts/validate-evidence.mjs
-[[33mwarn[39m] TESTING.md
-[[33mwarn[39m] tests/quality.test.ts
-[[33mwarn[39m] tests/smoke.test.ts
-[[33mwarn[39m] tsconfig.json
-[[33mwarn[39m] vitest.config.ts
-[[33mwarn[39m] Code style issues found in 113 files. Run Prettier with --write to fix.
+fatal: ambiguous argument 'HEAD^': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+node:internal/errors:986
+  const err = new Error(message);
+              ^
+
+Error: Command failed: git diff --name-only --diff-filter=ACMR HEAD^ HEAD
+fatal: ambiguous argument 'HEAD^': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+    at genericNodeError (node:internal/errors:986:15)
+    at wrappedFn (node:internal/errors:540:14)
+    at checkExecSyncError (node:child_process:942:11)
+    at execFileSync (node:child_process:978:15)
+    at file:///home/runner/work/Dravyaguna-World/Dravyaguna-World/scripts/format-check.mjs:3:17
+    at ModuleJob.run (node:internal/modules/esm/module_job:561:25)
+    at async node:internal/modules/esm/loader:647:26
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {
+  status: 128,
+  signal: null,
+  output: [
+    null,
+    '',
+    "fatal: ambiguous argument 'HEAD^': unknown revision or path not in the working tree.\n" +
+      "Use '--' to separate paths from revisions, like this:\n" +
+      "'git <command> [<revision>...] -- [<file>...]'\n"
+  ],
+  pid: 2710,
+  stdout: '',
+  stderr: "fatal: ambiguous argument 'HEAD^': unknown revision or path not in the working tree.\n" +
+    "Use '--' to separate paths from revisions, like this:\n" +
+    "'git <command> [<revision>...] -- [<file>...]'\n"
+}
+
+Node.js v24.20.0
  ELIFECYCLE  Command failed with exit code 1.
 status=1
