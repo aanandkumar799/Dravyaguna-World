@@ -77,6 +77,13 @@
       "type": "classical",
       "locator": "Bhavaprakasha Nighantu, Nimba passage, verses 74–76 in the searchable Parul University PDF recension; edition numbering may vary.",
       "verification": "reviewed"
+    },
+    {
+      "id": "kew-powo-nimba",
+      "title": "Azadirachta indica A. Juss. — Plants of the World Online",
+      "type": "taxonomic",
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A1213180-2",
+      "verification": "reviewed"
     }
   ],
   "images": [],
