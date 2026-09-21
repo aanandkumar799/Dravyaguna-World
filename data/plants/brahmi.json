@@ -79,6 +79,13 @@
       "type": "image",
       "url": "https://github.com/aanandkumar799/Dravyaguna-97/blob/main/images/plants/brahmi.jpg",
       "verification": "reviewed"
+    },
+    {
+      "id": "kew-powo-brahmi",
+      "title": "Bacopa monnieri (L.) Wettst. — Plants of the World Online",
+      "type": "taxonomic",
+      "url": "https://powo.science.kew.org/taxon/1072674-2",
+      "verification": "reviewed"
     }
   ],
   "images": [
