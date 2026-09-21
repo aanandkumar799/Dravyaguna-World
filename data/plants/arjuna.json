@@ -7,93 +7,334 @@
   },
   "names": {
     "sanskrit": [
+      "अर्जुन",
       "Arjuna",
-      "Dhava",
-      "Kakubha",
-      "Nadisarja"
-    ],
-    "common": [
       "Arjuna"
     ],
-    "regional": [],
-    "synonyms": []
+    "common": [
+      "Arjuna",
+      "अर्जुन"
+    ],
+    "regional": [
+      "Partha",
+      "Dhavala",
+      "Kakubha",
+      "Nadi Sarja"
+    ],
+    "synonyms": [
+      "Dhananjaya",
+      "Partha"
+    ]
   },
   "taxonomy": {
     "family": "Combretaceae",
     "genus": "Terminalia",
-    "species": "Terminalia arjuna"
+    "species": "arjuna (Roxb. ex DC.) Wight & Arn."
   },
-  "status": "review",
+  "status": "verified",
   "parts": [
-    "bark",
-    "leaf",
-    "flower",
-    "fruit",
-    "seed"
+    "whole-plant",
+    "bark"
   ],
   "study": {
-    "habit": "Large deciduous tree.",
-    "morphology": "Straight trunk with characteristic pale bark; oblong leaves; terminal spikes; ovoid fruits with wings.",
-    "habitat": "Riverbanks, riparian forests and moist tropical woodland.",
-    "distribution": "Native to the Indian subcontinent.",
+    "habit": "Large deciduous tree",
+    "morphology": "Large tree with characteristic smooth grey bark externally and pinkish/red inner bark when exposed.",
+    "habitat": "Often associated with riverbanks and moist habitats",
+    "distribution": "Widely distributed in India",
     "identificationFeatures": [
-      "Pale layered bark",
-      "Oblong leaves",
-      "Winged fruit"
+      "Large trunk",
+      "Distinctive bark",
+      "Winged/ridged fruit"
     ],
     "usefulParts": [
-      "Bark"
+      "bark"
     ],
-    "karma": [
-      "Hridya",
-      "Balya",
-      "Kashaya"
+    "rasa": [],
+    "guna": [],
+    "karma": [],
+    "dosha": [
+      "vata: may increase if excessive/drying",
+      "pitta: generally pacifying",
+      "kapha: reduces"
     ],
     "therapeuticUses": [
-      "Traditional cardiac-support use",
-      "Traditional use in bleeding disorders",
-      "Traditional tissue-support use"
+      "traditional cardiovascular support",
+      "astringent applications"
     ],
     "formulations": [
-      "Arjunarishta",
-      "Arjuna Ksheerapaka"
-    ]
+      "Arjunarishta"
+    ],
+    "contraindications": []
   },
   "sources": [
     {
-      "id": "src-arjuna-carak",
-      "title": "Arjuna — Charak Samhita herb database",
+      "id": "src-classical-arjuna",
+      "title": "Classical references for Arjuna",
       "type": "classical",
-      "year": 2026,
-      "url": "https://carakasamhitaonline.com/index.php?title=Arjuna",
+      "locator": "Bhavaprakasha Nighantu, Haritakyadi Varga, verses 25–26 in the Jain Quantum searchable scan; edition numbering may vary.",
       "verification": "reviewed"
     },
     {
-      "id": "src-arjuna-kew",
-      "title": "Terminalia arjuna — Plants of the World Online",
-      "type": "taxonomic",
-      "year": 2026,
-      "url": "https://powo.science.kew.org/taxon/170962-1",
-      "verification": "reviewed"
-    },
-    {
-      "id": "src-image-img-arjuna-bark-01",
-      "title": "Image source — Terminalia arjuna bark",
+      "id": "src-image-arjuna-whole-plant",
+      "title": "Arjuna — whole-plant image",
       "type": "image",
-      "url": "https://commons.wikimedia.org/wiki/File:Bark%20of%20Terminalia%20arjuna.jpg",
+      "url": "https://github.com/aanandkumar799/Dravyaguna-97/blob/main/images/plants/arjuna.png",
       "verification": "reviewed"
     }
   ],
   "images": [
     {
-      "id": "img-arjuna-bark-01",
-      "part": "bark",
-      "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Bark%20of%20Terminalia%20arjuna.jpg",
-      "alt": "Terminalia arjuna bark",
-      "sourceId": "src-image-img-arjuna-bark-01",
-      "license": "CC BY-SA 4.0",
-      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Bark%20of%20Terminalia%20arjuna.jpg",
+      "id": "img-arjuna-whole-plant",
+      "part": "whole-plant",
+      "url": "https://raw.githubusercontent.com/aanandkumar799/Dravyaguna-97/main/images/plants/arjuna.png",
+      "alt": "Arjuna whole plant image",
+      "sourceId": "src-image-arjuna-whole-plant",
+      "sourcePageUrl": "https://github.com/aanandkumar799/Dravyaguna-97/blob/main/images/plants/arjuna.png",
       "verification": "reviewed"
     }
-  ]
+  ],
+  "legacy": {
+    "id": "arjuna",
+    "order": 3,
+    "identity": {
+      "name": "Arjuna",
+      "sanskrit_name": "अर्जुन",
+      "transliteration": "Arjuna",
+      "botanical_name": "Terminalia arjuna (Roxb. ex DC.) Wight & Arn.",
+      "family": "Combretaceae",
+      "english_name": "Arjuna",
+      "hindi_name": "अर्जुन",
+      "regional_names": [
+        "Partha",
+        "Dhavala",
+        "Kakubha",
+        "Nadi Sarja"
+      ],
+      "synonyms": [
+        "Dhananjaya",
+        "Partha"
+      ]
+    },
+    "classification": {
+      "kingdom": "Plantae",
+      "habit": "Large deciduous tree",
+      "habitat": "Often associated with riverbanks and moist habitats",
+      "distribution": "Widely distributed in India"
+    },
+    "identification": {
+      "description": "Large tree with characteristic smooth grey bark externally and pinkish/red inner bark when exposed.",
+      "whole_plant": "Large tree with spreading crown.",
+      "root": "",
+      "stem": "Large trunk; bark smooth, grey outside and characteristically coloured internally.",
+      "leaf": "Simple, oblong to oblong-elliptic, often with glandular features near the petiole region.",
+      "flower": "Small, greenish-white, in spikes/panicles.",
+      "fruit": "Fibrous, woody, ovoid-oblong with longitudinal ridges/angles.",
+      "seed": "Single seed within the fruit.",
+      "bark": "The principal crude drug; outer bark grey and inner surface reddish-brown.",
+      "identification_points": [
+        "Large trunk",
+        "Distinctive bark",
+        "Winged/ridged fruit"
+      ]
+    },
+    "images": {
+      "whole_plant": "images/plants/arjuna.png",
+      "habit": "images/plants/arjuna.png",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": ""
+    },
+    "dravya_guna": {
+      "rasa": [
+        "kashaya"
+      ],
+      "guna": [
+        "laghu",
+        "ruksha"
+      ],
+      "virya": "sheeta",
+      "vipaka": "katu",
+      "prabhava": [
+        "Hridaya",
+        "Raktashodhak",
+        "Sandhanakaraka"
+      ],
+      "karma": [
+        "hridya"
+      ]
+    },
+    "dosha": {
+      "vata": "may increase if excessive/drying",
+      "pitta": "generally pacifying",
+      "kapha": "reduces"
+    },
+    "therapeutics": {
+      "useful_part": [
+        "bark"
+      ],
+      "indications": [
+        "traditional cardiovascular support",
+        "astringent applications"
+      ],
+      "therapeutic_actions": [
+        "hridya"
+      ],
+      "dose": "",
+      "anupana": "",
+      "duration": "",
+      "precautions": "",
+      "contraindications": ""
+    },
+    "formulations": [
+      {
+        "name": "Arjunarishta",
+        "dosage_form": "arishta",
+        "indication": "Traditional cardiac/general use",
+        "reference": ""
+      }
+    ],
+    "classical_reference": {
+      "shlokas": [
+        "ककुभोऽर्जुननामाख्यो नदीसर्जश्च कीर्तितः ।\nइन्द्रद्रुर्वीरवृक्षश्च वीरश्च धवलः स्मृतः ॥२५॥",
+        "ककुभः शीतलो हृद्यः क्षतक्षयविषास्त्रजित् ।\nमेदोमेहव्रणान्हन्ति तुवरः कफपित्तहत् ॥२६॥"
+      ],
+      "nighantu_references": [
+        "Bhavaprakasha Nighantu, Haritakyadi Varga, verses 25–26 in the Jain Quantum searchable scan; edition numbering may vary."
+      ],
+      "samhita_references": [],
+      "shloka_reference_status": "verified_text_location_edition_numbering_may_vary",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ],
+      "verification_note": "Gemini numbering 27–28 and its wording were rejected. Other editions may shift numbering; the text is independently corroborated.",
+      "verified_classical_sources": [
+        {
+          "type": "classical_text_verification",
+          "title": "Harit Kyadi Nighant searchable scan — Arjuna passage",
+          "url": "https://jainqq.org/booktext/Harit_Kyadi_Nighant/020370",
+          "reference": "Arjuna/Kakubha passage at verses 25–26 in this scan."
+        }
+      ]
+    },
+    "phytochemistry": {
+      "major_constituents": [
+        "triterpenoids",
+        "flavonoids",
+        "tannins"
+      ],
+      "chemical_notes": ""
+    },
+    "modern_information": {
+      "evidence_summary": "Modern research has investigated Terminalia arjuna, including cardiovascular applications.",
+      "recognized_uses": [],
+      "safety_notes": "Evidence and preparations differ; clinical use should be individualized.",
+      "sources": [
+        "CCRAS clinical/pharmacological research resources"
+      ]
+    },
+    "student": {
+      "exam_points": [
+        "Bark is the principal drug part",
+        "Important hridya dravya"
+      ],
+      "viva_questions": [
+        "Which part of Arjuna is chiefly used?",
+        "Describe Arjuna bark."
+      ],
+      "identification_points": [
+        "Grey outer bark with coloured inner surface",
+        "Large tree"
+      ],
+      "mnemonics": [],
+      "quick_revision": "Arjuna: bark; kashaya; sheeta; traditionally important as hridya."
+    },
+    "teacher": {
+      "teaching_points": [
+        "Bark identification and pharmacognosy"
+      ],
+      "discussion_points": [
+        "Traditional hridya concept and modern cardiovascular research"
+      ],
+      "practical_points": [
+        "Compare authentic bark with substitutes/adulterants"
+      ]
+    },
+    "doctor": {
+      "quick_reference": "Arjuna bark is the principal medicinal part; traditionally used as a hridya drug.",
+      "important_indications": [],
+      "useful_part": "bark",
+      "dose": "",
+      "anupana": "",
+      "key_precautions": []
+    },
+    "sources": [
+      {
+        "type": "official_research",
+        "title": "CCRAS research resources",
+        "url": "https://ccras.nic.in/services/clinical-research/",
+        "author": "",
+        "edition": "",
+        "year": "",
+        "page": ""
+      },
+      {
+        "type": "official",
+        "title": "CCRAS medicinal plant research",
+        "url": "https://ccras.nic.in/services/medicinal-plant-research/",
+        "author": "",
+        "edition": "",
+        "year": "",
+        "page": ""
+      },
+      {
+        "type": "official_syllabus",
+        "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+        "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+      },
+      {
+        "type": "medicinal_plants_database",
+        "title": "TDU Indian Medicinal Plants Database",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "image",
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Indian_Medicinal_Plants_(Text_Part_1).djvu",
+        "license_note": "Check the original file page for current license/attribution requirements."
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
+      },
+      {
+        "type": "open_ayurveda_dataset",
+        "title": "Amidha Ayurveda Herb Database v2.0",
+        "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+        "license": "CC BY 4.0",
+        "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+      },
+      {
+        "type": "classical_text_verification",
+        "title": "Harit Kyadi Nighant searchable scan — Arjuna passage",
+        "url": "https://jainqq.org/booktext/Harit_Kyadi_Nighant/020370",
+        "reference": "Arjuna/Kakubha passage at verses 25–26 in this scan."
+      }
+    ],
+    "metadata": {
+      "status": "verified_text_location_edition_numbering_may_vary",
+      "last_verified": "2026-09-16",
+      "verified_by": "independent searchable classical-text cross-check",
+      "version": "1.2",
+      "last_enrichment": "2026-09-19: blank-field enrichment pass.",
+      "classical_review_batch": "14-18 reviewed 2026-09-16"
+    },
+    "category": "NCISM-97",
+    "syllabus_marker": "NCISM-97"
+  }
 }

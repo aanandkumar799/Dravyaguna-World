@@ -7,102 +7,275 @@
   },
   "names": {
     "sanskrit": [
-      "Shunthi",
-      "Nagara",
-      "Vishwa",
-      "Shrungavera"
+      "शुण्ठी",
+      "Shunthi"
     ],
     "common": [
-      "Dry ginger"
+      "Dry Ginger"
     ],
-    "regional": [],
-    "synonyms": []
+    "regional": [
+      "Mahaoushadha",
+      "Nagara",
+      "Vishwa",
+      "Vishwabheshaja"
+    ],
+    "synonyms": [
+      "Nagara",
+      "Vishvabhesaja",
+      "Mahoushadha",
+      "Shringavera"
+    ]
   },
   "taxonomy": {
     "family": "Zingiberaceae",
     "genus": "Zingiber",
-    "species": "Zingiber officinale"
+    "species": "officinale Roscoe"
   },
   "status": "review",
-  "parts": [
-    "rhizome",
-    "leaf",
-    "flower",
-    "seed"
-  ],
+  "parts": [],
   "study": {
-    "habit": "Perennial rhizomatous herb.",
-    "morphology": "Aromatic branched rhizome; erect leafy pseudostems; narrow lanceolate leaves; separate flowering spikes.",
-    "habitat": "Warm humid tropical and subtropical cultivation environments.",
-    "distribution": "Cultivated widely in tropical regions.",
-    "identificationFeatures": [
-      "Aromatic branched rhizome",
-      "Leaf-sheath pseudostem",
-      "Lanceolate leaves"
-    ],
+    "habit": "",
+    "morphology": "Dried, buff to light-grey, branched rhizome with characteristic aromatic pungency.",
+    "habitat": "",
+    "distribution": "",
+    "identificationFeatures": [],
     "usefulParts": [
-      "Dried rhizome"
+      "dried rhizome (Shushka Kanda)"
     ],
-    "rasa": [
-      "Katu"
-    ],
-    "guna": [
-      "Laghu",
-      "Snigdha"
-    ],
-    "virya": "Ushna",
-    "vipaka": "Madhura",
-    "karma": [
-      "Deepana",
-      "Pachana",
-      "Amapachana"
+    "rasa": [],
+    "guna": [],
+    "karma": [],
+    "dosha": [
+      "vata: pacified",
+      "pitta: aggravated",
+      "kapha: pacified"
     ],
     "therapeuticUses": [
-      "Traditional digestive use",
-      "Traditional appetite and nausea support use",
-      "Traditional respiratory use"
+      "Amavata",
+      "Agnimandya",
+      "Adhmana",
+      "Chhardi",
+      "Kasa",
+      "Shoola"
     ],
     "formulations": [
-      "Trikatu",
-      "Shunthi Paka"
-    ]
+      "Saubhagya Shunthi Paka",
+      "Shunthi Churna",
+      "Trikatu Churna",
+      "Shunthi Ghrita",
+      "Rasnadi Kwatha"
+    ],
+    "contraindications": []
   },
   "sources": [
     {
-      "id": "src-shunthi-kew",
-      "title": "Zingiber officinale — Plants of the World Online",
-      "type": "taxonomic",
-      "year": 2026,
-      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A798372-1/",
-      "verification": "reviewed"
-    },
-    {
-      "id": "src-shunthi-carak",
-      "title": "Shunthi — Charak Samhita herb database",
+      "id": "src-classical-shunthi",
+      "title": "Classical references for Shunthi",
       "type": "classical",
-      "year": 2026,
-      "url": "https://www.carakasamhitaonline.com/index.php?title=Shunthi",
-      "verification": "reviewed"
-    },
-    {
-      "id": "src-image-img-shunthi-rhizome-01",
-      "title": "Image source — Zingiber officinale rhizome",
-      "type": "image",
-      "url": "https://commons.wikimedia.org/wiki/File:Ginger_Root_(Zingiber_officinale).jpg",
+      "locator": "Bhavaprakasha Nighantu, Haritakyadi Varga, verse 45; related therapeutic continuation in verse 46. Independently searchable recension; edition numbering may vary. | Ashtanga Hridaya, Sutrasthana 6/163–164",
       "verification": "reviewed"
     }
   ],
-  "images": [
-    {
-      "id": "img-shunthi-rhizome-01",
-      "part": "rhizome",
-      "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Ginger_Root_%28Zingiber_officinale%29.jpg",
-      "alt": "Zingiber officinale rhizome",
-      "sourceId": "src-image-img-shunthi-rhizome-01",
-      "license": "CC0 1.0",
-      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Ginger_Root_(Zingiber_officinale).jpg",
-      "verification": "reviewed",
-      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
-    }
-  ]
+  "images": [],
+  "legacy": {
+    "id": "shunthi",
+    "order": 85,
+    "identity": {
+      "name": "Shunthi",
+      "sanskrit_name": "शुण्ठी",
+      "transliteration": "",
+      "botanical_name": "Zingiber officinale Roscoe",
+      "family": "Zingiberaceae",
+      "english_name": "Dry Ginger",
+      "hindi_name": "",
+      "regional_names": [
+        "Mahaoushadha",
+        "Nagara",
+        "Vishwa",
+        "Vishwabheshaja"
+      ],
+      "synonyms": [
+        "Nagara",
+        "Vishvabhesaja",
+        "Mahoushadha",
+        "Shringavera"
+      ]
+    },
+    "classification": {
+      "kingdom": "Plantae",
+      "habit": "",
+      "habitat": "",
+      "distribution": ""
+    },
+    "identification": {
+      "description": "Dried, buff to light-grey, branched rhizome with characteristic aromatic pungency.",
+      "whole_plant": "",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": "",
+      "identification_points": []
+    },
+    "images": {
+      "whole_plant": "",
+      "habit": "",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": ""
+    },
+    "dravya_guna": {
+      "rasa": [
+        "katu"
+      ],
+      "guna": [
+        "laghu",
+        "snigdha"
+      ],
+      "virya": "ushna",
+      "vipaka": "madhura",
+      "prabhava": "Deepana / Pachana / Vata-Anulomana",
+      "karma": [
+        "Deepana",
+        "Pachana",
+        "Anulomana",
+        "Vrishya",
+        "Hridya",
+        "Shothahara",
+        "Kasahara"
+      ]
+    },
+    "dosha": {
+      "vata": "pacified",
+      "pitta": "aggravated",
+      "kapha": "pacified"
+    },
+    "therapeutics": {
+      "useful_part": [
+        "dried rhizome (Shushka Kanda)"
+      ],
+      "indications": [
+        "Amavata",
+        "Agnimandya",
+        "Adhmana",
+        "Chhardi",
+        "Kasa",
+        "Shoola"
+      ],
+      "therapeutic_actions": [],
+      "dose": "",
+      "anupana": "",
+      "duration": "",
+      "precautions": "",
+      "contraindications": ""
+    },
+    "formulations": [
+      {
+        "name": "Saubhagya Shunthi Paka"
+      },
+      {
+        "name": "Shunthi Churna"
+      },
+      {
+        "name": "Trikatu Churna"
+      },
+      {
+        "name": "Shunthi Ghrita"
+      },
+      {
+        "name": "Rasnadi Kwatha"
+      }
+    ],
+    "classical_reference": {
+      "shlokas": [
+        "शुण्ठी रुच्यामवातघ्नी पाचनी कटुका लघुः ।\nस्निग्धोष्णा मधुरा पाके कफवातविबन्धनुत् ॥४५॥"
+      ],
+      "nighantu_references": [
+        "Bhavaprakasha Nighantu, Haritakyadi Varga, verse 45; related therapeutic continuation in verse 46. Independently searchable recension; edition numbering may vary."
+      ],
+      "samhita_references": [
+        "Ashtanga Hridaya, Sutrasthana 6/163–164"
+      ],
+      "shloka_reference_status": "verified_reference_text_corrected",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
+    },
+    "phytochemistry": {
+      "major_constituents": [],
+      "chemical_notes": ""
+    },
+    "modern_information": {
+      "evidence_summary": "Dry ginger is known as the 'universal medicine'. It aids digestion, reduces inflammation, and pacifies Vata and Kapha.",
+      "recognized_uses": [],
+      "safety_notes": "",
+      "sources": []
+    },
+    "student": {
+      "exam_points": [],
+      "viva_questions": [],
+      "identification_points": [],
+      "mnemonics": [],
+      "quick_revision": "Dry ginger is known as the 'universal medicine'. It aids digestion, reduces inflammation, and pacifies Vata and Kapha."
+    },
+    "teacher": {
+      "teaching_points": [],
+      "discussion_points": [],
+      "practical_points": []
+    },
+    "doctor": {
+      "quick_reference": "",
+      "important_indications": [],
+      "useful_part": "rhizome",
+      "dose": "",
+      "anupana": "",
+      "key_precautions": []
+    },
+    "sources": [
+      {
+        "type": "official_syllabus",
+        "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+        "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf",
+        "author": "",
+        "edition": "",
+        "year": "",
+        "page": ""
+      },
+      {
+        "type": "medicinal_plants_database",
+        "title": "TDU Indian Medicinal Plants Database",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
+      },
+      {
+        "type": "open_ayurveda_dataset",
+        "title": "Amidha Ayurveda Herb Database v2.0",
+        "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+        "license": "CC BY 4.0",
+        "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+      }
+    ],
+    "metadata": {
+      "status": "working_draft_needs_text_cross_check",
+      "last_verified": "",
+      "verified_by": "",
+      "version": "1.2",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "2026-09-19: blank-field enrichment pass.",
+      "classical_review_batch": "9-13 corrected 2026-09-16"
+    },
+    "category": "NCISM-97",
+    "syllabus_marker": "NCISM-97"
+  }
 }

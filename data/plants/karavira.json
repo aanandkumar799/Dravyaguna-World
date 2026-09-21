@@ -1,0 +1,293 @@
+{
+  "id": "plant-karavira",
+  "slug": "karavira",
+  "identity": {
+    "botanicalName": "Nerium oleander L.",
+    "acceptedNameStatus": "review"
+  },
+  "names": {
+    "sanskrit": [
+      "करवीर",
+      "Karavira"
+    ],
+    "common": [
+      "Oleander"
+    ],
+    "regional": [
+      "Hayamaraka",
+      "Ashwamaraka",
+      "Pratihasa",
+      "Chandata"
+    ],
+    "synonyms": [
+      "Hayamaraka",
+      "Ashwamaraka",
+      "Pratihasa",
+      "Chandata"
+    ]
+  },
+  "taxonomy": {
+    "family": "Apocynaceae",
+    "genus": "Nerium",
+    "species": "oleander"
+  },
+  "status": "review",
+  "parts": [],
+  "study": {
+    "habit": "evergreen shrub or small tree",
+    "morphology": "Evergreen shrub with narrow leathery leaves, showy flowers and paired follicles.",
+    "habitat": "Warm, dry to semi-arid regions; commonly cultivated",
+    "distribution": "Warm, dry to semi-arid regions; commonly cultivated",
+    "identificationFeatures": [
+      "Leaves occur in whorls and are narrow and leathery.",
+      "Flowers may be white, pink or red.",
+      "Fruit consists of paired follicles."
+    ],
+    "usefulParts": [
+      "Moola",
+      "Twak",
+      "Patra"
+    ],
+    "rasa": [],
+    "guna": [],
+    "karma": [],
+    "dosha": [
+      "vata: pacified",
+      "pitta: aggravated",
+      "kapha: pacified"
+    ],
+    "therapeuticUses": [
+      "Kushta",
+      "Vrana",
+      "Kandu",
+      "Krimi",
+      "Upadamsha"
+    ],
+    "formulations": [],
+    "contraindications": []
+  },
+  "sources": [],
+  "images": [],
+  "legacy": {
+    "id": "karavira",
+    "order": null,
+    "category": "Supplementary",
+    "syllabus_marker": "Supplementary",
+    "identity": {
+      "name": "Karavira",
+      "sanskrit_name": "करवीर",
+      "transliteration": "",
+      "botanical_name": "Nerium oleander L.",
+      "family": "Apocynaceae",
+      "english_name": "Oleander",
+      "hindi_name": "",
+      "regional_names": [
+        "Hayamaraka",
+        "Ashwamaraka",
+        "Pratihasa",
+        "Chandata"
+      ],
+      "synonyms": [
+        "Hayamaraka",
+        "Ashwamaraka",
+        "Pratihasa",
+        "Chandata"
+      ]
+    },
+    "classification": {
+      "kingdom": "Plantae",
+      "habit": "evergreen shrub or small tree",
+      "habitat": "Warm, dry to semi-arid regions; commonly cultivated",
+      "distribution": "Warm, dry to semi-arid regions; commonly cultivated"
+    },
+    "identification": {
+      "description": "Evergreen shrub with narrow leathery leaves, showy flowers and paired follicles.",
+      "whole_plant": "",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": "",
+      "identification_points": [
+        "Leaves occur in whorls and are narrow and leathery.",
+        "Flowers may be white, pink or red.",
+        "Fruit consists of paired follicles."
+      ]
+    },
+    "images": {
+      "whole_plant": "",
+      "habit": "",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": ""
+    },
+    "dravya_guna": {
+      "rasa": [
+        "Katu",
+        "Tikta"
+      ],
+      "guna": [
+        "Laghu",
+        "Tikshna"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "prabhava": [
+        "Kushtaghna",
+        "Vranashodhak"
+      ],
+      "karma": [
+        "Kushtaghna",
+        "Vranashodhak"
+      ]
+    },
+    "dosha": {
+      "vata": "pacified",
+      "pitta": "aggravated",
+      "kapha": "pacified"
+    },
+    "therapeutics": {
+      "useful_part": [
+        "Moola",
+        "Twak",
+        "Patra"
+      ],
+      "indications": [
+        "Kushta",
+        "Vrana",
+        "Kandu",
+        "Krimi",
+        "Upadamsha"
+      ],
+      "therapeutic_actions": [],
+      "dose": "",
+      "anupana": "",
+      "duration": "",
+      "precautions": "Supplementary reference only; verify identity, purification and safety before clinical use.",
+      "contraindications": ""
+    },
+    "formulations": [],
+    "classical_reference": {
+      "shlokas": [],
+      "nighantu_references": [],
+      "samhita_references": [],
+      "shloka_reference_status": "requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
+    },
+    "phytochemistry": {
+      "major_constituents": [],
+      "chemical_notes": "Kew POWO describes Nerium oleander as accepted and highly toxic; this safety status should remain prominent."
+    },
+    "modern_information": {
+      "evidence_summary": "Oleander is a toxic plant used externally after processing for skin diseases and wound healing.",
+      "recognized_uses": [
+        "Botanical identification and pharmacognosy/dravyaguna education."
+      ],
+      "safety_notes": "Educational reference only. Confirm current pharmacopoeial, toxicological and clinical guidance before use. Highly toxic plant; do not infer oral do not infer clinical treatment instructions or treatment from this page. Kew explicitly describes Nerium oleander as highly toxic and records it as both a poison and a medicine.",
+      "sources": []
+    },
+    "student": {
+      "exam_points": [
+        "Botanical identity: Nerium oleander L.",
+        "Family: Apocynaceae",
+        "Key identification: Leaves occur in whorls and are narrow and leathery. Flowers may be white, pink or red. Fruit consists of paired follicles.",
+        "Key identification: narrow leathery leaves, showy flowers and paired follicles."
+      ],
+      "viva_questions": [
+        "What is the botanical name and family of Karavira?",
+        "Which morphological characters help identify Karavira?",
+        "What fruit type is characteristic of Karavira?",
+        "What major safety issue must be remembered when handling Karavira?"
+      ],
+      "identification_points": [
+        "Leaves occur in whorls and are narrow and leathery.",
+        "Flowers may be white, pink or red.",
+        "Fruit consists of paired follicles."
+      ],
+      "mnemonics": [],
+      "quick_revision": "Karavira — Nerium oleander L.; Kew identifies it as an accepted, highly toxic shrub/tree occurring from the Mediterranean to Myanmar and native in India."
+    },
+    "teacher": {
+      "teaching_points": [
+        "Retained as supplementary material from Gemini batch 94.",
+        "Use Karavira to teach botanical identification together with explicit toxic-plant safety documentation.",
+        "Separate traditional indications from modern toxicology and avoid unsupported clinical extrapolation."
+      ],
+      "discussion_points": [
+        "Compare the diagnostic characters of Karavira with closely related or commonly substituted drugs.",
+        "Separate botanical identification from unverified classical-text claims."
+      ],
+      "practical_points": [
+        "Observe the diagnostic characters in authenticated material or herbarium specimens.",
+        "Record plant part used and identification basis separately.",
+        "Observe leaf arrangement, venation, flower colour and paired follicles in authenticated material.",
+        "Use photographs/herbarium material rather than handling plant material unnecessarily."
+      ]
+    },
+    "doctor": {
+      "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
+      "important_indications": [
+        "Kushta",
+        "Vrana",
+        "Kandu",
+        "Krimi",
+        "Upadamsha"
+      ],
+      "useful_part": "Moola, Twak, Patra",
+      "dose": "",
+      "anupana": "",
+      "key_precautions": [
+        "Use authoritative identification and safety references.",
+        "Toxicity risk: do not infer a clinical dose from this educational record.",
+        "Highly toxic plant; do not infer oral dose or treatment from this page.",
+        "Kew explicitly describes Nerium oleander as highly toxic and records it as both a poison and a medicine."
+      ]
+    },
+    "sources": [
+      {
+        "type": "gemini_source_batch",
+        "title": "Gemini batch 94",
+        "url": ""
+      },
+      {
+        "type": "official_syllabus",
+        "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+        "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+      },
+      {
+        "type": "medicinal_plants_database",
+        "title": "TDU Indian Medicinal Plants Database",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "open_ayurveda_dataset",
+        "title": "Amidha Ayurveda Herb Database v2.0",
+        "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+        "license": "CC BY 4.0",
+        "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the Shlokas module to verify exact Devanagari verse and edition/page before treating a verse as a quotation."
+      }
+    ],
+    "metadata": {
+      "status": "supplementary_audited_needs_classical_verification",
+      "source_batch": "Gemini batch 94",
+      "version": "1.0",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "2026-09-19: blank-field enrichment pass.",
+      "last_audit": "supplementary JSON completeness/safety audit"
+    }
+  }
+}

@@ -7,95 +7,301 @@
   },
   "names": {
     "sanskrit": [
+      "ब्राह्मी",
       "Brahmi",
-      "Saraswati",
-      "Medhya"
+      "Brāhmī"
     ],
     "common": [
-      "Brahmi",
-      "Water hyssop"
+      "Water hyssop",
+      "ब्राह्मी"
     ],
-    "regional": [],
+    "regional": [
+      "Sarasvati",
+      "Kapoti",
+      "Somavalli",
+      "Matsyakshi"
+    ],
     "synonyms": [
-      "Bacopa monniera",
-      "Herpestis monnieria"
+      "Sarasvati",
+      "Kapoti",
+      "Somavalli",
+      "Matsyakshi"
     ]
   },
   "taxonomy": {
     "family": "Plantaginaceae",
     "genus": "Bacopa",
-    "species": "Bacopa monnieri"
+    "species": "monnieri (L.) Wettst."
   },
   "status": "review",
   "parts": [
-    "whole-plant",
-    "root",
-    "stem",
-    "leaf",
-    "flower",
-    "seed"
+    "whole-plant"
   ],
   "study": {
-    "habit": "Perennial creeping succulent herb.",
-    "morphology": "Small oblong sessile leaves; pale flowers; creeping stems often rooting at nodes.",
-    "habitat": "Wetlands, marshes, damp soils and aquatic margins.",
-    "distribution": "Tropical and subtropical regions; widely distributed and cultivated.",
+    "habit": "Small succulent creeping perennial herb",
+    "morphology": "Succulent creeping herb with opposite leaves and small white flowers.",
+    "habitat": "Wetlands, marshy soils, pond margins",
+    "distribution": "Widely distributed in tropical India",
     "identificationFeatures": [
-      "Creeping succulent habit",
-      "Small leaves",
-      "Pale five-lobed flowers"
+      "Succulent creeping stem",
+      "Opposite fleshy leaves",
+      "Small white axillary flowers"
     ],
     "usefulParts": [
-      "Whole plant"
+      "whole plant"
     ],
-    "karma": [
-      "Medhya",
-      "Rasayana"
+    "rasa": [],
+    "guna": [],
+    "karma": [],
+    "dosha": [
+      "vata: generally supportive in appropriate use",
+      "pitta: pacifies",
+      "kapha: may reduce"
     ],
     "therapeuticUses": [
-      "Traditional medhya use",
-      "Traditional memory and cognitive support use"
+      "traditional medhya use",
+      "traditional rasayana use"
     ],
-    "formulations": [
-      "Brahmi Ghrita",
-      "Brahmi Rasayana"
-    ]
+    "formulations": [],
+    "contraindications": []
   },
   "sources": [
     {
-      "id": "src-brahmi-carak",
-      "title": "Brahmi — Charak Samhita herb database",
+      "id": "src-classical-brahmi",
+      "title": "Classical references for Brahmi",
       "type": "classical",
-      "year": 2026,
-      "url": "https://carakasamhitaonline.com/index.php?title=Brahmi",
+      "locator": "Bhavaprakasha Nighantu, Guduchyadi Varga, Brahmi/Brahmi-shaka passage; exact verse numbering should be taken from the selected edition before displaying a number.",
       "verification": "reviewed"
     },
     {
-      "id": "src-brahmi-kew",
-      "title": "Bacopa monnieri — Plants of the World Online",
-      "type": "taxonomic",
-      "year": 2026,
-      "url": "https://powo.science.kew.org/taxon/1072674-2",
-      "verification": "reviewed"
-    },
-    {
-      "id": "src-image-img-brahmi-whole-plant-01",
-      "title": "Image source — Bacopa monnieri whole plant",
+      "id": "src-image-brahmi-whole-plant",
+      "title": "Brahmi — whole-plant image",
       "type": "image",
-      "url": "https://commons.wikimedia.org/wiki/File:Bacopa%20monnieri%20(2003).jpg",
+      "url": "https://github.com/aanandkumar799/Dravyaguna-97/blob/main/images/plants/brahmi.jpg",
       "verification": "reviewed"
     }
   ],
   "images": [
     {
-      "id": "img-brahmi-whole-plant-01",
+      "id": "img-brahmi-whole-plant",
       "part": "whole-plant",
-      "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Bacopa%20monnieri%20(2003).jpg",
-      "alt": "Bacopa monnieri whole plant",
-      "sourceId": "src-image-img-brahmi-whole-plant-01",
-      "license": "CC BY-SA 2.0",
-      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Bacopa%20monnieri%20(2003).jpg",
+      "url": "https://raw.githubusercontent.com/aanandkumar799/Dravyaguna-97/main/images/plants/brahmi.jpg",
+      "alt": "Brahmi whole plant image",
+      "sourceId": "src-image-brahmi-whole-plant",
+      "sourcePageUrl": "https://github.com/aanandkumar799/Dravyaguna-97/blob/main/images/plants/brahmi.jpg",
       "verification": "reviewed"
     }
-  ]
+  ],
+  "legacy": {
+    "id": "brahmi",
+    "order": 14,
+    "identity": {
+      "name": "Brahmi",
+      "sanskrit_name": "ब्राह्मी",
+      "transliteration": "Brāhmī",
+      "botanical_name": "Bacopa monnieri (L.) Wettst.",
+      "family": "Plantaginaceae",
+      "english_name": "Water hyssop",
+      "hindi_name": "ब्राह्मी",
+      "regional_names": [
+        "Sarasvati",
+        "Kapoti",
+        "Somavalli",
+        "Matsyakshi"
+      ],
+      "synonyms": [
+        "Sarasvati",
+        "Kapoti",
+        "Somavalli",
+        "Matsyakshi"
+      ]
+    },
+    "classification": {
+      "kingdom": "Plantae",
+      "habit": "Small succulent creeping perennial herb",
+      "habitat": "Wetlands, marshy soils, pond margins",
+      "distribution": "Widely distributed in tropical India"
+    },
+    "identification": {
+      "description": "Succulent creeping herb with opposite leaves and small white flowers.",
+      "whole_plant": "Creeping, succulent herb rooting at nodes.",
+      "root": "Fibrous roots from nodes.",
+      "stem": "Fleshy, creeping, rooting at nodes.",
+      "leaf": "Opposite, thick, obovate to spatulate, entire.",
+      "flower": "Small white, solitary flowers in leaf axils.",
+      "fruit": "Small capsule.",
+      "seed": "Tiny.",
+      "bark": "",
+      "identification_points": [
+        "Succulent creeping stem",
+        "Opposite fleshy leaves",
+        "Small white axillary flowers"
+      ]
+    },
+    "images": {
+      "whole_plant": "images/plants/brahmi.jpg",
+      "habit": "images/plants/brahmi.jpg",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": ""
+    },
+    "dravya_guna": {
+      "rasa": [
+        "tikta"
+      ],
+      "guna": [
+        "laghu"
+      ],
+      "virya": "sheeta",
+      "vipaka": "madhura",
+      "prabhava": [
+        "Medhya",
+        "rasayan",
+        "Jwaraghna"
+      ],
+      "karma": [
+        "medhya",
+        "rasayana"
+      ]
+    },
+    "dosha": {
+      "vata": "generally supportive in appropriate use",
+      "pitta": "pacifies",
+      "kapha": "may reduce"
+    },
+    "therapeutics": {
+      "useful_part": [
+        "whole plant"
+      ],
+      "indications": [
+        "traditional medhya use",
+        "traditional rasayana use"
+      ],
+      "therapeutic_actions": [
+        "medhya"
+      ],
+      "dose": "",
+      "anupana": "",
+      "duration": "",
+      "precautions": "",
+      "contraindications": ""
+    },
+    "formulations": [],
+    "classical_reference": {
+      "shlokas": [
+        "ब्राह्मी हिमा सरा तिक्ता लघुर्मेध्या च शीतला ।\nकषाया मधुरा स्वादुपाकायुष्या रसायनी ।\nस्वर्या स्मृतिप्रदा कुष्ठपाण्डुमेहास्रकासजित् ।\nविषशोथज्वरहरी तद्वन्मण्डूकपर्ण्यपि ॥"
+      ],
+      "nighantu_references": [
+        "Bhavaprakasha Nighantu, Guduchyadi Varga, Brahmi/Brahmi-shaka passage; exact verse numbering should be taken from the selected edition before displaying a number."
+      ],
+      "samhita_references": [],
+      "shloka_reference_status": "classical_text_corrected; edition/numbering explicitly qualified",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas",
+        "CCRAS/NIIMH e-Nighantu — Bhavaprakasha Nighantu"
+      ]
+    },
+    "phytochemistry": {
+      "major_constituents": [
+        "bacosides"
+      ],
+      "chemical_notes": ""
+    },
+    "modern_information": {
+      "evidence_summary": "Bacopa monnieri has been studied in cognition-related and neuropharmacological research.",
+      "recognized_uses": [],
+      "safety_notes": "Evidence depends on extract/preparation; avoid translating supplement evidence directly to all Ayurvedic preparations.",
+      "sources": []
+    },
+    "student": {
+      "exam_points": [
+        "Whole plant is used",
+        "Important medhya rasayana"
+      ],
+      "viva_questions": [
+        "How is Brahmi identified?",
+        "What is its principal karma?"
+      ],
+      "identification_points": [
+        "Succulent creeping habit",
+        "Opposite fleshy leaves"
+      ],
+      "mnemonics": [],
+      "quick_revision": "Brāhmī: whole plant; tikta; laghu; sheeta; medhya."
+    },
+    "teacher": {
+      "teaching_points": [
+        "Garden identification"
+      ],
+      "discussion_points": [
+        "Brahmi versus Mandukaparni"
+      ],
+      "practical_points": [
+        "Compare leaf shape and growth habit"
+      ]
+    },
+    "doctor": {
+      "quick_reference": "Traditional medhya rasayana; whole plant used.",
+      "important_indications": [],
+      "useful_part": "whole plant",
+      "dose": "",
+      "anupana": "",
+      "key_precautions": []
+    },
+    "sources": [
+      {
+        "type": "official",
+        "title": "CCRAS Database on Medicinal Plants",
+        "url": "https://ccras.nic.in/documents/database-on-medicinal-plants/",
+        "author": "",
+        "edition": "",
+        "year": "",
+        "page": ""
+      },
+      {
+        "type": "official_syllabus",
+        "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+        "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+      },
+      {
+        "type": "medicinal_plants_database",
+        "title": "TDU Indian Medicinal Plants Database",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
+      },
+      {
+        "type": "open_ayurveda_dataset",
+        "title": "Amidha Ayurveda Herb Database v2.0",
+        "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+        "license": "CC BY 4.0",
+        "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+      },
+      {
+        "type": "image",
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Bacopa_monnieri_(L.)_Wettst._(2465019988).jpg",
+        "license_note": "Check the original file page for current license/attribution requirements."
+      }
+    ],
+    "metadata": {
+      "status": "classical_text_reviewed; edition_numbering_may_vary",
+      "last_verified": "",
+      "verified_by": "",
+      "version": "1.2",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "2026-09-19: blank-field enrichment pass.",
+      "classical_review_batch": "1-8 corrected 2026-09-16"
+    },
+    "category": "NCISM-97",
+    "syllabus_marker": "NCISM-97"
+  }
 }

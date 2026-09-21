@@ -1,0 +1,420 @@
+{
+  "id": "plant-karpura",
+  "slug": "karpura",
+  "identity": {
+    "botanicalName": "Cinnamomum camphora (L.) J.Presl",
+    "acceptedNameStatus": "review"
+  },
+  "names": {
+    "sanskrit": [
+      "Karpura",
+      "Karpura"
+    ],
+    "common": [
+      "Camphor"
+    ],
+    "regional": [],
+    "synonyms": [
+      "Ghanasara (घनसारा)",
+      "Himavaluka (हिमवालुका)",
+      "Chandra (चन्द्र)",
+      "Sphatika (स्फटिक)",
+      "Subhra (शुभ्र)"
+    ]
+  },
+  "taxonomy": {
+    "family": "Lauraceae",
+    "genus": "Cinnamomum",
+    "species": "camphora (L.) J.Presl"
+  },
+  "status": "review",
+  "parts": [],
+  "study": {
+    "habit": "evergreen tree",
+    "morphology": "White translucent crystalline masses or powder, highly volatile at room temperature, characteristic penetrating aromatic odor, cool pungent taste followed by a cooling sensation.",
+    "habitat": "Humid subtropical to temperate East and Southeast Asian habitats; cultivated elsewhere",
+    "distribution": "Humid subtropical to temperate East and Southeast Asian habitats; cultivated elsewhere",
+    "identificationFeatures": [
+      "White translucent crystalline masses or powder, highly volatile at room temperature, characteristic penetrating aromatic odor, cool pungent taste followed by a cooling sensation."
+    ],
+    "usefulParts": [
+      "Crystalline Extract / Sublimated Niryasa (Karpura)"
+    ],
+    "rasa": [],
+    "guna": [],
+    "karma": [],
+    "dosha": [
+      "vata: not specifically documented in imported dataset",
+      "pitta: aggravated",
+      "kapha: pacified",
+      "summary: Tridoshashamaka (Specially Kapha-Pittashamaka)"
+    ],
+    "therapeuticUses": [
+      "Hridroga (Heart disease / Functional cardiac weakness)",
+      "Shwasa / Kasa (Dyspnea / Cough)",
+      "Mukharoga (Oral infections / Dental pain)",
+      "Trishna (Excessive thirst)",
+      "Daha (Burning sensation)",
+      "Sandhishoola (Joint pain / Arthralgia)"
+    ],
+    "formulations": [
+      "Karpuradi Churna",
+      "Karpuradi Taila",
+      "Karpura Rasa",
+      "Amritdhara",
+      "Karpurasava"
+    ],
+    "contraindications": []
+  },
+  "sources": [
+    {
+      "id": "src-classical-karpura",
+      "title": "Classical references for Karpura",
+      "type": "classical",
+      "locator": "Bhavaprakasha Nighantu, Karpuradi Varga, Verse 2-3",
+      "verification": "reviewed"
+    }
+  ],
+  "images": [],
+  "legacy": {
+    "id": "karpura",
+    "order": null,
+    "category": "Supplementary",
+    "syllabus_marker": "Supplementary",
+    "identity": {
+      "name": "Karpura",
+      "sanskrit_name": "Karpura",
+      "transliteration": "",
+      "botanical_name": "Cinnamomum camphora (L.) J.Presl",
+      "family": "Lauraceae",
+      "english_name": "Camphor",
+      "hindi_name": "",
+      "regional_names": [],
+      "synonyms": [
+        "Ghanasara (घनसारा)",
+        "Himavaluka (हिमवालुका)",
+        "Chandra (चन्द्र)",
+        "Sphatika (स्फटिक)",
+        "Subhra (शुभ्र)"
+      ]
+    },
+    "classification": {
+      "kingdom": "Plantae",
+      "habit": "evergreen tree",
+      "habitat": "Humid subtropical to temperate East and Southeast Asian habitats; cultivated elsewhere",
+      "distribution": "Humid subtropical to temperate East and Southeast Asian habitats; cultivated elsewhere"
+    },
+    "identification": {
+      "description": "White translucent crystalline masses or powder, highly volatile at room temperature, characteristic penetrating aromatic odor, cool pungent taste followed by a cooling sensation.",
+      "whole_plant": "",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": "",
+      "identification_points": [
+        "White translucent crystalline masses or powder, highly volatile at room temperature, characteristic penetrating aromatic odor, cool pungent taste followed by a cooling sensation."
+      ]
+    },
+    "images": {
+      "whole_plant": "",
+      "habit": "",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": ""
+    },
+    "dravya_guna": {
+      "rasa": [
+        "tikta",
+        "katu",
+        "madhura"
+      ],
+      "guna": [
+        "laghu",
+        "tikshna",
+        "snigdha"
+      ],
+      "virya": "sheeta",
+      "vipaka": "katu",
+      "prabhava": "Hridya / Chakshushya / Vedanasthapana",
+      "karma": [
+        "Hridya",
+        "Vedanasthapana",
+        "Chakshushya",
+        "Chedana",
+        "Kasahara",
+        "Mukhadurgandhahara",
+        "Dahaprashamana",
+        "Krimighna"
+      ]
+    },
+    "dosha": {
+      "vata": "not specifically documented in imported dataset",
+      "pitta": "aggravated",
+      "kapha": "pacified",
+      "summary": "Tridoshashamaka (Specially Kapha-Pittashamaka)"
+    },
+    "therapeutics": {
+      "useful_part": [
+        "Crystalline Extract / Sublimated Niryasa (Karpura)"
+      ],
+      "indications": [
+        "Hridroga (Heart disease / Functional cardiac weakness)",
+        "Shwasa / Kasa (Dyspnea / Cough)",
+        "Mukharoga (Oral infections / Dental pain)",
+        "Trishna (Excessive thirst)",
+        "Daha (Burning sensation)",
+        "Sandhishoola (Joint pain / Arthralgia)"
+      ],
+      "therapeutic_actions": [
+        "Hridya",
+        "Vedanasthapana",
+        "Chakshushya",
+        "Chedana",
+        "Kasahara",
+        "Mukhadurgandhahara",
+        "Dahaprashamana",
+        "Krimighna"
+      ],
+      "dose": "",
+      "anupana": "",
+      "duration": "",
+      "precautions": "Supplementary reference only; verify identity, purification and safety before clinical use.",
+      "contraindications": ""
+    },
+    "formulations": [
+      {
+        "name": "Karpuradi Churna",
+        "dosage_form": "",
+        "indication": "",
+        "reference": ""
+      },
+      {
+        "name": "Karpuradi Taila",
+        "dosage_form": "",
+        "indication": "",
+        "reference": ""
+      },
+      {
+        "name": "Karpura Rasa",
+        "dosage_form": "",
+        "indication": "",
+        "reference": ""
+      },
+      {
+        "name": "Amritdhara",
+        "dosage_form": "",
+        "indication": "",
+        "reference": ""
+      },
+      {
+        "name": "Karpurasava",
+        "dosage_form": "",
+        "indication": "",
+        "reference": ""
+      }
+    ],
+    "classical_reference": {
+      "shlokas": [
+        "कर्पूरः शीतलो हृद्यश्चक्षुष्यो लेपनो लघुः।\nतिक्तो मधुरः कटुकः सुगन्धिः कफपित्तहा॥"
+      ],
+      "nighantu_references": [
+        "Bhavaprakasha Nighantu, Karpuradi Varga, Verse 2-3"
+      ],
+      "samhita_references": [],
+      "shloka_reference_status": "A. Directly verified classical reference",
+      "gemini_source_reference": {
+        "text_grantha_name": "Bhavaprakasha Nighantu",
+        "sthana_section": "Nighantu Sthana",
+        "adhyaya": "N/A",
+        "varga_chapter": "Karpuradi Varga",
+        "shloka_number": "Verse 2-3",
+        "edition_publisher": "Chowkhamba Bharati Academy, Varanasi",
+        "page_number": "Needs checking against physical copy for exact page"
+      },
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
+    },
+    "phytochemistry": {
+      "major_constituents": [],
+      "chemical_notes": "Current Kew taxonomy should be displayed as a verification note rather than silently replacing the source-dataset botanical name."
+    },
+    "modern_information": {
+      "evidence_summary": "Camphor has stimulant, antispasmodic, and antiseptic actions, used in respiratory and skin conditions.",
+      "recognized_uses": [
+        "Botanical identification and pharmacognosy/dravyaguna education."
+      ],
+      "safety_notes": "Educational reference only. Confirm current pharmacopoeial, toxicological and clinical guidance before use. Do not infer therapeutic do not infer clinical treatment instructions from this educational record. Kew lists Cinnamomum camphora as a synonym of accepted Camphora officinarum and notes medicinal and poison uses; verify product-specific safety guidance.",
+      "sources": []
+    },
+    "student": {
+      "exam_points": [
+        "Botanical identity: Cinnamomum camphora (L.) J.Presl",
+        "Family: Lauraceae",
+        "Key identification: White translucent crystalline masses or powder, highly volatile at room temperature, characteristic penetrating aromatic odor, cool pungent taste followed by a cooling sensation.",
+        "Recorded source identity: Cinnamomum camphora (L.) J.Presl; current Kew accepted name: Camphora officinarum Boerh. ex Fabr.",
+        "Drug material: camphor crystals; plant source and commercial camphor type should be distinguished."
+      ],
+      "viva_questions": [
+        "What is the botanical name and family of Karpura?",
+        "Which morphological characters help identify Karpura?",
+        "What is the recorded botanical name of Karpura?",
+        "What family does Karpura belong to?",
+        "Why is accepted botanical nomenclature important for Karpura?"
+      ],
+      "identification_points": [
+        "White translucent crystalline masses or powder, highly volatile at room temperature, characteristic penetrating aromatic odor, cool pungent taste followed by a cooling sensation."
+      ],
+      "mnemonics": [],
+      "quick_revision": "Karpura — camphor; current Kew taxonomy treats Cinnamomum camphora (L.) J.Presl as a synonym of accepted Camphora officinarum Boerh. ex Fabr."
+    },
+    "teacher": {
+      "teaching_points": [
+        "Retained as supplementary material from Gemini batch 74.",
+        "Discuss the difference between a historical/source-dataset name and the currently accepted taxonomic name.",
+        "Distinguish crude plant material, isolated camphor and commercial preparations when teaching pharmacognosy."
+      ],
+      "discussion_points": [],
+      "practical_points": [
+        "Observe the diagnostic characters in authenticated material or herbarium specimens.",
+        "Record plant part used and identification basis separately.",
+        "Observe authenticated camphor crystals and document odour, appearance and volatility without ingestion.",
+        "Record whether the specimen is plant-derived camphor and identify its source documentation."
+      ]
+    },
+    "doctor": {
+      "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
+      "important_indications": [
+        "Hridroga (Heart disease / Functional cardiac weakness)",
+        "Shwasa / Kasa (Dyspnea / Cough)",
+        "Mukharoga (Oral infections / Dental pain)",
+        "Trishna (Excessive thirst)",
+        "Daha (Burning sensation)",
+        "Sandhishoola (Joint pain / Arthralgia)"
+      ],
+      "useful_part": "Crystalline Extract / Sublimated Niryasa (Karpura)",
+      "dose": "",
+      "anupana": "",
+      "key_precautions": [
+        "Use authoritative identification and safety references.",
+        "Do not infer therapeutic dose from this educational record.",
+        "Kew lists Cinnamomum camphora as a synonym of accepted Camphora officinarum and notes medicinal and poison uses; verify product-specific safety guidance."
+      ]
+    },
+    "sources": [
+      {
+        "type": "gemini_source_batch",
+        "title": "Gemini batch 74",
+        "url": ""
+      },
+      {
+        "type": "official_syllabus",
+        "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+        "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+      },
+      {
+        "type": "medicinal_plants_database",
+        "title": "TDU Indian Medicinal Plants Database",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "open_ayurveda_dataset",
+        "title": "Amidha Ayurveda Herb Database v2.0",
+        "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+        "license": "CC BY 4.0",
+        "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the Shlokas module to verify exact Devanagari verse and edition/page before treating a verse as a quotation."
+      }
+    ],
+    "metadata": {
+      "status": "supplementary_audited_needs_classical_verification",
+      "source_batch": "Gemini batch 74",
+      "version": "1.0",
+      "gemini_later_batches_reviewed": true,
+      "gemini_source_batches": [
+        74
+      ],
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "botanical + educational field enrichment",
+      "last_audit": "supplementary JSON completeness/safety audit"
+    },
+    "gemini_source_data": {
+      "id": 74,
+      "classical_sanskrit_name": "Karpura (कर्पूर)",
+      "botanical_name": "Cinnamomum camphora (L.) J.Presl",
+      "family": "Lauraceae",
+      "english_common_name": "Camphor",
+      "sanskrit_synonyms": [
+        "Ghanasara (घनसारा)",
+        "Himavaluka (हिमवालुका)",
+        "Chandra (चन्द्र)",
+        "Sphatika (स्फटिक)",
+        "Subhra (शुभ्र)"
+      ],
+      "useful_part": "Crystalline Extract / Sublimated Niryasa (Karpura)",
+      "rasa": [
+        "Tikta",
+        "Katu",
+        "Madhura"
+      ],
+      "guna": [
+        "Laghu",
+        "Tikshna",
+        "Snigdha"
+      ],
+      "virya": "Sheeta",
+      "vipaka": "Katu",
+      "prabhava": "Hridya / Chakshushya / Vedanasthapana",
+      "dosha_karma": "Tridoshashamaka (Specially Kapha-Pittashamaka)",
+      "pharmacological_therapeutic_karma": [
+        "Hridya",
+        "Vedanasthapana",
+        "Chakshushya",
+        "Chedana",
+        "Kasahara",
+        "Mukhadurgandhahara",
+        "Dahaprashamana",
+        "Krimighna"
+      ],
+      "important_indications": [
+        "Hridroga (Heart disease / Functional cardiac weakness)",
+        "Shwasa / Kasa (Dyspnea / Cough)",
+        "Mukharoga (Oral infections / Dental pain)",
+        "Trishna (Excessive thirst)",
+        "Daha (Burning sensation)",
+        "Sandhishoola (Joint pain / Arthralgia)"
+      ],
+      "important_formulations": [
+        "Karpuradi Churna",
+        "Karpuradi Taila",
+        "Karpura Rasa",
+        "Amritdhara",
+        "Karpurasava"
+      ],
+      "identification_characters": "White translucent crystalline masses or powder, highly volatile at room temperature, characteristic penetrating aromatic odor, cool pungent taste followed by a cooling sensation.",
+      "classical_shloka": "कर्पूरः शीतलो हृद्यश्चक्षुष्यो लेपनो लघुः।\nतिक्तो मधुरः कटुकः सुगन्धिः कफपित्तहा॥",
+      "shloka_source": {
+        "text_grantha_name": "Bhavaprakasha Nighantu",
+        "sthana_section": "Nighantu Sthana",
+        "adhyaya": "N/A",
+        "varga_chapter": "Karpuradi Varga",
+        "shloka_number": "Verse 2-3",
+        "edition_publisher": "Chowkhamba Bharati Academy, Varanasi",
+        "page_number": "Needs checking against physical copy for exact page"
+      },
+      "verification_status": "A. Directly verified classical reference"
+    }
+  }
+}

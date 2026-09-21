@@ -7,93 +7,303 @@
   },
   "names": {
     "sanskrit": [
+      "अश्वगन्धा",
       "Ashwagandha",
-      "Ashvagandha"
+      "Aśvagandhā"
     ],
     "common": [
-      "Indian ginseng",
-      "Winter cherry"
+      "Winter Cherry"
     ],
-    "regional": [],
-    "synonyms": []
+    "regional": [
+      "Turagi",
+      "Vajigandha",
+      "Balada",
+      "Kushtagandhini"
+    ],
+    "synonyms": [
+      "अश्वगन्धा",
+      "अश्वकन्दा",
+      "वाराहकर्णी",
+      "वाजीगन्धा",
+      "बलदा",
+      "वरा"
+    ]
   },
   "taxonomy": {
     "family": "Solanaceae",
     "genus": "Withania",
-    "species": "Withania somnifera"
+    "species": "somnifera (L.) Dunal"
   },
   "status": "review",
   "parts": [
-    "root",
-    "leaf",
-    "flower",
-    "fruit",
-    "seed"
+    "whole-plant",
+    "root"
   ],
   "study": {
-    "habit": "Perennial shrub or subshrub.",
-    "morphology": "Tomentose stems; ovate to oblong leaves; small axillary greenish flowers; red berry enclosed by enlarged calyx.",
-    "habitat": "Subtropical dry and seasonally dry regions.",
-    "distribution": "Native range extends from southern Europe through Asia to China and parts of Africa; cultivated widely.",
+    "habit": "Subshrub or shrub",
+    "morphology": "An erect, branched, tomentose subshrub with ovate leaves, small greenish-yellow flowers and globose red berries enclosed by an enlarged persistent calyx.",
+    "habitat": "Subtropical, semi-arid and relatively dry regions",
+    "distribution": "",
     "identificationFeatures": [
-      "Tomentose grey-green stems",
+      "Erect branched tomentose habit",
       "Ovate leaves",
-      "Red berry enclosed by enlarged calyx"
+      "Small greenish-yellow flowers",
+      "Red globose berries",
+      "Enlarged persistent calyx"
     ],
     "usefulParts": [
-      "Root"
+      "root"
     ],
-    "karma": [
-      "Balya",
-      "Brimhana",
-      "Rasayana"
+    "rasa": [],
+    "guna": [],
+    "karma": [],
+    "dosha": [
+      "vata: pacified",
+      "pitta: aggravated",
+      "kapha: pacified"
     ],
     "therapeuticUses": [
-      "Traditional tonic and restorative use",
-      "Traditional use in weakness and convalescence",
-      "Traditional use in reproductive health"
+      "Kshaya",
+      "Daurbalya",
+      "Vata Vyadhi",
+      "Klaibya"
     ],
-    "formulations": [
-      "Ashwagandha Churna",
-      "Ashwagandharishta"
-    ]
+    "formulations": [],
+    "contraindications": []
   },
   "sources": [
     {
-      "id": "src-ashwagandha-kew",
-      "title": "Withania somnifera — Plants of the World Online",
-      "type": "taxonomic",
-      "year": 2026,
-      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A821709-1",
-      "verification": "reviewed"
-    },
-    {
-      "id": "src-ashwagandha-carak",
-      "title": "Ashwagandha — Charak Samhita herb database",
+      "id": "src-classical-ashwagandha",
+      "title": "Classical references for Ashwagandha",
       "type": "classical",
-      "year": 2026,
-      "url": "https://carakasamhitaonline.com/index.php?title=Withania_somnifera",
+      "locator": "Bhavaprakasha Nighantu, Guduchyadi Varga, verses 161–162 in the searchable recension; edition numbering may vary.",
       "verification": "reviewed"
     },
     {
-      "id": "src-image-img-ashwagandha-fruit-01",
-      "title": "Image source — Withania somnifera fruit",
+      "id": "src-image-ashwagandha-whole-plant",
+      "title": "Ashwagandha — whole-plant image",
       "type": "image",
-      "url": "https://commons.wikimedia.org/wiki/File:Withania_somnifera_fruit.jpg",
+      "url": "https://github.com/aanandkumar799/Dravyaguna-97/blob/main/images/plants/ashwagandha.jpg",
       "verification": "reviewed"
     }
   ],
   "images": [
     {
-      "id": "img-ashwagandha-fruit-01",
-      "part": "fruit",
-      "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Withania_somnifera_fruit.jpg",
-      "alt": "Withania somnifera fruit",
-      "sourceId": "src-image-img-ashwagandha-fruit-01",
-      "license": "CC BY-SA 4.0",
-      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Withania_somnifera_fruit.jpg",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "id": "img-ashwagandha-whole-plant",
+      "part": "whole-plant",
+      "url": "https://raw.githubusercontent.com/aanandkumar799/Dravyaguna-97/main/images/plants/ashwagandha.jpg",
+      "alt": "Ashwagandha whole plant image",
+      "sourceId": "src-image-ashwagandha-whole-plant",
+      "sourcePageUrl": "https://github.com/aanandkumar799/Dravyaguna-97/blob/main/images/plants/ashwagandha.jpg",
       "verification": "reviewed"
     }
-  ]
+  ],
+  "legacy": {
+    "id": "ashwagandha",
+    "order": 5,
+    "identity": {
+      "name": "Ashwagandha",
+      "sanskrit_name": "अश्वगन्धा",
+      "transliteration": "Aśvagandhā",
+      "botanical_name": "Withania somnifera (L.) Dunal",
+      "family": "Solanaceae",
+      "english_name": "Winter Cherry",
+      "hindi_name": "",
+      "regional_names": [
+        "Turagi",
+        "Vajigandha",
+        "Balada",
+        "Kushtagandhini"
+      ],
+      "synonyms": [
+        "अश्वगन्धा",
+        "अश्वकन्दा",
+        "वाराहकर्णी",
+        "वाजीगन्धा",
+        "बलदा",
+        "वरा"
+      ],
+      "common_names": [
+        "Indian Ginseng",
+        "Winter Cherry"
+      ]
+    },
+    "classification": {
+      "kingdom": "Plantae",
+      "habit": "Subshrub or shrub",
+      "habitat": "Subtropical, semi-arid and relatively dry regions",
+      "distribution": ""
+    },
+    "identification": {
+      "description": "An erect, branched, tomentose subshrub with ovate leaves, small greenish-yellow flowers and globose red berries enclosed by an enlarged persistent calyx.",
+      "whole_plant": "Small erect branched shrub or subshrub.",
+      "root": "The medicinal part is the dried mature root.",
+      "stem": "Erect, branched and greyish-tomentose.",
+      "leaf": "Simple, generally ovate to oblong leaves.",
+      "flower": "Small greenish-yellow flowers in axillary clusters.",
+      "fruit": "Globose red berry enclosed by an enlarged persistent calyx.",
+      "seed": "",
+      "bark": "",
+      "identification_points": [
+        "Erect branched tomentose habit",
+        "Ovate leaves",
+        "Small greenish-yellow flowers",
+        "Red globose berries",
+        "Enlarged persistent calyx"
+      ]
+    },
+    "images": {
+      "whole_plant": "images/plants/ashwagandha.jpg",
+      "habit": "images/plants/ashwagandha.jpg",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": ""
+    },
+    "dravya_guna": {
+      "rasa": [
+        "Madhura",
+        "Tikta",
+        "Kashaya"
+      ],
+      "guna": [
+        "Laghu",
+        "Snigdha"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "prabhava": [
+        "Balya",
+        "Medhya",
+        "Vrishya",
+        "rasayan"
+      ],
+      "karma": [
+        "Rasayana",
+        "Balya",
+        "Vajikarana"
+      ]
+    },
+    "dosha": {
+      "vata": "pacified",
+      "pitta": "aggravated",
+      "kapha": "pacified"
+    },
+    "therapeutics": {
+      "useful_part": [
+        "root"
+      ],
+      "indications": [
+        "Kshaya",
+        "Daurbalya",
+        "Vata Vyadhi",
+        "Klaibya"
+      ],
+      "therapeutic_actions": [],
+      "dose": "",
+      "anupana": "",
+      "duration": "",
+      "precautions": "",
+      "contraindications": ""
+    },
+    "formulations": [],
+    "classical_reference": {
+      "shlokas": [
+        "गन्धान्ता वाजिनामादिरश्वगन्धा हयाह्वया ।\nवराहकर्णी वरदा बलदा कुष्ठगन्धिनी ॥\nअश्वगन्धाऽनिलश्लेष्मश्वित्रशोथक्षयापहा ।\nबल्या रसायनी तिक्ता कषायोष्णाऽतिशुक्रला ॥"
+      ],
+      "nighantu_references": [
+        "Bhavaprakasha Nighantu, Guduchyadi Varga, verses 161–162 in the searchable recension; edition numbering may vary."
+      ],
+      "samhita_references": [],
+      "shloka_reference_status": "classical_text_corrected; edition/numbering explicitly qualified",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas",
+        "CCRAS/NIIMH e-Nighantu — Bhavaprakasha Nighantu"
+      ]
+    },
+    "phytochemistry": {
+      "major_constituents": [],
+      "chemical_notes": ""
+    },
+    "modern_information": {
+      "evidence_summary": "Ashwagandha (Withania somnifera) is a powerful adaptogen. It reduces stress, increases strength, and supports reproductive and nervous systems.",
+      "recognized_uses": [],
+      "safety_notes": "",
+      "sources": []
+    },
+    "student": {
+      "exam_points": [],
+      "viva_questions": [],
+      "identification_points": [],
+      "mnemonics": [],
+      "quick_revision": "Ashwagandha (Withania somnifera) is a powerful adaptogen. It reduces stress, increases strength, and supports reproductive and nervous systems."
+    },
+    "teacher": {
+      "teaching_points": [],
+      "discussion_points": [],
+      "practical_points": []
+    },
+    "doctor": {
+      "quick_reference": "",
+      "important_indications": [],
+      "useful_part": "root",
+      "dose": "",
+      "anupana": "",
+      "key_precautions": []
+    },
+    "sources": [
+      {
+        "type": "official",
+        "title": "CCRAS medicinal plant research",
+        "url": "https://ccras.nic.in/services/medicinal-plant-research/",
+        "author": "",
+        "edition": "",
+        "year": "",
+        "page": ""
+      },
+      {
+        "type": "official_syllabus",
+        "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+        "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+      },
+      {
+        "type": "medicinal_plants_database",
+        "title": "TDU Indian Medicinal Plants Database",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "image",
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Asbagandha_(Assamese_%E0%A6%85%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%97%E0%A6%A8%E0%A7%8D%E0%A6%A7%E0%A6%BE)_(45645607082).jpg",
+        "license_note": "Check the original file page for current license/attribution requirements."
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
+      },
+      {
+        "type": "open_ayurveda_dataset",
+        "title": "Amidha Ayurveda Herb Database v2.0",
+        "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+        "license": "CC BY 4.0",
+        "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+      }
+    ],
+    "metadata": {
+      "status": "classical_text_reviewed; edition_numbering_may_vary",
+      "last_verified": "2026-09-16",
+      "verified_by": "Web research against government, botanical and peer-reviewed sources",
+      "version": "1.2",
+      "content_policy": "Classical Sanskrit verses and exact classical verse numbers are not marked verified until checked against a primary text edition.",
+      "last_enrichment": "2026-09-19: blank-field enrichment pass.",
+      "classical_review_batch": "1-8 corrected 2026-09-16"
+    },
+    "category": "NCISM-97",
+    "syllabus_marker": "NCISM-97"
+  }
 }

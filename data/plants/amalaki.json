@@ -7,131 +7,310 @@
   },
   "names": {
     "sanskrit": [
+      "आमलकी",
       "Amalaki",
-      "Dhatri"
+      "Āmalakī"
     ],
     "common": [
-      "Indian gooseberry",
-      "Amla"
+      "Indian gooseberry / Amla",
+      "आंवला"
     ],
     "regional": [],
     "synonyms": [
-      "Emblica officinalis Gaertn."
+      "Dhatri",
+      "Amrita"
     ]
   },
   "taxonomy": {
     "family": "Phyllanthaceae",
     "genus": "Phyllanthus",
-    "species": "Phyllanthus emblica"
+    "species": "emblica"
   },
   "status": "review",
   "parts": [
-    "fruit",
-    "seed",
-    "bark",
-    "leaf"
+    "whole-plant",
+    "fruit"
   ],
   "study": {
-    "habit": "Small to medium-sized deciduous tree.",
-    "morphology": "Feathery appearance from numerous small linear leaves; greenish flowers; nearly spherical ribbed fruits.",
-    "habitat": "Tropical and subtropical forests, woodland and cultivated areas.",
-    "distribution": "Native across tropical and subtropical Asia including India.",
+    "habit": "Small to medium-sized deciduous tree",
+    "morphology": "Small tree with pale grey bark and feathery-looking branchlets bearing numerous small leaves.",
+    "habitat": "Tropical and subtropical regions; cultivated and wild",
+    "distribution": "Widely distributed in India",
     "identificationFeatures": [
-      "Small closely set leaves",
-      "Greenish flowers",
-      "Ribbed globose fruit"
+      "Spherical furrowed fruit",
+      "Small closely arranged leaves",
+      "Pale grey bark"
     ],
     "usefulParts": [
-      "Fruit"
+      "fruit"
     ],
-    "rasa": [
-      "Madhura",
-      "Amla",
-      "Tikta",
-      "Kashaya",
-      "Katu"
-    ],
-    "guna": [
-      "Laghu",
-      "Ruksha"
-    ],
-    "virya": "Sheeta",
-    "vipaka": "Madhura",
-    "karma": [
-      "Rasayana",
-      "Tridoshahara",
-      "Vrishya"
+    "rasa": [],
+    "guna": [],
+    "karma": [],
+    "dosha": [
+      "vata: generally pacifies",
+      "pitta: pacifies",
+      "kapha: may pacify; context dependent"
     ],
     "therapeuticUses": [
-      "Traditional rasayana use",
-      "Traditional digestive use",
-      "Traditional nourishing use"
+      "traditional rasayana use",
+      "digestive and general restorative applications"
     ],
     "formulations": [
       "Triphala",
       "Chyavanaprasha"
-    ]
+    ],
+    "contraindications": []
   },
   "sources": [
     {
-      "id": "src-amalaki-review",
-      "title": "Phytochemistry and ethnomedicinal qualities of metabolites from Phyllanthus emblica L.: A review",
-      "type": "modern",
-      "url": "https://www.sciencedirect.com/org/science/article/pii/S0327954523001421",
-      "verification": "reviewed"
-    },
-    {
-      "id": "src-amalaki-kew",
-      "title": "Phyllanthus emblica — Plants of the World Online",
-      "type": "taxonomic",
-      "year": 2026,
-      "url": "https://powo.science.kew.org/taxon/353838-1",
-      "verification": "reviewed"
-    },
-    {
-      "id": "src-amalaki-classical-review",
-      "title": "A Critical Review of Amalaki in Classical Texts",
+      "id": "src-classical-amalaki",
+      "title": "Classical references for Amalaki",
       "type": "classical",
-      "url": "https://ijapr.in/index.php/ijapr/article/view/2412",
+      "locator": "Bhavaprakasha Nighantu, Haritakyadi Varga, Amalaki passage (commonly cited around verses 39–40; numbering varies by recension/edition).",
       "verification": "reviewed"
     },
     {
-      "id": "src-image-img-amalaki-leaf-01",
-      "title": "Image source — Phyllanthus emblica leaves",
+      "id": "src-image-amalaki-whole-plant",
+      "title": "Amalaki — whole-plant image",
       "type": "image",
-      "url": "https://commons.wikimedia.org/wiki/File:Phyllanthus_emblica_leaves.jpg",
-      "verification": "reviewed"
-    },
-    {
-      "id": "src-image-img-amalaki-fruit-01",
-      "title": "Image source — Phyllanthus emblica fruits",
-      "type": "image",
-      "url": "https://commons.wikimedia.org/wiki/File:Fruits_of_Phyllanthus_emblica.jpg",
+      "url": "https://github.com/aanandkumar799/Dravyaguna-97/blob/main/images/plants/amalaki.jpg",
       "verification": "reviewed"
     }
   ],
   "images": [
     {
-      "id": "img-amalaki-leaf-01",
-      "part": "leaf",
-      "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Phyllanthus_emblica_leaves.jpg",
-      "alt": "Phyllanthus emblica leaves",
-      "sourceId": "src-image-img-amalaki-leaf-01",
-      "license": "CC BY-SA 3.0",
-      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Phyllanthus_emblica_leaves.jpg",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-      "verification": "reviewed"
-    },
-    {
-      "id": "img-amalaki-fruit-01",
-      "part": "fruit",
-      "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Fruits_of_Phyllanthus_emblica.jpg",
-      "alt": "Phyllanthus emblica fruits",
-      "sourceId": "src-image-img-amalaki-fruit-01",
-      "license": "CC BY-SA 3.0",
-      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Fruits_of_Phyllanthus_emblica.jpg",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "id": "img-amalaki-whole-plant",
+      "part": "whole-plant",
+      "url": "https://raw.githubusercontent.com/aanandkumar799/Dravyaguna-97/main/images/plants/amalaki.jpg",
+      "alt": "Amalaki whole plant image",
+      "sourceId": "src-image-amalaki-whole-plant",
+      "sourcePageUrl": "https://github.com/aanandkumar799/Dravyaguna-97/blob/main/images/plants/amalaki.jpg",
       "verification": "reviewed"
     }
-  ]
+  ],
+  "legacy": {
+    "id": "amalaki",
+    "order": 1,
+    "identity": {
+      "name": "Amalaki",
+      "sanskrit_name": "आमलकी",
+      "transliteration": "Āmalakī",
+      "botanical_name": "Phyllanthus emblica L.",
+      "family": "Phyllanthaceae",
+      "english_name": "Indian gooseberry / Amla",
+      "hindi_name": "आंवला",
+      "regional_names": [],
+      "synonyms": [
+        "Dhatri",
+        "Amrita"
+      ]
+    },
+    "classification": {
+      "kingdom": "Plantae",
+      "habit": "Small to medium-sized deciduous tree",
+      "habitat": "Tropical and subtropical regions; cultivated and wild",
+      "distribution": "Widely distributed in India"
+    },
+    "identification": {
+      "description": "Small tree with pale grey bark and feathery-looking branchlets bearing numerous small leaves.",
+      "whole_plant": "Small to medium tree; crown often light and spreading.",
+      "root": "",
+      "stem": "Trunk with grey to grey-brown bark; branchlets slender.",
+      "leaf": "Small, simple, closely set on branchlets, giving a pinnate appearance.",
+      "flower": "Small, inconspicuous, greenish-yellow; male and female flowers occur on the same plant.",
+      "fruit": "Nearly spherical, smooth, pale green to yellow-green, with characteristic vertical furrows; sour/astringent taste.",
+      "seed": "Enclosed in the hard, six-ridged stone.",
+      "bark": "Grey-brown and exfoliating in older portions.",
+      "identification_points": [
+        "Spherical furrowed fruit",
+        "Small closely arranged leaves",
+        "Pale grey bark"
+      ]
+    },
+    "images": {
+      "whole_plant": "images/plants/amalaki.jpg",
+      "habit": "images/plants/amalaki.jpg",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": ""
+    },
+    "dravya_guna": {
+      "rasa": [
+        "amla",
+        "madhura",
+        "kashaya",
+        "tikta",
+        "katu"
+      ],
+      "guna": [
+        "guru",
+        "ruksha"
+      ],
+      "virya": "sheeta",
+      "vipaka": "madhura",
+      "prabhava": "",
+      "karma": [
+        "rasayana",
+        "vayasthapana"
+      ]
+    },
+    "dosha": {
+      "vata": "generally pacifies",
+      "pitta": "pacifies",
+      "kapha": "may pacify; context dependent"
+    },
+    "therapeutics": {
+      "useful_part": [
+        "fruit"
+      ],
+      "indications": [
+        "traditional rasayana use",
+        "digestive and general restorative applications"
+      ],
+      "therapeutic_actions": [
+        "rasayana"
+      ],
+      "dose": "",
+      "anupana": "",
+      "duration": "",
+      "precautions": "",
+      "contraindications": ""
+    },
+    "formulations": [
+      {
+        "name": "Triphala",
+        "dosage_form": "powder/decoction and other preparations",
+        "indication": "Traditional use in digestive and rasayana practice",
+        "reference": ""
+      },
+      {
+        "name": "Chyavanaprasha",
+        "dosage_form": "avaleha",
+        "indication": "Traditional rasayana preparation",
+        "reference": ""
+      }
+    ],
+    "classical_reference": {
+      "shlokas": [
+        "हरीतकीसमं धात्रीफलं किन्तु विशेषतः ।\nरक्तपित्तप्रमेहघ्नं परं वृष्यं रसायनम् ॥\nहन्ति वातं तदम्लत्वात्पित्तं माधुर्यशैत्यतः ।\nकफं रूक्षकषायत्वात्फलं धात्र्यास्त्रिदोषजित् ॥"
+      ],
+      "nighantu_references": [
+        "Bhavaprakasha Nighantu, Haritakyadi Varga, Amalaki passage (commonly cited around verses 39–40; numbering varies by recension/edition)."
+      ],
+      "samhita_references": [],
+      "shloka_reference_status": "classical_text_corrected; edition/numbering explicitly qualified",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas",
+        "CCRAS/NIIMH e-Nighantu — Bhavaprakasha Nighantu"
+      ]
+    },
+    "phytochemistry": {
+      "major_constituents": [
+        "tannins",
+        "ascorbic-acid-related compounds",
+        "polyphenols"
+      ],
+      "chemical_notes": "Composition varies with cultivar, maturity and processing."
+    },
+    "modern_information": {
+      "evidence_summary": "Extensively studied as a medicinal fruit; research includes antioxidant and other pharmacological investigations.",
+      "recognized_uses": [],
+      "safety_notes": "Clinical use should consider preparation, dose and individual factors.",
+      "sources": [
+        "CCRAS medicinal-plant/pharmacological research resources"
+      ]
+    },
+    "student": {
+      "exam_points": [
+        "Fruit is the principal medicinal part",
+        "Important rasayana drug"
+      ],
+      "viva_questions": [
+        "Identify the fruit of Amalaki.",
+        "State rasa-panchaka of Amalaki."
+      ],
+      "identification_points": [
+        "Furrowed globose fruit",
+        "Closely arranged small leaves"
+      ],
+      "mnemonics": [],
+      "quick_revision": "Āmalakī: fruit; five tastes except salt is classically emphasized; sheeta virya; madhura vipaka."
+    },
+    "teacher": {
+      "teaching_points": [
+        "Demonstrate fruit morphology and identification"
+      ],
+      "discussion_points": [
+        "Rasa-panchaka and rasayana concept"
+      ],
+      "practical_points": [
+        "Fresh and dried fruit identification"
+      ]
+    },
+    "doctor": {
+      "quick_reference": "Traditional rasayana drug chiefly represented by its fruit.",
+      "important_indications": [],
+      "useful_part": "fruit",
+      "dose": "",
+      "anupana": "",
+      "key_precautions": []
+    },
+    "sources": [
+      {
+        "type": "official_research",
+        "title": "CCRAS medicinal plant research",
+        "url": "https://ccras.nic.in/services/medicinal-plant-research/",
+        "author": "",
+        "edition": "",
+        "year": "",
+        "page": ""
+      },
+      {
+        "type": "official_research",
+        "title": "CCRAS pharmacological research",
+        "url": "https://ccras.nic.in/hi/services/pharmacological-research/",
+        "author": "",
+        "edition": "",
+        "year": "",
+        "page": ""
+      },
+      {
+        "type": "official_syllabus",
+        "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+        "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+      },
+      {
+        "type": "medicinal_plants_database",
+        "title": "TDU Indian Medicinal Plants Database",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "image",
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Phyllanthus_emblica_L._(49546283213).jpg",
+        "license_note": "Check the original file page for current license/attribution requirements."
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
+      }
+    ],
+    "metadata": {
+      "status": "classical_text_reviewed; edition_numbering_may_vary",
+      "last_verified": "",
+      "verified_by": "",
+      "version": "1.2",
+      "last_enrichment": "structured-field + image + reference enrichment + curated batch",
+      "classical_review_batch": "1-8 corrected 2026-09-16"
+    },
+    "category": "NCISM-97",
+    "syllabus_marker": "NCISM-97"
+  }
 }

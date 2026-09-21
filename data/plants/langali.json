@@ -1,0 +1,281 @@
+{
+  "id": "plant-langali",
+  "slug": "langali",
+  "identity": {
+    "botanicalName": "Gloriosa superba L.",
+    "acceptedNameStatus": "review"
+  },
+  "names": {
+    "sanskrit": [
+      "लाङ्गली",
+      "Langali"
+    ],
+    "common": [
+      "Gloriosa lily"
+    ],
+    "regional": [
+      "Kalihari",
+      "Garbhaghatini",
+      "Agnishikha",
+      "Visalya"
+    ],
+    "synonyms": [
+      "Kalihari",
+      "Garbhaghatini",
+      "Agnishikha",
+      "Visalya"
+    ]
+  },
+  "taxonomy": {
+    "family": "Colchicaceae",
+    "genus": "Gloriosa",
+    "species": "superba"
+  },
+  "status": "review",
+  "parts": [],
+  "study": {
+    "habit": "herbaceous climber",
+    "morphology": "Climbing herb arising from distinctive V-shaped tubers; flowers have strongly reflexed tepals.",
+    "habitat": "Moist and dry deciduous forests, scrub and plains",
+    "distribution": "Moist and dry deciduous forests, scrub and plains",
+    "identificationFeatures": [
+      "Leaves are lanceolate with a tendril-like tip.",
+      "Flowers change from yellow/orange to red.",
+      "Fruit is a three-celled capsule."
+    ],
+    "usefulParts": [
+      "Moola",
+      "Kanda"
+    ],
+    "rasa": [],
+    "guna": [],
+    "karma": [],
+    "dosha": [
+      "vata: pacified",
+      "pitta: aggravated",
+      "kapha: pacified"
+    ],
+    "therapeuticUses": [
+      "Kushta",
+      "Vrana",
+      "Garbhasanga",
+      "Vata Vyadhi",
+      "Krimi"
+    ],
+    "formulations": [],
+    "contraindications": []
+  },
+  "sources": [],
+  "images": [],
+  "legacy": {
+    "id": "langali",
+    "order": null,
+    "category": "Supplementary",
+    "syllabus_marker": "Supplementary",
+    "identity": {
+      "name": "Langali",
+      "sanskrit_name": "लाङ्गली",
+      "transliteration": "",
+      "botanical_name": "Gloriosa superba L.",
+      "family": "Colchicaceae",
+      "english_name": "Gloriosa lily",
+      "hindi_name": "",
+      "regional_names": [
+        "Kalihari",
+        "Garbhaghatini",
+        "Agnishikha",
+        "Visalya"
+      ],
+      "synonyms": [
+        "Kalihari",
+        "Garbhaghatini",
+        "Agnishikha",
+        "Visalya"
+      ]
+    },
+    "classification": {
+      "kingdom": "Plantae",
+      "habit": "herbaceous climber",
+      "habitat": "Moist and dry deciduous forests, scrub and plains",
+      "distribution": "Moist and dry deciduous forests, scrub and plains"
+    },
+    "identification": {
+      "description": "Climbing herb arising from distinctive V-shaped tubers; flowers have strongly reflexed tepals.",
+      "whole_plant": "",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": "",
+      "identification_points": [
+        "Leaves are lanceolate with a tendril-like tip.",
+        "Flowers change from yellow/orange to red.",
+        "Fruit is a three-celled capsule."
+      ]
+    },
+    "images": {
+      "whole_plant": "",
+      "habit": "",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": ""
+    },
+    "dravya_guna": {
+      "rasa": [
+        "Katu",
+        "Tikta"
+      ],
+      "guna": [
+        "Laghu",
+        "Tikshna"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "prabhava": [
+        "Kushtaghna",
+        "Garbhashaya Sankochaka"
+      ],
+      "karma": [
+        "Kushtaghna",
+        "Garbhashaya Sankochaka"
+      ]
+    },
+    "dosha": {
+      "vata": "pacified",
+      "pitta": "aggravated",
+      "kapha": "pacified"
+    },
+    "therapeutics": {
+      "useful_part": [
+        "Moola",
+        "Kanda"
+      ],
+      "indications": [
+        "Kushta",
+        "Vrana",
+        "Garbhasanga",
+        "Vata Vyadhi",
+        "Krimi"
+      ],
+      "therapeutic_actions": [],
+      "dose": "",
+      "anupana": "",
+      "duration": "",
+      "precautions": "Supplementary reference only; verify identity, purification and safety before clinical use.",
+      "contraindications": ""
+    },
+    "formulations": [],
+    "classical_reference": {
+      "shlokas": [],
+      "nighantu_references": [],
+      "samhita_references": [],
+      "shloka_reference_status": "requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
+    },
+    "phytochemistry": {
+      "major_constituents": [],
+      "chemical_notes": "Phytochemical compound list remains source-verification pending; do not treat an unverified compound list as authoritative."
+    },
+    "modern_information": {
+      "evidence_summary": "Gloriosa superba is a potent herb used for inducing labor and in treating skin diseases, but is toxic if not used correctly.",
+      "recognized_uses": [
+        "Botanical identification and pharmacognosy/dravyaguna education."
+      ],
+      "safety_notes": "Educational reference only. Verify authoritative toxicological and pharmacopoeial guidance before use.",
+      "sources": []
+    },
+    "student": {
+      "exam_points": [
+        "Botanical identity: Gloriosa superba L.; Family: Colchicaceae; characteristic climbing habit and showy flowers are useful identification features."
+      ],
+      "viva_questions": [
+        "What is the botanical identity and family of Langali?",
+        "Which characters are useful for practical identification of Langali?"
+      ],
+      "identification_points": [
+        "Leaves are lanceolate with a tendril-like tip.",
+        "Flowers change from yellow/orange to red.",
+        "Fruit is a three-celled capsule.",
+        "Climbing herb with characteristic tuberous underground organ and showy flowers; verify against authenticated material."
+      ],
+      "mnemonics": [],
+      "quick_revision": "Lāṅgalī — Gloriosa superba L. is an accepted Kew species in Colchicaceae; Kew describes it as a tuberous climber and notes that all parts, especially tubers, are extremely poisonous."
+    },
+    "teacher": {
+      "teaching_points": [
+        "Retained as supplementary material from Gemini batch 93.",
+        "Use Lāṅgalī to teach identification with prominent toxic-plant safety documentation.",
+        "Separate botanical evidence from classical-text claims that remain unverified."
+      ],
+      "discussion_points": [],
+      "practical_points": [
+        "Use authenticated material or herbarium specimens for practical identification.",
+        "Record plant part and identification basis separately."
+      ]
+    },
+    "doctor": {
+      "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
+      "important_indications": [
+        "Kushta",
+        "Vrana",
+        "Garbhasanga",
+        "Vata Vyadhi",
+        "Krimi"
+      ],
+      "useful_part": "Moola, Kanda",
+      "dose": "",
+      "anupana": "",
+      "key_precautions": [
+        "Use authoritative identification and safety references.",
+        "Do not infer clinical dose from this educational record.",
+        "Verify current toxicological and pharmacopoeial guidance before clinical use."
+      ]
+    },
+    "sources": [
+      {
+        "type": "gemini_source_batch",
+        "title": "Gemini batch 93",
+        "url": ""
+      },
+      {
+        "type": "official_syllabus",
+        "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+        "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+      },
+      {
+        "type": "medicinal_plants_database",
+        "title": "TDU Indian Medicinal Plants Database",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "open_ayurveda_dataset",
+        "title": "Amidha Ayurveda Herb Database v2.0",
+        "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+        "license": "CC BY 4.0",
+        "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the Shlokas module to verify exact Devanagari verse and edition/page before treating a verse as a quotation."
+      }
+    ],
+    "metadata": {
+      "status": "supplementary_audited_needs_classical_verification",
+      "source_batch": "Gemini batch 93",
+      "version": "1.0",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "2026-09-19: blank-field enrichment pass.",
+      "last_audit": "supplementary JSON completeness/safety audit"
+    }
+  }
+}

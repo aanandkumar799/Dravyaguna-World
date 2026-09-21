@@ -2,111 +2,312 @@
   "id": "plant-ashoka",
   "slug": "ashoka",
   "identity": {
-    "botanicalName": "Saraca asoca (Roxb.) W.J.de Wilde",
+    "botanicalName": "Saraca asoca (Roxb.) Willd.",
     "acceptedNameStatus": "review"
   },
   "names": {
     "sanskrit": [
-      "Ashoka",
-      "Madhupushpa",
-      "Raktapallavaka",
-      "Hemapushpa"
+      "अशोक",
+      "Ashoka"
     ],
     "common": [
-      "Ashoka",
-      "Asok tree"
+      "Ashoka Tree"
     ],
-    "regional": [],
+    "regional": [
+      "Hemapushpa",
+      "Tamrapallava",
+      "Kankeli",
+      "Pindapushpa"
+    ],
     "synonyms": [
-      "Jonesia asoca Roxb.",
-      "Jonesia confusa Hassk."
+      "Hemapushpa",
+      "Kankelli",
+      "Vamadhara",
+      "Pindapushpa"
     ]
   },
   "taxonomy": {
     "family": "Fabaceae",
     "genus": "Saraca",
-    "species": "Saraca asoca"
+    "species": "asoca (Roxb.)"
   },
   "status": "review",
   "parts": [
+    "whole-plant",
+    "stem",
     "bark",
-    "leaf",
-    "flower",
-    "seed"
+    "seed",
+    "flower"
   ],
   "study": {
-    "habit": "Evergreen tree.",
-    "morphology": "Compound paripinnate leaves; dense clusters of orange-red flowers; flat pods containing seeds.",
-    "habitat": "Moist tropical forests; cultivated as an ornamental tree.",
-    "distribution": "Native to the Indian subcontinent and adjacent regions; cultivated widely.",
-    "identificationFeatures": [
-      "Paripinnate leaves",
-      "Dense orange-red flower clusters",
-      "Flat leguminous pods"
-    ],
+    "habit": "",
+    "morphology": "Stem bark pieces are channelled or curved, with rough greyish-brown outer surface and reddish-brown inner surface; strongly astringent.",
+    "habitat": "",
+    "distribution": "",
+    "identificationFeatures": [],
     "usefulParts": [
-      "Bark",
-      "Flower"
+      "stem bark (Twak)",
+      "seeds (Bija)",
+      "flowers (Pushpa)"
     ],
-    "rasa": [
-      "Tikta",
-      "Kashaya"
-    ],
-    "guna": [
-      "Laghu",
-      "Ruksha"
-    ],
-    "virya": "Sheeta",
-    "vipaka": "Katu",
-    "karma": [
-      "Garbhashaya-balya",
-      "Raktasthambhana"
+    "rasa": [],
+    "guna": [],
+    "karma": [],
+    "dosha": [
+      "vata: generally not aggravating",
+      "pitta: pacifies",
+      "kapha: pacifies"
     ],
     "therapeuticUses": [
-      "Traditional gynecological use",
-      "Traditional use in excessive uterine bleeding",
-      "Traditional use in painful menstruation"
+      "Asrigdara",
+      "Pradara",
+      "Yoniroga",
+      "Daha",
+      "Trishna",
+      "Apachi"
     ],
     "formulations": [
       "Ashokarishta",
-      "Ashoka Ghrita"
-    ]
+      "Ashoka Ghrita",
+      "Ashokaksheerapaka",
+      "Chandanasava"
+    ],
+    "contraindications": []
   },
   "sources": [
     {
-      "id": "src-ashoka-carak",
-      "title": "Ashoka — Charak Samhita herb database",
+      "id": "src-classical-ashoka",
+      "title": "Classical references for Ashoka",
       "type": "classical",
-      "year": 2026,
-      "url": "https://www.carakasamhitaonline.com/index.php?title=Ashoka",
+      "locator": "Bhavaprakasha Nighantu, Vatadi Varga, verses 47–48",
       "verification": "reviewed"
     },
     {
-      "id": "src-ashoka-kew",
-      "title": "Saraca asoca — Plants of the World Online",
-      "type": "taxonomic",
-      "year": 2026,
-      "url": "https://powo.science.kew.org/taxon/517883-1",
-      "verification": "reviewed"
-    },
-    {
-      "id": "src-image-img-ashoka-flower-01",
-      "title": "Image source — Saraca asoca flowers",
+      "id": "src-image-ashoka-whole-plant",
+      "title": "Ashoka — whole-plant image",
       "type": "image",
-      "url": "https://commons.wikimedia.org/wiki/File:Ashok%20(Hindi-%20%E0%A4%85%E0%A4%B6%E0%A5%8B%E0%A4%95)%20(6781535350).jpg",
+      "url": "https://github.com/aanandkumar799/Dravyaguna-97/blob/main/images/plants/ashoka.jpg",
       "verification": "reviewed"
     }
   ],
   "images": [
     {
-      "id": "img-ashoka-flower-01",
-      "part": "flower",
-      "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Ashok%20(Hindi-%20%E0%A4%85%E0%A4%B6%E0%A5%8B%E0%A4%95)%20(6781535350).jpg",
-      "alt": "Saraca asoca flowers",
-      "sourceId": "src-image-img-ashoka-flower-01",
-      "license": "CC BY-SA 3.0",
-      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Ashok%20(Hindi-%20%E0%A4%85%E0%A4%B6%E0%A5%8B%E0%A4%95)%20(6781535350).jpg",
+      "id": "img-ashoka-whole-plant",
+      "part": "whole-plant",
+      "url": "https://raw.githubusercontent.com/aanandkumar799/Dravyaguna-97/main/images/plants/ashoka.jpg",
+      "alt": "Ashoka whole plant image",
+      "sourceId": "src-image-ashoka-whole-plant",
+      "sourcePageUrl": "https://github.com/aanandkumar799/Dravyaguna-97/blob/main/images/plants/ashoka.jpg",
       "verification": "reviewed"
     }
-  ]
+  ],
+  "legacy": {
+    "id": "ashoka",
+    "order": 4,
+    "identity": {
+      "name": "Ashoka",
+      "sanskrit_name": "अशोक",
+      "transliteration": "",
+      "botanical_name": "Saraca asoca (Roxb.) Willd.",
+      "family": "Fabaceae",
+      "english_name": "Ashoka Tree",
+      "hindi_name": "",
+      "regional_names": [
+        "Hemapushpa",
+        "Tamrapallava",
+        "Kankeli",
+        "Pindapushpa"
+      ],
+      "synonyms": [
+        "Hemapushpa",
+        "Kankelli",
+        "Vamadhara",
+        "Pindapushpa"
+      ]
+    },
+    "classification": {
+      "kingdom": "Plantae",
+      "habit": "",
+      "habitat": "",
+      "distribution": ""
+    },
+    "identification": {
+      "description": "Stem bark pieces are channelled or curved, with rough greyish-brown outer surface and reddish-brown inner surface; strongly astringent.",
+      "whole_plant": "",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": "",
+      "identification_points": []
+    },
+    "images": {
+      "whole_plant": "images/plants/ashoka.jpg",
+      "habit": "images/plants/ashoka.jpg",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": ""
+    },
+    "dravya_guna": {
+      "rasa": [
+        "kashaya",
+        "tikta"
+      ],
+      "guna": [
+        "laghu",
+        "ruksha"
+      ],
+      "virya": "sheeta",
+      "vipaka": "katu",
+      "prabhava": "Asrigdarahara / Stri-rogahara",
+      "karma": [
+        "Asrigdarahara",
+        "Garbhashaya-shothahara",
+        "Varnya",
+        "Hridya",
+        "Vranaropana",
+        "Sangrahi"
+      ]
+    },
+    "dosha": {
+      "vata": "generally not aggravating",
+      "pitta": "pacifies",
+      "kapha": "pacifies"
+    },
+    "therapeutics": {
+      "useful_part": [
+        "stem bark (Twak)",
+        "seeds (Bija)",
+        "flowers (Pushpa)"
+      ],
+      "indications": [
+        "Asrigdara",
+        "Pradara",
+        "Yoniroga",
+        "Daha",
+        "Trishna",
+        "Apachi"
+      ],
+      "therapeutic_actions": [],
+      "dose": "",
+      "anupana": "",
+      "duration": "",
+      "precautions": "",
+      "contraindications": ""
+    },
+    "formulations": [
+      {
+        "name": "Ashokarishta"
+      },
+      {
+        "name": "Ashoka Ghrita"
+      },
+      {
+        "name": "Ashokaksheerapaka"
+      },
+      {
+        "name": "Chandanasava"
+      }
+    ],
+    "classical_reference": {
+      "shlokas": [
+        "अशोकः शीतलस्तिक्तो ग्राही वर्ण्यः कषायकः ।\\nदोषापचीतृषादाहकृमिशोषविषापहः ॥"
+      ],
+      "nighantu_references": [
+        "Bhavaprakasha Nighantu, Vatadi Varga, verses 47–48"
+      ],
+      "samhita_references": [],
+      "shloka_reference_status": "reference verified; searchable text supports the core verse, but edition-level transcription should be checked",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
+    },
+    "phytochemistry": {
+      "major_constituents": [],
+      "chemical_notes": ""
+    },
+    "modern_information": {
+      "evidence_summary": "A prime uterine tonic, it regulates menstruation and reduces cramps.",
+      "recognized_uses": [],
+      "safety_notes": "",
+      "sources": []
+    },
+    "student": {
+      "exam_points": [],
+      "viva_questions": [],
+      "identification_points": [],
+      "mnemonics": [],
+      "quick_revision": "A prime uterine tonic, it regulates menstruation and reduces cramps."
+    },
+    "teacher": {
+      "teaching_points": [],
+      "discussion_points": [],
+      "practical_points": []
+    },
+    "doctor": {
+      "quick_reference": "",
+      "important_indications": [],
+      "useful_part": "bark",
+      "dose": "",
+      "anupana": "",
+      "key_precautions": []
+    },
+    "sources": [
+      {
+        "type": "official",
+        "title": "CCRAS medicinal plant research",
+        "url": "https://ccras.nic.in/services/medicinal-plant-research/",
+        "author": "",
+        "edition": "",
+        "year": "",
+        "page": ""
+      },
+      {
+        "type": "official_syllabus",
+        "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+        "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+      },
+      {
+        "type": "medicinal_plants_database",
+        "title": "TDU Indian Medicinal Plants Database",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "image",
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Asokaflower.jpg",
+        "license_note": "Check the original file page for current license/attribution requirements."
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
+      },
+      {
+        "type": "open_ayurveda_dataset",
+        "title": "Amidha Ayurveda Herb Database v2.0",
+        "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+        "license": "CC BY 4.0",
+        "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+      }
+    ],
+    "metadata": {
+      "status": "classical_text_checked",
+      "last_verified": "",
+      "verified_by": "",
+      "version": "1.2",
+      "last_enrichment": "2026-09-19: blank-field enrichment pass.",
+      "batch_49_53_added": true,
+      "batch_54_63_added": true
+    },
+    "category": "NCISM-97",
+    "syllabus_marker": "NCISM-97"
+  }
 }

@@ -1,0 +1,276 @@
+{
+  "id": "plant-kupilu",
+  "slug": "kupilu",
+  "identity": {
+    "botanicalName": "Strychnos nux-vomica L.",
+    "acceptedNameStatus": "review"
+  },
+  "names": {
+    "sanskrit": [
+      "कुपीलु",
+      "Kupilu"
+    ],
+    "common": [
+      "Nux-vomica"
+    ],
+    "regional": [],
+    "synonyms": [
+      "Kupilu",
+      "Kulukaka",
+      "Ramaphala",
+      "Chipita"
+    ]
+  },
+  "taxonomy": {
+    "family": "Loganiaceae",
+    "genus": "Strychnos",
+    "species": "nux-vomica"
+  },
+  "status": "review",
+  "parts": [],
+  "study": {
+    "habit": "small to medium-sized tree",
+    "morphology": "Tree with opposite glossy leaves, greenish-white flowers and orange-red berries containing disc-like seeds.",
+    "habitat": "Tropical forests of India and Southeast Asia",
+    "distribution": "Tropical forests of India and Southeast Asia",
+    "identificationFeatures": [
+      "Leaves are opposite and elliptic.",
+      "Fruit is globose and orange-red.",
+      "Seeds are flattened, disc-like and densely silky-haired."
+    ],
+    "usefulParts": [
+      "Bija"
+    ],
+    "rasa": [],
+    "guna": [],
+    "karma": [],
+    "dosha": [
+      "vata: pacified",
+      "pitta: aggravated",
+      "kapha: pacified"
+    ],
+    "therapeuticUses": [
+      "Vata Vyadhi",
+      "Gridhrasi",
+      "Amavata",
+      "Agnimandya",
+      "Klaibya"
+    ],
+    "formulations": [],
+    "contraindications": []
+  },
+  "sources": [],
+  "images": [],
+  "legacy": {
+    "id": "kupilu",
+    "order": null,
+    "category": "Supplementary",
+    "syllabus_marker": "Supplementary",
+    "identity": {
+      "name": "Kupilu",
+      "sanskrit_name": "कुपीलु",
+      "transliteration": "",
+      "botanical_name": "Strychnos nux-vomica L.",
+      "family": "Loganiaceae",
+      "english_name": "Nux-vomica",
+      "hindi_name": "",
+      "regional_names": [],
+      "synonyms": [
+        "Kupilu",
+        "Kulukaka",
+        "Ramaphala",
+        "Chipita"
+      ]
+    },
+    "classification": {
+      "kingdom": "Plantae",
+      "habit": "small to medium-sized tree",
+      "habitat": "Tropical forests of India and Southeast Asia",
+      "distribution": "Tropical forests of India and Southeast Asia"
+    },
+    "identification": {
+      "description": "Tree with opposite glossy leaves, greenish-white flowers and orange-red berries containing disc-like seeds.",
+      "whole_plant": "",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": "",
+      "identification_points": [
+        "Leaves are opposite and elliptic.",
+        "Fruit is globose and orange-red.",
+        "Seeds are flattened, disc-like and densely silky-haired."
+      ]
+    },
+    "images": {
+      "whole_plant": "",
+      "habit": "",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": ""
+    },
+    "dravya_guna": {
+      "rasa": [
+        "Tikta",
+        "Katu"
+      ],
+      "guna": [
+        "Laghu",
+        "Tikshna"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "prabhava": [
+        "Vatahara",
+        "Deepana"
+      ],
+      "karma": []
+    },
+    "dosha": {
+      "vata": "pacified",
+      "pitta": "aggravated",
+      "kapha": "pacified"
+    },
+    "therapeutics": {
+      "useful_part": [
+        "Bija"
+      ],
+      "indications": [
+        "Vata Vyadhi",
+        "Gridhrasi",
+        "Amavata",
+        "Agnimandya",
+        "Klaibya"
+      ],
+      "therapeutic_actions": [],
+      "dose": "",
+      "anupana": "",
+      "duration": "",
+      "precautions": "Supplementary reference only; verify identity, purification and safety before clinical use.",
+      "contraindications": ""
+    },
+    "formulations": [],
+    "classical_reference": {
+      "shlokas": [],
+      "nighantu_references": [],
+      "samhita_references": [],
+      "shloka_reference_status": "requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
+    },
+    "phytochemistry": {
+      "major_constituents": [],
+      "chemical_notes": "Phytochemical compound list remains source-verification pending; do not treat an unverified compound list as authoritative."
+    },
+    "modern_information": {
+      "evidence_summary": "Strychnos nux-vomica (Nux vomica) is a highly toxic herb used in purified, minute doses to stimulate the nervous system and digestion.",
+      "recognized_uses": [
+        "Botanical identification and pharmacognosy/dravyaguna education."
+      ],
+      "safety_notes": "Educational reference only. Verify authoritative toxicological and pharmacopoeial guidance before use.",
+      "sources": []
+    },
+    "student": {
+      "exam_points": [
+        "Botanical identity: Strychnos nux-vomica L.",
+        "Family: Loganiaceae",
+        "Key identification: Leaves are opposite and elliptic. Fruit is globose and orange-red. Seeds are flattened, disc-like and densely silky-haired.",
+        "Botanical identity: Strychnos nux-vomica L.; Family: Loganiaceae; drug material is associated with the seed."
+      ],
+      "viva_questions": [
+        "What is the botanical name and family of Kupilu?",
+        "Which morphological characters help identify Kupilu?",
+        "What is the botanical identity and family of Kupilu?",
+        "Which characters are useful for practical identification of Kupilu?"
+      ],
+      "identification_points": [
+        "Leaves are opposite and elliptic.",
+        "Fruit is globose and orange-red.",
+        "Seeds are flattened, disc-like and densely silky-haired."
+      ],
+      "mnemonics": [],
+      "quick_revision": "Kupilu — Strychnos nux-vomica L. is an accepted Kew species native from India to northern Peninsular Malaysia; it is a toxic medicinal plant."
+    },
+    "teacher": {
+      "teaching_points": [
+        "Retained as supplementary material from Gemini batch 95.",
+        "Use Kupilu to teach identification alongside explicit toxicity and source-verification documentation.",
+        "Separate botanical evidence from classical-text claims that remain unverified."
+      ],
+      "discussion_points": [
+        "Compare the diagnostic characters of Kupilu with closely related or commonly substituted drugs.",
+        "Separate botanical identification from unverified classical-text claims."
+      ],
+      "practical_points": [
+        "Observe the diagnostic characters in authenticated material or herbarium specimens.",
+        "Record plant part used and identification basis separately.",
+        "Use authenticated material or herbarium specimens for practical identification.",
+        "Record plant part and identification basis separately."
+      ]
+    },
+    "doctor": {
+      "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
+      "important_indications": [
+        "Vata Vyadhi",
+        "Gridhrasi",
+        "Amavata",
+        "Agnimandya",
+        "Klaibya"
+      ],
+      "useful_part": "Bija",
+      "dose": "",
+      "anupana": "",
+      "key_precautions": [
+        "Use authoritative identification and safety references.",
+        "Toxicity risk: do not infer a clinical dose from this educational record.",
+        "Do not infer clinical dose from this educational record.",
+        "Verify current toxicological and pharmacopoeial guidance before clinical use."
+      ]
+    },
+    "sources": [
+      {
+        "type": "gemini_source_batch",
+        "title": "Gemini batch 95",
+        "url": ""
+      },
+      {
+        "type": "official_syllabus",
+        "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+        "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+      },
+      {
+        "type": "medicinal_plants_database",
+        "title": "TDU Indian Medicinal Plants Database",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "open_ayurveda_dataset",
+        "title": "Amidha Ayurveda Herb Database v2.0",
+        "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+        "license": "CC BY 4.0",
+        "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the Shlokas module to verify exact Devanagari verse and edition/page before treating a verse as a quotation."
+      }
+    ],
+    "metadata": {
+      "status": "supplementary_audited_needs_classical_verification",
+      "source_batch": "Gemini batch 95",
+      "version": "1.0",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "botanical + educational field enrichment",
+      "last_audit": "complete supplementary JSON audit"
+    }
+  }
+}

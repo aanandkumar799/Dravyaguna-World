@@ -1,0 +1,292 @@
+{
+  "id": "plant-kankola",
+  "slug": "kankola",
+  "identity": {
+    "botanicalName": "Cubeba officinalis Miq.",
+    "acceptedNameStatus": "review"
+  },
+  "names": {
+    "sanskrit": [
+      "कङ्कोल",
+      "Kankola"
+    ],
+    "common": [
+      "Cubeb"
+    ],
+    "regional": [
+      "Sugandha Maricha",
+      "Kababchini",
+      "Chinoshana",
+      "Kola"
+    ],
+    "synonyms": [
+      "Sugandha Maricha",
+      "Kababchini",
+      "Chinoshana",
+      "Kola"
+    ]
+  },
+  "taxonomy": {
+    "family": "Piperaceae",
+    "genus": "Cubeba",
+    "species": "officinalis Miq."
+  },
+  "status": "review",
+  "parts": [],
+  "study": {
+    "habit": "woody climbing perennial",
+    "morphology": "Pepper-family climber producing small aromatic berries borne on slender stalks.",
+    "habitat": "Humid tropical forests; associated with cultivated spice regions",
+    "distribution": "Humid tropical forests; associated with cultivated spice regions",
+    "identificationFeatures": [
+      "Leaves are simple and entire.",
+      "Fruits are small globose berries with a persistent stalk.",
+      "Dried fruits are aromatic and are the usual drug form."
+    ],
+    "usefulParts": [
+      "Phala"
+    ],
+    "rasa": [],
+    "guna": [],
+    "karma": [],
+    "dosha": [
+      "vata: pacified",
+      "pitta: aggravated",
+      "kapha: pacified"
+    ],
+    "therapeuticUses": [
+      "Mutrakrichha",
+      "Mukharoga",
+      "Aruchi",
+      "Hridroga",
+      "Kasa"
+    ],
+    "formulations": [],
+    "contraindications": []
+  },
+  "sources": [],
+  "images": [],
+  "legacy": {
+    "id": "kankola",
+    "order": null,
+    "category": "Supplementary",
+    "syllabus_marker": "Supplementary",
+    "identity": {
+      "name": "Kankola",
+      "sanskrit_name": "कङ्कोल",
+      "transliteration": "",
+      "botanical_name": "Cubeba officinalis Miq.",
+      "family": "Piperaceae",
+      "english_name": "Cubeb",
+      "hindi_name": "",
+      "regional_names": [
+        "Sugandha Maricha",
+        "Kababchini",
+        "Chinoshana",
+        "Kola"
+      ],
+      "synonyms": [
+        "Sugandha Maricha",
+        "Kababchini",
+        "Chinoshana",
+        "Kola"
+      ]
+    },
+    "classification": {
+      "kingdom": "Plantae",
+      "habit": "woody climbing perennial",
+      "habitat": "Humid tropical forests; associated with cultivated spice regions",
+      "distribution": "Humid tropical forests; associated with cultivated spice regions"
+    },
+    "identification": {
+      "description": "Pepper-family climber producing small aromatic berries borne on slender stalks.",
+      "whole_plant": "",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": "",
+      "identification_points": [
+        "Leaves are simple and entire.",
+        "Fruits are small globose berries with a persistent stalk.",
+        "Dried fruits are aromatic and are the usual drug form."
+      ]
+    },
+    "images": {
+      "whole_plant": "",
+      "habit": "",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": ""
+    },
+    "dravya_guna": {
+      "rasa": [
+        "Katu",
+        "Tikta"
+      ],
+      "guna": [
+        "Laghu",
+        "Tikshna"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "prabhava": [
+        "Mutrala",
+        "Deepana",
+        "Hridaya"
+      ],
+      "karma": [
+        "Mutrala",
+        "Deepana",
+        "Hridaya"
+      ]
+    },
+    "dosha": {
+      "vata": "pacified",
+      "pitta": "aggravated",
+      "kapha": "pacified"
+    },
+    "therapeutics": {
+      "useful_part": [
+        "Phala"
+      ],
+      "indications": [
+        "Mutrakrichha",
+        "Mukharoga",
+        "Aruchi",
+        "Hridroga",
+        "Kasa"
+      ],
+      "therapeutic_actions": [],
+      "dose": "",
+      "anupana": "",
+      "duration": "",
+      "precautions": "Supplementary reference only; verify identity, purification and safety before clinical use.",
+      "contraindications": ""
+    },
+    "formulations": [],
+    "classical_reference": {
+      "shlokas": [],
+      "nighantu_references": [],
+      "samhita_references": [],
+      "shloka_reference_status": "requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
+    },
+    "phytochemistry": {
+      "major_constituents": [],
+      "chemical_notes": "The record is educational and supplementary; taxonomy and classical claims remain verification items."
+    },
+    "modern_information": {
+      "evidence_summary": "Cubeb pepper is a diuretic and antiseptic, useful in urinary tract infections and respiratory congestion.",
+      "recognized_uses": [
+        "Botanical identification and pharmacognosy/dravyaguna education."
+      ],
+      "safety_notes": "Educational reference only. Confirm current pharmacopoeial, toxicological and clinical guidance before use. do not infer clinical treatment instructions from this educational record. Botanical nomenclature for supplementary drugs should be reconciled with an authoritative taxonomic database before final verification.",
+      "sources": []
+    },
+    "student": {
+      "exam_points": [
+        "Botanical identity: Cubeba officinalis Miq.",
+        "Family: Piperaceae",
+        "Key identification: Leaves are simple and entire. Fruits are small globose berries with a persistent stalk. Dried fruits are aromatic and are the usual drug form.",
+        "Botanical identity recorded in the source dataset: Cubeba officinalis Miq.",
+        "Drug part: dried fruit; characteristic stalked aromatic berries are key identification features."
+      ],
+      "viva_questions": [
+        "What is the botanical name and family of Kankola?",
+        "Which morphological characters help identify Kankola?",
+        "What is the recorded botanical name and family of Kankola?",
+        "What fruit characters help identify Kankola?",
+        "Why should the botanical synonymy of Kankola be checked before a final monograph?"
+      ],
+      "identification_points": [
+        "Leaves are simple and entire.",
+        "Fruits are small globose berries with a persistent stalk.",
+        "Dried fruits are aromatic and are the usual drug form."
+      ],
+      "mnemonics": [],
+      "quick_revision": "Kankola — aromatic Piperaceae fruit used as a supplementary Dravyaguna record; botanical identity should be checked against the current accepted taxonomy before publication as a definitive name."
+    },
+    "teacher": {
+      "teaching_points": [
+        "Retained as supplementary material from Gemini batch 73.",
+        "Use Kankola to demonstrate identification of an aromatic fruit drug and the importance of accepted botanical nomenclature.",
+        "Compare morphology with related Piperaceae fruits and document substitution risk."
+      ],
+      "discussion_points": [
+        "Compare the diagnostic characters of Kankola with closely related or commonly substituted drugs.",
+        "Separate botanical identification from unverified classical-text claims."
+      ],
+      "practical_points": [
+        "Observe the diagnostic characters in authenticated material or herbarium specimens.",
+        "Record plant part used and identification basis separately.",
+        "Observe authenticated dried fruits and note size, stalk, surface and aroma.",
+        "Record the specimen or herbarium source used for identification."
+      ]
+    },
+    "doctor": {
+      "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
+      "important_indications": [
+        "Mutrakrichha",
+        "Mukharoga",
+        "Aruchi",
+        "Hridroga",
+        "Kasa"
+      ],
+      "useful_part": "Phala",
+      "dose": "",
+      "anupana": "",
+      "key_precautions": [
+        "Use authoritative identification and safety references.",
+        "Do not infer clinical dose from this educational record.",
+        "Botanical nomenclature for supplementary drugs should be reconciled with an authoritative taxonomic database before final verification."
+      ]
+    },
+    "sources": [
+      {
+        "type": "gemini_source_batch",
+        "title": "Gemini batch 73",
+        "url": ""
+      },
+      {
+        "type": "official_syllabus",
+        "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+        "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+      },
+      {
+        "type": "medicinal_plants_database",
+        "title": "TDU Indian Medicinal Plants Database",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "open_ayurveda_dataset",
+        "title": "Amidha Ayurveda Herb Database v2.0",
+        "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+        "license": "CC BY 4.0",
+        "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the Shlokas module to verify exact Devanagari verse and edition/page before treating a verse as a quotation."
+      }
+    ],
+    "metadata": {
+      "status": "supplementary_audited_needs_classical_verification",
+      "source_batch": "Gemini batch 73",
+      "version": "1.0",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "2026-09-19: blank-field enrichment pass.",
+      "last_audit": "supplementary JSON completeness/safety audit"
+    }
+  }
+}

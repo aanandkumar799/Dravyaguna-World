@@ -7,111 +7,282 @@
   },
   "names": {
     "sanskrit": [
-      "Haritaki",
-      "Abhaya",
-      "Pathya"
+      "हरीतकी",
+      "Haritaki"
     ],
     "common": [
-      "Chebulic myrobalan",
-      "Harad"
+      "Chebulic Myrobalan"
     ],
-    "regional": [],
-    "synonyms": []
+    "regional": [
+      "Abhaya",
+      "Pathya",
+      "Vijaya",
+      "Amrita"
+    ],
+    "synonyms": [
+      "Abhaya",
+      "Pathya",
+      "Vijaya",
+      "Amrita"
+    ]
   },
   "taxonomy": {
     "family": "Combretaceae",
     "genus": "Terminalia",
-    "species": "Terminalia chebula"
+    "species": "chebula Retz."
   },
   "status": "review",
   "parts": [
-    "fruit",
-    "seed",
-    "bark",
-    "leaf"
+    "whole-plant",
+    "fruit"
   ],
   "study": {
-    "habit": "Medium to large deciduous tree.",
-    "morphology": "Elliptic leaves; terminal spikes or racemes of small flowers; ovoid to ellipsoid fruit with longitudinal ridges.",
-    "habitat": "Tropical and subtropical forests and woodland.",
-    "distribution": "Native from the Indian subcontinent through Indo-China to southern China.",
-    "identificationFeatures": [
-      "Elliptic leaves",
-      "Terminal flower spikes",
-      "Ribbed ovoid fruits"
-    ],
+    "habit": "",
+    "morphology": "A key component of Triphala, Haritaki is a powerful rejuvenator and detoxifier, especially for Vata dosha. It supports digestion and colon health.",
+    "habitat": "",
+    "distribution": "",
+    "identificationFeatures": [],
     "usefulParts": [
-      "Fruit"
+      "fruit"
     ],
-    "rasa": [
-      "Madhura",
-      "Amla",
-      "Katu",
-      "Tikta",
-      "Kashaya"
-    ],
-    "guna": [
-      "Laghu",
-      "Ruksha"
-    ],
-    "virya": "Ushna",
-    "vipaka": "Madhura",
-    "karma": [
-      "Anulomana",
-      "Rechana",
-      "Rasayana"
+    "rasa": [],
+    "guna": [],
+    "karma": [],
+    "dosha": [
+      "vata: not specifically documented in imported dataset",
+      "pitta: not specifically documented in imported dataset",
+      "kapha: not specifically documented in imported dataset"
     ],
     "therapeuticUses": [
-      "Traditional bowel-regulating use",
-      "Traditional digestive use",
-      "Traditional rasayana use"
+      "Arsha",
+      "Udararoga",
+      "Prameha",
+      "Kushta",
+      "Agnimandya"
     ],
-    "formulations": [
-      "Triphala",
-      "Abhayarishta"
-    ]
+    "formulations": [],
+    "contraindications": []
   },
   "sources": [
     {
-      "id": "src-haritaki-kew",
-      "title": "Terminalia chebula — Plants of the World Online",
-      "type": "taxonomic",
-      "year": 2026,
-      "url": "https://powo.science.kew.org/taxon/171037-1",
-      "verification": "reviewed"
-    },
-    {
-      "id": "src-haritaki-review",
-      "title": "A Classical Review on Different Varieties of Fruit — Terminalia Chebula",
+      "id": "src-classical-haritaki",
+      "title": "Classical references for Haritaki",
       "type": "classical",
-      "url": "https://jaims.in/jaims/article/download/4977/8924/16439",
+      "locator": "Bhavaprakasha Nighantu, Haritakyadi Varga, Haritaki properties passage; exact verse numbering varies by edition.",
       "verification": "reviewed"
     },
     {
-      "id": "src-haritaki-history",
-      "title": "Terminalia Chebula in Ayurveda and Tibetan Medical Literature",
-      "type": "modern",
-      "url": "https://www.wisdomlib.org/history/compilation/kailash-journal-of-himalayan-studies/d/doc1602060.html",
-      "verification": "reviewed"
-    },
-    {
-      "id": "src-image-img-haritaki-fruit-01",
-      "title": "Image source — Terminalia chebula fruit",
+      "id": "src-image-haritaki-whole-plant",
+      "title": "Haritaki — whole-plant image",
       "type": "image",
-      "url": "https://commons.wikimedia.org/wiki/File:Haritaki%20(Terminalia%20chebula)%20fruits%2001.jpg",
+      "url": "https://github.com/aanandkumar799/Dravyaguna-97/blob/main/images/plants/haritaki.jpg",
       "verification": "reviewed"
     }
   ],
   "images": [
     {
-      "id": "img-haritaki-fruit-01",
-      "part": "fruit",
-      "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Haritaki%20(Terminalia%20chebula)%20fruits%2001.jpg",
-      "alt": "Terminalia chebula fruit",
-      "sourceId": "src-image-img-haritaki-fruit-01",
-      "license": "CC BY-SA 3.0",
-      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Haritaki%20(Terminalia%20chebula)%20fruits%2001.jpg",
+      "id": "img-haritaki-whole-plant",
+      "part": "whole-plant",
+      "url": "https://raw.githubusercontent.com/aanandkumar799/Dravyaguna-97/main/images/plants/haritaki.jpg",
+      "alt": "Haritaki whole plant image",
+      "sourceId": "src-image-haritaki-whole-plant",
+      "sourcePageUrl": "https://github.com/aanandkumar799/Dravyaguna-97/blob/main/images/plants/haritaki.jpg",
       "verification": "reviewed"
     }
-  ]
+  ],
+  "legacy": {
+    "id": "haritaki",
+    "order": 25,
+    "identity": {
+      "name": "Haritaki",
+      "sanskrit_name": "हरीतकी",
+      "transliteration": "",
+      "botanical_name": "Terminalia chebula Retz.",
+      "family": "Combretaceae",
+      "english_name": "Chebulic Myrobalan",
+      "hindi_name": "",
+      "regional_names": [
+        "Abhaya",
+        "Pathya",
+        "Vijaya",
+        "Amrita"
+      ],
+      "synonyms": [
+        "Abhaya",
+        "Pathya",
+        "Vijaya",
+        "Amrita"
+      ]
+    },
+    "classification": {
+      "kingdom": "Plantae",
+      "habit": "",
+      "habitat": "",
+      "distribution": ""
+    },
+    "identification": {
+      "description": "A key component of Triphala, Haritaki is a powerful rejuvenator and detoxifier, especially for Vata dosha. It supports digestion and colon health.",
+      "whole_plant": "",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": "",
+      "identification_points": []
+    },
+    "images": {
+      "whole_plant": "images/plants/haritaki.jpg",
+      "habit": "images/plants/haritaki.jpg",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": ""
+    },
+    "dravya_guna": {
+      "rasa": [
+        "Kashaya",
+        "Madhura",
+        "Amla",
+        "Katu",
+        "Tikta"
+      ],
+      "guna": [
+        "Laghu",
+        "Ruksha"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "prabhava": [
+        "rasayan",
+        "Virechana",
+        "Chakshushya",
+        "Deepana"
+      ],
+      "karma": [
+        "rasayan",
+        "Virechana",
+        "Chakshushya",
+        "Deepana"
+      ]
+    },
+    "dosha": {
+      "vata": "not specifically documented in imported dataset",
+      "pitta": "not specifically documented in imported dataset",
+      "kapha": "not specifically documented in imported dataset"
+    },
+    "therapeutics": {
+      "useful_part": [
+        "fruit"
+      ],
+      "indications": [
+        "Arsha",
+        "Udararoga",
+        "Prameha",
+        "Kushta",
+        "Agnimandya"
+      ],
+      "therapeutic_actions": [],
+      "dose": "",
+      "anupana": "",
+      "duration": "",
+      "precautions": "",
+      "contraindications": ""
+    },
+    "formulations": [],
+    "classical_reference": {
+      "shlokas": [
+        "हरीतकी पञ्चरसा लवणवर्जिता ।\nरूक्षा चोष्णा सरा मेध्या स्वादुपाका रसायनी ॥"
+      ],
+      "nighantu_references": [
+        "Bhavaprakasha Nighantu, Haritakyadi Varga, Haritaki properties passage; exact verse numbering varies by edition."
+      ],
+      "samhita_references": [],
+      "shloka_reference_status": "classical_text_corrected; edition/numbering explicitly qualified",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas",
+        "CCRAS/NIIMH e-Nighantu — Bhavaprakasha Nighantu"
+      ]
+    },
+    "phytochemistry": {
+      "major_constituents": [],
+      "chemical_notes": ""
+    },
+    "modern_information": {
+      "evidence_summary": "A key component of Triphala, Haritaki is a powerful rejuvenator and detoxifier, especially for Vata dosha. It supports digestion and colon health.",
+      "recognized_uses": [],
+      "safety_notes": "",
+      "sources": []
+    },
+    "student": {
+      "exam_points": [],
+      "viva_questions": [],
+      "identification_points": [],
+      "mnemonics": [],
+      "quick_revision": "A key component of Triphala, Haritaki is a powerful rejuvenator and detoxifier, especially for Vata dosha. It supports digestion and colon health."
+    },
+    "teacher": {
+      "teaching_points": [],
+      "discussion_points": [],
+      "practical_points": []
+    },
+    "doctor": {
+      "quick_reference": "",
+      "important_indications": [],
+      "useful_part": "fruit",
+      "dose": "",
+      "anupana": "",
+      "key_precautions": []
+    },
+    "sources": [
+      {
+        "type": "official_syllabus",
+        "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+        "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf",
+        "author": "",
+        "edition": "",
+        "year": "",
+        "page": ""
+      },
+      {
+        "type": "medicinal_plants_database",
+        "title": "TDU Indian Medicinal Plants Database",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
+      },
+      {
+        "type": "open_ayurveda_dataset",
+        "title": "Amidha Ayurveda Herb Database v2.0",
+        "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+        "license": "CC BY 4.0",
+        "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+      },
+      {
+        "type": "image",
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Terminalia_chebula_Retz._(53148000295).jpg",
+        "license_note": "Check the original file page for current license/attribution requirements."
+      }
+    ],
+    "metadata": {
+      "status": "classical_text_reviewed; edition_numbering_may_vary",
+      "last_verified": "",
+      "verified_by": "",
+      "version": "1.2",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "2026-09-19: blank-field enrichment pass.",
+      "classical_review_batch": "1-8 corrected 2026-09-16"
+    },
+    "category": "NCISM-97",
+    "syllabus_marker": "NCISM-97"
+  }
 }

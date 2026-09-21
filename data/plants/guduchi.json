@@ -7,124 +7,237 @@
   },
   "names": {
     "sanskrit": [
-      "Guduchi",
-      "Amrita"
+      "गुडूची",
+      "Guduchi"
     ],
     "common": [
-      "Guduchi",
-      "Giloy"
+      "Heart-leaved Moonseed"
     ],
     "regional": [],
-    "synonyms": []
+    "synonyms": [
+      "Guduchi",
+      "Madhuparni",
+      "Chinnaruha",
+      "Kundalini"
+    ]
   },
   "taxonomy": {
     "family": "Menispermaceae",
     "genus": "Tinospora",
-    "species": "Tinospora cordifolia"
+    "species": "cordifolia (Willd.) Hook.f. & Thomson"
   },
   "status": "review",
   "parts": [
-    "stem",
-    "leaf",
-    "root"
+    "stem"
   ],
   "study": {
-    "habit": "Large perennial climbing liana.",
-    "morphology": "Succulent climbing stems with heart-shaped leaves and characteristic aerial roots; small flowers and drupaceous fruits.",
-    "habitat": "Tropical forests and woodland; commonly grown on trees and supports.",
-    "distribution": "Native to the Indian subcontinent and Indo-China.",
-    "identificationFeatures": [
-      "Climbing succulent stem",
-      "Heart-shaped leaves",
-      "Aerial roots"
-    ],
+    "habit": "",
+    "morphology": "Tulsi (Ocimum sanctum) is known as the 'Queen of Herbs' in Ayurveda. It boosts immunity, combats respiratory disorders, and has adaptogenic properties.",
+    "habitat": "",
+    "distribution": "",
+    "identificationFeatures": [],
     "usefulParts": [
-      "Stem"
+      "stem"
     ],
-    "rasa": [
-      "Tikta",
-      "Kashaya"
-    ],
-    "guna": [
-      "Guru"
-    ],
-    "virya": "Ushna",
-    "vipaka": "Madhura",
-    "karma": [
-      "Rasayana",
-      "Deepana",
-      "Jvaraghna"
+    "rasa": [],
+    "guna": [],
+    "karma": [],
+    "dosha": [
+      "vata: not specifically documented in imported dataset",
+      "pitta: not specifically documented in imported dataset",
+      "kapha: not specifically documented in imported dataset"
     ],
     "therapeuticUses": [
-      "Traditional use in fever",
-      "Traditional use in digestive and metabolic disorders",
-      "Traditional rasayana use"
+      "Jwara",
+      "Kamala",
+      "Kushta",
+      "Vatarakta",
+      "Prameha"
     ],
-    "formulations": [
-      "Guduchi Ghana",
-      "Guduchyadi preparations"
-    ]
+    "formulations": [],
+    "contraindications": []
   },
   "sources": [
     {
-      "id": "src-guduchi-review",
-      "title": "Tinospora cordifolia (Guduchi) — validation of Ayurvedic pharmacology",
-      "type": "modern",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2924974/",
-      "verification": "reviewed"
-    },
-    {
-      "id": "src-guduchi-kew",
-      "title": "Tinospora cordifolia — Plants of the World Online",
-      "type": "taxonomic",
-      "year": 2026,
-      "url": "https://powo.science.kew.org/taxon/907828-1",
-      "verification": "reviewed"
-    },
-    {
-      "id": "src-guduchi-jres",
-      "title": "Therapeutic vistas of Tinospora cordifolia (Guduchi)",
-      "type": "modern",
-      "url": "https://www.bibliomed.org/mnsfulltext/82/82-1433920976.pdf",
-      "verification": "reviewed"
-    },
-    {
-      "id": "src-image-img-guduchi-stem-01",
-      "title": "Image source — Tinospora cordifolia stem",
-      "type": "image",
-      "url": "https://commons.wikimedia.org/wiki/File:Tinospora_cordifolia_stem.jpg",
-      "verification": "reviewed"
-    },
-    {
-      "id": "src-image-img-guduchi-leaf-01",
-      "title": "Image source — Tinospora cordifolia leaves",
-      "type": "image",
-      "url": "https://commons.wikimedia.org/wiki/File:Tinospora_cordifolia_leaves.jpg",
+      "id": "src-classical-guduchi",
+      "title": "Classical references for Guduchi",
+      "type": "classical",
+      "locator": "Bhavaprakasha Nighantu, Guduchyadi Varga, verses 8–9 in the searchable recension; edition numbering may vary.",
       "verification": "reviewed"
     }
   ],
-  "images": [
-    {
-      "id": "img-guduchi-stem-01",
-      "part": "stem",
-      "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Tinospora_cordifolia_stem.jpg",
-      "alt": "Tinospora cordifolia stem",
-      "sourceId": "src-image-img-guduchi-stem-01",
-      "license": "CC BY-SA 4.0",
-      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Tinospora_cordifolia_stem.jpg",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "verification": "reviewed"
+  "images": [],
+  "legacy": {
+    "id": "guduchi",
+    "order": 22,
+    "identity": {
+      "name": "Guduchi",
+      "sanskrit_name": "गुडूची",
+      "transliteration": "",
+      "botanical_name": "Tinospora cordifolia (Willd.) Hook.f. & Thomson",
+      "family": "Menispermaceae",
+      "english_name": "Heart-leaved Moonseed",
+      "hindi_name": "",
+      "regional_names": [],
+      "synonyms": [
+        "Guduchi",
+        "Madhuparni",
+        "Chinnaruha",
+        "Kundalini"
+      ]
     },
-    {
-      "id": "img-guduchi-leaf-01",
-      "part": "leaf",
-      "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Tinospora_cordifolia_leaves.jpg",
-      "alt": "Tinospora cordifolia leaves",
-      "sourceId": "src-image-img-guduchi-leaf-01",
-      "license": "CC BY-SA 3.0",
-      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Tinospora_cordifolia_leaves.jpg",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-      "verification": "reviewed"
-    }
-  ]
+    "classification": {
+      "kingdom": "Plantae",
+      "habit": "",
+      "habitat": "",
+      "distribution": ""
+    },
+    "identification": {
+      "description": "Tulsi (Ocimum sanctum) is known as the 'Queen of Herbs' in Ayurveda. It boosts immunity, combats respiratory disorders, and has adaptogenic properties.",
+      "whole_plant": "",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": "",
+      "identification_points": []
+    },
+    "images": {
+      "whole_plant": "",
+      "habit": "",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": ""
+    },
+    "dravya_guna": {
+      "rasa": [
+        "Tikta",
+        "Kashaya"
+      ],
+      "guna": [
+        "Laghu"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Madhura",
+      "prabhava": [
+        "rasayana",
+        "Jwaraghna"
+      ],
+      "karma": []
+    },
+    "dosha": {
+      "vata": "not specifically documented in imported dataset",
+      "pitta": "not specifically documented in imported dataset",
+      "kapha": "not specifically documented in imported dataset"
+    },
+    "therapeutics": {
+      "useful_part": [
+        "stem"
+      ],
+      "indications": [
+        "Jwara",
+        "Kamala",
+        "Kushta",
+        "Vatarakta",
+        "Prameha"
+      ],
+      "therapeutic_actions": [],
+      "dose": "",
+      "anupana": "",
+      "duration": "",
+      "precautions": "",
+      "contraindications": ""
+    },
+    "formulations": [],
+    "classical_reference": {
+      "shlokas": [
+        "गुडूची कटुका तिक्ता स्वादुपाका रसायनी ।\nसंग्राहिणी कषायोष्णा लघ्वी बल्याऽग्निदीपनी ।\nदोषत्रयामतृड्दाहमेहकासांश्च पाण्डुताम् ॥\nकामलाकुष्ठवातास्रज्वरकृमिवमीन् हरेत् ।\nप्रमेहश्वासकासार्शःकृच्छ्रहृद्रोगवातनुत् ॥"
+      ],
+      "nighantu_references": [
+        "Bhavaprakasha Nighantu, Guduchyadi Varga, verses 8–9 in the searchable recension; edition numbering may vary."
+      ],
+      "samhita_references": [],
+      "shloka_reference_status": "classical_text_corrected; edition/numbering explicitly qualified",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas",
+        "CCRAS/NIIMH e-Nighantu — Bhavaprakasha Nighantu"
+      ]
+    },
+    "phytochemistry": {
+      "major_constituents": [],
+      "chemical_notes": ""
+    },
+    "modern_information": {
+      "evidence_summary": "Divine herb for immunity, detox and chronic fevers.",
+      "recognized_uses": [],
+      "safety_notes": "",
+      "sources": []
+    },
+    "student": {
+      "exam_points": [],
+      "viva_questions": [],
+      "identification_points": [],
+      "mnemonics": [],
+      "quick_revision": "Divine herb for immunity, detox and chronic fevers."
+    },
+    "teacher": {
+      "teaching_points": [],
+      "discussion_points": [],
+      "practical_points": []
+    },
+    "doctor": {
+      "quick_reference": "",
+      "important_indications": [],
+      "useful_part": "stem",
+      "dose": "",
+      "anupana": "",
+      "key_precautions": []
+    },
+    "sources": [
+      {
+        "type": "official_syllabus",
+        "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+        "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf",
+        "author": "",
+        "edition": "",
+        "year": "",
+        "page": ""
+      },
+      {
+        "type": "medicinal_plants_database",
+        "title": "TDU Indian Medicinal Plants Database",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
+      },
+      {
+        "type": "open_ayurveda_dataset",
+        "title": "Amidha Ayurveda Herb Database v2.0",
+        "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+        "license": "CC BY 4.0",
+        "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+      }
+    ],
+    "metadata": {
+      "status": "classical_text_reviewed; edition_numbering_may_vary",
+      "last_verified": "",
+      "verified_by": "",
+      "version": "1.2",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "2026-09-19: blank structured fields supplemented from a cited secondary dataset; existing content preserved.",
+      "classical_review_batch": "1-8 corrected 2026-09-16"
+    },
+    "category": "NCISM-97",
+    "syllabus_marker": "NCISM-97"
+  }
 }

@@ -7,102 +7,308 @@
   },
   "names": {
     "sanskrit": [
+      "यष्टिमधु",
       "Yashtimadhu",
-      "Madhuka",
-      "Klitaka"
+      "Yashtimadhu"
     ],
     "common": [
-      "Licorice",
-      "Liquorice"
+      "Licorice / Liquorice",
+      "मुलेठी"
     ],
     "regional": [],
-    "synonyms": []
+    "synonyms": [
+      "Madhuka",
+      "Klitaka",
+      "Yashtyahva",
+      "Madhuvana",
+      "Jalamadhuka"
+    ]
   },
   "taxonomy": {
-    "family": "Fabaceae",
+    "family": "Fabaceae (Papilionaceae)",
     "genus": "Glycyrrhiza",
-    "species": "Glycyrrhiza glabra"
+    "species": "glabra"
   },
   "status": "review",
   "parts": [
-    "root",
-    "stem",
-    "leaf",
-    "flower",
-    "seed"
+    "root"
   ],
   "study": {
-    "habit": "Perennial non-climbing herb or subshrub with underground rhizomes.",
-    "morphology": "Erect hairy stems; pinnate leaves with 9–17 leaflets; pale blue-violet flowers; reddish-brown pods.",
-    "habitat": "Temperate and semi-arid regions; cultivated on suitable moist soils.",
-    "distribution": "Native from the Mediterranean through western and central Asia to Pakistan.",
+    "habit": "Perennial herbaceous legume",
+    "morphology": "Cylindrical yellowish-brown roots and stolons with longitudinal striations, fibrous fracture and intensely sweet taste.",
+    "habitat": "Temperate and subtropical cultivated regions",
+    "distribution": "Cultivated in northwestern India and widely grown elsewhere",
     "identificationFeatures": [
-      "Pinnate leaves with many leaflets",
-      "Violet pea-like flowers",
-      "Sweet rhizomatous roots"
+      "Very sweet root",
+      "Yellowish-brown striated root",
+      "Imparipinnate leaves",
+      "Papilionaceous flowers"
     ],
     "usefulParts": [
-      "Root"
+      "stolons and roots"
     ],
-    "rasa": [
-      "Madhura"
-    ],
-    "guna": [
-      "Guru",
-      "Snigdha"
-    ],
-    "virya": "Sheeta",
-    "vipaka": "Madhura",
-    "karma": [
-      "Kantya",
-      "Vranaropana",
-      "Rasayana"
+    "rasa": [],
+    "guna": [],
+    "karma": [],
+    "dosha": [
+      "vata: pacifies",
+      "pitta: pacifies",
+      "kapha: may increase when excessive"
     ],
     "therapeuticUses": [
-      "Traditional throat-soothing use",
-      "Traditional gastric mucosal support use",
-      "Traditional demulcent use"
+      "Swarabheda",
+      "Vrana",
+      "Kasa",
+      "Daha",
+      "Vatarakta",
+      "Daurbalya"
     ],
     "formulations": [
       "Yashtimadhu Churna",
-      "Yashtimadhvadi Taila"
+      "Yashtimadhu Taila",
+      "Yashtimadhu Kwatha",
+      "Shatavari Ghrita",
+      "Chandanasava"
+    ],
+    "contraindications": [
+      "Avoid unsupervised prolonged/high-dose use in hypertension, significant cardiovascular/renal disease or hypokalaemia."
     ]
   },
   "sources": [
     {
-      "id": "src-yashtimadhu-carak",
-      "title": "Yashtimadhu — Charak Samhita herb database",
+      "id": "src-classical-yashtimadhu",
+      "title": "Classical references for Yashtimadhu",
       "type": "classical",
-      "year": 2026,
-      "url": "https://www.carakasamhitaonline.com/index.php?title=Yashtimadhu",
-      "verification": "reviewed"
-    },
-    {
-      "id": "src-yashtimadhu-kew",
-      "title": "Glycyrrhiza glabra — Plants of the World Online",
-      "type": "taxonomic",
-      "year": 2026,
-      "url": "https://powo.science.kew.org/taxon/496941-1",
-      "verification": "reviewed"
-    },
-    {
-      "id": "src-image-img-yashtimadhu-whole-plant-01",
-      "title": "Image source — Glycyrrhiza glabra plant",
-      "type": "image",
-      "url": "https://commons.wikimedia.org/wiki/File:Aleppolicorice.jpg",
+      "locator": "Bhavaprakasha Nighantu, Haritakyadi Varga; exact verse/edition requires verification",
       "verification": "reviewed"
     }
   ],
-  "images": [
-    {
-      "id": "img-yashtimadhu-whole-plant-01",
-      "part": "whole-plant",
-      "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Aleppolicorice.jpg",
-      "alt": "Glycyrrhiza glabra plant",
-      "sourceId": "src-image-img-yashtimadhu-whole-plant-01",
-      "license": "CC BY-SA 4.0",
-      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Aleppolicorice.jpg",
-      "verification": "reviewed"
-    }
-  ]
+  "images": [],
+  "legacy": {
+    "id": "yashtimadhu",
+    "order": 97,
+    "identity": {
+      "name": "Yashtimadhu",
+      "sanskrit_name": "यष्टिमधु",
+      "transliteration": "Yashtimadhu",
+      "botanical_name": "Glycyrrhiza glabra L.",
+      "family": "Fabaceae (Papilionaceae)",
+      "english_name": "Licorice / Liquorice",
+      "hindi_name": "मुलेठी",
+      "regional_names": [],
+      "synonyms": [
+        "Madhuka",
+        "Klitaka",
+        "Yashtyahva",
+        "Madhuvana",
+        "Jalamadhuka"
+      ]
+    },
+    "classification": {
+      "kingdom": "Plantae",
+      "habit": "Perennial herbaceous legume",
+      "habitat": "Temperate and subtropical cultivated regions",
+      "distribution": "Cultivated in northwestern India and widely grown elsewhere"
+    },
+    "identification": {
+      "description": "Cylindrical yellowish-brown roots and stolons with longitudinal striations, fibrous fracture and intensely sweet taste.",
+      "whole_plant": "Perennial herb with erect branched stems.",
+      "root": "Yellowish-brown cylindrical roots and stolons; sweet taste and characteristic odour.",
+      "stem": "Erect herbaceous stems, branched above.",
+      "leaf": "Imparipinnate leaves with numerous oval leaflets and a terminal leaflet.",
+      "flower": "Small bluish to violet papilionaceous flowers in axillary spikes.",
+      "fruit": "Flattened legume containing several seeds.",
+      "seed": "Small brownish seeds within pods.",
+      "bark": "Thin root bark; pharmacognostic examination of the root/stolon is important.",
+      "identification_points": [
+        "Very sweet root",
+        "Yellowish-brown striated root",
+        "Imparipinnate leaves",
+        "Papilionaceous flowers"
+      ]
+    },
+    "images": {
+      "whole_plant": "",
+      "habit": "",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": ""
+    },
+    "dravya_guna": {
+      "rasa": [
+        "madhura"
+      ],
+      "guna": [
+        "guru",
+        "snigdha"
+      ],
+      "virya": "sheeta",
+      "vipaka": "madhura",
+      "prabhava": "Varnya / Keshya / Swarya / Vrishya",
+      "karma": [
+        "Swarya",
+        "Varnya",
+        "Keshya",
+        "Vrishya",
+        "Chakshushya",
+        "Balya",
+        "Vranaropana",
+        "Pittashamaka"
+      ]
+    },
+    "dosha": {
+      "vata": "pacifies",
+      "pitta": "pacifies",
+      "kapha": "may increase when excessive"
+    },
+    "therapeutics": {
+      "useful_part": [
+        "stolons and roots"
+      ],
+      "indications": [
+        "Swarabheda",
+        "Vrana",
+        "Kasa",
+        "Daha",
+        "Vatarakta",
+        "Daurbalya"
+      ],
+      "therapeutic_actions": [
+        "Soothing traditional use",
+        "Swarya",
+        "Vranaropana"
+      ],
+      "dose": "",
+      "anupana": "",
+      "duration": "",
+      "precautions": "Prolonged or high intake of glycyrrhizin-containing preparations may cause sodium retention, hypokalaemia and blood-pressure effects; use cautiously in susceptible individuals.",
+      "contraindications": "Avoid unsupervised prolonged/high-dose use in hypertension, significant cardiovascular/renal disease or hypokalaemia."
+    },
+    "formulations": [
+      {
+        "name": "Yashtimadhu Churna"
+      },
+      {
+        "name": "Yashtimadhu Taila"
+      },
+      {
+        "name": "Yashtimadhu Kwatha"
+      },
+      {
+        "name": "Shatavari Ghrita"
+      },
+      {
+        "name": "Chandanasava"
+      }
+    ],
+    "classical_reference": {
+      "shlokas": [],
+      "nighantu_references": [
+        "Bhavaprakasha Nighantu, Haritakyadi Varga; exact verse/edition requires verification"
+      ],
+      "samhita_references": [],
+      "shloka_reference_status": "needs_verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
+    },
+    "phytochemistry": {
+      "major_constituents": [
+        "Glycyrrhizin/glycyrrhizic acid",
+        "Liquiritin and related flavonoids"
+      ],
+      "chemical_notes": "Glycyrrhizin content varies by root material and preparation; safety considerations are particularly relevant to concentrated extracts."
+    },
+    "modern_information": {
+      "evidence_summary": "Licorice has been studied for demulcent, gastrointestinal and respiratory applications, but effects and safety depend on preparation, dose and duration.",
+      "recognized_uses": [],
+      "safety_notes": "Glycyrrhizin-containing products can cause mineralocorticoid-like adverse effects with excessive or prolonged use.",
+      "sources": []
+    },
+    "student": {
+      "exam_points": [
+        "Botanical name: Glycyrrhiza glabra",
+        "Family: Fabaceae",
+        "Useful part: root/stolon",
+        "Madhura rasa and characteristic sweet root",
+        "Glycyrrhizin is a major constituent"
+      ],
+      "viva_questions": [
+        "What is the botanical name of Yashtimadhu?",
+        "Which part is used?",
+        "Name an important constituent and one safety concern."
+      ],
+      "identification_points": [
+        "Sweet root",
+        "Yellowish-brown striated root",
+        "Imparipinnate leaves"
+      ],
+      "mnemonics": [
+        "YASHTIMADHU = Yashti-like root + Madhu-like sweetness"
+      ],
+      "quick_revision": "Yashtimadhu — Glycyrrhiza glabra — Fabaceae — sweet root/stolon — Madhura/Sheeta."
+    },
+    "teacher": {
+      "teaching_points": [
+        "Demonstrate root/stolon pharmacognosy",
+        "Discuss glycyrrhizin-related safety"
+      ],
+      "discussion_points": [
+        "Traditional demulcent use versus modern safety",
+        "Authentication and quality control"
+      ],
+      "practical_points": [
+        "Observe root colour, striations and taste",
+        "Examine transverse section and powder characters where appropriate"
+      ]
+    },
+    "doctor": {
+      "quick_reference": "Sweet root/stolon drug with traditional Swarya, soothing and Pittashamana applications.",
+      "important_indications": [
+        "Swarabheda",
+        "Kasa",
+        "Daha",
+        "Vrana"
+      ],
+      "useful_part": "stolons and roots",
+      "dose": "",
+      "anupana": "",
+      "key_precautions": [
+        "Prolonged/high-dose glycyrrhizin can cause hypertension, fluid retention and hypokalaemia",
+        "Use caution with cardiovascular/renal disease and interacting medicines"
+      ]
+    },
+    "sources": [
+      {
+        "type": "official_syllabus",
+        "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+        "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+      },
+      {
+        "type": "medicinal_plants_database",
+        "title": "TDU Indian Medicinal Plants Database",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "pharmacopoeial_reference",
+        "title": "PCIM&H Ayurvedic Pharmacopoeia of India",
+        "url": "https://pcimh.gov.in/"
+      }
+    ],
+    "metadata": {
+      "status": "enriched_needs_text_cross_check",
+      "last_verified": "2026-09-17",
+      "verified_by": "Project editorial pass",
+      "version": "1.3",
+      "image_enrichment_note": "Verified image registry remains separate",
+      "last_enrichment": "structured identification + teaching + clinical-reference enrichment",
+      "batch_54_63_added": true
+    },
+    "category": "NCISM-97",
+    "syllabus_marker": "NCISM-97"
+  }
 }

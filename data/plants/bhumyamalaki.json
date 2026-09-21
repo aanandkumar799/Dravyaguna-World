@@ -1,0 +1,293 @@
+{
+  "id": "plant-bhumyamalaki",
+  "slug": "bhumyamalaki",
+  "identity": {
+    "botanicalName": "Phyllanthus amarus Schumach. & Thonn.",
+    "acceptedNameStatus": "review"
+  },
+  "names": {
+    "sanskrit": [
+      "भूम्यामलकी",
+      "Bhumyamalaki",
+      "Bhūmyāmalakī"
+    ],
+    "common": [
+      "Bhumi amla / Stonebreaker",
+      "भुई आंवला"
+    ],
+    "regional": [
+      "Tamalaki",
+      "Bhumyamalaki",
+      "Bahupatra",
+      "Ajata"
+    ],
+    "synonyms": [
+      "Tamalaki",
+      "Bhumyamalaki",
+      "Bahupatra",
+      "Ajata"
+    ]
+  },
+  "taxonomy": {
+    "family": "Phyllanthaceae",
+    "genus": "Phyllanthus",
+    "species": "amarus Schumach. & Thonn."
+  },
+  "status": "review",
+  "parts": [
+    "whole-plant"
+  ],
+  "study": {
+    "habit": "Small annual herb",
+    "morphology": "Small herb with pinnate-looking branchlets bearing tiny leaves and small fruits beneath the branchlets.",
+    "habitat": "Moist disturbed soils and cultivated areas",
+    "distribution": "Common in tropical and subtropical India",
+    "identificationFeatures": [
+      "Small herb",
+      "Tiny leaves in two rows",
+      "Small fruits beneath branchlets"
+    ],
+    "usefulParts": [
+      "whole plant"
+    ],
+    "rasa": [],
+    "guna": [],
+    "karma": [],
+    "dosha": [
+      "vata: may increase if excessive",
+      "pitta: pacifies",
+      "kapha: may reduce"
+    ],
+    "therapeuticUses": [
+      "traditional liver and digestive applications"
+    ],
+    "formulations": [],
+    "contraindications": []
+  },
+  "sources": [
+    {
+      "id": "src-image-bhumyamalaki-whole-plant",
+      "title": "Bhumyamalaki — whole-plant image",
+      "type": "image",
+      "url": "https://github.com/aanandkumar799/Dravyaguna-97/blob/main/images/plants/bhumyamalaki.jpg",
+      "verification": "reviewed"
+    }
+  ],
+  "images": [
+    {
+      "id": "img-bhumyamalaki-whole-plant",
+      "part": "whole-plant",
+      "url": "https://raw.githubusercontent.com/aanandkumar799/Dravyaguna-97/main/images/plants/bhumyamalaki.jpg",
+      "alt": "Bhumyamalaki whole plant image",
+      "sourceId": "src-image-bhumyamalaki-whole-plant",
+      "sourcePageUrl": "https://github.com/aanandkumar799/Dravyaguna-97/blob/main/images/plants/bhumyamalaki.jpg",
+      "verification": "reviewed"
+    }
+  ],
+  "legacy": {
+    "id": "bhumyamalaki",
+    "order": 12,
+    "identity": {
+      "name": "Bhumyamalaki",
+      "sanskrit_name": "भूम्यामलकी",
+      "transliteration": "Bhūmyāmalakī",
+      "botanical_name": "Phyllanthus amarus Schumach. & Thonn.",
+      "family": "Phyllanthaceae",
+      "english_name": "Bhumi amla / Stonebreaker",
+      "hindi_name": "भुई आंवला",
+      "regional_names": [
+        "Tamalaki",
+        "Bhumyamalaki",
+        "Bahupatra",
+        "Ajata"
+      ],
+      "synonyms": [
+        "Tamalaki",
+        "Bhumyamalaki",
+        "Bahupatra",
+        "Ajata"
+      ]
+    },
+    "classification": {
+      "kingdom": "Plantae",
+      "habit": "Small annual herb",
+      "habitat": "Moist disturbed soils and cultivated areas",
+      "distribution": "Common in tropical and subtropical India"
+    },
+    "identification": {
+      "description": "Small herb with pinnate-looking branchlets bearing tiny leaves and small fruits beneath the branchlets.",
+      "whole_plant": "Low, delicate annual herb.",
+      "root": "",
+      "stem": "Slender, erect or branched.",
+      "leaf": "Small, simple, alternate on branchlets and arranged in two rows.",
+      "flower": "Very small, inconspicuous.",
+      "fruit": "Small globose capsules, characteristically borne below the branchlets.",
+      "seed": "Small, angular seeds.",
+      "bark": "",
+      "identification_points": [
+        "Small herb",
+        "Tiny leaves in two rows",
+        "Small fruits beneath branchlets"
+      ]
+    },
+    "images": {
+      "whole_plant": "images/plants/bhumyamalaki.jpg",
+      "habit": "images/plants/bhumyamalaki.jpg",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": ""
+    },
+    "dravya_guna": {
+      "rasa": [
+        "tikta",
+        "madhura"
+      ],
+      "guna": [
+        "laghu",
+        "ruksha"
+      ],
+      "virya": "sheeta",
+      "vipaka": "madhura",
+      "prabhava": [
+        "Yakrituttejaka",
+        "Kasahara",
+        "Mutrala"
+      ],
+      "karma": [
+        "pittahara"
+      ]
+    },
+    "dosha": {
+      "vata": "may increase if excessive",
+      "pitta": "pacifies",
+      "kapha": "may reduce"
+    },
+    "therapeutics": {
+      "useful_part": [
+        "whole plant"
+      ],
+      "indications": [
+        "traditional liver and digestive applications"
+      ],
+      "therapeutic_actions": [
+        "pittahara"
+      ],
+      "dose": "",
+      "anupana": "",
+      "duration": "",
+      "precautions": "",
+      "contraindications": ""
+    },
+    "formulations": [],
+    "classical_reference": {
+      "shlokas": [],
+      "nighantu_references": [],
+      "samhita_references": [],
+      "shloka_reference_status": "source-hub-added; exact verse/edition requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
+    },
+    "phytochemistry": {
+      "major_constituents": [
+        "lignans",
+        "flavonoids",
+        "tannins"
+      ],
+      "chemical_notes": ""
+    },
+    "modern_information": {
+      "evidence_summary": "Phyllanthus species have been investigated extensively for hepatobiliary and antiviral-related pharmacology; species identification is important.",
+      "recognized_uses": [],
+      "safety_notes": "Do not equate preclinical evidence with established clinical efficacy.",
+      "sources": []
+    },
+    "student": {
+      "exam_points": [
+        "Whole plant is used",
+        "Fruit position is an important identification feature"
+      ],
+      "viva_questions": [
+        "How do you distinguish Bhumyamalaki in the field?"
+      ],
+      "identification_points": [
+        "Fruits borne beneath branchlets"
+      ],
+      "mnemonics": [],
+      "quick_revision": "Bhūmyāmalakī: whole plant; sheeta; traditionally pittahara."
+    },
+    "teacher": {
+      "teaching_points": [
+        "Field identification"
+      ],
+      "discussion_points": [
+        "Species/substitute identification"
+      ],
+      "practical_points": [
+        "Observe underside of branchlets for fruits"
+      ]
+    },
+    "doctor": {
+      "quick_reference": "Whole plant is traditionally used; species authentication is important.",
+      "important_indications": [],
+      "useful_part": "whole plant",
+      "dose": "",
+      "anupana": "",
+      "key_precautions": []
+    },
+    "sources": [
+      {
+        "type": "official",
+        "title": "CCRAS Medicinal Plant Research",
+        "url": "https://ccras.nic.in/services/medicinal-plant-research/",
+        "author": "",
+        "edition": "",
+        "year": "",
+        "page": ""
+      },
+      {
+        "type": "official_syllabus",
+        "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+        "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+      },
+      {
+        "type": "medicinal_plants_database",
+        "title": "TDU Indian Medicinal Plants Database",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the database Shlokas module to verify the exact Devanagari verse and edition/page before treating a verse as a quotation."
+      },
+      {
+        "type": "open_ayurveda_dataset",
+        "title": "Amidha Ayurveda Herb Database v2.0",
+        "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+        "license": "CC BY 4.0",
+        "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+      },
+      {
+        "type": "image",
+        "title": "Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Phyllanthus_amarus_(23140).jpg",
+        "license_note": "Check the original file page for current license/attribution requirements."
+      }
+    ],
+    "metadata": {
+      "status": "working_draft_needs_text_cross_check",
+      "last_verified": "",
+      "verified_by": "",
+      "version": "1.2",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "2026-09-19: blank-field enrichment pass."
+    },
+    "category": "NCISM-97",
+    "syllabus_marker": "NCISM-97"
+  }
+}

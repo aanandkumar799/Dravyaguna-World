@@ -1,0 +1,285 @@
+{
+  "id": "plant-arka",
+  "slug": "arka",
+  "identity": {
+    "botanicalName": "Calotropis gigantea (L.) Dryand.",
+    "acceptedNameStatus": "review"
+  },
+  "names": {
+    "sanskrit": [
+      "अर्क",
+      "Arka"
+    ],
+    "common": [
+      "Crown flower"
+    ],
+    "regional": [
+      "Mandara",
+      "Alarka",
+      "Surya",
+      "Vikirana"
+    ],
+    "synonyms": [
+      "Mandara",
+      "Alarka",
+      "Surya",
+      "Vikirana"
+    ]
+  },
+  "taxonomy": {
+    "family": "Apocynaceae",
+    "genus": "Calotropis",
+    "species": "gigantea (L.) Dryand."
+  },
+  "status": "review",
+  "parts": [],
+  "study": {
+    "habit": "shrub or small tree",
+    "morphology": "A milky-latex shrub with thick grey-green leaves; waxy crown-like flowers are distinctive.",
+    "habitat": "Seasonally dry tropical habitats; sandy, disturbed and open sites",
+    "distribution": "Seasonally dry tropical habitats; sandy, disturbed and open sites",
+    "identificationFeatures": [
+      "Leaves are opposite, thick and broadly elliptic.",
+      "Flowers are white to pink/purple with a central crown.",
+      "Fruit is a paired follicle; seeds are flat and silky-haired."
+    ],
+    "usefulParts": [
+      "Moola Twak",
+      "Patra",
+      "Ksheera",
+      "Pushpa"
+    ],
+    "rasa": [],
+    "guna": [],
+    "karma": [],
+    "dosha": [
+      "vata: pacified",
+      "pitta: aggravated",
+      "kapha: pacified"
+    ],
+    "therapeuticUses": [
+      "Kushta",
+      "Gulma",
+      "Udararoga",
+      "Arsha",
+      "Krimi"
+    ],
+    "formulations": [],
+    "contraindications": []
+  },
+  "sources": [],
+  "images": [],
+  "legacy": {
+    "id": "arka",
+    "order": null,
+    "category": "Supplementary",
+    "syllabus_marker": "Supplementary",
+    "identity": {
+      "name": "Arka",
+      "sanskrit_name": "अर्क",
+      "transliteration": "",
+      "botanical_name": "Calotropis gigantea (L.) Dryand.",
+      "family": "Apocynaceae",
+      "english_name": "Crown flower",
+      "hindi_name": "",
+      "regional_names": [
+        "Mandara",
+        "Alarka",
+        "Surya",
+        "Vikirana"
+      ],
+      "synonyms": [
+        "Mandara",
+        "Alarka",
+        "Surya",
+        "Vikirana"
+      ]
+    },
+    "classification": {
+      "kingdom": "Plantae",
+      "habit": "shrub or small tree",
+      "habitat": "Seasonally dry tropical habitats; sandy, disturbed and open sites",
+      "distribution": "Seasonally dry tropical habitats; sandy, disturbed and open sites"
+    },
+    "identification": {
+      "description": "A milky-latex shrub with thick grey-green leaves; waxy crown-like flowers are distinctive.",
+      "whole_plant": "",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": "",
+      "identification_points": [
+        "Leaves are opposite, thick and broadly elliptic.",
+        "Flowers are white to pink/purple with a central crown.",
+        "Fruit is a paired follicle; seeds are flat and silky-haired."
+      ]
+    },
+    "images": {
+      "whole_plant": "",
+      "habit": "",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": ""
+    },
+    "dravya_guna": {
+      "rasa": [
+        "Katu",
+        "Tikta"
+      ],
+      "guna": [
+        "Laghu",
+        "Tikshna"
+      ],
+      "virya": "Ushna",
+      "vipaka": "Katu",
+      "prabhava": [
+        "Virechana",
+        "Kushtaghna"
+      ],
+      "karma": [
+        "Virechana",
+        "Kushtaghna"
+      ]
+    },
+    "dosha": {
+      "vata": "pacified",
+      "pitta": "aggravated",
+      "kapha": "pacified"
+    },
+    "therapeutics": {
+      "useful_part": [
+        "Moola Twak",
+        "Patra",
+        "Ksheera",
+        "Pushpa"
+      ],
+      "indications": [
+        "Kushta",
+        "Gulma",
+        "Udararoga",
+        "Arsha",
+        "Krimi"
+      ],
+      "therapeutic_actions": [],
+      "dose": "",
+      "anupana": "",
+      "duration": "",
+      "precautions": "Supplementary reference only; verify identity, purification and safety before clinical use.",
+      "contraindications": ""
+    },
+    "formulations": [],
+    "classical_reference": {
+      "shlokas": [],
+      "nighantu_references": [],
+      "samhita_references": [],
+      "shloka_reference_status": "requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
+    },
+    "phytochemistry": {
+      "major_constituents": [],
+      "chemical_notes": "Phytochemical field intentionally left without a compound list until source-level verification is completed."
+    },
+    "modern_information": {
+      "evidence_summary": "Calotropis gigantea is a toxic plant, but its purified latex and leaves are used for skin diseases and as a purgative.",
+      "recognized_uses": [
+        "Botanical identification and pharmacognosy/dravyaguna education."
+      ],
+      "safety_notes": "Educational reference only. Confirm current pharmacopoeial, toxicological and clinical guidance before use.",
+      "sources": []
+    },
+    "student": {
+      "exam_points": [
+        "Botanical identity: Calotropis gigantea (L.) Dryand.",
+        "Family: Apocynaceae",
+        "Key identification: Leaves are opposite, thick and broadly elliptic. Flowers are white to pink/purple with a central crown. Fruit is a paired follicle; seeds are flat and silky-haired."
+      ],
+      "viva_questions": [
+        "What is the botanical name and family of Arka?",
+        "Which morphological characters help identify Arka?"
+      ],
+      "identification_points": [
+        "Leaves are opposite, thick and broadly elliptic.",
+        "Flowers are white to pink/purple with a central crown.",
+        "Fruit is a paired follicle; seeds are flat and silky-haired."
+      ],
+      "mnemonics": [],
+      "quick_revision": "Calotropis gigantea is a toxic plant, but its purified latex and leaves are used for skin diseases and as a purgative."
+    },
+    "teacher": {
+      "teaching_points": [
+        "Retained as supplementary material from Gemini batch 91."
+      ],
+      "discussion_points": [
+        "Compare the diagnostic characters of Arka with closely related or commonly substituted drugs.",
+        "Separate botanical identification from unverified classical-text claims."
+      ],
+      "practical_points": [
+        "Observe the diagnostic characters in authenticated material or herbarium specimens.",
+        "Record plant part used and identification basis separately."
+      ]
+    },
+    "doctor": {
+      "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
+      "important_indications": [
+        "Kushta",
+        "Gulma",
+        "Udararoga",
+        "Arsha",
+        "Krimi"
+      ],
+      "useful_part": "Moola Twak, Patra, Ksheera, Pushpa",
+      "dose": "",
+      "anupana": "",
+      "key_precautions": [
+        "Use authoritative identification and safety references."
+      ]
+    },
+    "sources": [
+      {
+        "type": "gemini_source_batch",
+        "title": "Gemini batch 91",
+        "url": ""
+      },
+      {
+        "type": "official_syllabus",
+        "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+        "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+      },
+      {
+        "type": "medicinal_plants_database",
+        "title": "TDU Indian Medicinal Plants Database",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "open_ayurveda_dataset",
+        "title": "Amidha Ayurveda Herb Database v2.0",
+        "url": "https://github.com/sciencewithsaucee-sudo/herb-database",
+        "license": "CC BY 4.0",
+        "note": "Used only to populate blank structured fields; verify against classical editions before clinical or textual claims."
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the Shlokas module to verify exact Devanagari verse and edition/page before treating a verse as a quotation."
+      }
+    ],
+    "metadata": {
+      "status": "supplementary_audited_needs_classical_verification",
+      "source_batch": "Gemini batch 91",
+      "version": "1.0",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "2026-09-19: blank-field enrichment pass.",
+      "last_audit": "complete supplementary JSON audit"
+    }
+  }
+}

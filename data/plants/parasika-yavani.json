@@ -1,0 +1,226 @@
+{
+  "id": "plant-parasika-yavani",
+  "slug": "parasika-yavani",
+  "identity": {
+    "botanicalName": "Hyoscyamus niger L.",
+    "acceptedNameStatus": "review"
+  },
+  "names": {
+    "sanskrit": [
+      "पारसीक यवानी",
+      "Parasika Yavani"
+    ],
+    "common": [
+      "Persian ajwain"
+    ],
+    "regional": [],
+    "synonyms": []
+  },
+  "taxonomy": {
+    "family": "Solanaceae",
+    "genus": "Hyoscyamus",
+    "species": "niger"
+  },
+  "status": "review",
+  "parts": [],
+  "study": {
+    "habit": "Annual or biennial herb",
+    "morphology": "Erect annual or biennial herb, up to about 80 cm, densely covered with viscid glandular hairs; lower leaves are petiolate and upper leaves become sessile and clasp the stem.",
+    "habitat": "Temperate habitats; recorded from the Mediterranean to Iran in current Kew POWO",
+    "distribution": "Native from the Mediterranean to Iran; introduced in multiple temperate regions",
+    "identificationFeatures": [
+      "Erect annual or biennial habit.",
+      "Viscid glandular hairs covering the plant.",
+      "Lower leaves petiolate; upper leaves sessile/amplexicaul.",
+      "Verify flowers and fruit on authenticated specimens."
+    ],
+    "usefulParts": [],
+    "rasa": [],
+    "guna": [],
+    "karma": [],
+    "dosha": [
+      "vata: ",
+      "pitta: ",
+      "kapha: "
+    ],
+    "therapeuticUses": [],
+    "formulations": [],
+    "contraindications": []
+  },
+  "sources": [],
+  "images": [],
+  "legacy": {
+    "id": "parasika-yavani",
+    "order": null,
+    "category": "Supplementary",
+    "syllabus_marker": "Supplementary",
+    "identity": {
+      "name": "Parasika Yavani",
+      "sanskrit_name": "पारसीक यवानी",
+      "transliteration": "",
+      "botanical_name": "Hyoscyamus niger L.",
+      "family": "Solanaceae",
+      "english_name": "Persian ajwain",
+      "hindi_name": "",
+      "regional_names": [],
+      "synonyms": []
+    },
+    "classification": {
+      "kingdom": "Plantae",
+      "habit": "Annual or biennial herb",
+      "habitat": "Temperate habitats; recorded from the Mediterranean to Iran in current Kew POWO",
+      "distribution": "Native from the Mediterranean to Iran; introduced in multiple temperate regions"
+    },
+    "identification": {
+      "description": "Erect annual or biennial herb, up to about 80 cm, densely covered with viscid glandular hairs; lower leaves are petiolate and upper leaves become sessile and clasp the stem.",
+      "whole_plant": "",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": "",
+      "identification_points": [
+        "Erect annual or biennial habit.",
+        "Viscid glandular hairs covering the plant.",
+        "Lower leaves petiolate; upper leaves sessile/amplexicaul.",
+        "Verify flowers and fruit on authenticated specimens."
+      ]
+    },
+    "images": {
+      "whole_plant": "",
+      "habit": "",
+      "root": "",
+      "stem": "",
+      "leaf": "",
+      "flower": "",
+      "fruit": "",
+      "seed": "",
+      "bark": ""
+    },
+    "dravya_guna": {
+      "rasa": [],
+      "guna": [],
+      "virya": "",
+      "vipaka": "",
+      "prabhava": "",
+      "karma": []
+    },
+    "dosha": {
+      "vata": "",
+      "pitta": "",
+      "kapha": ""
+    },
+    "therapeutics": {
+      "useful_part": [],
+      "indications": [],
+      "therapeutic_actions": [],
+      "dose": "",
+      "anupana": "",
+      "duration": "",
+      "precautions": "Supplementary reference only; verify identity, purification and safety before clinical use.",
+      "contraindications": ""
+    },
+    "formulations": [],
+    "classical_reference": {
+      "shlokas": [],
+      "nighantu_references": [],
+      "samhita_references": [],
+      "shloka_reference_status": "requires text-level verification",
+      "reference_hubs": [
+        "TDU Indian Medicinal Plants Database — Shlokas"
+      ]
+    },
+    "phytochemistry": {
+      "major_constituents": [],
+      "chemical_notes": "Phytochemical compound list remains source-verification pending; do not treat an unverified compound list as authoritative."
+    },
+    "modern_information": {
+      "evidence_summary": "Hyoscyamus niger L. is an accepted Solanaceae species in Kew POWO; the genus Hyoscyamus is documented as a source of tropane alkaloids including hyoscyamine and scopolamine. This record is for botanical and educational reference and does not provide clinical dosing.",
+      "recognized_uses": [
+        "Botanical identification and pharmacognosy/dravyaguna education."
+      ],
+      "safety_notes": "Poisonous/tropane-alkaloid-containing plant group; do not infer clinical treatment or dosing from this educational record. Verify authoritative toxicology and pharmacopoeial guidance.",
+      "sources": []
+    },
+    "student": {
+      "exam_points": [
+        "Botanical identity: Hyoscyamus niger L.; Family: Solanaceae; annual or biennial habit and glandular-hairy, sticky foliage are useful diagnostic features."
+      ],
+      "viva_questions": [
+        "What is the botanical identity and family of Parasika Yavani?",
+        "Which characters are useful for practical identification of Parasika Yavani?"
+      ],
+      "identification_points": [
+        "Leaves are soft, broad and lobed.",
+        "Flowers are funnel-shaped with dark venation.",
+        "Capsule contains numerous small seeds.",
+        "Glandular-hairy annual/biennial herb; verify leaf, flower and fruit characters against authenticated material."
+      ],
+      "mnemonics": [],
+      "quick_revision": "Pārasīka Yavānī — Hyoscyamus niger L. is an accepted Kew species in Solanaceae, native from the Mediterranean to Iran and mainly temperate."
+    },
+    "teacher": {
+      "teaching_points": [
+        "Retained as supplementary material from Gemini batch 97.",
+        "Use Pārasīka Yavānī to teach botanical identity, nomenclature and the need to separate verified botanical facts from classical claims.",
+        "Separate botanical evidence from classical-text claims that remain unverified."
+      ],
+      "discussion_points": [],
+      "practical_points": [
+        "Use authenticated material or herbarium specimens for practical identification.",
+        "Record plant part and identification basis separately."
+      ]
+    },
+    "doctor": {
+      "quick_reference": "Supplementary reference record; verify authoritative sources before clinical use.",
+      "important_indications": [],
+      "useful_part": "",
+      "dose": "",
+      "anupana": "",
+      "key_precautions": [
+        "Use authoritative identification and safety references.",
+        "Do not infer clinical dose from this educational record.",
+        "Verify current toxicological and pharmacopoeial guidance before clinical use."
+      ]
+    },
+    "sources": [
+      {
+        "type": "gemini_source_batch",
+        "title": "Gemini batch 97",
+        "url": ""
+      },
+      {
+        "type": "official_syllabus",
+        "title": "NCISM II BAMS Dravyaguna Vigyan curriculum",
+        "url": "https://www.ncismindia.org/NCISM_II%20BAMS_AyUG-DG.pdf"
+      },
+      {
+        "type": "medicinal_plants_database",
+        "title": "TDU Indian Medicinal Plants Database",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database"
+      },
+      {
+        "type": "tdu_classical_database",
+        "title": "TDU Indian Medicinal Plants Database — Ayurvedic identity and Shlokas",
+        "url": "https://www.tdu.edu.in/outreach/indian-medicinal-plants-database",
+        "note": "Use the Shlokas module to verify exact Devanagari verse and edition/page before treating a verse as a quotation."
+      },
+      {
+        "type": "taxonomic_name_service",
+        "title": "Kew Medicinal Plant Names Services",
+        "url": "https://mpns.science.kew.org/",
+        "note": "Kew MPNS maps Parasika Yavani to Hyoscyamus niger L.; reviewed 2026-09-18."
+      }
+    ],
+    "metadata": {
+      "status": "supplementary_audited_needs_classical_verification",
+      "source_batch": "Gemini batch 97",
+      "version": "1.0",
+      "image_enrichment_note": "HTTP Error 429: Too Many Requests",
+      "last_enrichment": "botanical + educational field enrichment",
+      "last_audit": "complete supplementary JSON audit"
+    }
+  }
+}
