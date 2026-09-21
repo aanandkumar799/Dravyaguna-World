@@ -76,6 +76,13 @@
       "type": "image",
       "url": "https://github.com/aanandkumar799/Dravyaguna-97/blob/main/images/plants/amalaki.jpg",
       "verification": "reviewed"
+    },
+    {
+      "id": "kew-powo-amalaki",
+      "title": "Phyllanthus emblica L. — Plants of the World Online",
+      "type": "taxonomic",
+      "url": "https://powo.science.kew.org/taxon/353838-1",
+      "verification": "reviewed"
     }
   ],
   "images": [
