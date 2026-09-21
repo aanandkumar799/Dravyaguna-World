@@ -74,6 +74,13 @@
       "type": "classical",
       "locator": "Bhavaprakasha Nighantu, Haritakyadi Varga, verse 45; related therapeutic continuation in verse 46. Independently searchable recension; edition numbering may vary. | Ashtanga Hridaya, Sutrasthana 6/163–164",
       "verification": "reviewed"
+    },
+    {
+      "id": "kew-powo-shunthi",
+      "title": "Zingiber officinale Roscoe — Plants of the World Online",
+      "type": "taxonomic",
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A798372-1/",
+      "verification": "reviewed"
     }
   ],
   "images": [],
