@@ -76,6 +76,13 @@
       "type": "classical",
       "locator": "Bhavaprakasha Nighantu, Haritakyadi Varga, verses 59–61; verse 59 gives synonyms and verses 60–61 properties/ardraka comparison. Independently searchable recension; edition numbering may vary. | Ashtanga Hridaya, Sutrasthana 6/161–162 describes Maricha and Pippali",
       "verification": "reviewed"
+    },
+    {
+      "id": "kew-powo-maricha",
+      "title": "Piper nigrum L. — Plants of the World Online",
+      "type": "taxonomic",
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A682369-1",
+      "verification": "reviewed"
     }
   ],
   "images": [],
