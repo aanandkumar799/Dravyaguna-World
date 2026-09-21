@@ -1,9 +1,11 @@
 # Project Status
 
 ## Current phase
+
 **Phase 2 — Full website experience + evidence/production hardening (active build)**
 
 ## Completed foundations
+
 - Independent public GitHub repository and governance.
 - Architecture, academic, image, testing, security and deployment contracts.
 - Next.js/TypeScript and CI foundation.
@@ -20,12 +22,14 @@
 - Production security headers and evidence validation added to CI.
 
 ## Current corpus
+
 14 review-state seed records are loaded:
 Tulasi, Ashwagandha, Guduchi, Amalaki, Haritaki, Nimba, Shatavari, Brahmi, Arjuna, Ashoka, Yashtimadhu, Pippali, Shunthi and Maricha.
 
 Academic status remains **review**, not verified. Claim-level evidence is deliberately incomplete where primary/official support has not yet been established.
 
 ## Remaining validation work
+
 - Complete primary/classical claim-level evidence for morphology, Dravyaguna properties, therapeutic uses and formulations.
 - Complete and verify image corpus.
 - Run full typecheck/test/data/evidence/lint/format/build checks in an environment with dependencies installed.
@@ -34,13 +38,16 @@ Academic status remains **review**, not verified. Claim-level evidence is delibe
 - Production deployment and public smoke test.
 
 ## Deployment
+
 - GitHub repository: public.
 - Production URL: **not yet verified**.
 - The available Vercel deployment action in this runtime is currently returning Tool deploy_to_vercel not found, so no deployment is being falsely reported as live.
 - Vercel CLI/GitHub deployment remains the production path once a usable Vercel project/credentials are available.
 
 ## Definition of done
+
 No feature or academic dataset is marked complete without implementation evidence, automated checks, production build evidence, appropriate accessibility/performance/security review, and specialist academic/botanical review where applicable.
 
 ## Boundary
+
 Dravyaguna-World is independent from DravyaGuna-97. Do not modify DravyaGuna-97 unless explicitly authorized.
