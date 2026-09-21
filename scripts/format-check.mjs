@@ -2,7 +2,7 @@ import { execFileSync } from "node:child_process";
 
 const changed = execFileSync(
   "git",
-  ["diff", "--name-only", "--diff-filter=ACMR", "HEAD^", "HEAD"],
+  ["show", "--format=", "--name-only", "--diff-filter=ACMR", "HEAD"],
   { encoding: "utf8" },
 )
   .split(/\r?\n/)
