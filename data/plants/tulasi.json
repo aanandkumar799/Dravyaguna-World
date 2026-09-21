@@ -6,20 +6,9 @@
     "acceptedNameStatus": "review"
   },
   "names": {
-    "sanskrit": [
-      "तुलसी",
-      "Tulasi",
-      "Tulasī"
-    ],
-    "common": [
-      "Holy Basil / Sacred Basil",
-      "तुलसी"
-    ],
-    "regional": [
-      "Tulasi",
-      "Tulsi",
-      "Tulas"
-    ],
+    "sanskrit": ["तुलसी", "Tulasi", "Tulasī"],
+    "common": ["Holy Basil / Sacred Basil", "तुलसी"],
+    "regional": ["Tulasi", "Tulsi", "Tulas"],
     "synonyms": [
       "Surasa",
       "Surasā",
@@ -38,10 +27,7 @@
     "species": "tenuiflorum"
   },
   "status": "review",
-  "parts": [
-    "leaf",
-    "whole-plant"
-  ],
+  "parts": ["leaf", "whole-plant"],
   "study": {
     "habit": "Annual erect, much-branched aromatic herb",
     "morphology": "Aromatic, erect, much-branched herb with opposite aromatic leaves and terminal flowering spikes.",
@@ -54,10 +40,7 @@
       "Terminal flowering spikes",
       "Small nutlets"
     ],
-    "usefulParts": [
-      "leaf",
-      "whole plant"
-    ],
+    "usefulParts": ["leaf", "whole plant"],
     "rasa": [],
     "guna": [],
     "karma": [],
@@ -118,11 +101,7 @@
       "family": "Lamiaceae",
       "english_name": "Holy Basil / Sacred Basil",
       "hindi_name": "तुलसी",
-      "regional_names": [
-        "Tulasi",
-        "Tulsi",
-        "Tulas"
-      ],
+      "regional_names": ["Tulasi", "Tulsi", "Tulas"],
       "synonyms": [
         "Surasa",
         "Surasā",
@@ -171,19 +150,11 @@
       "bark": ""
     },
     "dravya_guna": {
-      "rasa": [
-        "katu",
-        "tikta"
-      ],
-      "guna": [
-        "laghu",
-        "ruksha"
-      ],
+      "rasa": ["katu", "tikta"],
+      "guna": ["laghu", "ruksha"],
       "virya": "ushna",
       "vipaka": "katu",
-      "prabhava": [
-        "Krimighna"
-      ],
+      "prabhava": ["Krimighna"],
       "karma": [
         "Hridya",
         "Deepana",
@@ -201,10 +172,7 @@
       "kapha": "pacified"
     },
     "therapeutics": {
-      "useful_part": [
-        "leaf",
-        "whole plant"
-      ],
+      "useful_part": ["leaf", "whole plant"],
       "indications": [
         "Kushta",
         "Mutrakrichhra",
@@ -245,9 +213,7 @@
       ],
       "samhita_references": [],
       "shloka_reference_status": "verified_text_location_edition_numbering_may_vary",
-      "reference_hubs": [
-        "TDU Indian Medicinal Plants Database — Shlokas"
-      ],
+      "reference_hubs": ["TDU Indian Medicinal Plants Database — Shlokas"],
       "verified_classical_sources": [
         {
           "type": "classical_text_search",
