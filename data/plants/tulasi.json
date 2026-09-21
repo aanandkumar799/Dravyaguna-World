@@ -90,6 +90,13 @@
       "type": "classical",
       "locator": "Bhavaprakasha Nighantu, Pushpa Varga, 50–51 (UOH/DAV recension; edition numbering may vary)",
       "verification": "reviewed"
+    },
+    {
+      "id": "kew-powo-tulasi",
+      "title": "Ocimum tenuiflorum L. — Plants of the World Online",
+      "type": "taxonomic",
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A453130-1",
+      "verification": "reviewed"
     }
   ],
   "images": [],
