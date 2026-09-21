@@ -81,6 +81,13 @@
       "type": "classical",
       "locator": "Bhavaprakasha Nighantu, Haritakyadi Varga; exact verse/edition requires verification",
       "verification": "reviewed"
+    },
+    {
+      "id": "kew-powo-yashtimadhu",
+      "title": "Glycyrrhiza glabra L. — Plants of the World Online",
+      "type": "taxonomic",
+      "url": "https://powo.science.kew.org/taxon/496941-1",
+      "verification": "reviewed"
     }
   ],
   "images": [],
