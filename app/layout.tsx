@@ -25,6 +25,7 @@ const nav = [
   ["Notes", "/notes"],
   ["History", "/history"],
   ["Learn", "/learn"],
+  ["Samhitas", "/samhitas"],
   ["About", "/about"],
   ["Feedback", "/feedback"],
 ] as const;
