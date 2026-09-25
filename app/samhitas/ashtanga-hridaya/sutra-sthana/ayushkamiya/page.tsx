@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { ayushkamiyaVerses } from "../../../../../data/samhitas/ashtanga-hridaya/sutra-sthana/ayushkamiya";
+import { ayushkamiyaVerses } from "../../../../data/samhitas/ashtanga-hridaya/sutra-sthana/ayushkamiya";
 
 export default function AyushkamiyaPage(){
   const [showTika,setShowTika] = useState(true);
